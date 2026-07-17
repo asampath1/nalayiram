@@ -1,0 +1,3110 @@
+{
+  "theme_id": "ramayana",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 247,
+  "detector_would_tag": 86,
+  "detector_missed": 161,
+  "missed_pasuram_numbers": [
+    29,
+    44,
+    45,
+    61,
+    74,
+    94,
+    103,
+    104,
+    112,
+    113,
+    146,
+    166,
+    170,
+    178,
+    192,
+    198,
+    219,
+    280,
+    318,
+    322,
+    327,
+    337,
+    357,
+    392,
+    393,
+    412,
+    418,
+    441,
+    442,
+    447,
+    462,
+    475,
+    510,
+    520,
+    574,
+    610,
+    611,
+    618,
+    625,
+    628,
+    646,
+    958,
+    965,
+    2056,
+    2058,
+    2084,
+    2090,
+    2186,
+    2190,
+    2191,
+    2199,
+    2202,
+    2204,
+    2211,
+    2215,
+    2217,
+    2228,
+    2242,
+    2252,
+    2259,
+    2268,
+    2270,
+    2272,
+    2280,
+    2285,
+    2287,
+    2288,
+    2290,
+    2294,
+    2299,
+    2301,
+    2304,
+    2315,
+    2317,
+    2321,
+    2322,
+    2328,
+    2329,
+    2330,
+    2343,
+    2364,
+    2371,
+    2746,
+    2757,
+    2774,
+    2778,
+    2794,
+    2809,
+    2813,
+    2815,
+    2828,
+    2840,
+    2856,
+    2857,
+    2858,
+    2868,
+    2869,
+    2906,
+    2909,
+    2916,
+    2959,
+    2963,
+    2964,
+    2968,
+    2972,
+    2978,
+    2982,
+    2984,
+    3020,
+    3035,
+    3040,
+    3047,
+    3074,
+    3088,
+    3089,
+    3109,
+    3126,
+    3153,
+    3159,
+    3172,
+    3183,
+    3184,
+    3185,
+    3186,
+    3187,
+    3188,
+    3189,
+    3190,
+    3191,
+    3192,
+    3193,
+    3210,
+    3224,
+    3267,
+    3282,
+    3283,
+    3285,
+    3316,
+    3320,
+    3323,
+    3386,
+    3395,
+    3413,
+    3414,
+    3437,
+    3451,
+    3466,
+    3473,
+    3483,
+    3491,
+    3508,
+    3511,
+    3514,
+    3594,
+    3640,
+    3646,
+    3650,
+    3674,
+    3708,
+    3768,
+    3769
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 0,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இராமாநுச",
+        "ஏய்ந்த பெரு கீர்த்தி இராமாநுச முனி தன்",
+        "இராமாநுசன்",
+        "இராமானுச முனி",
+        "இராமானுச"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இராமாநுச",
+          "meaning": "இராமாநுஜன் என்னும் திருநாமத்தையுடையவராய்",
+          "meaning_snippet": "இராமாநுஜன் என்னும் திருநாமத்தையுடையவராய்",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "ஏய்ந்த பெரு கீர்த்தி இராமாநுச முனி தன்",
+          "meaning": "தகுதியான பெரும்புகழையுடைய எம்பெருமானது",
+          "meaning_snippet": "தகுதியான பெரும்புகழையுடைய எம்பெருமானது",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "இராமாநுசன்",
+          "meaning": "எம்பெருமானாராவர்",
+          "meaning_snippet": "எம்பெருமானாராவர்",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "இராமானுச முனி",
+          "meaning": "எம்பெருமானாருடைய",
+          "meaning_snippet": "எம்பெருமானாருடைய",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "இராமானுச",
+          "meaning": "எம்பெருமானாரே!",
+          "meaning_snippet": "எம்பெருமானாரே!",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 29,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 44,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 45,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 61,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 74,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 82,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குரங்கு",
+        "அணை கட்டி",
+        "இலங்கை",
+        "அரக்கர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குரங்கு",
+          "meaning": "குரங்குகளினுடைய",
+          "meaning_snippet": "குரங்குகளினுடைய",
+          "reason": "padham_substring",
+          "matched_term": "குரங்க"
+        },
+        {
+          "padham": "அணை கட்டி",
+          "meaning": "ஸேதுவைக் கட்டி முடித்து",
+          "meaning_snippet": "ஸேதுவைக் கட்டி முடித்து",
+          "reason": "padham_substring",
+          "matched_term": "அணை கட்ட"
+        },
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்கையிலுள்ள",
+          "meaning_snippet": "லங்கையிலுள்ள",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "அரக்கர்",
+          "meaning": "ராக்ஷஸர்களெல்லாம்",
+          "meaning_snippet": "ராக்ஷஸர்களெல்லாம்",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 94,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 103,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 104,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 112,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 113,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 127,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்கையானது",
+          "meaning_snippet": "லங்கையானது",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 146,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 166,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 170,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 178,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 179,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சீதை பொருட்டா",
+        "இலங்கையர் மன்னன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சீதை பொருட்டா",
+          "meaning": "ஸீதையை மீட்டுக் கொணர்வதற்காக",
+          "meaning_snippet": "ஸீதையை மீட்டுக் கொணர்வதற்காக",
+          "reason": "padham_substring",
+          "matched_term": "சீத"
+        },
+        {
+          "padham": "இலங்கையர் மன்னன்",
+          "meaning": "லங்கையிலுள்ளார்க்குத் தலைவனான ராவணனுடைய",
+          "meaning_snippet": "லங்கையிலுள்ளார்க்குத் தலைவனான ராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 180,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தென் இலங்கை",
+        "மன்னன்",
+        "மின் இலங்கு",
+        "என் இலங்கு நாமத்து அளவும்",
+        "மின் இலங்கு ஆரற்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "அழகிய லங்கைக்கு",
+          "meaning_snippet": "அழகிய லங்கைக்கு",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "மன்னன்",
+          "meaning": "அரசனாகிய ராவணனுடைய",
+          "meaning_snippet": "அரசனாகிய ராவணனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "மின் இலங்கு",
+          "meaning": "ஒளி வீசுகின்ற",
+          "meaning_snippet": "ஒளி வீசுகின்ற",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "என் இலங்கு நாமத்து அளவும்",
+          "meaning": "என் பெயர் ப்ரகாசிக்குமளவும்",
+          "meaning_snippet": "என் பெயர் ப்ரகாசிக்குமளவும்",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "மின் இலங்கு ஆரற்கு",
+          "meaning": "மின்னல்போல் விளங்குகின்ற ஹாரத்தை யுடையவனுக்கு",
+          "meaning_snippet": "மின்னல்போல் விளங்குகின்ற ஹாரத்தை யுடையவனுக்கு",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 192,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 198,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 203,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காகுத்த நம்பீ"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காகுத்த நம்பீ",
+          "meaning": "இராம மூர்த்தி!",
+          "meaning_snippet": "இராம மூர்த்தி!",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 219,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 280,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 308,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வில்லின்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வில்லின்",
+          "meaning": "(தன் முடித்தருளினவனுமான இராமபிரானுடைய) வில்லினது",
+          "meaning_snippet": "(தன் முடித்தருளினவனுமான இராமபிரானுடைய) வில்லினது",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 310,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சீற்றம் இலாதானை",
+        "சீதை மணாளனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சீற்றம் இலாதானை",
+          "meaning": "சீற்றமற்ற இராம பிரானை",
+          "meaning_snippet": "சீற்றமற்ற இராம பிரானை",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "சீதை மணாளனை",
+          "meaning": "ஸீதைக்கு வல்லபனானவனை",
+          "meaning_snippet": "ஸீதைக்கு வல்லபனானவனை",
+          "reason": "padham_substring",
+          "matched_term": "சீத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 312,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஈந்தானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஈந்தானை",
+          "meaning": "அளித்தருளின இராமபிரானை",
+          "meaning_snippet": "அளித்தருளின இராமபிரானை",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 314,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நூற்றவள்",
+        "அவன் ஆர்க்க அரித்தானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நூற்றவள்",
+          "meaning": "(இராமனைக் காட்டுக்குச் செலுத்தக் கடவோம் என்று) எண்ணம் கொண்ட கைகேயியினுடைய",
+          "meaning_snippet": "(இராமனைக் காட்டுக்குச் செலுத்தக் கடவோம் என்று) எண்ணம் கொண்ட கைகேயியினுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "அவன் ஆர்க்க அரித்தானை",
+          "meaning": "அவன் கதறும்படி அறுத்த இராம பிரானை",
+          "meaning_snippet": "அவன் கதறும்படி அறுத்த இராம பிரானை",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 316,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை",
+        "ஒராதான்",
+        "ஆரா அமுதனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "(அர்த்த ஸேது வழியாக) லங்கையிலிருந்து",
+          "meaning_snippet": "(அர்த்த ஸேது வழியாக) லங்கையிலிருந்து",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "ஒராதான்",
+          "meaning": "(தன் வீரப்பாட்டை) மதியாத ராவணனுடைய",
+          "meaning_snippet": "(தன் வீரப்பாட்டை) மதியாத ராவணனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "ஆரா அமுதனை",
+          "meaning": "எவ்வளவு உண்டாலும் திருப்தியைத் தாராத அம்ருதம் போல் இனியனான இராமபிரானை",
+          "meaning_snippet": "எவ்வளவு உண்டாலும் திருப்தியைத் தாராத அம்ருதம் போல் இனியனான இராமபிரானை",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 318,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 319,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆர்த்ததும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆர்த்ததும்",
+          "meaning": "(நீர் இராம பிரானைக்) கட்டியதும்",
+          "meaning_snippet": "(நீர் இராம பிரானைக்) கட்டியதும்",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 320,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஏகியது"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஏகியது",
+          "meaning": "(இராமபிரான்) சென்றடைந்ததும்",
+          "meaning_snippet": "(இராமபிரான்) சென்றடைந்ததும்",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 321,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அயோத்தியர் கோன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அயோத்தியர் கோன்",
+          "meaning": "அயோத்தியிலுள்ளார்க்கு அரசனாதற்கு உரிய இராமபிரானது",
+          "meaning_snippet": "அயோத்தியிலுள்ளார்க்கு அரசனாதற்கு உரிய இராமபிரானது",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 322,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 323,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வித்தகனே",
+        "இராமா"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வித்தகனே",
+          "meaning": "(தப்ப முடியாமையால் மீண்டு இராமபிரானையே அடைந்து) “ஆச்சரியமான குணங்களை யுடையவனே!",
+          "meaning_snippet": "(தப்ப முடியாமையால் மீண்டு இராமபிரானையே அடைந்து) “ஆச்சரியமான குணங்களை யுடையவனே!",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "இராமா",
+          "meaning": "ஸ்ரீ ராமனே!",
+          "meaning_snippet": "ஸ்ரீ ராமனே!",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 324,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நின் அன்பின் வழி நின்று",
+        "எம்பிரான்",
+        "இலக்குமணன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நின் அன்பின் வழி நின்று",
+          "meaning": "(அதை மாயமான் என்று இளையபெருமாள் விலக்கவும்) உம்முடைய ஆசைக்குக் கட்டுப்பட்டு நின்று",
+          "meaning_snippet": "(அதை மாயமான் என்று இளையபெருமாள் விலக்கவும்) உம்முடைய ஆசைக்குக் கட்டுப்பட்டு நின்று",
+          "reason": "meaning_keyword",
+          "matched_term": "இளைய"
+        },
+        {
+          "padham": "எம்பிரான்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "இலக்குமணன்",
+          "meaning": "இளைய பெருமாளும்",
+          "meaning_snippet": "இளைய பெருமாளும்",
+          "reason": "meaning_keyword",
+          "matched_term": "இளைய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 325,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வானரர் கோன் உடனிருந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வானரர் கோன் உடனிருந்து",
+          "meaning": "(இராமபிரானோடு) கூட இருந்து",
+          "meaning_snippet": "(இராமபிரானோடு) கூட இருந்து",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 326,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வில்லிறுத்தான்",
+        "சீதையும்",
+        "அனுமான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வில்லிறுத்தான்",
+          "meaning": "ருத்ர தநுஸ்ஸை முறித்த இராமபிரானுடைய",
+          "meaning_snippet": "ருத்ர தநுஸ்ஸை முறித்த இராமபிரானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "சீதையும்",
+          "meaning": "ஸுதாப் பிராட்டியும்,",
+          "meaning_snippet": "ஸுதாப் பிராட்டியும்,",
+          "reason": "padham_substring",
+          "matched_term": "சீத"
+        },
+        {
+          "padham": "அனுமான்",
+          "meaning": "‘வாராய் ஹனுமானே!",
+          "meaning_snippet": "‘வாராய் ஹனுமானே!",
+          "reason": "padham_substring",
+          "matched_term": "அனும"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 327,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 328,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இராமன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இராமன்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 329,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஏந்து பெருமை இராமன்",
+        "காந்தன் முகிழ் விரல் சீதைக்கு ஆகி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஏந்து பெருமை இராமன்",
+          "meaning": "(திருக்கைகளில்) ஏந்தும்படியான பெருமையை யுடைய இராமபிரான்",
+          "meaning_snippet": "(திருக்கைகளில்) ஏந்தும்படியான பெருமையை யுடைய இராமபிரான்",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "காந்தன் முகிழ் விரல் சீதைக்கு ஆகி",
+          "meaning": "செங்காந்தளம்பு போன்ற விரல்களையுடைய பிராட்டிக்காக",
+          "meaning_snippet": "செங்காந்தளம்பு போன்ற விரல்களையுடைய பிராட்டிக்காக",
+          "reason": "padham_substring",
+          "matched_term": "சீத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 330,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குரங்கு இனம்",
+        "வீற்றிருந்தானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குரங்கு இனம்",
+          "meaning": "(அவனிருக்குமிடஞ் சொல்லுகிறேன்;) வாநர ஸேனையானது",
+          "meaning_snippet": "(அவனிருக்குமிடஞ் சொல்லுகிறேன்;) வாநர ஸேனையானது",
+          "reason": "padham_substring",
+          "matched_term": "குரங்க"
+        },
+        {
+          "padham": "வீற்றிருந்தானை",
+          "meaning": "எழுந்தருளியிருந்த இராமபிரானை",
+          "meaning_snippet": "எழுந்தருளியிருந்த இராமபிரானை",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 337,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 338,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கரை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கரை",
+          "meaning": "ராக்ஷஸர்களை",
+          "meaning_snippet": "ராக்ஷஸர்களை",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 339,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கன்",
+          "meaning": "ராவணனுடைய",
+          "meaning_snippet": "ராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 355,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கர்கள் இனம்",
+        "இராமன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கர்கள் இனம்",
+          "meaning": "ராஷஸ குலத்தை",
+          "meaning_snippet": "ராஷஸ குலத்தை",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "இராமன்",
+          "meaning": "இராமபிரான் (எழுந்தருளி யிருக்கிற)",
+          "meaning_snippet": "இராமபிரான் (எழுந்தருளி யிருக்கிற)",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 356,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கையினை",
+        "அரையன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கையினை",
+          "meaning": "இலங்கைக் காரனான ராவணனை",
+          "meaning_snippet": "இலங்கைக் காரனான ராவணனை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "அரையன்",
+          "meaning": "ஸ்வாமியான இராமபிரான்",
+          "meaning_snippet": "ஸ்வாமியான இராமபிரான்",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 357,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 391,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தங்கையை",
+        "தமையனை",
+        "தாசரதி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தங்கையை",
+          "meaning": "(இராவணனுடைய ) தங்கையாகிய சூர்ப்பணகையினுடைய",
+          "meaning_snippet": "(இராவணனுடைய ) தங்கையாகிய சூர்ப்பணகையினுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "தமையனை",
+          "meaning": "அவளுடைய தமையனான ராவணனுடைய",
+          "meaning_snippet": "அவளுடைய தமையனான ராவணனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "தாசரதி",
+          "meaning": "இராமபிரானுமாகிய",
+          "meaning_snippet": "இராமபிரானுமாகிய",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 392,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 393,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 406,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இராவணனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இராவணனை",
+          "meaning": "இராவணனுடைய",
+          "meaning_snippet": "இராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 412,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 413,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மதிள் இலங்கை திசை நோக்கி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மதிள் இலங்கை திசை நோக்கி",
+          "meaning": "மதிளையுடைய லங்கையின் முகமாக",
+          "meaning_snippet": "மதிளையுடைய லங்கையின் முகமாக",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 418,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 420,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மூ உருவின் இராமன் ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மூ உருவின் இராமன் ஆய்",
+          "meaning": "பரசுராமனாயும், தசரதராமனாயும், பலராமனாயும்,",
+          "meaning_snippet": "பரசுராமனாயும், தசரதராமனாயும், பலராமனாயும்,",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 441,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 442,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 447,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 462,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 468,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இராமன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இராமன்",
+          "meaning": "பரசு ராமனாய்த் திரு வவதரித்த",
+          "meaning_snippet": "பரசு ராமனாய்த் திரு வவதரித்த",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 475,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 510,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 519,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கர் குலங்களை முற்றவும்",
+        "இலங்கையை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கர் குலங்களை முற்றவும்",
+          "meaning": "ராக்ஷஸருடைய குலங்களை முழுதும்",
+          "meaning_snippet": "ராக்ஷஸருடைய குலங்களை முழுதும்",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "இலங்கையை",
+          "meaning": "லங்கையை",
+          "meaning_snippet": "லங்கையை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 520,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 527,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை அழித்த பிரானே!",
+        "குரங்கு அரசு ஆவது அறிந்தோம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை அழித்த பிரானே!",
+          "meaning": "இலங்கை அழித்த பிரானே!",
+          "meaning_snippet": "இலங்கை அழித்த பிரானே!",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "குரங்கு அரசு ஆவது அறிந்தோம்",
+          "meaning": "நீ மரமேற வல்லார்க்குள் தலைவன் என்பதை அறிந்து கொண்டோம்",
+          "meaning_snippet": "நீ மரமேற வல்லார்க்குள் தலைவன் என்பதை அறிந்து கொண்டோம்",
+          "reason": "padham_substring",
+          "matched_term": "குரங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 547,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தேர் முன்பு",
+        "மாயன் இராவணன் மேல்",
+        "தாய் தலை அற்று அற்று வீழ தொடுத்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தேர் முன்பு",
+          "meaning": "(இராவணனுடைய) தேரின் முன்னே",
+          "meaning_snippet": "(இராவணனுடைய) தேரின் முன்னே",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "மாயன் இராவணன் மேல்",
+          "meaning": "மாயாவியான ராவணன் மேலே",
+          "meaning_snippet": "மாயாவியான ராவணன் மேலே",
+          "reason": "padham_substring",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "தாய் தலை அற்று அற்று வீழ தொடுத்த",
+          "meaning": "(அவ்விராவணனுடைய ப்ரதானமான தலை (பலகால்) அற்று அற்று விழும்படி ப்ரயோகித்த",
+          "meaning_snippet": "(அவ்விராவணனுடைய ப்ரதானமான தலை (பலகால்) அற்று அற்று விழும்படி ப்ரயோகித்த",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 574,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 584,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொருதவனார்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொருதவனார்",
+          "meaning": "போர் செய்து வெற்றி பெற்ற இராம பிரானுடைய",
+          "meaning_snippet": "போர் செய்து வெற்றி பெற்ற இராம பிரானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 600,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கொல்லை அரக்கியை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கொல்லை அரக்கியை",
+          "meaning": "வரம்பு கடந்தவளான சூர்ப்பணகையை",
+          "meaning_snippet": "வரம்பு கடந்தவளான சூர்ப்பணகையை",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 610,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 611,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 613,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பெண் ஆக்கை",
+        "ஊடு அறுத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பெண் ஆக்கை",
+          "meaning": "சீதையென்சிற வொரு பெண்ணின் சரீரத்தில் ஆசைக்குக் கட்டுப்பட்டு",
+          "meaning_snippet": "சீதையென்சிற வொரு பெண்ணின் சரீரத்தில் ஆசைக்குக் கட்டுப்பட்டு",
+          "reason": "meaning_keyword",
+          "matched_term": "சீத"
+        },
+        {
+          "padham": "ஊடு அறுத்து",
+          "meaning": "இடையறும்படி பண்ணி (அணை கட்டி)",
+          "meaning_snippet": "இடையறும்படி பண்ணி (அணை கட்டி)",
+          "reason": "meaning_keyword",
+          "matched_term": "அணை கட்ட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 618,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 625,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 628,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 646,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 915,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "piramanum"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "piramanum",
+          "meaning": "நான் முகக் கடவுளும்",
+          "meaning_snippet": "நான் முகக் கடவுளும்",
+          "reason": "padham_substring",
+          "matched_term": "raman"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 928,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காகுத்தன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காகுத்தன்",
+          "meaning": "இராம பிரானாய்",
+          "meaning_snippet": "இராம பிரானாய்",
+          "reason": "padham_substring",
+          "matched_term": "காகுத்தன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 958,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 959,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அணை கட்டி",
+        "மா இலங்கை நகர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அணை கட்டி",
+          "meaning": "ஸேது கட்டி",
+          "meaning_snippet": "ஸேது கட்டி",
+          "reason": "padham_substring",
+          "matched_term": "அணை கட்ட"
+        },
+        {
+          "padham": "மா இலங்கை நகர்",
+          "meaning": "பெரிய லங்காபுரியை",
+          "meaning_snippet": "பெரிய லங்காபுரியை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 965,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2056,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2058,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2071,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தேர் ஆளும் வாள் அரக்கன்",
+        "தென் இலங்கை மலங்க",
+        "செம் தீ ஓங்கி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தேர் ஆளும் வாள் அரக்கன்",
+          "meaning": "தேர்வீரனும் வாட்படைவல்லவனுமான இராவணனுடைய",
+          "meaning_snippet": "தேர்வீரனும் வாட்படைவல்லவனுமான இராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "தென் இலங்கை மலங்க",
+          "meaning": "(அவனது) தென்னிலங்கா புரி கலங்கவும்",
+          "meaning_snippet": "(அவனது) தென்னிலங்கா புரி கலங்கவும்",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "செம் தீ ஓங்கி",
+          "meaning": "(அனுமானையிட்டு) சிவந்த நெருப்பாலே கொளுத்தி,",
+          "meaning_snippet": "(அனுமானையிட்டு) சிவந்த நெருப்பாலே கொளுத்தி,",
+          "reason": "meaning_keyword",
+          "matched_term": "அனும"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2079,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தென் இலங்கை",
+        "அவுணன் மாள",
+        "மன் இலங்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்கையிலுள்ள",
+          "meaning_snippet": "தென்னிலங்கையிலுள்ள",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "அவுணன் மாள",
+          "meaning": "இராவணனும் முடியும்படியாக",
+          "meaning_snippet": "இராவணனும் முடியும்படியாக",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "மன் இலங்கு",
+          "meaning": "அரசர்கள் விளங்காநின்ற",
+          "meaning_snippet": "அரசர்கள் விளங்காநின்ற",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2080,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கர் கோனை மாள",
+        "குலம் களைந்து வென்றானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கர் கோனை மாள",
+          "meaning": "இராவணன் முடியும்படியாக",
+          "meaning_snippet": "இராவணன் முடியும்படியாக",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "குலம் களைந்து வென்றானை",
+          "meaning": "அரக்கர் குலங்களை நிர்மூலமாக்கி வெற்றி பெற்றவரும்",
+          "meaning_snippet": "அரக்கர் குலங்களை நிர்மூலமாக்கி வெற்றி பெற்றவரும்",
+          "reason": "meaning_keyword",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2083,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உடைத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உடைத்து",
+          "meaning": "(இராவணனை முடித்துத் திரும்புங்கால் அந்தத் திருவணையை) உடைத்து.",
+          "meaning_snippet": "(இராவணனை முடித்துத் திரும்புங்கால் அந்தத் திருவணையை) உடைத்து.",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2084,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2090,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2186,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2190,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2191,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2196,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அன்று",
+        "மான்பின் போய்",
+        "சீதையை பிரிந்ததும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அன்று",
+          "meaning": "இராமனாகத் திருவவதரித்த காலத்து",
+          "meaning_snippet": "இராமனாகத் திருவவதரித்த காலத்து",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "மான்பின் போய்",
+          "meaning": "மா·சனாகிற மாயமானின் பின்னே சென்று",
+          "meaning_snippet": "மா·சனாகிற மாயமானின் பின்னே சென்று",
+          "reason": "meaning_keyword",
+          "matched_term": "மாயமா"
+        },
+        {
+          "padham": "சீதையை பிரிந்ததும்",
+          "meaning": "பிராட்டியைப் பிரிந்து அலைச்சற்பட்டதும்,",
+          "meaning_snippet": "பிராட்டியைப் பிரிந்து அலைச்சற்பட்டதும்,",
+          "reason": "padham_substring",
+          "matched_term": "சீத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2199,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2202,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2204,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2206,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை மேல்",
+        "இராவணனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை மேல்",
+          "meaning": "லங்காபுரியின் மேலாகும்;",
+          "meaning_snippet": "லங்காபுரியின் மேலாகும்;",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "இராவணனை",
+          "meaning": "ராவணனையாம்;",
+          "meaning_snippet": "ராவணனையாம்;",
+          "reason": "padham_substring",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2210,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தென் இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "அழகிய லங்காபுரி",
+          "meaning_snippet": "அழகிய லங்காபுரி",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2211,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2215,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2217,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2228,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2233,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கன் போல்வானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கன் போல்வானை",
+          "meaning": "வாட்கையனான இராவணன் போன்ற மஹாபலியை (இராவனைப் போலவே தலையறுக்க வேண்டியிருந்தும் அது செய்யாமல்)",
+          "meaning_snippet": "வாட்கையனான இராவணன் போன்ற மஹாபலியை (இராவனைப் போலவே தலையறுக்க வேண்டியிருந்தும் அது செய்யாமல்)",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2242,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2252,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2253,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வானரங்கள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வானரங்கள்",
+          "meaning": "குரங்குகளானவை",
+          "meaning_snippet": "குரங்குகளானவை",
+          "reason": "meaning_keyword",
+          "matched_term": "குரங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2259,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2260,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேர் இல்லாதோன்றல்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேர் இல்லாதோன்றல்",
+          "meaning": "ஒப்பற்ற ஸ்வாமியுமான இராமபிரானுடைய",
+          "meaning_snippet": "ஒப்பற்ற ஸ்வாமியுமான இராமபிரானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2268,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2270,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2272,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2280,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2285,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2287,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2288,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2290,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2294,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2299,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2301,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2304,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2315,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2317,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2321,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2322,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2328,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2329,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2330,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2332,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்காபுரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்காபுரம்",
+          "meaning": "லங்காபட்டணத்தை",
+          "meaning_snippet": "லங்காபட்டணத்தை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2333,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இராமன் ஆய்",
+        "தென் இலங்கை கோன் வீழ"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இராமன் ஆய்",
+          "meaning": "ஸ்ரீராமனாகத் திருவவதரித்து",
+          "meaning_snippet": "ஸ்ரீராமனாகத் திருவவதரித்து",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        },
+        {
+          "padham": "தென் இலங்கை கோன் வீழ",
+          "meaning": "தென்னிலங்கைக்கு அரசனான இராவணன் முடியும்படியாகவாம்,",
+          "meaning_snippet": "தென்னிலங்கைக்கு அரசனான இராவணன் முடியும்படியாகவாம்,",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2339,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சிலாதலத்தின் மேல் இருந்த மந்தி",
+        "அளித்த கடுவனை நோக்கி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சிலாதலத்தின் மேல் இருந்த மந்தி",
+          "meaning": "கற்பாறையின் மீது இருக்கும் பெண் குரங்கானது.",
+          "meaning_snippet": "கற்பாறையின் மீது இருக்கும் பெண் குரங்கானது.",
+          "reason": "meaning_keyword",
+          "matched_term": "குரங்க"
+        },
+        {
+          "padham": "அளித்த கடுவனை நோக்கி",
+          "meaning": "ஸ்நேஹமுள்ள ஆண் குரங்கை நோக்கி",
+          "meaning_snippet": "ஸ்நேஹமுள்ள ஆண் குரங்கை நோக்கி",
+          "reason": "meaning_keyword",
+          "matched_term": "குரங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2343,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2349,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கடுவன்",
+        "பேர்த்து ஓர் கடுவன் என"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கடுவன்",
+          "meaning": "குரங்கானது",
+          "meaning_snippet": "குரங்கானது",
+          "reason": "meaning_keyword",
+          "matched_term": "குரங்க"
+        },
+        {
+          "padham": "பேர்த்து ஓர் கடுவன் என",
+          "meaning": "(தனக்கு எதிரியான) வேறொரு குரங்கு இருப்பதாக ப்ரமித்து",
+          "meaning_snippet": "(தனக்கு எதிரியான) வேறொரு குரங்கு இருப்பதாக ப்ரமித்து",
+          "reason": "meaning_keyword",
+          "matched_term": "குரங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2358,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாள் அரக்கன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாள் அரக்கன்",
+          "meaning": "இராவணனுடைய",
+          "meaning_snippet": "இராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2361,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கும்",
+          "meaning": "விளங்குகின்ற",
+          "meaning_snippet": "விளங்குகின்ற",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2364,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2371,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2376,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கும் பொழுதத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கும் பொழுதத்து",
+          "meaning": "விளங்கும் ஸமயத்திலே",
+          "meaning_snippet": "விளங்கும் ஸமயத்திலே",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2736,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை",
+        "கோன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்கா புரிக்கு",
+          "meaning_snippet": "லங்கா புரிக்கு",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "கோன்",
+          "meaning": "தலைவனாயிருந்த இராவணனுடைய",
+          "meaning_snippet": "தலைவனாயிருந்த இராவணனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2746,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2757,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2774,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2778,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2787,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தென் இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்காபுரி முழுவதும்",
+          "meaning_snippet": "தென்னிலங்காபுரி முழுவதும்",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2794,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2809,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2812,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கியை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கியை",
+          "meaning": "ராக்ஷஸியான சூர்ப்பணகையினது",
+          "meaning_snippet": "ராக்ஷஸியான சூர்ப்பணகையினது",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2813,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2815,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2817,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கன்",
+          "meaning": "ராக்ஷஸ ராஜனாகிய இராவணனுடைய",
+          "meaning_snippet": "ராக்ஷஸ ராஜனாகிய இராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2820,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கும்",
+        "அரக்கன்",
+        "இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கும்",
+          "meaning": "(வன்மையான) அரக்கையும்",
+          "meaning_snippet": "(வன்மையான) அரக்கையும்",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "அரக்கன்",
+          "meaning": "இராவணனுடைய",
+          "meaning_snippet": "இராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்காபுரியை",
+          "meaning_snippet": "லங்காபுரியை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2821,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை செற்றவனே என்னும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை செற்றவனே என்னும்",
+          "meaning": "(என்னோடொத்த ஒருத்திக்காக) லங்காபுரியை யழித்தவனே! என்கிறாள்",
+          "meaning_snippet": "(என்னோடொத்த ஒருத்திக்காக) லங்காபுரியை யழித்தவனே! என்கிறாள்",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2827,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாழ்வை",
+        "இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாழ்வை",
+          "meaning": "(இராவணனது) செல்வம்",
+          "meaning_snippet": "(இராவணனது) செல்வம்",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        },
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்காபுரியை",
+          "meaning_snippet": "லங்காபுரியை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2828,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2840,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2848,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை செற்றாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை செற்றாய்",
+          "meaning": "லங்காபுரியை அழித்தவனே!",
+          "meaning_snippet": "லங்காபுரியை அழித்தவனே!",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2856,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2857,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2858,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2860,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை அரக்கர் குலம் முருடு தீர்த்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை அரக்கர் குலம் முருடு தீர்த்த",
+          "meaning": "இலங்கையிலிருந்த ராக்ஷ குலத்திற்கு முருடான ராவணனைத்",
+          "meaning_snippet": "இலங்கையிலிருந்த ராக்ஷ குலத்திற்கு முருடான ராவணனைத்",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2868,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2869,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2870,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நின்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நின்று",
+          "meaning": "(ராவணனை முடித்தபிறகு இலங்கை வாசலில் வீர ஸ்ரீயோடே) நின்றும்.",
+          "meaning_snippet": "(ராவணனை முடித்தபிறகு இலங்கை வாசலில் வீர ஸ்ரீயோடே) நின்றும்.",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2884,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஏர்கொள் இலங்கையை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஏர்கொள் இலங்கையை",
+          "meaning": "அடகு நிரம்பிய லங்காபுரியை",
+          "meaning_snippet": "அடகு நிரம்பிய லங்காபுரியை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2906,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2909,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2916,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2953,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தென் இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்கையில்",
+          "meaning_snippet": "தென்னிலங்கையில்",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2959,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2963,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2964,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2968,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2972,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2975,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தண் இலங்கைக்கு இறையை செற்ற நஞ்சனே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தண் இலங்கைக்கு இறையை செற்ற நஞ்சனே",
+          "meaning": "தண்ணிதான இலங்காபுரிக்குத் தலைவனாயிருந்த இராவணனைத் தொலைக்கும் விஷயத்தில் நஞ்சானவனே!",
+          "meaning_snippet": "தண்ணிதான இலங்காபுரிக்குத் தலைவனாயிருந்த இராவணனைத் தொலைக்கும் விஷயத்தில் நஞ்சானவனே!",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2978,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2982,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2984,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3020,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3025,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கொம்பு போல் சீதை பொருட்டு",
+        "இலங்கை நகர்",
+        "உய்த்தவர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கொம்பு போல் சீதை பொருட்டு",
+          "meaning": "பூங்கொடி போன்ற ஸீதாபிராட்டியின் பொருட்டு",
+          "meaning_snippet": "பூங்கொடி போன்ற ஸீதாபிராட்டியின் பொருட்டு",
+          "reason": "padham_substring",
+          "matched_term": "சீத"
+        },
+        {
+          "padham": "இலங்கை நகர்",
+          "meaning": "இலங்காபுரியில்",
+          "meaning_snippet": "இலங்காபுரியில்",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "உய்த்தவர்",
+          "meaning": "செலுத்தின இராமபிரானுடைய",
+          "meaning_snippet": "செலுத்தின இராமபிரானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3029,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை",
+        "கோவை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்காபுரிக்கு",
+          "meaning_snippet": "லங்காபுரிக்கு",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        },
+        {
+          "padham": "கோவை",
+          "meaning": "அரசனான ராவணன்",
+          "meaning_snippet": "அரசனான ராவணன்",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3035,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3040,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3047,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3060,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நின்றும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நின்றும்",
+          "meaning": "இராவணவதத்தின் பிறகு தேவர்கட்குக் காட்சி கொடுத்துநின்றும்",
+          "meaning_snippet": "இராவணவதத்தின் பிறகு தேவர்கட்குக் காட்சி கொடுத்துநின்றும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3074,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3088,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3089,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3109,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3126,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3152,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "என் காகுத்தன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "என் காகுத்தன்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "reason": "padham_substring",
+          "matched_term": "காகுத்தன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3153,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3159,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3172,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3180,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கொடியான் இலங்கை செற்றேனே என்னும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கொடியான் இலங்கை செற்றேனே என்னும்",
+          "meaning": "கொடியவனான இராவணனுடைய இலங்காபுரியைத் தொலைத்த்தும் நானே யென்கிறாள்;",
+          "meaning_snippet": "கொடியவனான இராவணனுடைய இலங்காபுரியைத் தொலைத்த்தும் நானே யென்கிறாள்;",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3183,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3184,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3185,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3186,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3187,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3188,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3189,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3190,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3191,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3192,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3193,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3210,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3224,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3236,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாறு இல் போர் அரக்கன்",
+        "செற்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாறு இல் போர் அரக்கன்",
+          "meaning": "நிகரற்ற யுத்தம் செய்வதில்வல்லவனான இராவணனுடைய",
+          "meaning_snippet": "நிகரற்ற யுத்தம் செய்வதில்வல்லவனான இராவணனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "செற்று",
+          "meaning": "இலங்கையையழித்து (அதனால்)",
+          "meaning_snippet": "இலங்கையையழித்து (அதனால்)",
+          "reason": "meaning_keyword",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3238,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மன்னுடை இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மன்னுடை இலங்கை",
+          "meaning": "அரசனையுடைத்தா யிருந்த லங்காபுரியினுடைய",
+          "meaning_snippet": "அரசனையுடைத்தா யிருந்த லங்காபுரியினுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3267,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3282,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3283,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3285,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3290,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "என் காகுத்தன் நம்பிக்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "என் காகுத்தன் நம்பிக்கு",
+          "meaning": "இராமபிரானுமான பெருமான் விஷயத்திலீடுபட்டதனால்",
+          "meaning_snippet": "இராமபிரானுமான பெருமான் விஷயத்திலீடுபட்டதனால்",
+          "reason": "padham_substring",
+          "matched_term": "காகுத்தன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3316,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3320,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3323,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3365,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தென் இலங்கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்காபுரியை",
+          "meaning_snippet": "தென்னிலங்காபுரியை",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3381,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இராமபிரானை அல்லாமல் மற்றும் கற்பரோ"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இராமபிரானை அல்லாமல் மற்றும் கற்பரோ",
+          "meaning": "(குணக்கடலாகிய) ஸ்ரீராமனைத் தவிர மற்றொரு வ்யக்தியைக் கற்க நினைப்பர்களோ?",
+          "meaning_snippet": "(குணக்கடலாகிய) ஸ்ரீராமனைத் தவிர மற்றொரு வ்யக்தியைக் கற்க நினைப்பர்களோ?",
+          "reason": "padham_substring",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3382,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நாட்டை நலியும் அரக்கரை நாடி தடிந்திட்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நாட்டை நலியும் அரக்கரை நாடி தடிந்திட்டு",
+          "meaning": "உலகத்தை ஹிம்ஸிக்கின்ற ராவணாதி ராக்ஷ்ஸர்களை ஆராய்ந்து சென்று கொன்று",
+          "meaning_snippet": "உலகத்தை ஹிம்ஸிக்கின்ற ராவணாதி ராக்ஷ்ஸர்களை ஆராய்ந்து சென்று கொன்று",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3386,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3395,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3399,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இலங்கை கடந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இலங்கை கடந்து",
+          "meaning": "லங்காபுரியை விட்டு",
+          "meaning_snippet": "லங்காபுரியை விட்டு",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3400,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரக்கன்",
+        "விங் நீர் இலங்கை அருளி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரக்கன்",
+          "meaning": "இராவணனென்னும் ராக்ஷ்ஸனுடைய",
+          "meaning_snippet": "இராவணனென்னும் ராக்ஷ்ஸனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரக்க"
+        },
+        {
+          "padham": "விங் நீர் இலங்கை அருளி",
+          "meaning": "கடலிடத்துள்ள லங்காராஜ்யத்தை யருள் செய்து",
+          "meaning_snippet": "கடலிடத்துள்ள லங்காராஜ்யத்தை யருள் செய்து",
+          "reason": "padham_substring",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3413,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3414,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3437,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3448,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காகுத்தர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காகுத்தர்",
+          "meaning": "இராமனாய்த் தோன்றி எளியனானவனே!",
+          "meaning_snippet": "இராமனாய்த் தோன்றி எளியனானவனே!",
+          "reason": "meaning_keyword",
+          "matched_term": "இராம"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3451,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3466,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3473,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3483,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3491,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3504,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒருவர் இருவர் ஓர் மூவர் என நின்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒருவர் இருவர் ஓர் மூவர் என நின்று",
+          "meaning": "(இலங்கையில் மூல பலத்தை முடிக்குமிடத்து) முதலில் ஒருவனாய், பின்பு இருவராய், பின்னையும் மூவராய்த் தோன்றி நின்று (பின்னையும்)",
+          "meaning_snippet": "(இலங்கையில் மூல பலத்தை முடிக்குமிடத்து) முதலில் ஒருவனாய், பின்பு இருவராய், பின்னையும் மூவராய்த் தோன்றி நின்று (பின்னையும",
+          "reason": "meaning_keyword",
+          "matched_term": "இலங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3508,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3511,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3513,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொருத்தம் உடை வாமனன் தான் புகுந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொருத்தம் உடை வாமனன் தான் புகுந்து",
+          "meaning": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "meaning_snippet": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "reason": "meaning_keyword",
+          "matched_term": "ராவண"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3514,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3594,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3606,
+      "theme_id": "ramayana",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காகுத்தன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காகுத்தன்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "reason": "padham_substring",
+          "matched_term": "காகுத்தன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3640,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3646,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3650,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3674,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3708,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3768,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3769,
+      "theme_id": "ramayana",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    }
+  ]
+}

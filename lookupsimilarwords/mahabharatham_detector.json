@@ -1,0 +1,92 @@
+{
+  "concept": "மகாபாரதம்",
+  "aliases": [
+    "மகாபாரதம்",
+    "mahabharatham"
+  ],
+  "source_table": "PasuramsArthamTablePOC",
+  "built_at": "2026-05-28T15:32:47.054166+00:00",
+  "description": "Detector mined from POC rows with MB in SimilarWords. Match via padham_substring_signals on Padham OR meaning_keywords on Meaning only (no global padham-exact list).",
+  "stats": {
+    "mb_tagged_rows_analyzed": 377,
+    "strong_signal_lines": 57,
+    "weak_pasuram_only_lines": 320,
+    "padham_substring_signal_count": 15,
+    "meaning_keyword_count": 34,
+    "distinct_pasurams_in_source": 34
+  },
+  "meaning_keywords": [
+    "கௌரவ",
+    "பீமன்",
+    "(பாரத)",
+    "arjuna",
+    "karnan",
+    "kaurav",
+    "pandav",
+    "அர்ஜுன",
+    "கர்ணன்",
+    "துரோதன",
+    "பாண்டவ",
+    "பஞ்சவர்",
+    "மகாபாரத",
+    "துரியோதந",
+    "போர்க்கள",
+    "duryodhan",
+    "நூறு குரு",
+    "நூற்றுவர்",
+    "பாரத வம்ச",
+    "பாரதயுத்த",
+    "mahabharat",
+    "பஞ்ச பாண்ட",
+    "பாரத யுத்த",
+    "kurukshetra",
+    "குருக்ஷேத்ர",
+    "குருச்சேதிர",
+    "துரியோதனாதி",
+    "பஞ்சவர்க்கு",
+    "பாரத) யுத்த",
+    "parthasarath",
+    "பார்த்தசாரதி",
+    "பார்த்தஸாரதி",
+    "mahabharatham",
+    "நெருங்க நடத்த"
+  ],
+  "padham_substring_signals": [
+    "கௌரவ",
+    "பாரத",
+    "பஞ்சவர்",
+    "ஐவர்க்கு",
+    "துரியோதந",
+    "தேர்கடவி",
+    "தூதன் ஆய்",
+    "நூற்றுவர்",
+    "தேர் உய்த்த",
+    "பஞ்சவர்க்கு",
+    "போர் உய்த்த",
+    "வெம் சமத்து",
+    "வெம் பாரதம்",
+    "ஐவர்க்கு ஆய்",
+    "வெம் பாரதம் போர்"
+  ],
+  "padham_substring_only_review": [
+    "ஐவர்க்கு ஆய்",
+    "தாயம் செறும் ஒரு நூற்றுவர் மங்க",
+    "தூதன் ஆய்",
+    "பாரதத்து",
+    "பாரதம் பொருதமாயா",
+    "போர் உய்த்து வந்து"
+  ],
+  "validation": {
+    "pasurams_in_source": 34,
+    "pasurams_detector_would_trigger": 28,
+    "pasurams_missed": [
+      101,
+      102,
+      111,
+      177,
+      335,
+      2089
+    ],
+    "pasuram_80_triggers": true
+  }
+}

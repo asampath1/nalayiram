@@ -1,0 +1,534 @@
+{
+  "theme_id": "gajendran",
+  "primary_similarwords_tag": "Gajendran",
+  "source_table": "PasuramsArthamTablePOC",
+  "reviewed_at": "2026-05-28T17:17:47.972767+00:00",
+  "pasuram_count": 10,
+  "detector_would_tag_count": 10,
+  "candidate_meaning_keywords": [
+    {
+      "stem": "முதல",
+      "line_hits": 5
+    }
+  ],
+  "candidate_padham_substrings": [
+    {
+      "stem": "முதல",
+      "line_hits": 2
+    }
+  ],
+  "top_thematic_padhams": [
+    {
+      "padham": "முதலை",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "களிறு",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "உதவ",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "உறு துயர்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வேழம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "பணி கொண்டானால்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அதற்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒரு வாரணம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கரி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "யானை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கைம்மா துன்பம் கடிந்த பிரானே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வந்தாய் போலே வந்தும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கை மாவுக்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அகல் இரு பொங்கையின் வாய் நின்று",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நின் சரண் அன்றி மற்று ஒன்று இலன் என்று தன்; நீள் கழல் எத்திய ஆனையின்",
+      "strong_line_hits": 1
+    }
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 126,
+      "line_count": 15,
+      "strong_line_count": 4,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "முதலை",
+          "meaning": "முதலையின்",
+          "meaning_snippet": "முதலையின்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "முதல",
+          "alias_hits_meaning": [
+            "முதலை",
+            "முதலைய"
+          ],
+          "alias_hits_padham": [
+            "முதலை"
+          ],
+          "review_stems_meaning": [
+            "முதல"
+          ],
+          "review_stems_padham": [
+            "முதல"
+          ]
+        },
+        {
+          "padham": "களிறு",
+          "meaning": "ஸ்ரீகஜேந்த்ராழ்வான்",
+          "meaning_snippet": "ஸ்ரீகஜேந்த்ராழ்வான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "களிற",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [
+            "களிற"
+          ],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": [
+            "களிற"
+          ]
+        },
+        {
+          "padham": "உதவ",
+          "meaning": "(அந்த யானைக்கு) உதவும்படி",
+          "meaning_snippet": "(அந்த யானைக்கு) உதவும்படி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "யானை",
+          "alias_hits_meaning": [
+            "யானை"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "யானை"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "உறு துயர்",
+          "meaning": "(அந்த யானையின்) மிக்க வருத்தத்தை",
+          "meaning_snippet": "(அந்த யானையின்) மிக்க வருத்தத்தை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "யானை",
+          "alias_hits_meaning": [
+            "யானை"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "யானை"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "பதகம்",
+        "வாய்",
+        "பட்ட",
+        "கதறி",
+        "கை கூப்பி"
+      ]
+    },
+    {
+      "pasuram_number": 220,
+      "line_count": 18,
+      "strong_line_count": 5,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "முதலை",
+          "meaning": "முதலையின் வாயாகிய",
+          "meaning_snippet": "முதலையின் வாயாகிய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "முதல",
+          "alias_hits_meaning": [
+            "முதலை",
+            "முதலைய"
+          ],
+          "alias_hits_padham": [
+            "முதலை"
+          ],
+          "review_stems_meaning": [
+            "முதல"
+          ],
+          "review_stems_padham": [
+            "முதல"
+          ]
+        },
+        {
+          "padham": "வேழம்",
+          "meaning": "ஸ்ரீகஜேந்திராழ்வானுடைய",
+          "meaning_snippet": "ஸ்ரீகஜேந்திராழ்வானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வேழ",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [
+            "வேழ"
+          ],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": [
+            "வேழ"
+          ]
+        },
+        {
+          "padham": "ஆழி",
+          "meaning": "(அப்பொய்கைக் கரையிலே சென்று) சக்ராயுதத்தாலே",
+          "meaning_snippet": "(அப்பொய்கைக் கரையிலே சென்று) சக்ராயுதத்தாலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சக்ர",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "பணி கொண்டானால்",
+          "meaning": "(முதலையைத் துணிந்து , கஜேந்திராழ்வரனுடைய) கைங்கர்யத்தை ஸ்வீக்ரித்தருளின கண்ண பிரானால்",
+          "meaning_snippet": "(முதலையைத் துணிந்து , கஜேந்திராழ்வரனுடைய) கைங்கர்யத்தை ஸ்வீக்ரித்தருளின கண்ண பிரானால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "கஜ",
+          "alias_hits_meaning": [
+            "கஜ",
+            "முதலை",
+            "முதலைய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "கஜ",
+            "முதல"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அதற்கு",
+          "meaning": "அந்த யானையின் திறத்தில்",
+          "meaning_snippet": "அந்த யானையின் திறத்தில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "யானை",
+          "alias_hits_meaning": [
+            "யானை"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "யானை"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "தாழை",
+        "தண் ஆம்பல்",
+        "தடம் பெரும்",
+        "பொய்கை வாய்",
+        "வாழும்"
+      ]
+    },
+    {
+      "pasuram_number": 342,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒரு வாரணம்",
+          "meaning": "(ஸ்ரீகஜேந்திராழ்வானாகிற ஒரு யானையினிடத்து",
+          "meaning_snippet": "(ஸ்ரீகஜேந்திராழ்வானாகிற ஒரு யானையினிடத்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "கஜ",
+          "alias_hits_meaning": [
+            "கஜ",
+            "யானை"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "கஜ",
+            "யானை"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 441,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கரி",
+          "meaning": "கஜேந்திர ஆழ்வானுடைய",
+          "meaning_snippet": "கஜேந்திர ஆழ்வானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "கஜ",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கோள்"
+      ]
+    },
+    {
+      "pasuram_number": 2865,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "யானை",
+          "meaning": "கஜேந்திராழ்வானுடைய",
+          "meaning_snippet": "கஜேந்திராழ்வானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "யானை",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [
+            "யானை"
+          ],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": [
+            "யானை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2875,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கைம்மா துன்பம் கடிந்த பிரானே",
+          "meaning": "கஜேந்திராழ்வானுடைய இடரைத் தீர்த்த பிரபுவே!",
+          "meaning_snippet": "கஜேந்திராழ்வானுடைய இடரைத் தீர்த்த பிரபுவே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "கஜ",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2905,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "களிறு",
+          "meaning": "கஜேந்திராழ்வானை",
+          "meaning_snippet": "கஜேந்திராழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "களிற",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [
+            "களிற"
+          ],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": [
+            "களிற"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "தோன்றினை"
+      ]
+    },
+    {
+      "pasuram_number": 2912,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வந்தாய் போலே வந்தும்",
+          "meaning": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "meaning_snippet": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "கஜ",
+          "alias_hits_meaning": [
+            "கஜேந்திரன்",
+            "கஜ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "கஜ",
+            "முதல"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2941,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கை மாவுக்கு",
+          "meaning": "கஜேந்திராழ்வானுக்கு",
+          "meaning_snippet": "கஜேந்திராழ்வானுக்கு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "கஜ",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3443,
+      "line_count": 5,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அகல் இரு பொங்கையின் வாய் நின்று",
+          "meaning": "மிகப் பெரிய பொய்கையிடத்திலே (முதலையின் வாயிலாகப்பட்டது) நின்று",
+          "meaning_snippet": "மிகப் பெரிய பொய்கையிடத்திலே (முதலையின் வாயிலாகப்பட்டது) நின்று",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "முதல",
+          "alias_hits_meaning": [
+            "முதலை",
+            "முதலைய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "முதல"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "நின் சரண் அன்றி மற்று ஒன்று இலன் என்று தன்; நீள் கழல் எத்திய ஆனையின்",
+          "meaning": "‘உன் திருவடிகளை யொழிய மற்றொரு புகலுடையே னல்லேன்’ என்று தன்னுடைய திருவடிகளைத் துதித்த கஜேந்திராழ்வானுடைய",
+          "meaning_snippet": "‘உன் திருவடிகளை யொழிய மற்றொரு புகலுடையே னல்லேன்’ என்று தன்னுடைய திருவடிகளைத் துதித்த கஜேந்திராழ்வானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "கஜ",
+          "alias_hits_meaning": [
+            "கஜ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "கஜ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நெஞ்சு இடர் தீர்த்த பிரான் சென்று",
+        "ஒன்றி ஸலம் செய்ய ஒன்றுமோ",
+        "தீ வினை உள்ளத்தின் சார்வு அல்லவே"
+      ]
+    }
+  ]
+}

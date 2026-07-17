@@ -1,0 +1,85 @@
+{
+  "theme_id": "narasimha",
+  "concept": "நரசிம்ம",
+  "aliases": [
+    "நரசிம்ம",
+    "நரசிம்மா",
+    "நரசிங்கா",
+    "narsimaa",
+    "narsimha",
+    "narasimha",
+    "Narasinga",
+    "narasimhan",
+    "narasimhar",
+    "நரசிம்மன்",
+    "நரசிம்ஹன்",
+    "நரசிம்ஹர்",
+    "நரஸிம்ம"
+  ],
+  "normalize_meaning_parenthesis": false,
+  "source_table": "PasuramsArthamTablePOC",
+  "built_at": "2026-05-29T13:01:55.782909+00:00",
+  "description": "Detector mined from POC rows with நரசிம்ம theme in SimilarWords. Match via padham_substring_signals on Padham OR meaning_keywords on Meaning only (no global padham-exact list).",
+  "stats": {
+    "tagged_rows_analyzed": 356,
+    "strong_signal_lines": 54,
+    "weak_pasuram_only_lines": 302,
+    "padham_substring_signal_count": 7,
+    "meaning_keyword_count": 14,
+    "distinct_pasurams_in_source": 40
+  },
+  "meaning_keywords": [
+    "இரணிய",
+    "ஹரண்ய",
+    "நரசிம்",
+    "ஹிரண்ய",
+    "hiranya",
+    "நரசிங்க",
+    "narsimha",
+    "prahlada",
+    "பிரஹ்லாத",
+    "ப்ரஹ்லாத",
+    "narasimha",
+    "narasinga",
+    "narasimham",
+    "hiranyaksha"
+  ],
+  "padham_substring_signals": [
+    "இரணிய",
+    "இரணியன",
+    "அரி ஆய்",
+    "நரசிங்க",
+    "அரி உருவ",
+    "கோள் அரி ஆய்",
+    "நரம் கலந்த சிங்கம்"
+  ],
+  "padham_substring_only_review": [
+    "அரி ஆய்",
+    "இரணியன்",
+    "நரசிங்கனை",
+    "நரசிங்கம் அது ஆகி"
+  ],
+  "min_stem_length": 4,
+  "blocked_contexts": [
+    {
+      "stem": "அரி",
+      "if_text_matches": "அரிய"
+    },
+    {
+      "stem": "அரி",
+      "if_text_matches": "அருமை"
+    }
+  ],
+  "excluded_stems_review": [
+    "அரி — bare stem hits அரிய (rare/difficult) and unrelated words; use அரி உருவ, அரி ஆய், இரணிய, நரசிங்க instead"
+  ],
+  "validation": {
+    "pasurams_in_source": 40,
+    "pasurams_detector_would_trigger": 37,
+    "pasurams_missed": [
+      74,
+      557,
+      3593
+    ]
+  }
+}

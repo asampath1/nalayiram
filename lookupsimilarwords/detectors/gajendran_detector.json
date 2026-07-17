@@ -1,0 +1,92 @@
+{
+  "theme_id": "gajendran",
+  "concept": "கஜேந்திரன்",
+  "aliases": [
+    "Gajendran",
+    "கஜேந்திரன்"
+  ],
+  "normalize_meaning_parenthesis": false,
+  "source_table": "PasuramsArthamTablePOC",
+  "built_at": "2026-05-29T12:21:07.531638+00:00",
+  "description": "Detector mined from POC rows with கஜேந்திரன் theme in SimilarWords. Match via padham_substring_signals on Padham OR meaning_keywords on Meaning only (no global padham-exact list).",
+  "stats": {
+    "tagged_rows_analyzed": 242,
+    "strong_signal_lines": 44,
+    "weak_pasuram_only_lines": 198,
+    "padham_substring_signal_count": 16,
+    "meaning_keyword_count": 16,
+    "distinct_pasurams_in_source": 26
+  },
+  "meaning_keywords": [
+    "கஜ",
+    "gaj",
+    "எரும",
+    "யானை",
+    "mudal",
+    "முதலை",
+    "erumbu",
+    "yaanai",
+    "முதலைய",
+    "mudalai",
+    "elephant",
+    "gajendra",
+    "Gajendran",
+    "crocodile",
+    "gajendran",
+    "கஜேந்திரன்"
+  ],
+  "padham_substring_signals": [
+    "கஜ",
+    "gaj",
+    "வேழ",
+    "எரும",
+    "களிற",
+    "யானை",
+    "முதலை",
+    "erumbu",
+    "kaliri",
+    "vezhah",
+    "yaanai",
+    "mudalai",
+    "gajendra",
+    "Gajendran",
+    "gajendran",
+    "கஜேந்திரன்"
+  ],
+  "padham_substring_only_review": [
+    "உண்ட வாயானை",
+    "எப்பொருட்கும் சேயானை",
+    "எழில் அளந்து எண்ணற்கு அரியானை",
+    "காணும் படியானை",
+    "நண்ணற்கு அரியானை",
+    "நெடியானை",
+    "வானவர்க்கும் சேயானை"
+  ],
+  "blocked_contexts": [
+    {
+      "stem": "யானை",
+      "if_text_matches": "மொழியானை"
+    },
+    {
+      "stem": "யானை",
+      "if_text_matches": "போர் யானை"
+    },
+    {
+      "stem": "யானை",
+      "if_text_matches": "போர் செய்வ"
+    }
+  ],
+  "meaning_only_excluded_stems": [
+    "களிற",
+    "kaliri"
+  ],
+  "excluded_stems_review": [
+    "களிற on Meaning — matches பக்கங்களிற் (sides), not elephant களிறு",
+    "யானை — மொழியானை (accusative); போர் யானை (Kamsa war elephant, out of scope)"
+  ],
+  "validation": {
+    "pasurams_in_source": 26,
+    "pasurams_detector_would_trigger": 26,
+    "pasurams_missed": []
+  }
+}

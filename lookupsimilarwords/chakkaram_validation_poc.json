@@ -1,0 +1,3966 @@
+{
+  "theme_id": "chakkaram",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 222,
+  "detector_would_tag": 203,
+  "detector_missed": 19,
+  "missed_pasuram_numbers": [
+    0,
+    167,
+    275,
+    351,
+    380,
+    2787,
+    2789,
+    2791,
+    3199,
+    3339,
+    3371,
+    3372,
+    3373,
+    3374,
+    3376,
+    3377,
+    3378,
+    3379,
+    3380
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 0,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சுடராழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சுடராழி",
+          "meaning": "எதிரிகளை எரிக்கும் சக்கரத்தாழ்வானும்",
+          "meaning_snippet": "எதிரிகளை எரிக்கும் சக்கரத்தாழ்வானும்",
+          "reason": "meaning_keyword",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 7,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி",
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "வட்டமாக",
+          "meaning_snippet": "வட்டமாக",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 34,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமியும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமியும்",
+          "meaning": "திருவாழியும்",
+          "meaning_snippet": "திருவாழியும்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 57,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "திருவாழி ஆழ்வானை",
+          "meaning_snippet": "திருவாழி ஆழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 59,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "திருவாழி யாழ்வானையும்",
+          "meaning_snippet": "திருவாழி யாழ்வானையும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 62,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி கொண்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி கொண்டு",
+          "meaning": "திருவாழியாலே",
+          "meaning_snippet": "திருவாழியாலே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 73,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழிகளும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழிகளும்",
+          "meaning": "திருவாழி மோதிரங்களும்",
+          "meaning_snippet": "திருவாழி மோதிரங்களும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 77,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி மோதிரத்தை",
+          "meaning_snippet": "திருவாழி மோதிரத்தை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 82,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழி ஆழ்வானை",
+          "meaning_snippet": "திருவாழி ஆழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 91,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "சக்கரமும்",
+          "meaning_snippet": "சக்கரமும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 98,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "ஸ்ரீஸூதர்சநாழ்வானையும்",
+          "meaning_snippet": "ஸ்ரீஸூதர்சநாழ்வானையும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 101,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 103,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம் கையனே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம் கையனே",
+          "meaning": "சக்ராயுதமேந்திய கையை யுடையவனே!",
+          "meaning_snippet": "சக்ராயுதமேந்திய கையை யுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 114,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "(இப்படிக் களவு கண்டு உண்கையில்) ஆழ்ந்து தேறியவன்",
+          "meaning_snippet": "(இப்படிக் களவு கண்டு உண்கையில்) ஆழ்ந்து தேறியவன்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 117,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழிப் பிரான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழிப் பிரான்",
+          "meaning": "சக்ராயுததானாகிய ப்ரபுவான கண்ணன்",
+          "meaning_snippet": "சக்ராயுததானாகிய ப்ரபுவான கண்ணன்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 166,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான் தன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான் தன்",
+          "meaning": "சக்ராயுதபாணியான இவனுடைய",
+          "meaning_snippet": "சக்ராயுதபாணியான இவனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 167,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 220,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "(அப்பொய்கைக் கரையிலே சென்று) சக்ராயுதத்தாலே",
+          "meaning_snippet": "(அப்பொய்கைக் கரையிலே சென்று) சக்ராயுதத்தாலே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 249,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 266,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி ஆழ்வானை",
+          "meaning_snippet": "திருவாழி ஆழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 275,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 288,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு சக்கரம் தண்டு வாள் வில்லும் அல்லது"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு சக்கரம் தண்டு வாள் வில்லும் அல்லது",
+          "meaning": "சங்கு முதலிய எம்பெருமான் சின்னங்களை யொழிய (மற்றொன்றையும்)",
+          "meaning_snippet": "சங்கு முதலிய எம்பெருமான் சின்னங்களை யொழிய (மற்றொன்றையும்)",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 289,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான் என்னும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான் என்னும்",
+          "meaning": "ஸர்வேச்வரன் என்று ப்ரஸித்தமான",
+          "meaning_snippet": "ஸர்வேச்வரன் என்று ப்ரஸித்தமான",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 303,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "திருவாழி யாழ்வானை யுடையனுமான கண்ணபிரான்",
+          "meaning_snippet": "திருவாழி யாழ்வானை யுடையனுமான கண்ணபிரான்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 329,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திரு சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திரு சக்கரம்",
+          "meaning": "திருவாழி யாழ்வானையும்",
+          "meaning_snippet": "திருவாழி யாழ்வானையும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 334,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திருச் சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திருச் சக்கரம்",
+          "meaning": "திருவாழி யாழ்வாளையும்",
+          "meaning_snippet": "திருவாழி யாழ்வாளையும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 335,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி கொண்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி கொண்டு",
+          "meaning": "திருவாழியினால்",
+          "meaning_snippet": "திருவாழியினால்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 349,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியும்",
+          "meaning": "மோதிரங்கள் போன்ற பூ நரம்புகளையும்",
+          "meaning_snippet": "மோதிரங்கள் போன்ற பூ நரம்புகளையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 351,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 364,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழி யாழ்வானோடு",
+          "meaning_snippet": "திருவாழி யாழ்வானோடு",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 380,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 393,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி கொண்டு எறிந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி கொண்டு எறிந்து",
+          "meaning": "திரு வாழியை யெடுத்து விட்டெறிந்தும்,",
+          "meaning_snippet": "திரு வாழியை யெடுத்து விட்டெறிந்தும்,",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 395,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியும்",
+          "meaning": "திரு வாழியையும்",
+          "meaning_snippet": "திரு வாழியையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 407,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி விடுத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி விடுத்து",
+          "meaning": "திருவாழியாழ்வானை ஏவி",
+          "meaning_snippet": "திருவாழியாழ்வானை ஏவி",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 422,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கனல் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கனல் ஆழி",
+          "meaning": "ஜ்வலியா நின்றுள்ள திருவாழியாழ்வனை",
+          "meaning_snippet": "ஜ்வலியா நின்றுள்ள திருவாழியாழ்வனை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 424,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "ஸ்ரீஸுதர்சனாழ்வானையும்",
+          "meaning_snippet": "ஸ்ரீஸுதர்சனாழ்வானையும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 425,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமியும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமியும்",
+          "meaning": "திருவாழியையும்",
+          "meaning_snippet": "திருவாழியையும்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 434,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு சக்கரம் ஏந்து கையானே!"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு சக்கரம் ஏந்து கையானே!",
+          "meaning": "சங்கு சக்கரம் ஏந்து கையானே!",
+          "meaning_snippet": "சங்கு சக்கரம் ஏந்து கையானே!",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 441,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 451,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒண் சுடர்",
+        "ஆழியே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒண் சுடர்",
+          "meaning": "அழகிய தேஜஸ்ஸை யுடைய",
+          "meaning_snippet": "அழகிய தேஜஸ்ஸை யுடைய",
+          "reason": "padham_substring",
+          "matched_term": "சுடர்"
+        },
+        {
+          "padham": "ஆழியே",
+          "meaning": "திருவாழி யாழ்வானே!",
+          "meaning_snippet": "திருவாழி யாழ்வானே!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 459,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரமும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரமும்",
+          "meaning": "திருவாழியாழ்வானும்",
+          "meaning_snippet": "திருவாழியாழ்வானும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 461,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திருச் சக்கரம் அதனால்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திருச் சக்கரம் அதனால்",
+          "meaning": "சக்ராயுதத்தினால்",
+          "meaning_snippet": "சக்ராயுதத்தினால்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 466,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரபாணீ"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரபாணீ",
+          "meaning": "திருவாழி யாழ்வானைத் திருக் கையிலுடையனுமானவனே!",
+          "meaning_snippet": "திருவாழி யாழ்வானைத் திருக் கையிலுடையனுமானவனே!",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 470,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழி யாழ்வானை யுடைய",
+          "meaning_snippet": "திருவாழி யாழ்வானை யுடைய",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 477,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி மழை கண்ணா",
+        "ஆழியுள் புக்கு",
+        "ஆழி போல் மின்னி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி மழை கண்ணா",
+          "meaning": "மண்டல வர்ஷத்துக்குத் தலைவனான பர்ஜந்யனே!",
+          "meaning_snippet": "மண்டல வர்ஷத்துக்குத் தலைவனான பர்ஜந்யனே!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆழியுள் புக்கு",
+          "meaning": "கடலினுட் புகுந்து",
+          "meaning_snippet": "கடலினுட் புகுந்து",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆழி போல் மின்னி",
+          "meaning": "திருவாழி யாழ்வானைப் போல் ஒளி மல்கி",
+          "meaning_snippet": "திருவாழி யாழ்வானைப் போல் ஒளி மல்கி",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 487,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கொடு சக்கரம் ஏந்தும் தட கையன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கொடு சக்கரம் ஏந்தும் தட கையன்",
+          "meaning": "சங்கையும் சக்கரத்தையும் தரியா நின்றுள்ள விசாலமான திருக் கைகளை யுடையவனும்",
+          "meaning_snippet": "சங்கையும் சக்கரத்தையும் தரியா நின்றுள்ள விசாலமான திருக் கைகளை யுடையவனும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 504,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஓர் சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஓர் சக்கரம்",
+          "meaning": "ஒப்பற்ற திரு வழி யாழ்வானை",
+          "meaning_snippet": "ஒப்பற்ற திரு வழி யாழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 508,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி சங்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி சங்கு",
+          "meaning": "திருவாழியையும் திருச்சங்கையும் (அணிந்துள்ள)",
+          "meaning_snippet": "திருவாழியையும் திருச்சங்கையும் (அணிந்துள்ள)",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 521,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சுடர் சக்கரம் கையில் ஏந்தினாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சுடர் சக்கரம் கையில் ஏந்தினாய்",
+          "meaning": "உன்னுடைய பத்தினிகளின் மேல் ஆணை திருக் கையில் தரித்திரா நின்றுள்ள கண்ண பிரானே!",
+          "meaning_snippet": "உன்னுடைய பத்தினிகளின் மேல் ஆணை திருக் கையில் தரித்திரா நின்றுள்ள கண்ண பிரானே!",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 524,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியன்",
+          "meaning": "சூரியன்",
+          "meaning_snippet": "சூரியன்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 551,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒண் ஆழியும் சங்கும் தண்டும் தங்கிய கையவனை வர"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒண் ஆழியும் சங்கும் தண்டும் தங்கிய கையவனை வர",
+          "meaning": "திருவாழி திருச்சங்கும் ஸ்ரீ கதையும் பொருந்திய திருக் கைகளுடைய பெருமாள் இங்கே வரும்படி",
+          "meaning_snippet": "திருவாழி திருச்சங்கும் ஸ்ரீ கதையும் பொருந்திய திருக் கைகளுடைய பெருமாள் இங்கே வரும்படி",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 553,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கோடு சக்கரத்தான் வரக் கூவுதல்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கோடு சக்கரத்தான் வரக் கூவுதல்",
+          "meaning": "திருவாழி திருச்சங்குடையனான எம்பெருமான் (இங்கே) வரும்படி கூவுவதென்ன",
+          "meaning_snippet": "திருவாழி திருச்சங்குடையனான எம்பெருமான் (இங்கே) வரும்படி கூவுவதென்ன",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 567,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி வெண் சங்கே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி வெண் சங்கே",
+          "meaning": "கம்பீரமாய் வெளுத்திரா நின்ற ஸ்ரீபாஞ்ச ஜந்யாழ்வானே",
+          "meaning_snippet": "கம்பீரமாய் வெளுத்திரா நின்ற ஸ்ரீபாஞ்ச ஜந்யாழ்வானே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 598,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியின் வெம் சுடர் போல்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியின் வெம் சுடர் போல்",
+          "meaning": "திருவாழி யாழ்வானுடைய வெவ்விய தேஜஸ்ஸு போல",
+          "meaning_snippet": "திருவாழி யாழ்வானுடைய வெவ்விய தேஜஸ்ஸு போல",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 600,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி நங்காய்!"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி நங்காய்!",
+          "meaning": "கம்பீரமான இயல்வை யுடையாய்!",
+          "meaning_snippet": "கம்பீரமான இயல்வை யுடையாய்!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 620,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி கொண்டானவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி கொண்டானவன்",
+          "meaning": "திரு வாழியை ஏந்தி யிருப்பவனான பிரானுடைய",
+          "meaning_snippet": "திரு வாழியை ஏந்தி யிருப்பவனான பிரானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 644,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியானை",
+          "meaning": "திருவாழியாழ்வானை யுடையவனாய்",
+          "meaning_snippet": "திருவாழியாழ்வானை யுடையவனாய்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 919,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திகிரி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திகிரி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "reason": "meaning_keyword",
+          "matched_term": "திருவாழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 933,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அனல் ஆழியர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அனல் ஆழியர்",
+          "meaning": "தீ வீசுகின்ற திருவாழியையும் உடையராய்",
+          "meaning_snippet": "தீ வீசுகின்ற திருவாழியையும் உடையராய்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 951,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "ஸ்ரீ ஸுதர்சந பாணியான ஸர்வேச்வரனுடைய",
+          "meaning_snippet": "ஸ்ரீ ஸுதர்சந பாணியான ஸர்வேச்வரனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2075,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழியையும்",
+          "meaning_snippet": "திருவாழியையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2082,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "செய்ய சுடர் ஆழியான் அடிக்கே",
+        "இடர் ஆழி நீங்குக என்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "செய்ய சுடர் ஆழியான் அடிக்கே",
+          "meaning": "செஞ்சுடர்ச் சக்கரைக்கையனான எம்பெருமானது திருவடிகளில்.",
+          "meaning_snippet": "செஞ்சுடர்ச் சக்கரைக்கையனான எம்பெருமானது திருவடிகளில்.",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "இடர் ஆழி நீங்குக என்று",
+          "meaning": "(ஏதுக்காகவென்னில்;) (பகவத் கைங்கரியத்திற்கு இடையூறாகவுள்ள) துன்பக்கடல் நீங்குகைக்காக.",
+          "meaning_snippet": "(ஏதுக்காகவென்னில்;) (பகவத் கைங்கரியத்திற்கு இடையூறாகவுள்ள) துன்பக்கடல் நீங்குகைக்காக.",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2083,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "ஸமுத்ரமாம்;",
+          "meaning_snippet": "ஸமுத்ரமாம்;",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2086,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "(மற்றொரு மூர்த்தியின் ஆயுதமோ வென்னில்) அருளார் திருச்சக்கரம்",
+          "meaning_snippet": "(மற்றொரு மூர்த்தியின் ஆயுதமோ வென்னில்) அருளார் திருச்சக்கரம்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2089,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "போர் ஆழிகையால்",
+        "தேர் ஆழியால்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "போர் ஆழிகையால்",
+          "meaning": "போர்செய்வதற்கு உபகரணமான திருவாழியை ஏந்தின கையாலே",
+          "meaning_snippet": "போர்செய்வதற்கு உபகரணமான திருவாழியை ஏந்தின கையாலே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "தேர் ஆழியால்",
+          "meaning": "சக்கராயுதத்தினால்",
+          "meaning_snippet": "சக்கராயுதத்தினால்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2091,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அலகு அளவு கண்ட சீர் ஆழியாய்க்கு உன் வாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அலகு அளவு கண்ட சீர் ஆழியாய்க்கு உன் வாய்",
+          "meaning": "அளவிடுதற்கு உறுப்பான எண்ணிக்கைகளை யெல்லாம் எல்லை கண்டிருக்கிற [-எண்ணிறந்த] கல்யாண குணங்களுக்குக் கடல் போன்றவனான உன்னுடைய வாயானது",
+          "meaning_snippet": "அளவிடுதற்கு உறுப்பான எண்ணிக்கைகளை யெல்லாம் எல்லை கண்டிருக்கிற [-எண்ணிறந்த] கல்யாண குணங்களுக்குக் கடல் போன்றவனான உன்னுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2182,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஞானம் சுடர் விளக்கு ஏற்றினேன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஞானம் சுடர் விளக்கு ஏற்றினேன்",
+          "meaning": "பரஜ்ஞானமாகிற பிரகாசமான தீபத்தை ஏற்றினேன்.",
+          "meaning_snippet": "பரஜ்ஞானமாகிற பிரகாசமான தீபத்தை ஏற்றினேன்.",
+          "reason": "padham_substring",
+          "matched_term": "சுடர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2188,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழிநெஞ்சே",
+        "தழல்எடுத்த போர் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழிநெஞ்சே",
+          "meaning": "ஆழ்ந்த மனமே!",
+          "meaning_snippet": "ஆழ்ந்த மனமே!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "தழல்எடுத்த போர் ஆழி",
+          "meaning": "நெருப்பையுமிழ்கிற போர் செய்யவல்ல திருவாழியாழ்வானை",
+          "meaning_snippet": "நெருப்பையுமிழ்கிற போர் செய்யவல்ல திருவாழியாழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2194,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான் பாதம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான் பாதம்",
+          "meaning": "(முதலையைத் துணிக்குங் கருவியான) திருவாழியைக் கையிலேந்தின எம்பெருமானுடைய திருவடிகளை (தியானித்து) வணங்கியதனாலன்றோ",
+          "meaning_snippet": "(முதலையைத் துணிக்குங் கருவியான) திருவாழியைக் கையிலேந்தின எம்பெருமானுடைய திருவடிகளை (தியானித்து) வணங்கியதனாலன்றோ",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2213,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழியையும்",
+          "meaning_snippet": "திருவாழியையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2232,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பேர் ஆழி நின்று பெயர்ந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பேர் ஆழி நின்று பெயர்ந்து",
+          "meaning": "பெரிய திருப்பாற் கடலில் நின்றும் துயில் விட்டெழுந்து",
+          "meaning_snippet": "பெரிய திருப்பாற் கடலில் நின்றும் துயில் விட்டெழுந்து",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2236,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி",
+        "இன்பம் கடல் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "சக்கரத்தை",
+          "meaning_snippet": "சக்கரத்தை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "இன்பம் கடல் ஆழி",
+          "meaning": "ஆநந்த ஸாகரத்தையும்",
+          "meaning_snippet": "ஆநந்த ஸாகரத்தையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2239,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொன் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொன் ஆழி",
+          "meaning": "அழகிய திருவாழியை (கையுந்திருவாழியுமான சோத்தியழகை)",
+          "meaning_snippet": "அழகிய திருவாழியை (கையுந்திருவாழியுமான சோத்தியழகை)",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2248,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கனலும் சுடர் ஆழி கண்டேன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கனலும் சுடர் ஆழி கண்டேன்",
+          "meaning": "ஜ்வலிக்கிற சுடர்மயமான திருவாழியைக் கண்டேன்",
+          "meaning_snippet": "ஜ்வலிக்கிற சுடர்மயமான திருவாழியைக் கண்டேன்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2252,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழியானது",
+          "meaning_snippet": "திருவாழியானது",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2262,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஊன் திகழும் நேமி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஊன் திகழும் நேமி",
+          "meaning": "திருமேனியில் விளங்குகின்ற திருவாழியையுடையவனும்",
+          "meaning_snippet": "திருமேனியில் விளங்குகின்ற திருவாழியையுடையவனும்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2263,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பின்னும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பின்னும்",
+          "meaning": "எம்பெருமானுடைய அழகிலே பிராட்டி ஆழங்காற்பட்டு அழுந்துகிற படியைக் கண்டுவத்தும்",
+          "meaning_snippet": "எம்பெருமானுடைய அழகிலே பிராட்டி ஆழங்காற்பட்டு அழுந்துகிற படியைக் கண்டுவத்தும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ஆழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2266,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான் என்றும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான் என்றும்",
+          "meaning": "திருவாழியை யுடையவனென்றும்",
+          "meaning_snippet": "திருவாழியை யுடையவனென்றும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2276,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகு ஏத்தும் ஆழியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகு ஏத்தும் ஆழியான்",
+          "meaning": "உலகத்தவரால் துதிக்கப்பட்டவனாய்க் கொண்டு திருப்பாற்கடலில் பள்ளி கொண்டிருப்பவனும்",
+          "meaning_snippet": "உலகத்தவரால் துதிக்கப்பட்டவனாய்க் கொண்டு திருப்பாற்கடலில் பள்ளி கொண்டிருப்பவனும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2282,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "என் ஆழி வண்ணன் பால்",
+        "பொன் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "என் ஆழி வண்ணன் பால்",
+          "meaning": "கடல்வண்ணனான எம்பெருமானிடத்திலே",
+          "meaning_snippet": "கடல்வண்ணனான எம்பெருமானிடத்திலே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "பொன் ஆழி",
+          "meaning": "அழகிய திருவாழியையும்",
+          "meaning_snippet": "அழகிய திருவாழியையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2286,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஓர் ஆழி வெய்யோன்",
+        "ஆர் ஆழி கொண்டாற்கு அழகு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஓர் ஆழி வெய்யோன்",
+          "meaning": "ஒற்றைச்சக்கர முடைய தேரிலேறின ஸூர்யனுடைய நிறம் போன்றது,",
+          "meaning_snippet": "ஒற்றைச்சக்கர முடைய தேரிலேறின ஸூர்யனுடைய நிறம் போன்றது,",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆர் ஆழி கொண்டாற்கு அழகு",
+          "meaning": "அழகு பொருந்திய திருவாழியைக் கையில் கொண்டுள்ள பெருமானுடைய அழகு இப்படிப்பட்டதாயிராநின்றது.",
+          "meaning_snippet": "அழகு பொருந்திய திருவாழியைக் கையில் கொண்டுள்ள பெருமானுடைய அழகு இப்படிப்பட்டதாயிராநின்றது.",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2287,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியாற்கு",
+        "ஆழி நீர் வண்ணம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியாற்கு",
+          "meaning": "திருவாழியையுடைய ஸர்வேச்வரனுக்கு",
+          "meaning_snippet": "திருவாழியையுடைய ஸர்வேச்வரனுக்கு",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆழி நீர் வண்ணம்",
+          "meaning": "கடல் நீரின் நிறம் போன்ற நிறமானது",
+          "meaning_snippet": "கடல் நீரின் நிறம் போன்ற நிறமானது",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2302,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தேச உடைய சக்கரத்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தேச உடைய சக்கரத்தான்",
+          "meaning": "தேஜ்ஸ்ஸையுடைய திருவாழியை ஏந்தினவனும்",
+          "meaning_snippet": "தேஜ்ஸ்ஸையுடைய திருவாழியை ஏந்தினவனும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2305,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி நெஞ்சே",
+        "பொருந்தும் சுடர் ஆழி ஒன்று உடையான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி நெஞ்சே",
+          "meaning": "கம்பீரமான மனமே!",
+          "meaning_snippet": "கம்பீரமான மனமே!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "பொருந்தும் சுடர் ஆழி ஒன்று உடையான்",
+          "meaning": "பொருந்திய ஒரு சுடர்ச்சக்கரத்தை யுடையவனுமான எம்பெருமானுடைய",
+          "meaning_snippet": "பொருந்திய ஒரு சுடர்ச்சக்கரத்தை யுடையவனுமான எம்பெருமானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2317,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கனல் ஆழி",
+        "வெம் சுடர்வாள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கனல் ஆழி",
+          "meaning": "திக்ஷ்ணமான சக்கரமும்",
+          "meaning_snippet": "திக்ஷ்ணமான சக்கரமும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "வெம் சுடர்வாள்",
+          "meaning": "வெவ்விய சுடரையுடைய நந்தகவாளும் ஆகிய",
+          "meaning_snippet": "வெவ்விய சுடரையுடைய நந்தகவாளும் ஆகிய",
+          "reason": "padham_substring",
+          "matched_term": "சுடர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2325,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியும்",
+          "meaning": "கடல்களும்",
+          "meaning_snippet": "கடல்களும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2331,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழ்ந்த மணி நீர் சுனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழ்ந்த மணி நீர் சுனை",
+          "meaning": "ஆழமாய் அழகிய நீரை யுடைத்தான் பொய்கையிலே",
+          "meaning_snippet": "ஆழமாய் அழகிய நீரை யுடைத்தான் பொய்கையிலே",
+          "reason": "meaning_keyword",
+          "matched_term": "ஆழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2344,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரமும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரமும்",
+          "meaning": "திருவாழியாழ்வானும்",
+          "meaning_snippet": "திருவாழியாழ்வானும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2348,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திகிரி",
+        "சுடர் என்றும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திகிரி",
+          "meaning": "திருவாழியை",
+          "meaning_snippet": "திருவாழியை",
+          "reason": "meaning_keyword",
+          "matched_term": "திருவாழ"
+        },
+        {
+          "padham": "சுடர் என்றும்",
+          "meaning": "ஸூர்யனென்றும்",
+          "meaning_snippet": "ஸூர்யனென்றும்",
+          "reason": "padham_substring",
+          "matched_term": "சுடர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2359,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழியாழ்வானை",
+          "meaning_snippet": "திருவாழியாழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2361,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழியாழ்வானை யுடையவனாய்",
+          "meaning_snippet": "திருவாழியாழ்வானை யுடையவனாய்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2380,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குறித்து எறிந்த சக்கரத்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குறித்து எறிந்த சக்கரத்தான்",
+          "meaning": "இலக்குத் தப்பாமல் பிரயோகிக்கப்பட்ட திருவாழியையுடைய பெருமானது",
+          "meaning_snippet": "இலக்குத் தப்பாமல் பிரயோகிக்கப்பட்ட திருவாழியையுடைய பெருமானது",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2381,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரத்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரத்தான்",
+          "meaning": "திருவாழியைக் கையிலே உடையவனும்",
+          "meaning_snippet": "திருவாழியைக் கையிலே உடையவனும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2713,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Aazhi vazhi vandae",
+        "Arul aazhi ammaanai",
+        "Arul aazhi pul"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Aazhi vazhi vandae",
+          "meaning": "வட்டமான ரேகைகளை யுடைய வண்டே!",
+          "meaning_snippet": "வட்டமான ரேகைகளை யுடைய வண்டே!",
+          "reason": "padham_substring",
+          "matched_term": "Aazh"
+        },
+        {
+          "padham": "Arul aazhi ammaanai",
+          "meaning": "அருட்கடலான எம்பெருமானை",
+          "meaning_snippet": "அருட்கடலான எம்பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "aazh"
+        },
+        {
+          "padham": "Arul aazhi pul",
+          "meaning": "கருணைக் கடலான பெரிய திருவடியை",
+          "meaning_snippet": "கருணைக் கடலான பெரிய திருவடியை",
+          "reason": "padham_substring",
+          "matched_term": "aazh"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2717,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Aazhi mada nenje",
+        "Aazhi"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Aazhi mada nenje",
+          "meaning": "ஆழ்ந்த மடநெஞ்சே!",
+          "meaning_snippet": "ஆழ்ந்த மடநெஞ்சே!",
+          "reason": "padham_substring",
+          "matched_term": "Aazh"
+        },
+        {
+          "padham": "Aazhi",
+          "meaning": "சக்ராகாரமாக",
+          "meaning_snippet": "சக்ராகாரமாக",
+          "reason": "padham_substring",
+          "matched_term": "Aazh"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2735,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திமிர் சுடர் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திமிர் சுடர் ஆழி",
+          "meaning": "வளர்கின்ற ஒளியை யுடைய திருச் சக்கரத்தை யுடையனாய்",
+          "meaning_snippet": "வளர்கின்ற ஒளியை யுடைய திருச் சக்கரத்தை யுடையனாய்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2741,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி படை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி படை",
+          "meaning": "திருவாழி யாழ்வானை ஆயுதமாக வுடையனாயும்",
+          "meaning_snippet": "திருவாழி யாழ்வானை ஆயுதமாக வுடையனாயும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2760,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Sangu Chakkaram"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Sangu Chakkaram",
+          "meaning": "திருவாழி திருச் சங்குகளை",
+          "meaning_snippet": "திருவாழி திருச் சங்குகளை",
+          "reason": "padham_substring",
+          "matched_term": "Chakk"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2770,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொருபடை ஆழிசங்கு ஏந்தும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொருபடை ஆழிசங்கு ஏந்தும்",
+          "meaning": "(அத்திருத்தோள்களில்) போர் செய்கின்ற ஆயுதங்களாகிய திருவாழி திருச்சங்குகளைத் தரித்திருப்பவனும்.",
+          "meaning_snippet": "(அத்திருத்தோள்களில்) போர் செய்கின்ற ஆயுதங்களாகிய திருவாழி திருச்சங்குகளைத் தரித்திருப்பவனும்.",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2774,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி சங்கத்தொடு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி சங்கத்தொடு",
+          "meaning": "சங்கு சக்கரங்களோடு கூட",
+          "meaning_snippet": "சங்கு சக்கரங்களோடு கூட",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2787,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2788,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "படைஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "படைஆழி",
+          "meaning": "திருவாழிப் படையுடைய",
+          "meaning_snippet": "திருவாழிப் படையுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2789,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2790,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பெருமானார்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பெருமானார்",
+          "meaning": "சக்கரபாணியான எம்பெருமானது",
+          "meaning_snippet": "சக்கரபாணியான எம்பெருமானது",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2791,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2801,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பள்ளியார்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பள்ளியார்",
+          "meaning": "ப்ரளயார்ணவ சயநராவர் (ஆழியம்பள்ளியார் = திருப்பாற்கடலிற் கிடந்த கிடையைச் சொல்லவுமாம் ப்ரளயார்ணவத்திலே ஆபத் ஸகனாய்க் கண் வளர்ந்தபடியைச் சொல்லவுமாம்)",
+          "meaning_snippet": "ப்ரளயார்ணவ சயநராவர் (ஆழியம்பள்ளியார் = திருப்பாற்கடலிற் கிடந்த கிடையைச் சொல்லவுமாம் ப்ரளயார்ணவத்திலே ஆபத் ஸகனாய்க் கண் வ",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2816,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி சங்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி சங்கு",
+          "meaning": "திருவாழி திருச்சங்குகளை",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2826,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமியீர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமியீர்",
+          "meaning": "திருவாழியையுடையவரே! (பெண்பிள்ளை)",
+          "meaning_snippet": "திருவாழியையுடையவரே! (பெண்பிள்ளை)",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2829,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு ஆழி",
+          "meaning": "சங்கு சக்கரங்களும்",
+          "meaning_snippet": "சங்கு சக்கரங்களும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2855,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "திருவாழி",
+          "meaning_snippet": "திருவாழி",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2862,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "என் ஆழி வண்ணனை எம்மானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "என் ஆழி வண்ணனை எம்மானை",
+          "meaning": "கடல் வண்ணனான எம்பெருமானை",
+          "meaning_snippet": "கடல் வண்ணனான எம்பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2877,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கை ஆர்சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கை ஆர்சக்கரம்",
+          "meaning": "திருக்கையில் பொருத்தின திருவாழியை உடைய என் கண்ணபிரானே!",
+          "meaning_snippet": "திருக்கையில் பொருத்தின திருவாழியை உடைய என் கண்ணபிரானே!",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2885,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரத்து",
+          "meaning": "திருவாழியையுடைய",
+          "meaning_snippet": "திருவாழியையுடைய",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2890,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "aram muyal ali pataiyavan koyil"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "aram muyal ali pataiyavan koyil",
+          "meaning": "ஆச்ரித ரக்ஷண தருமத்திலே முயல்கின்ற திருவாழியை ஆயுதமாகவுடைய பெருமானது கோயிலாய்.",
+          "meaning_snippet": "ஆச்ரித ரக்ஷண தருமத்திலே முயல்கின்ற திருவாழியை ஆயுதமாகவுடைய பெருமானது கோயிலாய்.",
+          "reason": "meaning_keyword",
+          "matched_term": "திருவாழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2905,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மழுங்காத வைநுதிய சக்கரம் நல் வலத்தையாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மழுங்காத வைநுதிய சக்கரம் நல் வலத்தையாய்",
+          "meaning": "மங்குதலில்லாத கூர்மை பொருந்திய வாயையுடைய சக்கரப்படையை அழகிய வலத்திருக்கையிலுடையையாய்",
+          "meaning_snippet": "மங்குதலில்லாத கூர்மை பொருந்திய வாயையுடைய சக்கரப்படையை அழகிய வலத்திருக்கையிலுடையையாய்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2932,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு சக்கரத்தன் என்கோ"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு சக்கரத்தன் என்கோ",
+          "meaning": "சங்குசக்கரங்களை யுடையவனென்பேனோ?",
+          "meaning_snippet": "சங்குசக்கரங்களை யுடையவனென்பேனோ?",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2964,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பிரான் தன்னை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பிரான் தன்னை",
+          "meaning": "திருவாழியாழ்வானை யுடைய உபகாரகனாயும்",
+          "meaning_snippet": "திருவாழியாழ்வானை யுடைய உபகாரகனாயும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2965,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொன் நெடு சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொன் நெடு சக்கரத்து",
+          "meaning": "அழகினால் உயர்ந்த திருவாழியை யுடையனான",
+          "meaning_snippet": "அழகினால் உயர்ந்த திருவாழியை யுடையனான",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2968,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பிரான் தன்னை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பிரான் தன்னை",
+          "meaning": "திருவாழியைக் கையிலேந்தி மஹோபகாரங்கள் செய்யவனும்.",
+          "meaning_snippet": "திருவாழியைக் கையிலேந்தி மஹோபகாரங்கள் செய்யவனும்.",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2971,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வலம் தாங்கு சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வலம் தாங்கு சக்கரத்து",
+          "meaning": "வலத்திருக்கையில் ஏந்தப்பட்ட திருவாழியையுடைய",
+          "meaning_snippet": "வலத்திருக்கையில் ஏந்தப்பட்ட திருவாழியையுடைய",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2979,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொன் நெடு சக்கரத்து உன்னையே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொன் நெடு சக்கரத்து உன்னையே",
+          "meaning": "அழகிய பெரிய திருவாழியையுடைய தேவரீரையே",
+          "meaning_snippet": "அழகிய பெரிய திருவாழியையுடைய தேவரீரையே",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2980,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சுடர் நேமியாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சுடர் நேமியாய்",
+          "meaning": "ஒளிமிக்க திருவாழியையுடையவனே!",
+          "meaning_snippet": "ஒளிமிக்க திருவாழியையுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2993,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பிரான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பிரான்",
+          "meaning": "சக்கரக்கையனான பெருமான்",
+          "meaning_snippet": "சக்கரக்கையனான பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2996,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கொடு சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கொடு சக்கரம்",
+          "meaning": "சங்கு சக்கரங்களையும்",
+          "meaning_snippet": "சங்கு சக்கரங்களையும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2999,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொன்சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொன்சக்கரத்து",
+          "meaning": "அழகிய திருவாழியையுடையவனாய்க் கொண்டு",
+          "meaning_snippet": "அழகிய திருவாழியையுடையவனாய்க் கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3026,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம் என்னும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம் என்னும்",
+          "meaning": "சக்கரமென்கிறாள்;",
+          "meaning_snippet": "சக்கரமென்கிறாள்;",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3033,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காலம் சக்கரத்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காலம் சக்கரத்தான்",
+          "meaning": "காலத்தை நடத்துகிற திரு வாழியையுடையனாய்",
+          "meaning_snippet": "காலத்தை நடத்துகிற திரு வாழியையுடையனாய்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3034,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காலன் சக்கரத்தொடு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காலன் சக்கரத்தொடு",
+          "meaning": "(பகைவரையழிப்பதில்) யமன் போன்ற திருவாழியோடுகூட",
+          "meaning_snippet": "(பகைவரையழிப்பதில்) யமன் போன்ற திருவாழியோடுகூட",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3054,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அடல் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அடல் ஆழி",
+          "meaning": "போர்வல்ல திருவாழியை யுடையனான",
+          "meaning_snippet": "போர்வல்ல திருவாழியை யுடையனான",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3063,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு சக்கரம் என்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு சக்கரம் என்று",
+          "meaning": "சங்கென்றும் சக்கரமென்றும்",
+          "meaning_snippet": "சங்கென்றும் சக்கரமென்றும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3077,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அடல் ஆழியானே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அடல் ஆழியானே",
+          "meaning": "வீரத்தன்மை வாய்ந்த திருவாழியையுடையவனே!",
+          "meaning_snippet": "வீரத்தன்மை வாய்ந்த திருவாழியையுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3085,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அடல் ஆழி தடகையன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அடல் ஆழி தடகையன்",
+          "meaning": "தீக்ஷ்ணமான திருவாழியைப் பெரிய திருக்கையிலேயுடையவனும்",
+          "meaning_snippet": "தீக்ஷ்ணமான திருவாழியைப் பெரிய திருக்கையிலேயுடையவனும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3090,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "சக்கரத்தையும்",
+          "meaning_snippet": "சக்கரத்தையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3116,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பிரானை சேர்ந்தவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பிரானை சேர்ந்தவன்",
+          "meaning": "ஆழியங்கையனான பெருமானை அடைந்தவரும்",
+          "meaning_snippet": "ஆழியங்கையனான பெருமானை அடைந்தவரும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3117,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கைஆர் சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கைஆர் சக்கரத்து",
+          "meaning": "திருக்கையில் பொருந்திய திருவாழியாழ் வானையுடையவனும்",
+          "meaning_snippet": "திருக்கையில் பொருந்திய திருவாழியாழ் வானையுடையவனும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3122,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அறம் முயல் ஆழி அம் கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அறம் முயல் ஆழி அம் கை",
+          "meaning": "ரக்ஷணமாகிற தருமத்திலே ஊக்கமுடைய திருவாழியினாலே அழகுபெற்ற திருக்கைகளையும் உடைய",
+          "meaning_snippet": "ரக்ஷணமாகிற தருமத்திலே ஊக்கமுடைய திருவாழியினாலே அழகுபெற்ற திருக்கைகளையும் உடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3123,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பிரான் அம்மான் அவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பிரான் அம்மான் அவன்",
+          "meaning": "திருவாழியாழ்வானையுடைய பிரபுவாகிய அவ்வெம்பெருமான்",
+          "meaning_snippet": "திருவாழியாழ்வானையுடைய பிரபுவாகிய அவ்வெம்பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3125,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திருசக்கரம் சங்கினோடும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திருசக்கரம் சங்கினோடும்",
+          "meaning": "திருவாழி திருசங்குகளோடும்கூடி",
+          "meaning_snippet": "திருவாழி திருசங்குகளோடும்கூடி",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3133,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமி பிரான் தமர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமி பிரான் தமர்",
+          "meaning": "சக்ரபாணியான எம்பெருமானது பக்தர்கள்",
+          "meaning_snippet": "சக்ரபாணியான எம்பெருமானது பக்தர்கள்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3145,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி பிரான் தன்னை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி பிரான் தன்னை",
+          "meaning": "திருவாழியாழ்வானை ஏந்தியுள்ள மஹோபகாரகனாக எம்பெருமானை",
+          "meaning_snippet": "திருவாழியாழ்வானை ஏந்தியுள்ள மஹோபகாரகனாக எம்பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3148,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி அம் கை நம்பிரானுடைய"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி அம் கை நம்பிரானுடைய",
+          "meaning": "திருவாழியைத் தரித்த அழகிய திருக்கையையுடைய எம்பெருமானுடைய",
+          "meaning_snippet": "திருவாழியைத் தரித்த அழகிய திருக்கையையுடைய எம்பெருமானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3155,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மண் நின்ற சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மண் நின்ற சக்கரத்து",
+          "meaning": "எப்போதும் கை நழுவாது நின்ற திருவாழியாழ்வானையுடைய",
+          "meaning_snippet": "எப்போதும் கை நழுவாது நின்ற திருவாழியாழ்வானையுடைய",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3156,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரத்தன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரத்தன்",
+          "meaning": "சக்கரத்தையுமுடையனானவன்",
+          "meaning_snippet": "சக்கரத்தையுமுடையனானவன்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3157,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கை வந்த சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கை வந்த சக்கரத்து",
+          "meaning": "கையிலே ஸஜ்ஜனாயிருக்கிற் திருவாழி யாழ்களையுடைய",
+          "meaning_snippet": "கையிலே ஸஜ்ஜனாயிருக்கிற் திருவாழி யாழ்களையுடைய",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3161,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கினோடும் நேமினோடும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கினோடும் நேமினோடும்",
+          "meaning": "சங்கு சங்கரங்களோடும்",
+          "meaning_snippet": "சங்கு சங்கரங்களோடும்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3163,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரமும் சங்கும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரமும் சங்கும்",
+          "meaning": "திருவாழி திருச்சங்குகளும்",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3167,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழியும்",
+          "meaning_snippet": "திருவாழியும்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3171,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி அம் கை யணையே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி அம் கை யணையே",
+          "meaning": "திருவாழியை அழகிய திருக்கையிலே உடையவனாயுமிருக்கிற எம்பெருமானையே",
+          "meaning_snippet": "திருவாழியை அழகிய திருக்கையிலே உடையவனாயுமிருக்கிற எம்பெருமானையே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3184,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு சக்கரத்தாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு சக்கரத்தாய்",
+          "meaning": "சங்கு சக்கரபாணியான ஸர்வேச்வரனே",
+          "meaning_snippet": "சங்கு சக்கரபாணியான ஸர்வேச்வரனே",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3185,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம் படை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம் படை",
+          "meaning": "திருவாழியை ஆயுதமாகவுடையனாய்",
+          "meaning_snippet": "திருவாழியை ஆயுதமாகவுடையனாய்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3199,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3201,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வளைவாய் நேமிபடையாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வளைவாய் நேமிபடையாய்",
+          "meaning": "வளைந்த வாயையுடைய திருவாழியை ஆயுதமாகவுடையவனே!",
+          "meaning_snippet": "வளைந்த வாயையுடைய திருவாழியை ஆயுதமாகவுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3213,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சுழலின் மலி சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சுழலின் மலி சக்கரம்",
+          "meaning": "சுறுற்சி பொருந்திய திருவாழியையுடையனான",
+          "meaning_snippet": "சுறுற்சி பொருந்திய திருவாழியையுடையனான",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3227,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கை கொள் சக்கரத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கை கொள் சக்கரத்து",
+          "meaning": "திருக்கையிலே திருவாழியாழ்வானைக் கொண்டவனும்",
+          "meaning_snippet": "திருக்கையிலே திருவாழியாழ்வானைக் கொண்டவனும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3229,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கறங்கு சக்கரம் கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கறங்கு சக்கரம் கை",
+          "meaning": "சுழன்று வருகிற திருவாழியைக் கையிலேயுடையவனும்",
+          "meaning_snippet": "சுழன்று வருகிற திருவாழியைக் கையிலேயுடையவனும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3232,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆற்றல் ஆழி அம் கை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆற்றல் ஆழி அம் கை",
+          "meaning": "சக்திமிகுந்த திருவாழியை அழகிய கையிலே உடையவனுமான",
+          "meaning_snippet": "சக்திமிகுந்த திருவாழியை அழகிய கையிலே உடையவனுமான",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3233,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "செரு ஒண் சக்கரம் சங்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "செரு ஒண் சக்கரம் சங்கு",
+          "meaning": "போர்க்களத்திலே ஒண்மைபெற்று விளங்குகிற சக்கரமும் (கையை விட்டு அகலாத) சங்குமான",
+          "meaning_snippet": "போர்க்களத்திலே ஒண்மைபெற்று விளங்குகிற சக்கரமும் (கையை விட்டு அகலாத) சங்குமான",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3242,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திண் சக்கரம் தொல்படையாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திண் சக்கரம் தொல்படையாய்",
+          "meaning": "திண்ணிய சக்கரமாகிற அநாதியான ஆயுதத்தை யுடையவனே!",
+          "meaning_snippet": "திண்ணிய சக்கரமாகிற அநாதியான ஆயுதத்தை யுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3268,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வலக்கை ஆழி இடக்கை சங்கம் இவை உடைமால் வண்ணனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வலக்கை ஆழி இடக்கை சங்கம் இவை உடைமால் வண்ணனை",
+          "meaning": "உபணஹஸ்தங்களிலும் திருவாழி திருச்சங்கையுடையனாய் நீலவண்ணனான எம்பெருமானை",
+          "meaning_snippet": "உபணஹஸ்தங்களிலும் திருவாழி திருச்சங்கையுடையனாய் நீலவண்ணனான எம்பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3271,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தவளம் ஒண் சங்கு சக்கரம் என்றும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தவளம் ஒண் சங்கு சக்கரம் என்றும்",
+          "meaning": "வெண்ணிறமாய் அழகியதான சங்கையும் சக்கரத்தையும் சொல்லுகின்றவளாயும்",
+          "meaning_snippet": "வெண்ணிறமாய் அழகியதான சங்கையும் சக்கரத்தையும் சொல்லுகின்றவளாயும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3283,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு வில் வாள் தண்டு சக்கரம் கையற்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு வில் வாள் தண்டு சக்கரம் கையற்கு",
+          "meaning": "பஞ்சாயுதங்களையும் திருக்கையிலே உடையவரும்",
+          "meaning_snippet": "பஞ்சாயுதங்களையும் திருக்கையிலே உடையவரும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3284,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கறங்கிய சக்கரம் கையவனுக்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கறங்கிய சக்கரம் கையவனுக்கு",
+          "meaning": "சுழலும் திருவாழியைக் கையிலே உடையவருமான பெருமான் விளயத்தி லீடுபட்டதினால்",
+          "meaning_snippet": "சுழலும் திருவாழியைக் கையிலே உடையவருமான பெருமான் விளயத்தி லீடுபட்டதினால்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3305,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கை அமர் சக்கரம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கை அமர் சக்கரம்",
+          "meaning": "திருக்கையில் அமர்ந்த திருவாழியையுடையனும்",
+          "meaning_snippet": "திருக்கையில் அமர்ந்த திருவாழியையுடையனும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3310,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "என் ஆழி பிரான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "என் ஆழி பிரான்",
+          "meaning": "கையுந்திருவாழியுமான அழகை எனக்குக் காட்டித்தந்தவனும்",
+          "meaning_snippet": "கையுந்திருவாழியுமான அழகை எனக்குக் காட்டித்தந்தவனும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3315,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கூர் ஆர் ஆழி வெண் சங்கு ஏந்தி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கூர் ஆர் ஆழி வெண் சங்கு ஏந்தி",
+          "meaning": "கூர்மைபொருந்திய திருவாழியையும் வெள்ளிய திருச்சங்கையும் திருக்கையில் தரித்துக்கொண்டு",
+          "meaning_snippet": "கூர்மைபொருந்திய திருவாழியையும் வெள்ளிய திருச்சங்கையும் திருக்கையில் தரித்துக்கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3327,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "thiru nemi valavaa"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "thiru nemi valavaa",
+          "meaning": "திருவாழியாழ்வானை வலவருகிலே ஏந்தியிருப்பவனே!",
+          "meaning_snippet": "திருவாழியாழ்வானை வலவருகிலே ஏந்தியிருப்பவனே!",
+          "reason": "padham_substring",
+          "matched_term": "nemi"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3338,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மின்னு நேமியினாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மின்னு நேமியினாய்",
+          "meaning": "உஜ்ஜ்வலமான திருவாழியை யுடையவனே!",
+          "meaning_snippet": "உஜ்ஜ்வலமான திருவாழியை யுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3339,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3341,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அடல் ஆழி ஏந்தி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அடல் ஆழி ஏந்தி",
+          "meaning": "சேசு பொருந்திய திருவாழியைக் கையிலேதாங்கி",
+          "meaning_snippet": "சேசு பொருந்திய திருவாழியைக் கையிலேதாங்கி",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3348,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு சக்கரங்கள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு சக்கரங்கள்",
+          "meaning": "திருவாழி திருச்சங்குகள் இதோ ஸேவை ஸாதிக்கின்றன",
+          "meaning_snippet": "திருவாழி திருச்சங்குகள் இதோ ஸேவை ஸாதிக்கின்றன",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3351,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வட்டம் வாய் நேமி வலம் கையா என்னும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வட்டம் வாய் நேமி வலம் கையா என்னும்",
+          "meaning": "வட்டமான விளிம்பையுடைய திருவாழியை வலத்திரக்கையிலுடையவனெ! என்கிறாள்;",
+          "meaning_snippet": "வட்டமான விளிம்பையுடைய திருவாழியை வலத்திரக்கையிலுடையவனெ! என்கிறாள்;",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3353,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வெய்யவான் தண்டு சங்கு சக்கரம்வில் ஏந்தும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வெய்யவான் தண்டு சங்கு சக்கரம்வில் ஏந்தும்",
+          "meaning": "(ஆச்ரித விரோதி விஷயத்தில்) வெப்பமே வடிவெடுத்த பஞ்சாயுதங்களைத் தரித்துக் கொண்டிருக்கிற",
+          "meaning_snippet": "(ஆச்ரித விரோதி விஷயத்தில்) வெப்பமே வடிவெடுத்த பஞ்சாயுதங்களைத் தரித்துக் கொண்டிருக்கிற",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3359,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வெள்ளை சுரி சங்கொடு ஆழி ஏந்தி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வெள்ளை சுரி சங்கொடு ஆழி ஏந்தி",
+          "meaning": "வெண்ணிறத்தையும் சுரியையு முடைய ஸ்ரீபாஞ்சஜந்யத்தையும் ஸூதர்சநத்தையும் ஸூதர்நசத்தையும் ஏந்திக்கொண்டு",
+          "meaning_snippet": "வெண்ணிறத்தையும் சுரியையு முடைய ஸ்ரீபாஞ்சஜந்யத்தையும் ஸூதர்சநத்தையும் ஸூதர்நசத்தையும் ஏந்திக்கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3361,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கொடு சக்கரம் கண்டு உகந்தும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கொடு சக்கரம் கண்டு உகந்தும்",
+          "meaning": "திருவாழி திருச்சங்குளைக் கண்டு உவந்ததாயும்",
+          "meaning_snippet": "திருவாழி திருச்சங்குளைக் கண்டு உவந்ததாயும்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3368,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமியான்",
+          "meaning": "திருவாழியை யுடையனுமான",
+          "meaning_snippet": "திருவாழியை யுடையனுமான",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3369,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி நீர் வண்ணனை",
+        "ஆழி அம்கையனை ஏத்த வல்லார் அவர்",
+        "ஆழியார்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி நீர் வண்ணனை",
+          "meaning": "கடல் வண்ணனாய்",
+          "meaning_snippet": "கடல் வண்ணனாய்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆழி அம்கையனை ஏத்த வல்லார் அவர்",
+          "meaning": "கையுந் திருவாழியுமான எம்பெருமானைத்துதிக்கவல்லவர்கள்",
+          "meaning_snippet": "கையுந் திருவாழியுமான எம்பெருமானைத்துதிக்கவல்லவர்கள்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆழியார்",
+          "meaning": "ஆழ்ந்தவராவர்.",
+          "meaning_snippet": "ஆழ்ந்தவராவர்.",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3370,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "aazhi ezha",
+        "thisai vaazhi ezha"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "aazhi ezha",
+          "meaning": "திருவாழியாழ்வான் முன்னே உயர்ந்து தோன்றவும்",
+          "meaning_snippet": "திருவாழியாழ்வான் முன்னே உயர்ந்து தோன்றவும்",
+          "reason": "padham_substring",
+          "matched_term": "aazh"
+        },
+        {
+          "padham": "thisai vaazhi ezha",
+          "meaning": "திசைகள் தோறும் மங்களாசாஸன கோஷம் கிளம்புவும்",
+          "meaning_snippet": "திசைகள் தோறும் மங்களாசாஸன கோஷம் கிளம்புவும்",
+          "reason": "padham_substring",
+          "matched_term": "aazh"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3371,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3372,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3373,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3374,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3375,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "aazh thuyar seydhu"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "aazh thuyar seydhu",
+          "meaning": "அளவிறந்த துன்பத்தை விளைந்து",
+          "meaning_snippet": "அளவிறந்த துன்பத்தை விளைந்து",
+          "reason": "padham_substring",
+          "matched_term": "aazh"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3376,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3377,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3378,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3379,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3380,
+      "theme_id": "chakkaram",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3402,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரம் செல்வன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரம் செல்வன்",
+          "meaning": "திருவாழியையுடைய திருமாலைக் குறித்து",
+          "meaning_snippet": "திருவாழியையுடைய திருமாலைக் குறித்து",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3403,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி அம் கண்ணபிரான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி அம் கண்ணபிரான்",
+          "meaning": "கடல் வண்ணனான கண்ண பிரானுடைய",
+          "meaning_snippet": "கடல் வண்ணனான கண்ண பிரானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3416,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தேர் வலவா திரு சக்கரத் தாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தேர் வலவா திரு சக்கரத் தாய்",
+          "meaning": "திருவாழிப்படையை யடையவனே!",
+          "meaning_snippet": "திருவாழிப்படையை யடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3432,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி அம் கை எம்பிரான் புகழ்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி அம் கை எம்பிரான் புகழ்",
+          "meaning": "சக்ரபாணியான அந்த எம்பெருமானுடைய திருப்புகழை",
+          "meaning_snippet": "சக்ரபாணியான அந்த எம்பெருமானுடைய திருப்புகழை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3461,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வெல் போர் ஆழிவலவனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வெல் போர் ஆழிவலவனை",
+          "meaning": "போர்க்களத்தில் வெற்றிபெறுமியல்வின்னான திருவாழி யாழ்வானை வலத்திருக்கை யிலுடையனான பெருமானை",
+          "meaning_snippet": "போர்க்களத்தில் வெற்றிபெறுமியல்வின்னான திருவாழி யாழ்வானை வலத்திருக்கை யிலுடையனான பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3462,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி வலவனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி வலவனை",
+          "meaning": "திருவாழிவலவனான ஸர்வேச்வரனை",
+          "meaning_snippet": "திருவாழிவலவனான ஸர்வேச்வரனை",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3467,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கேமியும் சங்கும் இரு கை கொண்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கேமியும் சங்கும் இரு கை கொண்டு",
+          "meaning": "திருவாழி திருச்சங்குகளை இரண்டு திருக்கையிலுமேந்திக் கொண்டு",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளை இரண்டு திருக்கையிலுமேந்திக் கொண்டு",
+          "reason": "meaning_keyword",
+          "matched_term": "திருவாழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3469,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கு சக்கரம் கையவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கு சக்கரம் கையவன்",
+          "meaning": "திருவாழி திருச்சங்குகளைத் திருக்கையிலேந்திய பெருமான்",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளைத் திருக்கையிலேந்திய பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3470,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கரணம் பல் படை பற்று அறு ஓடும் கனம் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கரணம் பல் படை பற்று அறு ஓடும் கனம் ஆழி",
+          "meaning": "உபகரணங்களையுடைய், பல சத்ருஸேனைகள் நிச்சேஷமாக வோடும்படி ஜ்வலிக்கின்ற திருவாழியாகிற",
+          "meaning_snippet": "உபகரணங்களையுடைய், பல சத்ருஸேனைகள் நிச்சேஷமாக வோடும்படி ஜ்வலிக்கின்ற திருவாழியாகிற",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3471,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியும் சங்கும் சுமப்பார் தாம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியும் சங்கும் சுமப்பார் தாம்",
+          "meaning": "திருவாழி திருச்சங்குகளைச் சுமப்பவர் தாமேயாயிருக்கிறாரே",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளைச் சுமப்பவர் தாமேயாயிருக்கிறாரே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3474,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அணி ஆர் ஆழியும் சங்கமும் ஏந்துமவர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அணி ஆர் ஆழியும் சங்கமும் ஏந்துமவர்",
+          "meaning": "ஆபரணமாப் பொருந்திய திருவாழி திருச்சங்குகளைத் தாங்கி நிற்பவருமான அப்பரமபுருஷ",
+          "meaning_snippet": "ஆபரணமாப் பொருந்திய திருவாழி திருச்சங்குகளைத் தாங்கி நிற்பவருமான அப்பரமபுருஷ",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3475,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உரு ஆர்சக்கரம் சங்கு சுமந்து இங்கு உம்மோடு ஒருபாடு உழல்வான் ஓர் அடியானும் உளன் என்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உரு ஆர்சக்கரம் சங்கு சுமந்து இங்கு உம்மோடு ஒருபாடு உழல்வான் ஓர் அடியானும் உளன் என்று",
+          "meaning": "வடிவழகார்ந்த திருவாழி திருச்சங்குகளைச் சுமந்து கொண்டு இங்கு உம்மோடு ஒரு பக்கத்திலிருந்து கொண்டு திரியுமடியானொருவனிருக்கின்றானென்று.",
+          "meaning_snippet": "வடிவழகார்ந்த திருவாழி திருச்சங்குகளைச் சுமந்து கொண்டு இங்கு உம்மோடு ஒரு பக்கத்திலிருந்து கொண்டு திரியுமடியானொருவனிருக்கி",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3476,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழியையுமுடையையான",
+          "meaning_snippet": "திருவாழியையுமுடையையான",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3495,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி சூழ் மல்லை ஞாலம் முழுது உண்ட"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி சூழ் மல்லை ஞாலம் முழுது உண்ட",
+          "meaning": "கடல் சூழ்ந்த பெரிய ஜகத்தையெல்லாம் பிரளயங்கொள்ளாமல் திருவயிற்றிலடக்கினவனாயும்",
+          "meaning_snippet": "கடல் சூழ்ந்த பெரிய ஜகத்தையெல்லாம் பிரளயங்கொள்ளாமல் திருவயிற்றிலடக்கினவனாயும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3499,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மின் ஆழி படை யாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மின் ஆழி படை யாய்",
+          "meaning": "ஒளி பொருந்திய திருவாழியைப் படையாக வுடையவனே!",
+          "meaning_snippet": "ஒளி பொருந்திய திருவாழியைப் படையாக வுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3524,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒண் சங்கு கதைவாள் ஆழியான் ஒருவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒண் சங்கு கதைவாள் ஆழியான் ஒருவன்",
+          "meaning": "அழகிய சங்கும் கதையும் வாளும் ஆழியுமுடையனான வொருவன்",
+          "meaning_snippet": "அழகிய சங்கும் கதையும் வாளும் ஆழியுமுடையனான வொருவன்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3537,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "செழு கதிர் ஆழி முதல் புகழும் பொரு படை ஏந்தி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "செழு கதிர் ஆழி முதல் புகழும் பொரு படை ஏந்தி",
+          "meaning": "மிக்க வொளியையுடைய திருவாழி முதலன புகழ்மிக்க திவ்யாயுதங்களை தரித்து",
+          "meaning_snippet": "மிக்க வொளியையுடைய திருவாழி முதலன புகழ்மிக்க திவ்யாயுதங்களை தரித்து",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3551,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Pon azhi kai"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Pon azhi kai",
+          "meaning": "அழகிய திருவாழி மோதிர மணிந்த திருக்கையை யுடையவனும்",
+          "meaning_snippet": "அழகிய திருவாழி மோதிர மணிந்த திருக்கையை யுடையவனும்",
+          "reason": "meaning_keyword",
+          "matched_term": "திருவாழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3554,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "aazhi sangu vaalvil thandu aadhi"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "aazhi sangu vaalvil thandu aadhi",
+          "meaning": "பஞ்சாயுதங்கள் முதலிய",
+          "meaning_snippet": "பஞ்சாயுதங்கள் முதலிய",
+          "reason": "padham_substring",
+          "matched_term": "aazh"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3555,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Pon aazhi kai"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Pon aazhi kai",
+          "meaning": "அழகிய திருவாழியேந்திய கையையும் உடைய",
+          "meaning_snippet": "அழகிய திருவாழியேந்திய கையையும் உடைய",
+          "reason": "padham_substring",
+          "matched_term": "aazh"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3573,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி சங்கு வாள்வில் தண்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி சங்கு வாள்வில் தண்டு",
+          "meaning": "திருவாழி முதலான பஞ்சாயு தங்களையும்",
+          "meaning_snippet": "திருவாழி முதலான பஞ்சாயு தங்களையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3590,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சுடர் ஆழி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சுடர் ஆழி",
+          "meaning": "ஒளிமிக்க திருவாழியையும்",
+          "meaning_snippet": "ஒளிமிக்க திருவாழியையும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3631,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொள் ஆழி கையாருக்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொள் ஆழி கையாருக்கு",
+          "meaning": "அழகிய திருவாழியைக் கையிலேயுடையவரும்",
+          "meaning_snippet": "அழகிய திருவாழியைக் கையிலேயுடையவரும்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3694,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி அம் கணணா"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி அம் கணணா",
+          "meaning": "அடல் போன்று விடாய் தீர்க்க வல்ல அழகிய திருக்கண்கடிளயுடிடயவனே!",
+          "meaning_snippet": "அடல் போன்று விடாய் தீர்க்க வல்ல அழகிய திருக்கண்கடிளயுடிடயவனே!",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3700,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நேமியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நேமியான்",
+          "meaning": "திருமொழியை யுடையனாய்",
+          "meaning_snippet": "திருமொழியை யுடையனாய்",
+          "reason": "padham_substring",
+          "matched_term": "நேமி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3702,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான் ஆழ்கின்றான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான் ஆழ்கின்றான்",
+          "meaning": "கையுந் திருவாழியுமான பெருமாள் காத்தருளா நின்றான்;",
+          "meaning_snippet": "கையுந் திருவாழியுமான பெருமாள் காத்தருளா நின்றான்;",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3704,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கை சக்கரத்து அண்ணல"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கை சக்கரத்து அண்ணல",
+          "meaning": "திருக்கையிலே திருவாழியைக் கொண்ட ஸ்வாமி",
+          "meaning_snippet": "திருக்கையிலே திருவாழியைக் கொண்ட ஸ்வாமி",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3706,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அணி நின்ற செம்பொன் அடல் ஆழியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அணி நின்ற செம்பொன் அடல் ஆழியான்",
+          "meaning": "தானே ஆபரணமாகப் போரும்படியாய்ச் சிவந்த பொன்போலே ஸ்ப்ருஹணீயனாய் மிடுக்கையுடையனான திருவாழியாழ்வானைக் கையிலேந்தினவனான பெருமான்",
+          "meaning_snippet": "தானே ஆபரணமாகப் போரும்படியாய்ச் சிவந்த பொன்போலே ஸ்ப்ருஹணீயனாய் மிடுக்கையுடையனான திருவாழியாழ்வானைக் கையிலேந்தினவனான பெருமா",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3707,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான்",
+        "ஆழி அமரர்க்கும் அப்பாலான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "சக்ரபாணியாய்",
+          "meaning_snippet": "சக்ரபாணியாய்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        },
+        {
+          "padham": "ஆழி அமரர்க்கும் அப்பாலான்",
+          "meaning": "கம்பீரர்களான நித்யஸூரிகளுக்கும் நிலமல்லாத மேன்மையையுடையனாய்",
+          "meaning_snippet": "கம்பீரர்களான நித்யஸூரிகளுக்கும் நிலமல்லாத மேன்மையையுடையனாய்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3714,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழிநீர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழிநீர்",
+          "meaning": "காரணபூதமான ஏகாரிண வத்தலே",
+          "meaning_snippet": "காரணபூதமான ஏகாரிண வத்தலே",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3722,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழியான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "திருவாழியை யுடையனான எம்பெருமான்",
+          "meaning_snippet": "திருவாழியை யுடையனான எம்பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3729,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சக்கரத்தன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சக்கரத்தன்",
+          "meaning": "திருவாழிப்படையை யுடையனாய்",
+          "meaning_snippet": "திருவாழிப்படையை யுடையனாய்",
+          "reason": "padham_substring",
+          "matched_term": "சக்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3741,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆழி வண்ணன் என் அம்மான"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆழி வண்ணன் என் அம்மான",
+          "meaning": "கன்பீரஸ்வபாவனாயிருக்கின்ற எம்பெருமானுடைய",
+          "meaning_snippet": "கன்பீரஸ்வபாவனாயிருக்கின்ற எம்பெருமானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "ஆழி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3760,
+      "theme_id": "chakkaram",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Aazhiyaan thamar"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Aazhiyaan thamar",
+          "meaning": "“திருவாழியை யேந்திய எம்பெருமாளுக்கு அடிமைப்பட்டவர்களே!",
+          "meaning_snippet": "“திருவாழியை யேந்திய எம்பெருமாளுக்கு அடிமைப்பட்டவர்களே!",
+          "reason": "padham_substring",
+          "matched_term": "Aazh"
+        }
+      ]
+    }
+  ]
+}

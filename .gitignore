@@ -1,0 +1,24 @@
+# --- Secrets (never commit) ---
+poc/config.ini
+poc/config.test.ini
+poc/config.prod.ini
+public_html/database.php
+public_html/dbloadsql.py
+# URL guard key for one-time seeding
+public_html/seed_divyaprabandham_counts.php
+# WordPress install (92MB, contains wp-config.php credentials)
+public_html/sl/
+wp-config.php
+
+# --- Python environment / caches ---
+poc/.venv/
+__pycache__/
+*.pyc
+
+# --- Generated / regenerable ---
+poc/output/
+poc/cache/
+lookupsimilarwords/extracts/
+
+# --- OS / editor noise ---
+.DS_Store

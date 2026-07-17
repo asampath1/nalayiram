@@ -1,0 +1,683 @@
+{
+  "theme_id": "sivan",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 63,
+  "detector_would_tag": 21,
+  "detector_missed": 42,
+  "missed_pasuram_numbers": [
+    247,
+    392,
+    928,
+    2060,
+    2086,
+    2259,
+    2797,
+    2906,
+    2937,
+    2999,
+    3004,
+    3084,
+    3093,
+    3137,
+    3219,
+    3387,
+    3393,
+    3394,
+    3395,
+    3398,
+    3477,
+    3485,
+    3488,
+    3489,
+    3497,
+    3523,
+    3524,
+    3525,
+    3526,
+    3527,
+    3528,
+    3529,
+    3530,
+    3531,
+    3532,
+    3533,
+    3580,
+    3642,
+    3650,
+    3683,
+    3738,
+    3739
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 0,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஏர் ஆர் சிவன் பிறந்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஏர் ஆர் சிவன் பிறந்தான்",
+          "meaning": "ஸாதநாநுஷ்டாநத்தினால் பூர்ணனான சிவன் பிறந்தான்",
+          "meaning_snippet": "ஸாதநாநுஷ்டாநத்தினால் பூர்ணனான சிவன் பிறந்தான்",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 105,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஈசன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஈசன்",
+          "meaning": "சிவன்",
+          "meaning_snippet": "சிவன்",
+          "reason": "meaning_keyword",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 247,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 360,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மூவர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மூவர்",
+          "meaning": "பிரமன், ருத்ரன், இந்திரன் என்ற மூவருடைய",
+          "meaning_snippet": "பிரமன், ருத்ரன், இந்திரன் என்ற மூவருடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 392,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 393,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சங்கரன் சடையினில்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சங்கரன் சடையினில்",
+          "meaning": "சிவபெருமானுடைய ஜடையிலும்",
+          "meaning_snippet": "சிவபெருமானுடைய ஜடையிலும்",
+          "reason": "padham_substring",
+          "matched_term": "சங்கர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 928,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2060,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2085,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரன்",
+          "meaning": "சிவன்",
+          "meaning_snippet": "சிவன்",
+          "reason": "meaning_keyword",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2086,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2193,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கண் நுதலோன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கண் நுதலோன்",
+          "meaning": "நெற்றிக்கண்ணனான ருத்ரனும்",
+          "meaning_snippet": "நெற்றிக்கண்ணனான ருத்ரனும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2198,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒற்றை பிறை இருந்த செம்சடையான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒற்றை பிறை இருந்த செம்சடையான்",
+          "meaning": "ஓருகலாமாத்திரமான சந்திரனைத் தரித்த சிவந்த சடையையுடைய ருத்ரன்",
+          "meaning_snippet": "ஓருகலாமாத்திரமான சந்திரனைத் தரித்த சிவந்த சடையையுடைய ருத்ரன்",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2244,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "எரி உருவத்து ஏறு ஏறிபட்ட"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "எரி உருவத்து ஏறு ஏறிபட்ட",
+          "meaning": "நெருப்புப்போன்ற உருவத்தையுடையவனும் வருஷப வாஹநனுமான ருத்ரன் அநுபவித்த",
+          "meaning_snippet": "நெருப்புப்போன்ற உருவத்தையுடையவனும் வருஷப வாஹநனுமான ருத்ரன் அநுபவித்த",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2259,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2277,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மா கடல் நஞ்சு உண்டான் தனக்கும் இறை ஆவான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மா கடல் நஞ்சு உண்டான் தனக்கும் இறை ஆவான்",
+          "meaning": "பெரிய கடலில் நின்று உண்டான விஷத்தை உட்கொண்டவனான ருத்ரனுக்கும் ஸ்வாமியாயிருப்பவனுமான",
+          "meaning_snippet": "பெரிய கடலில் நின்று உண்டான விஷத்தை உட்கொண்டவனான ருத்ரனுக்கும் ஸ்வாமியாயிருப்பவனுமான",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2312,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நறவு என்றான் பாகத்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நறவு என்றான் பாகத்தான்",
+          "meaning": "தேன்போன்ற கங்கையை ஏற்றுக் கொண்டவனான ருத்ரனைத் திருமேனியின் ஒரு பாகத்திலே உடையவனும்",
+          "meaning_snippet": "தேன்போன்ற கங்கையை ஏற்றுக் கொண்டவனான ருத்ரனைத் திருமேனியின் ஒரு பாகத்திலே உடையவனும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2797,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2798,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஏறனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஏறனை",
+          "meaning": "ரிஷப வாஹனனான ருத்ரனையும்",
+          "meaning_snippet": "ரிஷப வாஹனனான ருத்ரனையும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2869,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சிவன் முடிமேல்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சிவன் முடிமேல்",
+          "meaning": "சிவபிரானுடைய தளைமேல்",
+          "meaning_snippet": "சிவபிரானுடைய தளைமேல்",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2903,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரன் முதலா"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரன் முதலா",
+          "meaning": "சிவன் முலான",
+          "meaning_snippet": "சிவன் முலான",
+          "reason": "meaning_keyword",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2906,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2937,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2999,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3004,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3084,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3091,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தவிர்த்த தெரிவு அரிய சிவன் பிரடன் அமரர் கோன்;"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தவிர்த்த தெரிவு அரிய சிவன் பிரடன் அமரர் கோன்;",
+          "meaning": "(இவ்வுபகாரத்திற்காக) அறிய முடியாத சிவன் பிரமன் இந்திரன் ஆகிய இவர்கள்",
+          "meaning_snippet": "(இவ்வுபகாரத்திற்காக) அறிய முடியாத சிவன் பிரமன் இந்திரன் ஆகிய இவர்கள்",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3093,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3109,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சிவனுக்கும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சிவனுக்கும்",
+          "meaning": "ருத்ரனுக்கும்",
+          "meaning_snippet": "ருத்ரனுக்கும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3137,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3219,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3315,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சிவன் ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சிவன் ஆய்",
+          "meaning": "சிவனுக்கு அந்தர்யாமியும்",
+          "meaning_snippet": "சிவனுக்கு அந்தர்யாமியும்",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3318,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பிரமன் சிவன் இந்திரன் விண்ணவர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பிரமன் சிவன் இந்திரன் விண்ணவர்",
+          "meaning": "பிரமன் முதலான தேவர்களெல்லாம்",
+          "meaning_snippet": "பிரமன் முதலான தேவர்களெல்லாம்",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3387,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3393,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3394,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3395,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3398,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3413,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பிரமன் சிவன் இந்திரன் என்ற இவர்க்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பிரமன் சிவன் இந்திரன் என்ற இவர்க்கு",
+          "meaning": "பிரமன் சிவன் இந்திரன் என்று சொல்லிப் பட்ட இவர்களுடைய",
+          "meaning_snippet": "பிரமன் சிவன் இந்திரன் என்று சொல்லிப் பட்ட இவர்களுடைய",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3457,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உருத்திரன் அப்பனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உருத்திரன் அப்பனை",
+          "meaning": "ஸம்ஹாரக்கடவுளாகிய ருத்ரனுக்கு தலைவனும்",
+          "meaning_snippet": "ஸம்ஹாரக்கடவுளாகிய ருத்ரனுக்கு தலைவனும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ருத்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3477,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3485,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3488,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3489,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3497,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3523,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3524,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3525,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3526,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3527,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3528,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3529,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3530,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3531,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3532,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3533,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3534,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அயன் ஆம் சிவன் ஆம் திருமாலால்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அயன் ஆம் சிவன் ஆம் திருமாலால்",
+          "meaning": "பிரமனுக்கும் சிவனுக்கும் அந்தர்யாமியாயிருந்து ஸ்ருஷ்டி ஸம்ஹாரங்களை நிர்வஹிக்கிற எம்பெருமானாலே",
+          "meaning_snippet": "பிரமனுக்கும் சிவனுக்கும் அந்தர்யாமியாயிருந்து ஸ்ருஷ்டி ஸம்ஹாரங்களை நிர்வஹிக்கிற எம்பெருமானாலே",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3580,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3642,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3650,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3683,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3738,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3739,
+      "theme_id": "sivan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3768,
+      "theme_id": "sivan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பிரமன் சிவன் இந்திரன் ஆதிக்கு எல்லாம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பிரமன் சிவன் இந்திரன் ஆதிக்கு எல்லாம்",
+          "meaning": "பிரமன் சிவன் இந்திரன் முதலானார்க்கும்",
+          "meaning_snippet": "பிரமன் சிவன் இந்திரன் முதலானார்க்கும்",
+          "reason": "padham_substring",
+          "matched_term": "சிவன்"
+        }
+      ]
+    }
+  ]
+}

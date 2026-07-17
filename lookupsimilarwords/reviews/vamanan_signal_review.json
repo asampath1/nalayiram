@@ -1,0 +1,3506 @@
+{
+  "theme_id": "vamanan",
+  "primary_similarwords_tag": "வாமனன்",
+  "source_table": "PasuramsArthamTablePOC",
+  "reviewed_at": "2026-05-28T17:17:49.864092+00:00",
+  "pasuram_count": 94,
+  "detector_would_tag_count": 81,
+  "candidate_meaning_keywords": [
+    {
+      "stem": "பலி",
+      "line_hits": 20
+    },
+    {
+      "stem": "மூவட",
+      "line_hits": 6
+    }
+  ],
+  "candidate_padham_substrings": [],
+  "top_thematic_padhams": [
+    {
+      "padham": "மாவலி",
+      "strong_line_hits": 3
+    },
+    {
+      "padham": "குறள் ஆய்",
+      "strong_line_hits": 3
+    },
+    {
+      "padham": "அளந்த",
+      "strong_line_hits": 3
+    },
+    {
+      "padham": "அளந்து",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "அளந்தாய்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "வாமனன்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "வாமனா",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "மாணி குறளனே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அளந்தானே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "உலகம் அளந்தானே! தாலேலோ!",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மாவலி இடை சென்று கேள்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "குறளும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "திரிவிக்கிரமன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மா வலி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வேள்வியில்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இது",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "காவின் கீழ்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "புறம் புல்குவான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒருவனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒரு மாணி ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அளந்தான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வாமந நம்பி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "முன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மன்னன் தன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இ உலகினை முற்றும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அளந்தவன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வாமன நம்பீ! இங்கே வருக-;",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஓர் அடி இட்டு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "தரணி அளந்தானால்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மண்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "குடங் கையில்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "குறள் பிரம சாரி ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "பக வலிமை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "குறள் உரு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "உலகம் அளந்தான் தமர்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "திருவிக்கிரமன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கோலம் கொண்ட குறள் உரு ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மாவலி தன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கொண்டவன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "உலகு அளந்தான்",
+      "strong_line_hits": 1
+    }
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 44,
+      "line_count": 3,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மாணி குறளனே",
+          "meaning": "ப்ரஹம்சாரி வாமநாவதாரம் பண்ணின கண்ணனே!",
+          "meaning_snippet": "ப்ரஹம்சாரி வாமநாவதாரம் பண்ணின கண்ணனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அளந்தானே",
+          "meaning": "(த்ரிவிக்ரமனாய்) அளந்தவனே!",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்) அளந்தவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "வையம்"
+      ]
+    },
+    {
+      "pasuram_number": 45,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உலகம் அளந்தானே! தாலேலோ!",
+          "meaning": "தாலேலோ",
+          "meaning_snippet": "தாலேலோ",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 61,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மாவலி இடை சென்று கேள்",
+          "meaning": "மஹாபலியிடம் போய்க் கேட்டுக்கொள்;",
+          "meaning_snippet": "மஹாபலியிடம் போய்க் கேட்டுக்கொள்;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [
+            "மாவலி"
+          ],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": [
+            "மாவலி"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 74,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குறளும்",
+          "meaning": "வாமந ரூபியாயும்",
+          "meaning_snippet": "வாமந ரூபியாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 94,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திரிவிக்கிரமன்",
+          "meaning": "(தனது) மூவடியால் (உலகங்களை) அளந்தவனாகிய இவன்",
+          "meaning_snippet": "(தனது) மூவடியால் (உலகங்களை) அளந்தவனாகிய இவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த",
+            "மூவடி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அளந்த",
+            "மூவட"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 103,
+      "line_count": 17,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மா வலி",
+          "meaning": "மஹாபலி (செய்த)",
+          "meaning_snippet": "மஹாபலி (செய்த)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "வேள்வியில்",
+          "meaning": "யாகத்திலே (வாமநனாய்ச் சென்ற உனககு அந்த மஹாபலி நீ கேட்டதைக் கொöடுக்க முயன்ற வளவிலே)",
+          "meaning_snippet": "யாகத்திலே (வாமநனாய்ச் சென்ற உனககு அந்த மஹாபலி நீ கேட்டதைக் கொöடுக்க முயன்ற வளவிலே)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந",
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந",
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மிக்க பெரும்புகழ்",
+        "இது",
+        "தக்கது அன்று",
+        "என்று",
+        "தானம்"
+      ]
+    },
+    {
+      "pasuram_number": 104,
+      "line_count": 16,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இது",
+          "meaning": "(வாமநனாய்ச் சென்ற திருமால் மாவலியிடத்தில் நீரேற்றுத் திரிவிக்கிரமனாய் வளர்ந்து அளக்கப் புகும் போது அது கண்ட மஹாபலி புத்ரனான நமுசி ஓடிவந்து) (யாசிக்கும் போதிருந்த வடிவம் மாறி யளக்கிற) இது",
+          "meaning_snippet": "(வாமநனாய்ச் சென்ற திருமால் மாவலியிடத்தில் நீரேற்றுத் திரிவிக்கிரமனாய் வளர்ந்து அளக்கப் புகும் போது அது கண்ட மஹாபலி புத்ர",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந",
+            "மஹாபல",
+            "மாவலி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந",
+            "மாவலி",
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "என் மாயம்",
+        "என் அப்பன்",
+        "அறிந்திலன்",
+        "முன்னைய வண்ணமே கொண்டு",
+        "அளவாய்"
+      ]
+    },
+    {
+      "pasuram_number": 112,
+      "line_count": 11,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காவின் கீழ்",
+          "meaning": "சோலையின் கீழேயிருந்து (மாவலியிடத்தில் மூவடி மண்ணை இரந்து பெற்று)",
+          "meaning_snippet": "சோலையின் கீழேயிருந்து (மாவலியிடத்தில் மூவடி மண்ணை இரந்து பெற்று)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [
+            "மாவலி",
+            "மூவடி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "மாவலி",
+            "மூவட"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "புறம் புல்குவான்",
+          "meaning": "வாமனன் என்னை புறம் புல்குவான்",
+          "meaning_snippet": "வாமனன் என்னை புறம் புல்குவான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "பண்டு",
+        "வெண்கலம் பத்திரம்",
+        "கட்டி",
+        "விளையாடி",
+        "பல கண் செய்த"
+      ]
+    },
+    {
+      "pasuram_number": 113,
+      "line_count": 16,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒருவனை",
+          "meaning": "(ஔதார்யத்தில்) அத்விதீயனான மஹாபலியினிடத்திலே",
+          "meaning_snippet": "(ஔதார்யத்தில்) அத்விதீயனான மஹாபலியினிடத்திலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "ஒரு மாணி ஆய்",
+          "meaning": "ஒரு ப்ரஹ்மசாரி வாமகனாய் (போய்)",
+          "meaning_snippet": "ஒரு ப்ரஹ்மசாரி வாமகனாய் (போய்)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அளந்தான்",
+          "meaning": "(திரிவிக்கிரமனாய்) அளந்த இவன்",
+          "meaning_snippet": "(திரிவிக்கிரமனாய்) அளந்த இவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "உத்தர வேதியில் நின்ற",
+        "சத்திரம்",
+        "ஏந்தி",
+        "தனி",
+        "கத்திரியர்"
+      ]
+    },
+    {
+      "pasuram_number": 146,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமந நம்பி",
+          "meaning": "வாமந மூ­ர்த்தியே!",
+          "meaning_snippet": "வாமந மூ­ர்த்தியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": [
+            "வாம",
+            "வாமந"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 170,
+      "line_count": 13,
+      "strong_line_count": 4,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "முன்",
+          "meaning": "வாமநாவதார காலத்தில்",
+          "meaning_snippet": "வாமநாவதார காலத்தில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மன்னன் தன்",
+          "meaning": "அஸுரராஜனான மஹாபலியினுடைய",
+          "meaning_snippet": "அஸுரராஜனான மஹாபலியினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இ உலகினை முற்றும்",
+          "meaning": "(மஹாபலியினிடத்திற்போய் ‘கொள்வன் நான் மாவலி’ என்று மூவடி மண் இரந்து பெற்றுப் பின்பு த்ரிவிக்ரமனாய்) இந்த வுலகங்கள் முழுவதையும்",
+          "meaning_snippet": "(மஹாபலியினிடத்திற்போய் ‘கொள்வன் நான் மாவலி’ என்று மூவடி மண் இரந்து பெற்றுப் பின்பு த்ரிவிக்ரமனாய்) இந்த வுலகங்கள் முழுவத",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "மஹாபல",
+            "மாவலி",
+            "மூவடி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "விக்ர",
+            "மாவலி",
+            "பலி",
+            "மூவட"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அளந்தவன்",
+          "meaning": "அளந்து கொண்ட இவனுடைய",
+          "meaning_snippet": "அளந்து கொண்ட இவனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "தேவிமார்",
+        "கண்டு",
+        "மகிழ்வு எய்த",
+        "பொன் முடியினை",
+        "பூஅணை மேல் வைத்து"
+      ]
+    },
+    {
+      "pasuram_number": 203,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமன நம்பீ! இங்கே வருக-;",
+          "meaning": "வாமன நம்பீ! இவ்விடத்திலே வருவாயாக;",
+          "meaning_snippet": "வாமன நம்பீ! இவ்விடத்திலே வருவாயாக;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 219,
+      "line_count": 12,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மாவலி",
+          "meaning": "மஹாபலியினுடைய",
+          "meaning_snippet": "மஹாபலியினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [
+            "மாவலி"
+          ],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": [
+            "மாவலி"
+          ]
+        },
+        {
+          "padham": "ஓர் அடி இட்டு",
+          "meaning": "(அளந்து தன் வசப்படுத்தத் தொடங்கின வளவிலே) (பூமிப் பரப்படங்கலும் தனக்குள்ளே யாம்படி) ஓரடியைப் பரப்ப வைத்து (அளந்து)",
+          "meaning_snippet": "(அளந்து தன் வசப்படுத்தத் தொடங்கின வளவிலே) (பூமிப் பரப்படங்கலும் தனக்குள்ளே யாம்படி) ஓரடியைப் பரப்ப வைத்து (அளந்து)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "தரணி அளந்தானால்",
+          "meaning": "(தேவேந்திரனாகிய ஒரு ஆச்ரிதனுக்காக இப்படி) லோகத்தை அளந்தவனாலே",
+          "meaning_snippet": "(தேவேந்திரனாகிய ஒரு ஆச்ரிதனுக்காக இப்படி) லோகத்தை அளந்தவனாலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "வேள்வியில்",
+        "மாண் உரு ஆய் சென்று",
+        "மூ அடி தா என்று",
+        "இரந்து",
+        "இம் மண்ணினை"
+      ]
+    },
+    {
+      "pasuram_number": 357,
+      "line_count": 23,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மண்",
+          "meaning": "(மஹாபலியினால் தன் வசமாக்கிக் கொள்ளப்பட்ட) பூமியை",
+          "meaning_snippet": "(மஹாபலியினால் தன் வசமாக்கிக் கொள்ளப்பட்ட) பூமியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "குடங் கையில்",
+          "meaning": "(வாமந ரூபியாய் அவதரித்து) அகங்கையில்",
+          "meaning_snippet": "(வாமந ரூபியாய் அவதரித்து) அகங்கையில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அளந்து",
+          "meaning": "அளந்தருளியும்",
+          "meaning_snippet": "அளந்தருளியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மண்",
+        "இடந்து",
+        "கோடு",
+        "கொண்டு",
+        "கொண்டு"
+      ]
+    },
+    {
+      "pasuram_number": 392,
+      "line_count": 27,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "முடி",
+        "கொன்றை மலரும்",
+        "நாரணன்",
+        "பாதத் துழாயும்",
+        "கலந்து"
+      ]
+    },
+    {
+      "pasuram_number": 393,
+      "line_count": 22,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சதுமுகன் கையில்",
+        "சதுப்புயன் தாளில்",
+        "சங்கரன் சடையினில்",
+        "தங்கி",
+        "கதிர்"
+      ]
+    },
+    {
+      "pasuram_number": 418,
+      "line_count": 21,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குறள் பிரம சாரி ஆய்",
+          "meaning": "வாமக ப்ரஹ்மசாரியாய் (எழுந்தருளி)",
+          "meaning_snippet": "வாமக ப்ரஹ்மசாரியாய் (எழுந்தருளி)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "பக வலிமை",
+          "meaning": "மஹாபலியினடைய",
+          "meaning_snippet": "மஹாபலியினடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "குறும்பு அதக்கி",
+        "அரசு",
+        "வாங்கி",
+        "இறைப் பொழுதில்",
+        "பாதாளம்"
+      ]
+    },
+    {
+      "pasuram_number": 420,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குறள் ஆய்",
+          "meaning": "வாமனாயும்",
+          "meaning_snippet": "வாமனாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 441,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளந்தாய்",
+          "meaning": "(திரிவிக்கிரமாவதாரத்தில்) அளந்து கொண்டவனே!",
+          "meaning_snippet": "(திரிவிக்கிரமாவதாரத்தில்) அளந்து கொண்டவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "உலகு ஏழும்"
+      ]
+    },
+    {
+      "pasuram_number": 442,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமனன்",
+          "meaning": "வாமாநாவதாரம் செய்தருளியவனும்",
+          "meaning_snippet": "வாமாநாவதாரம் செய்தருளியவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 447,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குறள் உரு",
+          "meaning": "வாமனாய் அவதரித்தவனும்",
+          "meaning_snippet": "வாமனாய் அவதரித்தவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மாணி"
+      ]
+    },
+    {
+      "pasuram_number": 462,
+      "line_count": 20,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உலகம் அளந்தான் தமர்",
+          "meaning": "திரிவிக்கிரமாவதாரம் செய்தருளின எம்பெருமானுக்குச் சேஷ பூதர்களாகப் பெறுவர்",
+          "meaning_snippet": "திரிவிக்கிரமாவதாரம் செய்தருளின எம்பெருமானுக்குச் சேஷ பூதர்களாகப் பெறுவர்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "உலகம்",
+        "சென்று",
+        "குடைந்து",
+        "ஆடும்",
+        "சுனை"
+      ]
+    },
+    {
+      "pasuram_number": 510,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திருவிக்கிரமன்",
+          "meaning": "திருவிக்ரமனென்னும் திருநாமமுடையனுமான கண்ணபிரான்",
+          "meaning_snippet": "திருவிக்ரமனென்னும் திருநாமமுடையனுமான கண்ணபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "திருவிக",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "திருவிக"
+          ],
+          "alias_hits_padham": [
+            "திருவிக"
+          ],
+          "review_stems_meaning": [
+            "திருவிக",
+            "விக்ர"
+          ],
+          "review_stems_padham": [
+            "திருவிக"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 535,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமனன்",
+          "meaning": "வாமநாவதாரம் செய்தருளிய எம்பெருமான்",
+          "meaning_snippet": "வாமநாவதாரம் செய்தருளிய எம்பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 542,
+      "line_count": 10,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கோலம் கொண்ட குறள் உரு ஆய்",
+          "meaning": "(முப்புரி நூலும் க்ருஷ்ணாஜிநமும் முஞ்ஜியும் பவித்ரமும் தண்டுமான) கோலம் பூண்ட வாமந ரூபியாய்",
+          "meaning_snippet": "(முப்புரி நூலும் க்ருஷ்ணாஜிநமும் முஞ்ஜியும் பவித்ரமும் தண்டுமான) கோலம் பூண்ட வாமந ரூபியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மாவலி தன்",
+          "meaning": "பெரு வேள்வியில் சென்று",
+          "meaning_snippet": "பெரு வேள்வியில் சென்று",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "மாவலி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "மாவலி"
+          ]
+        },
+        {
+          "padham": "கொண்டவன்",
+          "meaning": "அளந்து கொண்ட த்ரிவிக்ரமன்",
+          "meaning_snippet": "அளந்து கொண்ட த்ரிவிக்ரமன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "பண்டு",
+        "அண்டமும்",
+        "நிலனும்",
+        "அடி ஒன்றினால்",
+        "வரில்"
+      ]
+    },
+    {
+      "pasuram_number": 549,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உலகு அளந்தான்",
+          "meaning": "(த்ரிவிக்ரமனாய்) உலகங்களை அளந்த பெருமான்",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்) உலகங்களை அளந்த பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 554,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அன்று",
+          "meaning": "மஹாபலி கொழுத்திருந்த அக் காலத்தில்",
+          "meaning_snippet": "மஹாபலி கொழுத்திருந்த அக் காலத்தில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "உலகம் அளந்தானை",
+          "meaning": "மூவுலகங்களையும் அளந்து கொண்டவனான எம்பெருமான் விஷயத்திலே",
+          "meaning_snippet": "மூவுலகங்களையும் அளந்து கொண்டவனான எம்பெருமான் விஷயத்திலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 574,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உலகு அளந்தான் வாய் அமுதம்",
+          "meaning": "உலகங்களை அளந்தவனான் எம்பெருமானுடைய திருவாயிலுள்ள அம்ருதம்",
+          "meaning_snippet": "உலகங்களை அளந்தவனான் எம்பெருமானுடைய திருவாயிலுள்ள அம்ருதம்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 582,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": false,
+      "strong_lines": [
+        {
+          "padham": "மா வலியை",
+          "meaning": "மஹா பலியிடமிருந்து",
+          "meaning_snippet": "மஹா பலியிடமிருந்து",
+          "strength": "thematic_candidate",
+          "detector_match": false,
+          "detector_reason": null,
+          "detector_term": null,
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நிலம் கொண்டான் வேங்கடத்து"
+      ]
+    },
+    {
+      "pasuram_number": 610,
+      "line_count": 3,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமனனார்",
+          "meaning": "(முன்பு) வாமநாவதாரம் செய்தருளினவராய்",
+          "meaning_snippet": "(முன்பு) வாமநாவதாரம் செய்தருளினவராய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        },
+        {
+          "padham": "பண்டு",
+          "meaning": "முன்பு (மஹாபலி யிடத்தில்)",
+          "meaning_snippet": "முன்பு (மஹாபலி யிடத்தில்)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நீர் ஏற்ற பிச்சை குறை ஆகி"
+      ]
+    },
+    {
+      "pasuram_number": 611,
+      "line_count": 6,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொல்லா குறள் உரு ஆய்",
+          "meaning": "விலக்ஷண வாமந ருபியாய்",
+          "meaning_snippet": "விலக்ஷண வாமந ருபியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அளந்து கொண்ட",
+          "meaning": "தன் வசப் படுத்திக் கொண்ட",
+          "meaning_snippet": "தன் வசப் படுத்திக் கொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        },
+        {
+          "padham": "எம் பெருமான்",
+          "meaning": "ஸ்வாமியாய்",
+          "meaning_snippet": "ஸ்வாமியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "பொன் கையில்",
+        "நீர் ஏற்று",
+        "எல்லா உலகும்"
+      ]
+    },
+    {
+      "pasuram_number": 618,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மாணி உரு ஆய் உலகு அளந்த மாயனை காணில்",
+          "meaning": "(மாவலியினிடத்தில்) வாமகரூபியாய்ச் சென்று (த்ரிவிக்ரமனாகி) உலகங்களை யெல்லாம் அளந்து கொண்ட பெருமானை ஸேவிக்கப்பெற்றால்",
+          "meaning_snippet": "(மாவலியினிடத்தில்) வாமகரூபியாய்ச் சென்று (த்ரிவிக்ரமனாகி) உலகங்களை யெல்லாம் அளந்து கொண்ட பெருமானை ஸேவிக்கப்பெற்றால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "வாம",
+            "விக்ர",
+            "மாவலி",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "விக்ர",
+            "மாவலி",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 625,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உலகு அளந்தான் என்று",
+          "meaning": "உலகளந்த பெருமானே! என்று",
+          "meaning_snippet": "உலகளந்த பெருமானே! என்று",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2056,
+      "line_count": 17,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காமரு சீர் அவுணன்",
+          "meaning": "நல்லபாக்யசாலியான மஹாபலியானவன்",
+          "meaning_snippet": "நல்லபாக்யசாலியான மஹாபலியானவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "ஒரு கால்",
+        "ஒண் மிதியில்",
+        "புனல் உருவி நிற்ப",
+        "ஒரு காலும்",
+        "உள்ளத்து எண்மதியும் கடந்து"
+      ]
+    },
+    {
+      "pasuram_number": 2071,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பார் அளந்து",
+          "meaning": "(த்ரிவிக்ரமாவதாரத்தில்) அப்பூமியை அளந்தும்",
+          "meaning_snippet": "(த்ரிவிக்ரமாவதாரத்தில்) அப்பூமியை அளந்தும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2079,
+      "line_count": 2,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகம் மூன்றி னையும் திரிந்து",
+        "மன் இலங்கு"
+      ]
+    },
+    {
+      "pasuram_number": 2084,
+      "line_count": 11,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளவுகண்ட பெருமான்",
+          "meaning": "முடித்த ஸ்வாமியியே!",
+          "meaning_snippet": "முடித்த ஸ்வாமியியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "ஓர் அடி",
+        "பார் அளவும் வைத்து",
+        "ஓர் அடியும்",
+        "பார் உடுத்த",
+        "நீர் அளவும்"
+      ]
+    },
+    {
+      "pasuram_number": 2090,
+      "line_count": 9,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நீ அளந்த",
+          "meaning": "நீ அளந்து திருவடி கீழ் இட்டுக்கொண்ட",
+          "meaning_snippet": "நீ அளந்து திருவடி கீழ் இட்டுக்கொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மா வடிவில்",
+        "மண்",
+        "பொருகோடு ஓர் ஏனம் ஆய்",
+        "புக்கு",
+        "இடந்தாய்க்கு அன்று"
+      ]
+    },
+    {
+      "pasuram_number": 2710,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "kurai maan aay",
+          "meaning": "வாமந ப்ரம்மசாரியாய்",
+          "meaning_snippet": "வாமந ப்ரம்மசாரியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "ulaga irandha"
+      ]
+    },
+    {
+      "pasuram_number": 2757,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "Pulan Kol Maan Aay",
+          "meaning": "(கண் முதலிய) இந்திரியங்களைக் கவர்ந்து கொள்கின்ற (மநோ ஹரமான) வாமந ப்ரம்மசாரி சேஷத்தை யுடையவனாய்",
+          "meaning_snippet": "(கண் முதலிய) இந்திரியங்களைக் கவர்ந்து கொள்கின்ற (மநோ ஹரமான) வாமந ப்ரம்மசாரி சேஷத்தை யுடையவனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "Nilam Kondaan",
+          "meaning": "(மூவடி) நிலத்தை பிக்ஷை யேற்றுக் கொண்டான்.",
+          "meaning_snippet": "(மூவடி) நிலத்தை பிக்ஷை யேற்றுக் கொண்டான்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மூவடி",
+          "alias_hits_meaning": [
+            "மூவடி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "மூவட"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2774,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒரு மாணி குறள் ஆகி நிமிர்ந்த",
+          "meaning": "ஒப்பற்ற பிரமசாரி வாமனனான் வளர்ந்தருளின",
+          "meaning_snippet": "ஒப்பற்ற பிரமசாரி வாமனனான் வளர்ந்தருளின",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2778,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஓர் மூ அடி கொண்டானை",
+          "meaning": "(மற்றொருகால் அவ்வுலகங்களை) மூன்றடிகளாலே அளந்து கொண்டவனுமான பெருமானை",
+          "meaning_snippet": "(மற்றொருகால் அவ்வுலகங்களை) மூன்றடிகளாலே அளந்து கொண்டவனுமான பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2794,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மண் அளந்த",
+          "meaning": "(த்ரிவிக்ரமனாய்ப்) பூமியை அளந்து கொண்டவனுமான",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்ப்) பூமியை அளந்து கொண்டவனுமான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2809,
+      "line_count": 3,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குறள் ஆய்",
+          "meaning": "வாமன மூர்த்தியாகி",
+          "meaning_snippet": "வாமன மூர்த்தியாகி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மாவலி",
+          "meaning": "‘மகாபலியே!",
+          "meaning_snippet": "‘மகாபலியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "மாவலி"
+          ],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": [
+            "மாவலி"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மூ அடி நிலம் என்று"
+      ]
+    },
+    {
+      "pasuram_number": 2828,
+      "line_count": 11,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமனனை",
+          "meaning": "வாமனனைக்குறித்து",
+          "meaning_snippet": "வாமனனைக்குறித்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        },
+        {
+          "padham": "அடி",
+          "meaning": "(அந்த வாமனமூர்த்தியின்) திருவடிகளில்",
+          "meaning_snippet": "(அந்த வாமனமூர்த்தியின்) திருவடிகளில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "வாட்டம் இல் புகழ்",
+        "வண்சடகோபன்",
+        "இசை கூட்டி",
+        "சொல்",
+        "அமை"
+      ]
+    },
+    {
+      "pasuram_number": 2840,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "என் பொல்லாத் திருக் குறளா",
+          "meaning": "என்னுடைய அனுபவத்திற்கு உரிய அழகிய வாமன மூர்த்தியே",
+          "meaning_snippet": "என்னுடைய அனுபவத்திற்கு உரிய அழகிய வாமன மூர்த்தியே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2856,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அம்மான் திரி விக்கிரமனை விதி சூழ்ந்துத",
+          "meaning": "ஸ்வாமியான த்ரிவிக்ரமனை விதி சூழ்ந்து கொண்டது",
+          "meaning_snippet": "ஸ்வாமியான த்ரிவிக்ரமனை விதி சூழ்ந்து கொண்டது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "விக்ர"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "விக்ர"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2857,
+      "line_count": 12,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "என் வாமனனே",
+          "meaning": "எனக்காக வாமனாவதாரமெடுத்த பகவானே!",
+          "meaning_snippet": "எனக்காக வாமனாவதாரமெடுத்த பகவானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        },
+        {
+          "padham": "திரிவிக்கிரமன் என்று",
+          "meaning": "மூவடியாலே உலகங்களையெல்லாமளந்தவன் என்றும்",
+          "meaning_snippet": "மூவடியாலே உலகங்களையெல்லாமளந்தவன் என்றும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மூவடி",
+          "alias_hits_meaning": [
+            "மூவடி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "மூவட"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "செம் தாமரை கண் எம்மான் என்று",
+          "meaning": "செந்தாமரை போன்ற கண்களையுடைய ஸ்வாமியென்றும்",
+          "meaning_snippet": "செந்தாமரை போன்ற கண்களையுடைய ஸ்வாமியென்றும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "என் செம் கனிவாய உருவில் பொலிந்த வெள்ளை பளிங்கு நிறத்தனன் என்று",
+        "உள்ளி",
+        "பரவி",
+        "பணிந்து",
+        "பல் ஊழி ஊழி"
+      ]
+    },
+    {
+      "pasuram_number": 2858,
+      "line_count": 12,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமனன் என்று",
+          "meaning": "வாமன மூர்த்தியே யென்று சொல்லியும்",
+          "meaning_snippet": "வாமன மூர்த்தியே யென்று சொல்லியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "என் சிரீதரனே",
+        "என் மரதகம் வண்ணன் என்று",
+        "தாமரைக் கண்ணினன் என்று",
+        "காமனை பயந்தாய் என்று",
+        "உன் கழல்"
+      ]
+    },
+    {
+      "pasuram_number": 2869,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உலகு அளந்த சே அடி மேல்",
+          "meaning": "உலகமளந்த திருவடிகளிலே",
+          "meaning_snippet": "உலகமளந்த திருவடிகளிலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2870,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளந்து",
+          "meaning": "த்ரிவிக்ரமாவதாரஞ் செய்தும்.",
+          "meaning_snippet": "த்ரிவிக்ரமாவதாரஞ் செய்தும்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "விக்ர"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2906,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளந்தாய்",
+          "meaning": "(வாமன மூர்த்தியாய்) அளந்துகொண்ட பெருமானே!",
+          "meaning_snippet": "(வாமன மூர்த்தியாய்) அளந்துகொண்ட பெருமானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "வாம",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2909,
+      "line_count": 20,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "(மஹாபலியிடத்தில் பிக்ஷை பெற்று) அளந்து கொண்ட",
+          "meaning_snippet": "(மஹாபலியிடத்தில் பிக்ஷை பெற்று) அளந்து கொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "மஹாபல",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "பலி",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        },
+        {
+          "padham": "எம் வாமனா",
+          "meaning": "எமது வாமனமூர்த்தியை",
+          "meaning_snippet": "எமது வாமனமூர்த்தியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "வல்",
+        "மா",
+        "வையம்",
+        "படி நின்ற",
+        "யான்"
+      ]
+    },
+    {
+      "pasuram_number": 2916,
+      "line_count": 16,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உலகம் எல்லாம் தாவிய",
+          "meaning": "(த்ரிவிக்ரமனாய்) உலகங்களையெல்லாம் அளந்தவனுமாகிய",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்) உலகங்களையெல்லாம் அளந்தவனுமாகிய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "விக்ர",
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அம்மானை",
+          "meaning": "ஸ்வாமியை",
+          "meaning_snippet": "ஸ்வாமியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கொடு வினை",
+        "தூற்றுள் நின்று",
+        "பல காலம்",
+        "வழி திகைத்து",
+        "அலமருகின்றேன்"
+      ]
+    },
+    {
+      "pasuram_number": 2972,
+      "line_count": 8,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அடி ஆர்ந்த வையம்",
+          "meaning": "(த்ரிவிக்ரமாவதார காலத்தில்) தன் திருவடியோடு ஸம்பந்தம் பெற்றதான வுலகை",
+          "meaning_snippet": "(த்ரிவிக்ரமாவதார காலத்தில்) தன் திருவடியோடு ஸம்பந்தம் பெற்றதான வுலகை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "விக்ர",
+          "alias_hits_meaning": [
+            "விக்ர"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "விக்ர"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "உண்டு",
+        "ஆல் இலை",
+        "அன்னவசம் செய்யும்",
+        "படி ஆதும்இல்",
+        "குழவிப் படி"
+      ]
+    },
+    {
+      "pasuram_number": 2978,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மண் கொண்ட வாமனன் ஏற",
+          "meaning": "(மாவலியிடம்) பூமியைக் கவர்ந்த வாமனன் (தன் மீது) ஏறுதலால்.",
+          "meaning_snippet": "(மாவலியிடம்) பூமியைக் கவர்ந்த வாமனன் (தன் மீது) ஏறுதலால்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாமனன்",
+            "வாம",
+            "மாவலி"
+          ],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "மாவலி"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2982,
+      "line_count": 7,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மாவலி",
+          "meaning": "‘மஹாபலியே!",
+          "meaning_snippet": "‘மஹாபலியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [
+            "மாவலி"
+          ],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": [
+            "மாவலி"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "நான்",
+        "மூ அடி",
+        "கொள்வன்",
+        "தா",
+        "என்ற"
+      ]
+    },
+    {
+      "pasuram_number": 2984,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பூமி அளந்த பெருமானை",
+          "meaning": "பூமியை அளந்தவனான எம் பெருமானைக் குறித்து",
+          "meaning_snippet": "பூமியை அளந்தவனான எம் பெருமானைக் குறித்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3020,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சே அடி மேல்"
+      ]
+    },
+    {
+      "pasuram_number": 3035,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கோலம் வாமனா",
+          "meaning": "வடிவழகிய வாமன மூர்த்தியே!",
+          "meaning_snippet": "வடிவழகிய வாமன மூர்த்தியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3040,
+      "line_count": 10,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இது வாமனன் மண் என்னும்",
+          "meaning": "இது (எம்பெருமான்) வாமனனாய் அளந்து கொண்ட மண்’ என்று கூறுகின்றாள்:",
+          "meaning_snippet": "இது (எம்பெருமான்) வாமனனாய் அளந்து கொண்ட மண்’ என்று கூறுகின்றாள்:",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பெய் வளையீர்",
+        "மண்ணை இருந்து துழாவி",
+        "விண்ணை தொழுது",
+        "அவன் மேவு வைகுந்தம் என்று",
+        "கை காட்டும்"
+      ]
+    },
+    {
+      "pasuram_number": 3047,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகளந்தான் என்று துள்ளும்"
+      ]
+    },
+    {
+      "pasuram_number": 3060,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கடந்தும்",
+          "meaning": "(மற்றொருகால்) அளந்து காற்கீழேயிட்டும்",
+          "meaning_snippet": "(மற்றொருகால்) அளந்து காற்கீழேயிட்டும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3074,
+      "line_count": 15,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வையம் கொண்ட",
+          "meaning": "(மாவலிபக்கல் நீரேற்றுப் பெற்று) உலகங்களையெல்லாம் அளந்து கொண்ட",
+          "meaning_snippet": "(மாவலிபக்கல் நீரேற்றுப் பெற்று) உலகங்களையெல்லாம் அளந்து கொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "மாவலி",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "மாவலி",
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "வாமனா",
+          "meaning": "வாமன்மூர்த்தியே!",
+          "meaning_snippet": "வாமன்மூர்த்தியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கொள்ள",
+        "மாளா",
+        "இன்பம் வெள்ளம்",
+        "கோது இல",
+        "தந்திடும்"
+      ]
+    },
+    {
+      "pasuram_number": 3089,
+      "line_count": 13,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒரு மூர்த்தி",
+          "meaning": "விலக்ஷணஸ்வாமியாய்,",
+          "meaning_snippet": "விலக்ஷணஸ்வாமியாய்,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "குறிய மாண்உருஆகி",
+          "meaning": "வாமந ப்ரஹ்மசாரி வேஷத்தையுடையனாய்",
+          "meaning_snippet": "வாமந ப்ரஹ்மசாரி வேஷத்தையுடையனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "கொடு கோளால்",
+          "meaning": "(மாவலியை வஞ்சிக்கையாகிற) கொடியவழியினால்",
+          "meaning_snippet": "(மாவலியை வஞ்சிக்கையாகிற) கொடியவழியினால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [
+            "மாவலி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "மாவலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "அறிவினால் குறைவு இல்லா",
+        "அகல் ஞாலத்தவர் அறிய",
+        "நெறி எல்லாம்",
+        "எடுத்து உரைத்த",
+        "நிறை ஞானம்"
+      ]
+    },
+    {
+      "pasuram_number": 3126,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மீன் ஆய் ஆமையம் ஆய்நர சிங்கமும் ஆய் குறள் ஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 3153,
+      "line_count": 5,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இ மண் அளந்த",
+          "meaning": "இப்பூமியை யளந்து கொண்டவனும்",
+          "meaning_snippet": "இப்பூமியை யளந்து கொண்டவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பெரிய கண்",
+        "செம்வாய்",
+        "எம் கார் எறு",
+        "வாரான்"
+      ]
+    },
+    {
+      "pasuram_number": 3159,
+      "line_count": 5,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "அளந்து ஆக்கிரமித்துக் கொண்ட",
+          "meaning_snippet": "அளந்து ஆக்கிரமித்துக் கொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "அன்று ஒருகால்",
+        "வையம்",
+        "பிரான்",
+        "வாரான் என்று"
+      ]
+    },
+    {
+      "pasuram_number": 3172,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கடல் ஞானம் கொண்டேனும் யானே என்றும்",
+          "meaning": "(மஹாபலியிடத்தில்) கடல் ஞானத்தை இரந்து பெற்றுக் கொண்டவளும் நானே யென்கிறாள்.",
+          "meaning_snippet": "(மஹாபலியிடத்தில்) கடல் ஞானத்தை இரந்து பெற்றுக் கொண்டவளும் நானே யென்கிறாள்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3193,
+      "line_count": 2,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "தெய்வநாயகன் நாரணன் திரிவிக்கிரமன்",
+        "அடி இணை மிசை"
+      ]
+    },
+    {
+      "pasuram_number": 3210,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாண்குறள் கோலம் பிரான்"
+      ]
+    },
+    {
+      "pasuram_number": 3224,
+      "line_count": 11,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மூன்று அடியை இரந்த ஆறும்",
+          "meaning": "(மாவலியிடத்தே) மூவடி நிலத்தை யாசித்தபடியும்",
+          "meaning_snippet": "(மாவலியிடத்தே) மூவடி நிலத்தை யாசித்தபடியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மாவலி",
+          "alias_hits_meaning": [
+            "மாவலி",
+            "மூவடி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "மாவலி",
+            "மூவட"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "அங்கு நின்றே",
+        "ஆழ் கடலும் மண்ணும் விண்ணும் முடிய",
+        "ஈர் அடியால்",
+        "முடித்துக் கொண்ட முக்கியமும் அவை",
+        "நொடியும் ஆறு கேட்கும்தோறும்"
+      ]
+    },
+    {
+      "pasuram_number": 3267,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாணி ஆய் நிலம் கொண்ட மாயன் என் அப்பன் தன் மாயங்களே"
+      ]
+    },
+    {
+      "pasuram_number": 3282,
+      "line_count": 5,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வையம் அளந்த மனாளற்கு",
+          "meaning": "பூமி முழவத்தையும் (த்ரிவிக்ரமனாய்) ஸ்வாதீனப்படுத்திக் கொண்ட மணவாளரும்",
+          "meaning_snippet": "பூமி முழவத்தையும் (த்ரிவிக்ரமனாய்) ஸ்வாதீனப்படுத்திக் கொண்ட மணவாளரும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "விக்ர"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "விக்ர"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மாலுக்கு",
+        "நீலம கருநிறம் முகம் நியாயற்கு",
+        "கோலம் செம் தாமரை கண்ணற்கு",
+        "என் கொங்கு அவர் ஏலம் குழலி இழந்து சங்கு"
+      ]
+    },
+    {
+      "pasuram_number": 3283,
+      "line_count": 5,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சங்கு வில் வாள் தண்டு சக்கரம் கையற்கு",
+        "செம் கனி வாய் செய்ய தாமரை கண்ணற்கு",
+        "கொங்கு அலர் தண் அம் துழாய் முடியானுக்கு",
+        "எள் மங்கை இழந்த்து",
+        "மாமை நிறம்"
+      ]
+    },
+    {
+      "pasuram_number": 3285,
+      "line_count": 8,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளந்த மணாளற்கு",
+          "meaning": "(திரிவிக்கிரமனாகி) அளந்துகொண்ட மணவாளனும்",
+          "meaning_snippet": "(திரிவிக்கிரமனாகி) அளந்துகொண்ட மணவாளனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பீடு உடை நான்முகனை",
+        "படைத்தானுக்கு",
+        "மாடு உடை வையம்",
+        "நாடு உடை மன்னர்க்கு",
+        "தூது செல் நம்பிக்கு"
+      ]
+    },
+    {
+      "pasuram_number": 3290,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "எம் மாயம் குறளற்கு",
+          "meaning": "எம்மையீடுபடுத்திக்கொள்ளும் மாயவாமனமூர்த்தியும்",
+          "meaning_snippet": "எம்மையீடுபடுத்திக்கொள்ளும் மாயவாமனமூர்த்தியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3316,
+      "line_count": 10,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குறள் ஆய்",
+          "meaning": "வாமனமூர்த்தியாய் (மாவலியிடம் சென்று)",
+          "meaning_snippet": "வாமனமூர்த்தியாய் (மாவலியிடம் சென்று)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "மாவலி"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம",
+            "மாவலி"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மண்ணும் விண்ணும் கொண்ட",
+          "meaning": "மண்ணுலகத்தையும் விண்ணுலகத்தையும் அளந்துகொண்ட",
+          "meaning_snippet": "மண்ணுலகத்தையும் விண்ணுலகத்தையும் அளந்துகொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மாயம் அம்மானே",
+          "meaning": "அற்புதனான ஸ்வாமியே!",
+          "meaning_snippet": "அற்புதனான ஸ்வாமியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மண்ணும் விண்ணும் மகிழ",
+        "வலம் பாட்டி",
+        "உனை நான் நண்ணி",
+        "கண்டு உகந்து கூத்துஆட",
+        "நண்ணி"
+      ]
+    },
+    {
+      "pasuram_number": 3320,
+      "line_count": 14,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஓர் அடி",
+        "பாய் வைத்து",
+        "பாவை நிலம் எல்லாம்",
+        "அதன் கீழ்",
+        "தாய்"
+      ]
+    },
+    {
+      "pasuram_number": 3323,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வையம் தாவி",
+          "meaning": "பூமி முழுவதையும் அளந்து கொண்ட ஸ்வாதீனமாக்கிக் கொண்ட",
+          "meaning_snippet": "பூமி முழுவதையும் அளந்து கொண்ட ஸ்வாதீனமாக்கிக் கொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "தட தாமரை கட்கே"
+      ]
+    },
+    {
+      "pasuram_number": 3386,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கோடு அம் கை வாமனன் ஆய் செய்த கூத்துக்கள் கண்டும்",
+          "meaning": "ஏற்றகையையுடைய ஸ்ரீவாமன மூர்த்தியாய்ச் செய்தருளின மநோஹர சேஷ்டிதங்களை யநுஸந்தித்து வைத்தும்",
+          "meaning_snippet": "ஏற்றகையையுடைய ஸ்ரீவாமன மூர்த்தியாய்ச் செய்தருளின மநோஹர சேஷ்டிதங்களை யநுஸந்தித்து வைத்தும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3414,
+      "line_count": 12,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமனனே",
+          "meaning": "வாமநாவதாரஞ் செய்தவனே!",
+          "meaning_snippet": "வாமநாவதாரஞ் செய்தவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம",
+            "வாமந"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மாயா",
+        "மதுசூதா",
+        "நீ அருளாய்",
+        "தீ ஆய் நீர் ஆய் நிலன் ஆய் விசும்பு ஆய்; கால் ஆய்",
+        "தாய் ஆய் தந்தை ஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 3437,
+      "line_count": 10,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திரு குறள் அப்பன்",
+          "meaning": "ஸ்ரீவாமனமூர்த்தி",
+          "meaning_snippet": "ஸ்ரீவாமனமூர்த்தி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "ஜயம் ஒன்று இன்றி ஆகும் கொல்",
+        "அகல் இடம் முற்றவும்",
+        "ஈர் அடியே ஆகும் பரிசு நிமிர்ந்த",
+        "அமர்ந்து உறையும்",
+        "மாகம் திகழ்"
+      ]
+    },
+    {
+      "pasuram_number": 3451,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "(ஒருகால்) மாவலிபக்கல் நீரேற்று அளந்துகொண்ட",
+          "meaning_snippet": "(ஒருகால்) மாவலிபக்கல் நீரேற்று அளந்துகொண்ட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "மாவலி",
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "மாவலி",
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3466,
+      "line_count": 3,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கோலம் மாண் குறள் வடிவு",
+          "meaning": "ஸௌந்தரியத்தையுடைய யாசகவாமன வேஷத்தை",
+          "meaning_snippet": "ஸௌந்தரியத்தையுடைய யாசகவாமன வேஷத்தை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "காட்டி",
+          "meaning": "(மஹாபலிக்கு) வெளிக்காட்டி (உடனே)",
+          "meaning_snippet": "(மஹாபலிக்கு) வெளிக்காட்டி (உடனே)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மண்ணும் விண்ணும் நிறைய மலர்ந்த"
+      ]
+    },
+    {
+      "pasuram_number": 3473,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "நீண்டு தாவிய அசவு தானோ"
+      ]
+    },
+    {
+      "pasuram_number": 3483,
+      "line_count": 12,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குறிய மாண் எம்மான்",
+          "meaning": "வாமனப் பிரமசாரியான என் ஸ்வாமியாய்",
+          "meaning_snippet": "வாமனப் பிரமசாரியான என் ஸ்வாமியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "எம்பெருமான்",
+          "meaning": "அஸ்மத்ஸ்வாமியினுடைய",
+          "meaning_snippet": "அஸ்மத்ஸ்வாமியினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "பெரிய மூ உலகும் நிறைய",
+        "பேர் உருவம் ஆய் நிமிர்ந்த",
+        "குரை கடல் கடைந்த",
+        "கோலம் மாணிக்கம் என் அம்மான்",
+        "செறி குலை வாழை கமுகு தெங்கு அணி"
+      ]
+    },
+    {
+      "pasuram_number": 3491,
+      "line_count": 8,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாமனா",
+          "meaning": "வாமன லேஷங்கொண்டவனே!",
+          "meaning_snippet": "வாமன லேஷங்கொண்டவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மாயக் கூத்தா",
+        "வினையேன் கண்ணா",
+        "கண் கைகால் தூய செய்ய மலர்களா",
+        "சோதி செம் வாய் முகிழதா",
+        "சாமம் சாயல் திருமேனி தண் பாசு அடையா"
+      ]
+    },
+    {
+      "pasuram_number": 3508,
+      "line_count": 7,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மண் விண் முழுதும் அளந்த ஒண்தாமரை",
+          "meaning": "மண்ணுலகையும் விண்ணுலகையும் ஒன்றொழியாமல் அளந்து கொண்ட அழகிய திருவடித்தாமரைகளை",
+          "meaning_snippet": "மண்ணுலகையும் விண்ணுலகையும் ஒன்றொழியாமல் அளந்து கொண்ட அழகிய திருவடித்தாமரைகளை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [
+            "அளந்த"
+          ],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [
+            "அளந்த"
+          ],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கோவிந்தன்",
+        "மண்ணவர் தாம் தொழ",
+        "வானவர் தாம் வந்து நண்ணு",
+        "திருக்கடித்தானம் நகர்",
+        "இடர் கெட"
+      ]
+    },
+    {
+      "pasuram_number": 3511,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரி வாமனன்",
+          "meaning": "ஹரியாய் வாமனனான எம்பெருமான்",
+          "meaning_snippet": "ஹரியாய் வாமனனான எம்பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [
+            "வாம"
+          ],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [
+            "வாம"
+          ],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3513,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொருத்தம் உடை வாமனன் தான் புகுந்து",
+          "meaning": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "meaning_snippet": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3640,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கே ஆகிய மா வலியை",
+          "meaning": "பிரபுவாகத் தன்னை யயீமானித்திருந்த மஹாபலிடத்திளின்றும்",
+          "meaning_snippet": "பிரபுவாகத் தன்னை யயீமானித்திருந்த மஹாபலிடத்திளின்றும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "மஹாபல",
+          "alias_hits_meaning": [
+            "மஹாபல"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "பலி"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3646,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இடந்து உண்டு உமிழிந்து அளந்து",
+          "meaning": "(ஸமய விசேஷங்களில்) இடத்தல் உண்ணுதல் உமிழ்தல் அளத்தல் ஆகிய காரியங்களைச் செய்தும்",
+          "meaning_snippet": "(ஸமய விசேஷங்களில்) இடத்தல் உண்ணுதல் உமிழ்தல் அளத்தல் ஆகிய காரியங்களைச் செய்தும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அளந்த",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அளந்த"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அளந்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3686,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "துவள் அற ஆய்ந்து கொண்டு வாமனன் அடிக்கு என்று ஏத்த",
+          "meaning": "பர்சுத்தமாக சேகரித்துக் கொண்டு எம்பெருமானுடைய திருவடிகளுக்கென்று ஸங்கல்பித்துத் துதிக்க,",
+          "meaning_snippet": "பர்சுத்தமாக சேகரித்துக் கொண்டு எம்பெருமானுடைய திருவடிகளுக்கென்று ஸங்கல்பித்துத் துதிக்க,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "வாம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "வாமனன்",
+            "வாம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "வாம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    }
+  ]
+}

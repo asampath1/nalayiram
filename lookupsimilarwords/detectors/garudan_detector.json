@@ -1,0 +1,67 @@
+{
+  "theme_id": "garudan",
+  "concept": "கருடன்",
+  "aliases": [
+    "கருடன்",
+    "Garudan",
+    "பெரிய திருவடி",
+    "Periya Thiruvadi"
+  ],
+  "normalize_meaning_parenthesis": false,
+  "source_table": "PasuramsArthamTablePOC",
+  "built_at": "2026-05-29T12:21:10.437948+00:00",
+  "description": "Detector mined from POC rows with கருடன் theme in SimilarWords. Match via padham_substring_signals on Padham OR meaning_keywords on Meaning only (no global padham-exact list).",
+  "stats": {
+    "tagged_rows_analyzed": 32,
+    "strong_signal_lines": 27,
+    "weak_pasuram_only_lines": 5,
+    "padham_substring_signal_count": 7,
+    "meaning_keyword_count": 7,
+    "distinct_pasurams_in_source": 29
+  },
+  "meaning_keywords": [
+    "கருட",
+    "garuda",
+    "கருடன்",
+    "garudan",
+    "கருடபக்ஷி",
+    "பெரிய திருவடி",
+    "Periya Thiruvadi"
+  ],
+  "padham_substring_signals": [
+    "கருட",
+    "கருடன்",
+    "புள் ஊர்",
+    "புள்ளை ஊர்",
+    "கருடன் மேல்",
+    "கொடிமேல் புள்",
+    "பொலிந்த கருடன்"
+  ],
+  "padham_substring_only_review": [
+    "புள் ஊர்ந்து"
+  ],
+  "min_stem_length": 4,
+  "blocked_contexts": [
+    {
+      "stem": "வாஹந",
+      "if_text_matches": "ருத்ர"
+    },
+    {
+      "stem": "வாஹந",
+      "if_text_matches": "வருஷப"
+    }
+  ],
+  "excluded_stems_review": [
+    "புள் — bare bird word too broad; use கொடிமேல் புள், புள் ஊர், புள்ளை ஊர்",
+    "வாஹந — Rudra at 2244 (வருஷப வாஹநன்); Garuda lines use கருட/பெரிய திருவடி seeds"
+  ],
+  "validation": {
+    "pasurams_in_source": 29,
+    "pasurams_detector_would_trigger": 26,
+    "pasurams_missed": [
+      2980,
+      2997,
+      3359
+    ]
+  }
+}

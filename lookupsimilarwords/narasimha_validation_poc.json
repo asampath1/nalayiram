@@ -1,0 +1,598 @@
+{
+  "theme_id": "narasimha",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 30,
+  "detector_would_tag": 27,
+  "detector_missed": 3,
+  "missed_pasuram_numbers": [
+    74,
+    557,
+    3593
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 27,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யனுடைய",
+          "meaning_snippet": "ஹிரண்யனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 65,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அவுணன்",
+        "மகனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அவுணன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        },
+        {
+          "padham": "மகனை",
+          "meaning": "தன் மகனான ப்ரஹ்லாதனை",
+          "meaning_snippet": "தன் மகனான ப்ரஹ்லாதனை",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 74,
+      "theme_id": "narasimha",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 83,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அவன்",
+        "இரணியன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அவன்",
+          "meaning": "அந்த ஹிரண்யாஸுரன் (தானே)",
+          "meaning_snippet": "அந்த ஹிரண்யாஸுரன் (தானே)",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        },
+        {
+          "padham": "இரணியன்",
+          "meaning": "அவ்விரணியனுடைய",
+          "meaning_snippet": "அவ்விரணியனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 188,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியன் நெஞ்சை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியன் நெஞ்சை",
+          "meaning": "ஹிரண்யாஸுரனுடைய மார்பை",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய மார்பை",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 279,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நரசிங்கம் அது ஆகி",
+        "அவுணன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆகி",
+          "meaning": "நரஸிம்ஹ ரூபங்கொண்டு",
+          "meaning_snippet": "நரஸிம்ஹ ரூபங்கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "அவுணன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 328,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியன்",
+        "அரி ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹ ருபியாய்க் கொண்டு",
+          "meaning_snippet": "நரஸிம்ஹ ருபியாய்க் கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "அரி ஆய்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 365,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நரசிங்கனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நரசிங்கனை",
+          "meaning": "நரஸிம்ஹ ஸ்வரூபியுமான எம்பெருமானை",
+          "meaning_snippet": "நரஸிம்ஹ ஸ்வரூபியுமான எம்பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 368,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நரசிங்கனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நரசிங்கனை",
+          "meaning": "நரஹிம்ஹ ரூபியுமான ஸர்வேச்வரனை",
+          "meaning_snippet": "நரஹிம்ஹ ரூபியுமான ஸர்வேச்வரனை",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 419,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியனை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியனை",
+          "meaning": "இரணியாஸஷரனுடைய",
+          "meaning_snippet": "இரணியாஸஷரனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 420,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரி ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹமாயும்",
+          "meaning_snippet": "நரஸிம்ஹமாயும்",
+          "reason": "padham_substring",
+          "matched_term": "அரி ஆய்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 441,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நரசிங்கம் அது ஆனாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆனாய்",
+          "meaning": "நரசிங்க அவதராம் செய்தருளினவனே!",
+          "meaning_snippet": "நரசிங்க அவதராம் செய்தருளினவனே!",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 446,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சிங்கப் பிரானவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சிங்கப் பிரானவன்",
+          "meaning": "நரசிம்மாவதாரமெடுத்து உபசரித்தருளினவன",
+          "meaning_snippet": "நரசிம்மாவதாரமெடுத்து உபசரித்தருளினவன",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிம்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 557,
+      "theme_id": "narasimha",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 564,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரி முகன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரி முகன்",
+          "meaning": "(ஹிரண்ய வதத்திற்காக) ஸிம்ஹ முகத்தை யுடைனாய் அவதரித்த",
+          "meaning_snippet": "(ஹிரண்ய வதத்திற்காக) ஸிம்ஹ முகத்தை யுடைனாய் அவதரித்த",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 581,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியனை உடல் இடந்தான் தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியனை உடல் இடந்தான் தான்",
+          "meaning": "ஹிரண்யாஸுரனுடைய உடலைப் பிளந்தெறிந்த பெருமான்",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய உடலைப் பிளந்தெறிந்த பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 961,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆள் அரி உரு என",
+        "ஒருவனது",
+        "வானவர் (அந்த விடாய்தீர)"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆள் அரி உரு என",
+          "meaning": "நரசிங்க மூர்த்தி என்று பிரஸதாவமெடுத்த மாத்திரத்திலே",
+          "meaning_snippet": "நரசிங்க மூர்த்தி என்று பிரஸதாவமெடுத்த மாத்திரத்திலே",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "ஒருவனது",
+          "meaning": "வீரரில் ஒப்பற்றவனான இரணியனுடைய",
+          "meaning_snippet": "வீரரில் ஒப்பற்றவனான இரணியனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "வானவர் (அந்த விடாய்தீர)",
+          "meaning": "(இப்படி இரணியனைக் கொன்ற மஹோபகாரத்தில் ஈடுபட்ட)தேவர்கள்",
+          "meaning_snippet": "(இப்படி இரணியனைக் கொன்ற மஹோபகாரத்தில் ஈடுபட்ட)தேவர்கள்",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2818,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நரசிங்கா என்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நரசிங்கா என்று",
+          "meaning": "நரசிங்கமூர்த்தியே! என்று கதறி",
+          "meaning_snippet": "நரசிங்கமூர்த்தியே! என்று கதறி",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2845,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியன்",
+        "கோள் அரியே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யகசிபுவினுடைய",
+          "meaning_snippet": "ஹிரண்யகசிபுவினுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "கோள் அரியே",
+          "meaning": "மிடுக்குடைய நரசிங்க மூர்த்தியே!",
+          "meaning_snippet": "மிடுக்குடைய நரசிங்க மூர்த்தியே!",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2872,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "(பிதாவான) ஹிரண்யாசுரன்",
+          "meaning_snippet": "(பிதாவான) ஹிரண்யாசுரன்",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2912,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வந்தாய் போலே வந்தும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வந்தாய் போலே வந்தும்",
+          "meaning": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "meaning_snippet": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2957,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒரு மூர்த்தி ஆய்",
+        "சீற்றத்தோடு அருள் பெற்றவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒரு மூர்த்தி ஆய்",
+          "meaning": "ஒப்பற்ற நரசிங்க மூர்த்தியாய்",
+          "meaning_snippet": "ஒப்பற்ற நரசிங்க மூர்த்தியாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "சீற்றத்தோடு அருள் பெற்றவன்",
+          "meaning": "சீறியிருக்கும் நிலைமையிலேயே கருணைக்கு இலக்கான ப்ரஹ்லாதன்",
+          "meaning_snippet": "சீறியிருக்கும் நிலைமையிலேயே கருணைக்கு இலக்கான ப்ரஹ்லாதன்",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3090,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரி உரு ஆய்",
+        "கிளர் ஒளிய இரணியனது"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரி உரு ஆய்",
+          "meaning": "நரசிங்கமூர்த்தியாய்",
+          "meaning_snippet": "நரசிங்கமூர்த்தியாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "கிளர் ஒளிய இரணியனது",
+          "meaning": "மிக்கதேக பொருந்திய இரணியனுடைய",
+          "meaning_snippet": "மிக்கதேக பொருந்திய இரணியனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3126,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மீன் ஆய் ஆமையம் ஆய்நர சிங்கமும் ஆய் குறள் ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மீன் ஆய் ஆமையம் ஆய்நர சிங்கமும் ஆய் குறள் ஆய்",
+          "meaning": "மீனாகவும் ஆமையாகவும் நரசிங்கமாகவும் வானமூர்த்தியாகவும் அவதரித்தும்",
+          "meaning_snippet": "மீனாகவும் ஆமையாகவும் நரசிங்கமாகவும் வானமூர்த்தியாகவும் அவதரித்தும்",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3388,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரணியன் ஆகத்தை",
+        "மல்லல் அரி உரு ஆய் செய்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரணியன் ஆகத்தை",
+          "meaning": "ஹிரண்யாஸீரனுடைய உடலை,",
+          "meaning_snippet": "ஹிரண்யாஸீரனுடைய உடலை,",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "மல்லல் அரி உரு ஆய் செய்த",
+          "meaning": "பெரிய நரசிங்க வடிவையுடைனாய்க் கொண்டு இருபிளவாகச் செய்த",
+          "meaning_snippet": "பெரிய நரசிங்க வடிவையுடைனாய்க் கொண்டு இருபிளவாகச் செய்த",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3402,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அவுணன் உடல் கீண்டு உகந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அவுணன் உடல் கீண்டு உகந்த",
+          "meaning": "இரணியாசுரனுடைய உடலே இருபிளவாக்கித் திருவுள்ளமுகந்த",
+          "meaning_snippet": "இரணியாசுரனுடைய உடலே இருபிளவாக்கித் திருவுள்ளமுகந்த",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3585,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நரசிங்கம் அது ஆகி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆகி",
+          "meaning": "மதுஷ்யமூர்த்தியும், ஸிம்ஹ மூர்த்தி யுமுடையனாகி",
+          "meaning_snippet": "மதுஷ்யமூர்த்தியும், ஸிம்ஹ மூர்த்தி யுமுடையனாகி",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3593,
+      "theme_id": "narasimha",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3596,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நரசிங்கம் அது ஆய உருவே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆய உருவே",
+          "meaning": "நரசிங்க மூர்த்தியானவனே",
+          "meaning_snippet": "நரசிங்க மூர்த்தியானவனே",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3731,
+      "theme_id": "narasimha",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அர் ஆகி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அர் ஆகி",
+          "meaning": "நரசிங்க மூர்த்தியாகி",
+          "meaning_snippet": "நரசிங்க மூர்த்தியாகி",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1764 @@
+{
+  "theme_id": "sivan",
+  "primary_similarwords_tag": "சிவன்",
+  "source_table": "PasuramsArthamTablePOC",
+  "reviewed_at": "2026-05-28T17:17:47.612468+00:00",
+  "pasuram_count": 57,
+  "detector_would_tag_count": 48,
+  "candidate_meaning_keywords": [
+    {
+      "stem": "சடை",
+      "line_hits": 3
+    }
+  ],
+  "candidate_padham_substrings": [],
+  "top_thematic_padhams": [
+    {
+      "padham": "ஏர் ஆர் சிவன் பிறந்தான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சடை முடி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஈசன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சிவந்தாய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மூவர்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஜடையன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சங்கரன் சடையினில்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சிவந்த ஆடையின் மேல்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "குலம் வரையின் மடப்பாவை இடப்பால் கொண்டான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒன்று",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரற்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஏறனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சிவன் முடிமேல்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரன் முதலா",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "பிறை ஏறு சடையானும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நளிர்மதி சடையன் என்கோ",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "திரிபுரம் பெற்றவனும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நக்கபிரானோடு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஏறு ஆளும் இறையோனும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "தவிர்த்த தெரிவு அரிய சிவன் பிரடன் அமரர் கோன்;",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "தடம் புனல் சடை முடியன் தனி அமர்ந்து உறையும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சிவனுக்கும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நக்கன் பிரானோடு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வெள்ளம் நீர் சடையானும் நின்னிடை வேறு அலாமை விளங்க நின்றதும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சிவன் ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "பிரமன் சிவன் இந்திரன் விண்ணவர்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இண்டை சடை முடி ஈசன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரண் நான் முகன் ஏத்தும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "புனை கொன்றை அம் செம்சடையாய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அங்கு உயர் முக்கண் பிரான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "பிரமன் சிவன் இந்திரன் என்ற இவர்க்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "உருத்திரன் அப்பனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நான் முகன் செஞ்சடையான் என்ற இவர்கள் யார்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வண் சிவனும் அயனும் தானும் ஒப்பார்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சிவபிரான் அவனே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "முக்கண் அம்மானை நான் முகனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கண் கை கால் சிவந்த வாய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "தன் கண்கள் சிவந்து நோக்கும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கண்கள் சிவந்து பெரிய ஆய்",
+      "strong_line_hits": 1
+    }
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 0,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஏர் ஆர் சிவன் பிறந்தான்",
+          "meaning": "ஸாதநாநுஷ்டாநத்தினால் பூர்ணனான சிவன் பிறந்தான்",
+          "meaning_snippet": "ஸாதநாநுஷ்டாநத்தினால் பூர்ணனான சிவன் பிறந்தான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 105,
+      "line_count": 4,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சடை முடி",
+          "meaning": "ஜடா பந்தத்தை யுடைய",
+          "meaning_snippet": "ஜடா பந்தத்தை யுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [
+            "ஜட"
+          ],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "ஜட"
+          ],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        },
+        {
+          "padham": "ஈசன்",
+          "meaning": "சிவன்",
+          "meaning_snippet": "சிவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "இரக்கொள்ள",
+        "மண்டை"
+      ]
+    },
+    {
+      "pasuram_number": 247,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவந்தாய்",
+          "meaning": "சிவக்கப் பெற்றாய்;",
+          "meaning_snippet": "சிவக்கப் பெற்றாய்;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 360,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மூவர்",
+          "meaning": "பிரமன், ருத்ரன், இந்திரன் என்ற மூவருடைய",
+          "meaning_snippet": "பிரமன், ருத்ரன், இந்திரன் என்ற மூவருடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ருத்ர",
+          "alias_hits_meaning": [
+            "ருத்ர"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ருத்ர"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 392,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஜடையன்",
+          "meaning": "ஜடையை யுடையவனான சிவபெருமானுடைய",
+          "meaning_snippet": "ஜடையை யுடையவனான சிவபெருமானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஜட",
+          "alias_hits_meaning": [
+            "சிவ",
+            "ஜட",
+            "ஜடை"
+          ],
+          "alias_hits_padham": [
+            "ஜட",
+            "ஜடை"
+          ],
+          "review_stems_meaning": [
+            "சிவ",
+            "ஜட",
+            "ஜடை"
+          ],
+          "review_stems_padham": [
+            "ஜட",
+            "ஜடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 393,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கரன் சடையினில்",
+          "meaning": "சிவபெருமானுடைய ஜடையிலும்",
+          "meaning_snippet": "சிவபெருமானுடைய ஜடையிலும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [
+            "சிவ",
+            "ஜட",
+            "ஜடை"
+          ],
+          "alias_hits_padham": [
+            "சங்கர",
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "சிவ",
+            "ஜட",
+            "ஜடை"
+          ],
+          "review_stems_padham": [
+            "சங்கர",
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 928,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவந்த ஆடையின் மேல்",
+          "meaning": "பீதாம்பரத்தின் மேல்",
+          "meaning_snippet": "பீதாம்பரத்தின் மேல்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2060,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குலம் வரையின் மடப்பாவை இடப்பால் கொண்டான்",
+          "meaning": "பர்வதராஜபுத்ரியான பார்வதியை இடது பக்கமாகக் கொண்டவனுமான சிவபிரானை",
+          "meaning_snippet": "பர்வதராஜபுத்ரியான பார்வதியை இடது பக்கமாகக் கொண்டவனுமான சிவபிரானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2085,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரன்",
+          "meaning": "சிவன்",
+          "meaning_snippet": "சிவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2086,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒன்று",
+          "meaning": "சிவனாகிய ஒருவன்",
+          "meaning_snippet": "சிவனாகிய ஒருவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2797,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரற்கு",
+          "meaning": "சிவபிரானுக்கு",
+          "meaning_snippet": "சிவபிரானுக்கு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2798,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஏறனை",
+          "meaning": "ரிஷப வாஹனனான ருத்ரனையும்",
+          "meaning_snippet": "ரிஷப வாஹனனான ருத்ரனையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ருத்ர",
+          "alias_hits_meaning": [
+            "ருத்ர"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ருத்ர"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2869,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவன் முடிமேல்",
+          "meaning": "சிவபிரானுடைய தளைமேல்",
+          "meaning_snippet": "சிவபிரானுடைய தளைமேல்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2903,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரன் முதலா",
+          "meaning": "சிவன் முலான",
+          "meaning_snippet": "சிவன் முலான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2906,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பிறை ஏறு சடையானும்",
+          "meaning": "சந்திரகலை தங்கிய சடையையுடையனான சிவபிரானும்",
+          "meaning_snippet": "சந்திரகலை தங்கிய சடையையுடையனான சிவபிரானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "சிவ",
+            "சடை"
+          ],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2937,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நளிர்மதி சடையன் என்கோ",
+          "meaning": "குளிர்ந்த பிறைச்சந்திரனைத் தனது சடைமுடியிலேயுடைய ருத்திரன் என்பேனோ?",
+          "meaning_snippet": "குளிர்ந்த பிறைச்சந்திரனைத் தனது சடைமுடியிலேயுடைய ருத்திரன் என்பேனோ?",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "சடை"
+          ],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2999,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திரிபுரம் பெற்றவனும்",
+          "meaning": "த்ரிபுரதஹநம் செய்தவனான சிவபிரானும்",
+          "meaning_snippet": "த்ரிபுரதஹநம் செய்தவனான சிவபிரானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3004,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நக்கபிரானோடு",
+          "meaning": "திகம்பரச் சாமியான சிவபெருமானும்",
+          "meaning_snippet": "திகம்பரச் சாமியான சிவபெருமானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3084,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஏறு ஆளும் இறையோனும்",
+          "meaning": "விருஷபவாஹனனான சிவபிரானும்",
+          "meaning_snippet": "விருஷபவாஹனனான சிவபிரானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3091,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தவிர்த்த தெரிவு அரிய சிவன் பிரடன் அமரர் கோன்;",
+          "meaning": "(இவ்வுபகாரத்திற்காக) அறிய முடியாத சிவன் பிரமன் இந்திரன் ஆகிய இவர்கள்",
+          "meaning_snippet": "(இவ்வுபகாரத்திற்காக) அறிய முடியாத சிவன் பிரமன் இந்திரன் ஆகிய இவர்கள்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3093,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தடம் புனல் சடை முடியன் தனி அமர்ந்து உறையும்",
+          "meaning": "பரந்த கங்காதீர்த்தத்தைத்தரித்த ஜடாமகுடத்தையுடையனான சிவபிரான் பொருந்தி வாஸம் பண்ணப்பெற்ற",
+          "meaning_snippet": "பரந்த கங்காதீர்த்தத்தைத்தரித்த ஜடாமகுடத்தையுடையனான சிவபிரான் பொருந்தி வாஸம் பண்ணப்பெற்ற",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [
+            "சிவ",
+            "ஜட"
+          ],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "சிவ",
+            "ஜட"
+          ],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3109,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவனுக்கும்",
+          "meaning": "ருத்ரனுக்கும்",
+          "meaning_snippet": "ருத்ரனுக்கும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "ருத்ர"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "ருத்ர"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3137,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நக்கன் பிரானோடு",
+          "meaning": "சிவபிரானும்",
+          "meaning_snippet": "சிவபிரானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3219,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வெள்ளம் நீர் சடையானும் நின்னிடை வேறு அலாமை விளங்க நின்றதும்",
+          "meaning": "கங்கா ப்ரவாஹத்தைத்ச் சடையிலே தாங்கியுள்ள சிவனும் உன்பக்கல் வேறுபாடின்றி ஒற்றுமை பெற்று விளங்க நின்றதும் (ஆகிய இவை)",
+          "meaning_snippet": "கங்கா ப்ரவாஹத்தைத்ச் சடையிலே தாங்கியுள்ள சிவனும் உன்பக்கல் வேறுபாடின்றி ஒற்றுமை பெற்று விளங்க நின்றதும் (ஆகிய இவை)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "சிவ",
+            "சடை"
+          ],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3315,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவன் ஆய்",
+          "meaning": "சிவனுக்கு அந்தர்யாமியும்",
+          "meaning_snippet": "சிவனுக்கு அந்தர்யாமியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3318,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பிரமன் சிவன் இந்திரன் விண்ணவர்",
+          "meaning": "பிரமன் முதலான தேவர்களெல்லாம்",
+          "meaning_snippet": "பிரமன் முதலான தேவர்களெல்லாம்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3387,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இண்டை சடை முடி ஈசன்",
+          "meaning": "நிபிடமான ஜடாமண்டலத்தையுடையவரான சிவபிரான்",
+          "meaning_snippet": "நிபிடமான ஜடாமண்டலத்தையுடையவரான சிவபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [
+            "சிவ",
+            "ஜட"
+          ],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "சிவ",
+            "ஜட"
+          ],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3393,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரண் நான் முகன் ஏத்தும்",
+          "meaning": "சிவனும் பிரமனும் துதிக்கும்படியான",
+          "meaning_snippet": "சிவனும் பிரமனும் துதிக்கும்படியான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3394,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "புனை கொன்றை அம் செம்சடையாய்",
+          "meaning": "சிவந்த ஜடையிலே கொன்றைமாலையைப் புனைந்துள்ள சிவனுக்கு அந்தர்யாமியே!",
+          "meaning_snippet": "சிவந்த ஜடையிலே கொன்றைமாலையைப் புனைந்துள்ள சிவனுக்கு அந்தர்யாமியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [
+            "சிவ",
+            "ஜட",
+            "ஜடை"
+          ],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [
+            "சிவ",
+            "ஜட",
+            "ஜடை"
+          ],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3395,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அங்கு உயர் முக்கண் பிரான்",
+          "meaning": "அந்த லோகத்திலே உயர்ந்தவனான சிவ பிரானும்",
+          "meaning_snippet": "அந்த லோகத்திலே உயர்ந்தவனான சிவ பிரானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3398,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "என் மலை மகள் கூறன் தன்னை"
+      ]
+    },
+    {
+      "pasuram_number": 3413,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பிரமன் சிவன் இந்திரன் என்ற இவர்க்கு",
+          "meaning": "பிரமன் சிவன் இந்திரன் என்று சொல்லிப் பட்ட இவர்களுடைய",
+          "meaning_snippet": "பிரமன் சிவன் இந்திரன் என்று சொல்லிப் பட்ட இவர்களுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3457,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உருத்திரன் அப்பனை",
+          "meaning": "ஸம்ஹாரக்கடவுளாகிய ருத்ரனுக்கு தலைவனும்",
+          "meaning_snippet": "ஸம்ஹாரக்கடவுளாகிய ருத்ரனுக்கு தலைவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ருத்ர",
+          "alias_hits_meaning": [
+            "ருத்ர"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ருத்ர"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3477,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நான் முகன் செஞ்சடையான் என்ற இவர்கள் யார்",
+          "meaning": "பிரமனென்றும் ருத்திரனென்றும் சொல்லப் படுகிறவர்களில் யார்தான்",
+          "meaning_snippet": "பிரமனென்றும் ருத்திரனென்றும் சொல்லப் படுகிறவர்களில் யார்தான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சடை",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சடை"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சடை"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3485,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வண் சிவனும் அயனும் தானும் ஒப்பார்",
+          "meaning": "சிவனையும் பிரமனையும் திருமாலையும் மொத்தவர்களாய்க் கொண்டு",
+          "meaning_snippet": "சிவனையும் பிரமனையும் திருமாலையும் மொத்தவர்களாய்க் கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3488,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவபிரான் அவனே",
+          "meaning": "சிவஸ்வரூபியுமானவன்",
+          "meaning_snippet": "சிவஸ்வரூபியுமானவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3489,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "முக்கண் அம்மானை நான் முகனை",
+          "meaning": "சிவனுக்கு பிரமனுக்கும் அந்தர்யாமியுமான பெருமானை",
+          "meaning_snippet": "சிவனுக்கு பிரமனுக்கும் அந்தர்யாமியுமான பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3497,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கண் கை கால் சிவந்த வாய்",
+          "meaning": "கண்களையும் கைகளையும் கால்களையும் சிவந்த வாயையுமுயை",
+          "meaning_snippet": "கண்களையும் கைகளையும் கால்களையும் சிவந்த வாயையுமுயை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3523,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தன் கண்கள் சிவந்து நோக்கும்",
+          "meaning": "தன் கண்கள் சிவக்கப்பார்க்கும்",
+          "meaning_snippet": "தன் கண்கள் சிவக்கப்பார்க்கும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3524,
+      "line_count": 11,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கண்கள் சிவந்து பெரிய ஆய்",
+          "meaning": "திருக்கண்கள் சிவந்தும் பெருத்துமிருப்பனவாய்",
+          "meaning_snippet": "திருக்கண்கள் சிவந்தும் பெருத்துமிருப்பனவாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        },
+        {
+          "padham": "வாயும் சிவந்து கனிந்து",
+          "meaning": "திருவதரமும் சிவந்து பழுத்து",
+          "meaning_snippet": "திருவதரமும் சிவந்து பழுத்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "உள்ளே",
+        "வெண் பல் இலகு சுடர்",
+        "இலகு விலகு மகர குண்டலத்தன்",
+        "கொண்டல் வண்ணன்",
+        "சுடர் முடியன்"
+      ]
+    },
+    {
+      "pasuram_number": 3525,
+      "line_count": 13,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அண்டத்து அகத்தான்",
+        "புறத்து உள்ளான்",
+        "இதுவே படி என்று உரைக்கல் ஆம் படியன் அல்லன்",
+        "பரம்பரன்",
+        "கடி நாற்றம் சேர்"
+      ]
+    },
+    {
+      "pasuram_number": 3526,
+      "line_count": 11,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உணர்வில் உம்பர் ஒருவனை",
+        "அவனது அருளால்",
+        "உறல் பொருட்டு",
+        "என் உணர்வின் உள்ளே",
+        "இருத்தினேன்"
+      ]
+    },
+    {
+      "pasuram_number": 3527,
+      "line_count": 6,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தானும் சிவனும் பிரமனும் ஆகி பணைத்த தனி முதலை",
+          "meaning": "தானான தன்மையனாயும் சிவனாயும் பிரமனாயும் விஸத்ருதனானப்ரதான காரண பூதனும்.",
+          "meaning_snippet": "தானான தன்மையனாயும் சிவனாயும் பிரமனாயும் விஸத்ருதனானப்ரதான காரண பூதனும்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "யாதும் யவர்க்கும் முன்னோனை",
+        "தேனும் பாலும் கன்னலும் அமுதும் ஆகி தித்தித்து",
+        "என் ஊனில் உயிரில் உணர்வினில் நின்ற ஒன்றை",
+        "யானும் தானாய் ஒழிந்தானை",
+        "உணர்ந்தேன்"
+      ]
+    },
+    {
+      "pasuram_number": 3528,
+      "line_count": 10,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "நின்ற ஒன்றை உணர்ந்தேனுக்கு",
+        "அதன் நுண் நேர்மை",
+        "அது இது என்று",
+        "ஒருவர்க்கு ஒனறும் உணரல் ஆகாது உணர்த்தும்",
+        "மேலும் காண்பு அரிது"
+      ]
+    },
+    {
+      "pasuram_number": 3529,
+      "line_count": 10,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஞானம் கடந்து போய்",
+        "நல் இந்திரியம் எல்லாம் ஈர்த்து",
+        "ஒன்று ஆய் கிடந்த அரு பெரு அதனை உலப்பு இல் பாழ் அதனை உணர்ந்து உணர்ந்து",
+        "நன்றாய் ஆங்கு சென்று",
+        "இன்பம் துன்பங்கள் செற்று களைந்து"
+      ]
+    },
+    {
+      "pasuram_number": 3530,
+      "line_count": 11,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அதுவே",
+        "வீடு",
+        "வீடு பேறு இன்பம் தானும் அது",
+        "தேறி",
+        "எதுவே தானும் பற்று இன்றி"
+      ]
+    },
+    {
+      "pasuram_number": 3531,
+      "line_count": 8,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "எய்த்தார் எய்த்தார் எய்த்தார் என்று இல்லத்தாரும் புறத்தாரும் மொய்த்து",
+        "ஆங்கு அலறி முயங்க",
+        "தாம் போகும்போது",
+        "உன்மத்தர் போல் பித்தே ஏறி",
+        "அனுராகம் பொழியும் போது"
+      ]
+    },
+    {
+      "pasuram_number": 3532,
+      "line_count": 10,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கூடிற்று ஆகில் நல் உறைப்பு",
+        "கூடாமையை கூடினால்",
+        "அது",
+        "ஆடல் பறவை உயர்கொடி எம்மாயன் ஆவது",
+        "அதுவே"
+      ]
+    },
+    {
+      "pasuram_number": 3533,
+      "line_count": 8,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "இல்லை அல்லர் ஆய் உளரும்",
+        "இல்லை ஆகியே",
+        "எம் ஒருவர் உளர்",
+        "அவர் வந்து என் உள்ளத்துள்ளே உறைகின்றார்",
+        "வளரும் பிறைப் போலே ஆக்கமும்"
+      ]
+    },
+    {
+      "pasuram_number": 3534,
+      "line_count": 11,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தெருளும் மருளும் மாய்த்து",
+          "meaning": "ஜ்ஞாரா ஜ்ஞானங்கள் கலசிவருகிற ரீதியை யொழித்து",
+          "meaning_snippet": "ஜ்ஞாரா ஜ்ஞானங்கள் கலசிவருகிற ரீதியை யொழித்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அயன் ஆம் சிவன் ஆம் திருமாலால்",
+          "meaning": "பிரமனுக்கும் சிவனுக்கும் அந்தர்யாமியாயிருந்து ஸ்ருஷ்டி ஸம்ஹாரங்களை நிர்வஹிக்கிற எம்பெருமானாலே",
+          "meaning_snippet": "பிரமனுக்கும் சிவனுக்கும் அந்தர்யாமியாயிருந்து ஸ்ருஷ்டி ஸம்ஹாரங்களை நிர்வஹிக்கிற எம்பெருமானாலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "தன்",
+        "திருந்து செம்பொன் கழல் அடி கீழ்",
+        "அருளி இருத்தும்",
+        "அம்மான் ஆம்",
+        "அருளப்பட்ட"
+      ]
+    },
+    {
+      "pasuram_number": 3580,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அவனும் அவனும் அவனும் அவனே",
+          "meaning": "பிரமனும் சிவனும இந்திரனும் அவனே",
+          "meaning_snippet": "பிரமனும் சிவனும இந்திரனும் அவனே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3642,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மூவர் முதல்வன்",
+          "meaning": "பிரமன் சிவனிந்திரக்கும் ஸத்தோஹேது பூதனாய்",
+          "meaning_snippet": "பிரமன் சிவனிந்திரக்கும் ஸத்தோஹேது பூதனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3650,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவனொடு பிரமன் வரை திருமடந்தை சேர் திரு ஆகம்",
+          "meaning": "சிவனும் பிரமனும் பிராட்டியும் ஒருங்கே சேர்ந்திருக்கப் பெற்ற திருமேனியானது.",
+          "meaning_snippet": "சிவனும் பிரமனும் பிராட்டியும் ஒருங்கே சேர்ந்திருக்கப் பெற்ற திருமேனியானது.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3683,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குமரனார் தாதை துன்பம் துடைத்த கோவிந்தனார்",
+          "meaning": "முருகனது தந்தையான சிவபிரானது துன்பத்தைப் போக்கியருளின பெருமானாய்",
+          "meaning_snippet": "முருகனது தந்தையான சிவபிரானது துன்பத்தைப் போக்கியருளின பெருமானாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3738,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிவனும் பிரமஎம் காணாது",
+          "meaning": "சிவனுக்கும் பிரமனுக்கு மெட்டாதேயிருந்து",
+          "meaning_snippet": "சிவனுக்கும் பிரமனுக்கு மெட்டாதேயிருந்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3739,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "முக்கண் அம்மானும்",
+          "meaning": "எம் சிவபிரானும்",
+          "meaning_snippet": "எம் சிவபிரானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3768,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பிரமன் சிவன் இந்திரன் ஆதிக்கு எல்லாம்",
+          "meaning": "பிரமன் சிவன் இந்திரன் முதலானார்க்கும்",
+          "meaning_snippet": "பிரமன் சிவன் இந்திரன் முதலானார்க்கும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சிவ",
+          "alias_hits_meaning": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "alias_hits_padham": [
+            "சிவன்",
+            "சிவ"
+          ],
+          "review_stems_meaning": [
+            "சிவ"
+          ],
+          "review_stems_padham": [
+            "சிவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    }
+  ]
+}

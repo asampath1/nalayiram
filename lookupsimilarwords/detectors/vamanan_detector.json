@@ -1,0 +1,170 @@
+{
+  "theme_id": "vamanan",
+  "concept": "வாமனன்",
+  "aliases": [
+    "வாமனன்",
+    "திருவிக்ரமன்",
+    "vamanan",
+    "thiruvikraman"
+  ],
+  "normalize_meaning_parenthesis": false,
+  "source_table": "PasuramsArthamTablePOC",
+  "built_at": "2026-05-29T12:21:09.720613+00:00",
+  "description": "Detector mined from POC rows with வாமனன் theme in SimilarWords. Match via padham_substring_signals on Padham OR meaning_keywords on Meaning only (no global padham-exact list).",
+  "stats": {
+    "tagged_rows_analyzed": 1038,
+    "strong_signal_lines": 140,
+    "weak_pasuram_only_lines": 898,
+    "padham_substring_signal_count": 18,
+    "meaning_keyword_count": 26,
+    "distinct_pasurams_in_source": 132
+  },
+  "meaning_keywords": [
+    "அமண",
+    "bali",
+    "வாமந",
+    "amana",
+    "dwarf",
+    "அளந்த",
+    "மாவலி",
+    "மூவடி",
+    "விக்ர",
+    "amanan",
+    "mavali",
+    "vikram",
+    "அளந்து",
+    "அளந்தை",
+    "மஹாபலி",
+    "வாமனன்",
+    "vamanan",
+    "அளந்தான",
+    "திருவிக",
+    "alanthan",
+    "mahabali",
+    "mahapali",
+    "moondadi",
+    "thiruvikrama",
+    "திருவிக்ரமன்",
+    "thiruvikraman",
+    "அளப்ப",
+    "அளக்க",
+    "அடி அள"
+  ],
+  "padham_substring_signals": [
+    "அமண",
+    "bali",
+    "வாமந",
+    "amana",
+    "அளந்த",
+    "மாவலி",
+    "amanan",
+    "mavali",
+    "vikram",
+    "அளந்து",
+    "அளந்தை",
+    "வாமனன்",
+    "vamanan",
+    "அளந்தான",
+    "திருவிக",
+    "mahabali",
+    "திருவிக்ரமன்",
+    "thiruvikraman",
+    "அளப்ப",
+    "அளக்க",
+    "அடி அள"
+  ],
+  "padham_substring_only_review": [
+    "அடி அளந்தாய் நீ அன்றே",
+    "அரி வாமனன்",
+    "அளந்தானை",
+    "அளந்து கொண்ட",
+    "இ மண் அளந்த",
+    "இடந்து உண்டு உமிழிந்து அளந்து",
+    "உலகம் அளந்தானே! தாலேலோ!",
+    "உலகம் அளந்தான் தமர்",
+    "உலகு அளந்த சே அடி மேல்",
+    "உலகு அளந்தான் என்று",
+    "எழில் அளந்து எண்ணற்கு அரியானை",
+    "கோடு அம் கை வாமனன் ஆய் செய்த கூத்துக்கள் கண்டும்",
+    "துவள் அற ஆய்ந்து கொண்டு வாமனன் அடிக்கு என்று ஏத்த",
+    "பொருத்தம் உடை வாமனன் தான் புகுந்து",
+    "மண் அளந்த பரதமும்",
+    "மாவலி",
+    "மாவலி தன்",
+    "மின்னை உடை ஆக கொண்டு உலகு அளந்தான்",
+    "வாமனன்",
+    "வாமனன் என்று",
+    "விரும்பி விண்மண் அளந்த பொன் அம்கழற்கே"
+  ],
+  "min_stem_length": 4,
+  "blocked_contexts": [
+    {
+      "stem": "வாம",
+      "if_text_matches": "ஸ்வாமி"
+    },
+    {
+      "stem": "வாம",
+      "if_text_matches": "மத்துக்காகவாம்"
+    },
+    {
+      "stem": "வாம",
+      "if_text_matches": "காகவாம்"
+    },
+    {
+      "stem": "மஹாபல",
+      "if_text_matches": "இராவண",
+      "prefix_match": true
+    },
+    {
+      "stem": "மஹாபல",
+      "if_text_matches": "ராவண",
+      "prefix_match": true
+    },
+    {
+      "stem": "விக்ர",
+      "if_text_matches": "விக்ரஹ",
+      "prefix_match": true
+    },
+    {
+      "stem": "vikram",
+      "if_text_matches": "விக்ரஹ",
+      "prefix_match": true
+    }
+  ],
+  "excluded_stems_review": [
+    "வாம — inside ஸ்வாமி or மத்துக்காகவாம், not Vamana",
+    "மஹாபல — Ravana vs Mahabali comparison lines, not Vamana avataram",
+    "விக்ர — inside விக்ரஹம் (idol), not திருவிக்ரமன் (2212)"
+  ],
+  "validation": {
+    "pasurams_in_source": 132,
+    "pasurams_detector_would_trigger": 107,
+    "pasurams_missed": [
+      203,
+      392,
+      393,
+      420,
+      447,
+      582,
+      2079,
+      2084,
+      2774,
+      2828,
+      2840,
+      3020,
+      3035,
+      3047,
+      3126,
+      3193,
+      3210,
+      3267,
+      3283,
+      3290,
+      3320,
+      3437,
+      3473,
+      3483,
+      3491
+    ]
+  }
+}

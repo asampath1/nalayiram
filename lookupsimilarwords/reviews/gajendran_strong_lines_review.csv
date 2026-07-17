@@ -1,0 +1,19 @@
+pasuram_number,detector_would_tag,strong_line_count,line_count,strength,padham,meaning_snippet,detector_reason,detector_term,alias_hits,review_stems
+126,True,4,15,detector_match,முதலை,முதலையின்,padham_substring,முதல,முதலை; முதலை; முதலைய,முதல; முதல
+126,True,4,15,detector_match,களிறு,ஸ்ரீகஜேந்த்ராழ்வான்,padham_substring,களிற,களிற; கஜ,களிற; கஜ
+126,True,4,15,detector_match,உதவ,(அந்த யானைக்கு) உதவும்படி,meaning_keyword,யானை,யானை,யானை
+126,True,4,15,detector_match,உறு துயர்,(அந்த யானையின்) மிக்க வருத்தத்தை,meaning_keyword,யானை,யானை,யானை
+220,True,5,18,detector_match,முதலை,முதலையின் வாயாகிய,padham_substring,முதல,முதலை; முதலை; முதலைய,முதல; முதல
+220,True,5,18,detector_match,வேழம்,ஸ்ரீகஜேந்திராழ்வானுடைய,padham_substring,வேழ,வேழ; கஜ,வேழ; கஜ
+220,True,5,18,detector_match,ஆழி,(அப்பொய்கைக் கரையிலே சென்று) சக்ராயுதத்தாலே,meaning_keyword,சக்ர,,
+220,True,5,18,detector_match,பணி கொண்டானால்,"(முதலையைத் துணிந்து , கஜேந்திராழ்வரனுடைய) கைங்கர்யத்தை ஸ்வீக்ரித்தருளின கண்ண பிரானால்",meaning_keyword,கஜ,கஜ; முதலை; முதலைய,கஜ; முதல
+220,True,5,18,detector_match,அதற்கு,அந்த யானையின் திறத்தில்,meaning_keyword,யானை,யானை,யானை
+342,True,1,1,detector_match,ஒரு வாரணம்,(ஸ்ரீகஜேந்திராழ்வானாகிற ஒரு யானையினிடத்து,meaning_keyword,கஜ,கஜ; யானை,கஜ; யானை
+441,True,1,2,detector_match,கரி,கஜேந்திர ஆழ்வானுடைய,meaning_keyword,கஜ,கஜ,கஜ
+2865,True,1,1,detector_match,யானை,கஜேந்திராழ்வானுடைய,padham_substring,யானை,யானை; கஜ,யானை; கஜ
+2875,True,1,1,detector_match,கைம்மா துன்பம் கடிந்த பிரானே,கஜேந்திராழ்வானுடைய இடரைத் தீர்த்த பிரபுவே!,meaning_keyword,கஜ,கஜ,கஜ
+2905,True,1,2,detector_match,களிறு,கஜேந்திராழ்வானை,padham_substring,களிற,களிற; கஜ,களிற; கஜ
+2912,True,1,1,detector_match,வந்தாய் போலே வந்தும்,(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்,meaning_keyword,கஜ,கஜேந்திரன்; கஜ,கஜ; முதல
+2941,True,1,1,detector_match,கை மாவுக்கு,கஜேந்திராழ்வானுக்கு,meaning_keyword,கஜ,கஜ,கஜ
+3443,True,2,5,detector_match,அகல் இரு பொங்கையின் வாய் நின்று,மிகப் பெரிய பொய்கையிடத்திலே (முதலையின் வாயிலாகப்பட்டது) நின்று,meaning_keyword,முதல,முதலை; முதலைய,முதல
+3443,True,2,5,detector_match,நின் சரண் அன்றி மற்று ஒன்று இலன் என்று தன்; நீள் கழல் எத்திய ஆனையின்,‘உன் திருவடிகளை யொழிய மற்றொரு புகலுடையே னல்லேன்’ என்று தன்னுடைய திருவடிகளைத் துதித்த கஜேந்திராழ்வானுடைய,meaning_keyword,கஜ,கஜ,கஜ

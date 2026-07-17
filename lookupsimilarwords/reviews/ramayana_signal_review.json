@@ -1,0 +1,5301 @@
+{
+  "theme_id": "ramayana",
+  "primary_similarwords_tag": "Ramayanam",
+  "source_table": "PasuramsArthamTablePOC",
+  "reviewed_at": "2026-05-28T17:17:50.715209+00:00",
+  "pasuram_count": 199,
+  "detector_would_tag_count": 79,
+  "candidate_meaning_keywords": [],
+  "candidate_padham_substrings": [
+    {
+      "stem": "காகுத்த",
+      "line_hits": 6
+    }
+  ],
+  "top_thematic_padhams": [
+    {
+      "padham": "இலங்கை",
+      "strong_line_hits": 7
+    },
+    {
+      "padham": "தென் இலங்கை",
+      "strong_line_hits": 5
+    },
+    {
+      "padham": "அரக்கன்",
+      "strong_line_hits": 4
+    },
+    {
+      "padham": "இராமன்",
+      "strong_line_hits": 3
+    },
+    {
+      "padham": "அணை கட்டி",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "மராமரம்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "காகுத்தன்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "அன்று",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "ராமானுஜஸ்ய சரணௌ சரணம் ப்ரபத்யே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இராமாநுச",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஏய்ந்த பெரு கீர்த்தி இராமாநுச முனி தன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இராமாநுசன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இராமானுச முனி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அறு சமயம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இராமானுச",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "குரங்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரக்கர்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வில் ஆளனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சித்திர கூடம் பொருப்பினில்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சீதை பொருட்டா",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இலங்கையர் மன்னன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மன்னன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மின் இலங்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "என் இலங்கு நாமத்து அளவும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மின் இலங்கு ஆரற்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "காகுத்த நம்பீ",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "எதிர் வந்தான் தன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வில்லின்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சீற்றம் இலாதானை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சீதை மணாளனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஈந்தானை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நூற்றவள்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அவன் ஆர்க்க அரித்தானை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒராதான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆரா அமுதனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அருந் தவத்தோன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "செறிந்த சிலை கொடு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "தவத்தை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆர்த்ததும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஏகியது",
+      "strong_line_hits": 1
+    }
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 0,
+      "line_count": 46,
+      "strong_line_count": 7,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ராமானுஜஸ்ய சரணௌ சரணம் ப்ரபத்யே",
+          "meaning": "ஸ்நந்த்ய பிரஜை முலையிலே வாய் வைக்குமா போலே ஸ்வாமி திருவடிகளில் சாய்ப்பதே நமக்கு பிராப்யம்",
+          "meaning_snippet": "ஸ்நந்த்ய பிரஜை முலையிலே வாய் வைக்குமா போலே ஸ்வாமி திருவடிகளில் சாய்ப்பதே நமக்கு பிராப்யம்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ராம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ராம"
+          ]
+        },
+        {
+          "padham": "இராமாநுச",
+          "meaning": "இராமாநுஜன் என்னும் திருநாமத்தையுடையவராய்",
+          "meaning_snippet": "இராமாநுஜன் என்னும் திருநாமத்தையுடையவராய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        },
+        {
+          "padham": "ஏய்ந்த பெரு கீர்த்தி இராமாநுச முனி தன்",
+          "meaning": "தகுதியான பெரும்புகழையுடைய எம்பெருமானது",
+          "meaning_snippet": "தகுதியான பெரும்புகழையுடைய எம்பெருமானது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        },
+        {
+          "padham": "இராமாநுசன்",
+          "meaning": "எம்பெருமானாராவர்",
+          "meaning_snippet": "எம்பெருமானாராவர்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        },
+        {
+          "padham": "இராமானுச முனி",
+          "meaning": "எம்பெருமானாருடைய",
+          "meaning_snippet": "எம்பெருமானாருடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        },
+        {
+          "padham": "அறு சமயம்",
+          "meaning": "அப்ராமாணிகங்களான அறுமதங்களையும்",
+          "meaning_snippet": "அப்ராமாணிகங்களான அறுமதங்களையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இராமானுச",
+          "meaning": "எம்பெருமானாரே!",
+          "meaning_snippet": "எம்பெருமானாரே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "முன்னை வினை",
+        "அகல",
+        "மூங்கில் குடி அமுதன்",
+        "பொன் அம் கழல்",
+        "கமலப்போது இரண்டும்"
+      ]
+    },
+    {
+      "pasuram_number": 29,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன் தன்"
+      ]
+    },
+    {
+      "pasuram_number": 44,
+      "line_count": 4,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பிரமன்",
+        "மாணி குறளனே",
+        "வையம்",
+        "அளந்தானே"
+      ]
+    },
+    {
+      "pasuram_number": 45,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகம் அளந்தானே! தாலேலோ!"
+      ]
+    },
+    {
+      "pasuram_number": 61,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாவலி இடை சென்று கேள்"
+      ]
+    },
+    {
+      "pasuram_number": 74,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "குறளும்"
+      ]
+    },
+    {
+      "pasuram_number": 82,
+      "line_count": 16,
+      "strong_line_count": 4,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "குரங்கு",
+          "meaning": "குரங்குகளினுடைய",
+          "meaning_snippet": "குரங்குகளினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "குரங்க",
+          "alias_hits_meaning": [
+            "குரங்க"
+          ],
+          "alias_hits_padham": [
+            "குரங்க"
+          ],
+          "review_stems_meaning": [
+            "குரங்க"
+          ],
+          "review_stems_padham": [
+            "குரங்க"
+          ]
+        },
+        {
+          "padham": "அணை கட்டி",
+          "meaning": "ஸேதுவைக் கட்டி முடித்து",
+          "meaning_snippet": "ஸேதுவைக் கட்டி முடித்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அணை கட்ட",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அணை கட்ட"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அணை கட்ட"
+          ]
+        },
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்கையிலுள்ள",
+          "meaning_snippet": "லங்கையிலுள்ள",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "அரக்கர்",
+          "meaning": "ராக்ஷஸர்களெல்லாம்",
+          "meaning_snippet": "ராக்ஷஸர்களெல்லாம்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "குரை",
+        "கடல் தன்னை",
+        "நெருக்கி",
+        "இனத்தாலே",
+        "நீள் நீர்"
+      ]
+    },
+    {
+      "pasuram_number": 94,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "திரிவிக்கிரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 103,
+      "line_count": 17,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மிக்க பெரும்புகழ்",
+        "மா வலி",
+        "வேள்வியில்",
+        "இது",
+        "தக்கது அன்று"
+      ]
+    },
+    {
+      "pasuram_number": 104,
+      "line_count": 16,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "இது",
+        "என் மாயம்",
+        "என் அப்பன்",
+        "அறிந்திலன்",
+        "முன்னைய வண்ணமே கொண்டு"
+      ]
+    },
+    {
+      "pasuram_number": 112,
+      "line_count": 11,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பண்டு",
+        "வெண்கலம் பத்திரம்",
+        "கட்டி",
+        "விளையாடி",
+        "பல கண் செய்த"
+      ]
+    },
+    {
+      "pasuram_number": 113,
+      "line_count": 16,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உத்தர வேதியில் நின்ற",
+        "ஒருவனை",
+        "சத்திரம்",
+        "ஏந்தி",
+        "தனி"
+      ]
+    },
+    {
+      "pasuram_number": 127,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்கையானது",
+          "meaning_snippet": "லங்கையானது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "வில் ஆளனை",
+          "meaning": "வில்லையேந்தி ஸ்ரீராமனாக (முன்பு) திருவவதரித்த கண்ணனைப் பற்றி",
+          "meaning_snippet": "வில்லையேந்தி ஸ்ரீராமனாக (முன்பு) திருவவதரித்த கண்ணனைப் பற்றி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "வல்லாள்",
+        "மலங்க",
+        "சரம் துரந்த",
+        "விட்டு சித்தன்",
+        "விரித்த"
+      ]
+    },
+    {
+      "pasuram_number": 146,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வாமந நம்பி"
+      ]
+    },
+    {
+      "pasuram_number": 166,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 170,
+      "line_count": 13,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "முன்",
+        "மன்னன் தன்",
+        "தேவிமார்",
+        "கண்டு",
+        "மகிழ்வு எய்த"
+      ]
+    },
+    {
+      "pasuram_number": 178,
+      "line_count": 16,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சித்திர கூடம் பொருப்பினில்",
+          "meaning": "சித்ர கூட மலைச் சாரலில் (பிராட்டி மடியிலே தலை வைத்துக் கொண்டு ஸ்ரீராமனாகிய தான் கண் வளர்ந்தருளும் போது)",
+          "meaning_snippet": "சித்ர கூட மலைச் சாரலில் (பிராட்டி மடியிலே தலை வைத்துக் கொண்டு ஸ்ரீராமனாகிய தான் கண் வளர்ந்தருளும் போது)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "(அக்காக்காய்!)",
+        "பொன்",
+        "திகழ்",
+        "வடிவில்",
+        "உற்ற"
+      ]
+    },
+    {
+      "pasuram_number": 179,
+      "line_count": 12,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சீதை பொருட்டா",
+          "meaning": "ஸீதையை மீட்டுக் கொணர்வதற்காக",
+          "meaning_snippet": "ஸீதையை மீட்டுக் கொணர்வதற்காக",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சீத",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சீத"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சீத"
+          ]
+        },
+        {
+          "padham": "இலங்கையர் மன்னன்",
+          "meaning": "லங்கையிலுள்ளார்க்குத் தலைவனான ராவணனுடைய",
+          "meaning_snippet": "லங்கையிலுள்ளார்க்குத் தலைவனான ராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மின்",
+        "இடை",
+        "மணி முடி பத்தும்",
+        "உடன் வீழ",
+        "தன்னிகர் ஒன்று இல்லா"
+      ]
+    },
+    {
+      "pasuram_number": 180,
+      "line_count": 16,
+      "strong_line_count": 5,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "அழகிய லங்கைக்கு",
+          "meaning_snippet": "அழகிய லங்கைக்கு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "மன்னன்",
+          "meaning": "அரசனாகிய ராவணனுடைய",
+          "meaning_snippet": "அரசனாகிய ராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மின் இலங்கு",
+          "meaning": "ஒளி வீசுகின்ற",
+          "meaning_snippet": "ஒளி வீசுகின்ற",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "என் இலங்கு நாமத்து அளவும்",
+          "meaning": "என் பெயர் ப்ரகாசிக்குமளவும்",
+          "meaning_snippet": "என் பெயர் ப்ரகாசிக்குமளவும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "மின் இலங்கு ஆரற்கு",
+          "meaning": "மின்னல்போல் விளங்குகின்ற ஹாரத்தை யுடையவனுக்கு",
+          "meaning_snippet": "மின்னல்போல் விளங்குகின்ற ஹாரத்தை யுடையவனுக்கு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "சிரம்",
+        "தோள்",
+        "துணி செய்து",
+        "பூண்",
+        "விபீடணன் நம்பிக்கு"
+      ]
+    },
+    {
+      "pasuram_number": 192,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பிரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 198,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமனே!"
+      ]
+    },
+    {
+      "pasuram_number": 203,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காகுத்த நம்பீ",
+          "meaning": "இராம மூர்த்தி!",
+          "meaning_snippet": "இராம மூர்த்தி!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "காகுத்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "வாமன நம்பீ! இங்கே வருக-;"
+      ]
+    },
+    {
+      "pasuram_number": 219,
+      "line_count": 12,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாவலி",
+        "வேள்வியில்",
+        "மாண் உரு ஆய் சென்று",
+        "மூ அடி தா என்று",
+        "இரந்து"
+      ]
+    },
+    {
+      "pasuram_number": 280,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "நம் பரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 308,
+      "line_count": 14,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "எதிர் வந்தான் தன்",
+          "meaning": "எதிர்த்து வந்த பரசு ராமனுடைய",
+          "meaning_snippet": "எதிர்த்து வந்த பரசு ராமனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "வில்லின்",
+          "meaning": "(தன் முடித்தருளினவனுமான இராமபிரானுடைய) வில்லினது",
+          "meaning_snippet": "(தன் முடித்தருளினவனுமான இராமபிரானுடைய) வில்லினது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "வில்லினோடு",
+        "தவத்தையும்",
+        "எதிர்",
+        "வாங்கி",
+        "முன்"
+      ]
+    },
+    {
+      "pasuram_number": 310,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சீற்றம் இலாதானை",
+          "meaning": "சீற்றமற்ற இராம பிரானை",
+          "meaning_snippet": "சீற்றமற்ற இராம பிரானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "சீதை மணாளனை",
+          "meaning": "ஸீதைக்கு வல்லபனானவனை",
+          "meaning_snippet": "ஸீதைக்கு வல்லபனானவனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சீத",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சீத"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சீத"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மாற்று தாய்",
+        "சென்று",
+        "வனமே போகு என்றிட",
+        "ஈற்றுத்தாய்",
+        "பின் தொடர்ந்து"
+      ]
+    },
+    {
+      "pasuram_number": 312,
+      "line_count": 12,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஈந்தானை",
+          "meaning": "அளித்தருளின இராமபிரானை",
+          "meaning_snippet": "அளித்தருளின இராமபிரானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "முடி ஒன்றி",
+        "மூ உலகங்களும்",
+        "ஆண்டு",
+        "உன் அடியேற்கு அருள் என்று",
+        "அவன் பின் தொடர்ந்த"
+      ]
+    },
+    {
+      "pasuram_number": 314,
+      "line_count": 14,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நூற்றவள்",
+          "meaning": "(இராமனைக் காட்டுக்குச் செலுத்தக் கடவோம் என்று) எண்ணம் கொண்ட கைகேயியினுடைய",
+          "meaning_snippet": "(இராமனைக் காட்டுக்குச் செலுத்தக் கடவோம் என்று) எண்ணம் கொண்ட கைகேயியினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அவன் ஆர்க்க அரித்தானை",
+          "meaning": "அவன் கதறும்படி அறுத்த இராம பிரானை",
+          "meaning_snippet": "அவன் கதறும்படி அறுத்த இராம பிரானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "தார்க்கு",
+        "இளந்",
+        "தம்பிக்கு",
+        "அரசு ஈந்து",
+        "சொல் கொண்டு"
+      ]
+    },
+    {
+      "pasuram_number": 316,
+      "line_count": 12,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "(அர்த்த ஸேது வழியாக) லங்கையிலிருந்து",
+          "meaning_snippet": "(அர்த்த ஸேது வழியாக) லங்கையிலிருந்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "ஒராதான்",
+          "meaning": "(தன் வீரப்பாட்டை) மதியாத ராவணனுடைய",
+          "meaning_snippet": "(தன் வீரப்பாட்டை) மதியாத ராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "ஆரா அமுதனை",
+          "meaning": "எவ்வளவு உண்டாலும் திருப்தியைத் தாராத அம்ருதம் போல் இனியனான இராமபிரானை",
+          "meaning_snippet": "எவ்வளவு உண்டாலும் திருப்தியைத் தாராத அம்ருதம் போல் இனியனான இராமபிரானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கார் ஆர் கடலை",
+        "அடைத்திட்டு",
+        "புக்கு",
+        "பொன் முடி ஒன்பதோடு ஒன்றையும்",
+        "நேரா"
+      ]
+    },
+    {
+      "pasuram_number": 318,
+      "line_count": 20,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அருந் தவத்தோன்",
+          "meaning": "அரிய தவத்தை யுடைய பரசுராமன்",
+          "meaning_snippet": "அரிய தவத்தை யுடைய பரசுராமன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "செறிந்த சிலை கொடு",
+          "meaning": "(தனக்குத்) தகுந்த (அப்பரசுராமன் கையிலிருந்த விஷ்ணு) தநுஸ்ஸை வாங்கிக் கொண்டு",
+          "meaning_snippet": "(தனக்குத்) தகுந்த (அப்பரசுராமன் கையிலிருந்த விஷ்ணு) தநுஸ்ஸை வாங்கிக் கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "தவத்தை",
+          "meaning": "(அப் பரசுராமனுடைய) தபஸ்ஸை",
+          "meaning_snippet": "(அப் பரசுராமனுடைய) தபஸ்ஸை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நெறிந்த கருங்குழல்",
+        "மடவாய்",
+        "நின் அடியேன்",
+        "விண்ணப்பம்",
+        "செறிந்த"
+      ]
+    },
+    {
+      "pasuram_number": 319,
+      "line_count": 18,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆர்த்ததும்",
+          "meaning": "(நீர் இராம பிரானைக்) கட்டியதும்",
+          "meaning_snippet": "(நீர் இராம பிரானைக்) கட்டியதும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "அல்லி",
+        "அம் பூ",
+        "மலர்க் கோதாய்",
+        "அடி பணிந்தேன்",
+        "விண்ணப்பம்"
+      ]
+    },
+    {
+      "pasuram_number": 320,
+      "line_count": 16,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஏகியது",
+          "meaning": "(இராமபிரான்) சென்றடைந்ததும்",
+          "meaning_snippet": "(இராமபிரான்) சென்றடைந்ததும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கைகேசி",
+        "கலக்கிய மா மனத்தனன் ஆய்",
+        "வரம் வேண்ட",
+        "மலக்கிய",
+        "மா மனத்தனன் ஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 321,
+      "line_count": 15,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அயோத்தியர் கோன்",
+          "meaning": "அயோத்தியிலுள்ளார்க்கு அரசனாதற்கு உரிய இராமபிரானது",
+          "meaning_snippet": "அயோத்தியிலுள்ளார்க்கு அரசனாதற்கு உரிய இராமபிரானது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "வார் அணிந்த",
+        "முலை",
+        "மடவாய்",
+        "வைதேவீ",
+        "விண்ணப்பம்"
+      ]
+    },
+    {
+      "pasuram_number": 322,
+      "line_count": 14,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மான் அமரும்",
+        "மென் நோக்கி",
+        "பால் மொழியாய்",
+        "விண்ணப்பம்;",
+        "கான் அமரும்"
+      ]
+    },
+    {
+      "pasuram_number": 323,
+      "line_count": 16,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அத்திரமே கொண்டு",
+          "meaning": "(அதனாற் சீற்றமுற்ற ஸ்ரீராமன்) ப்ரஹ்மாஸ்திரத்தைத் தொடுத்து",
+          "meaning_snippet": "(அதனாற் சீற்றமுற்ற ஸ்ரீராமன்) ப்ரஹ்மாஸ்திரத்தைத் தொடுத்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "வித்தகனே",
+          "meaning": "(தப்ப முடியாமையால் மீண்டு இராமபிரானையே அடைந்து) “ஆச்சரியமான குணங்களை யுடையவனே!",
+          "meaning_snippet": "(தப்ப முடியாமையால் மீண்டு இராமபிரானையே அடைந்து) “ஆச்சரியமான குணங்களை யுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இராமா",
+          "meaning": "ஸ்ரீ ராமனே!",
+          "meaning_snippet": "ஸ்ரீ ராமனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "சித்திரக்கூடத்து",
+        "இருப்ப",
+        "சிறு காக்கை",
+        "முலை தீண்ட",
+        "எறிய"
+      ]
+    },
+    {
+      "pasuram_number": 324,
+      "line_count": 16,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நின் அன்பின் வழி நின்று",
+          "meaning": "(அதை மாயமான் என்று இளையபெருமாள் விலக்கவும்) உம்முடைய ஆசைக்குக் கட்டுப்பட்டு நின்று",
+          "meaning_snippet": "(அதை மாயமான் என்று இளையபெருமாள் விலக்கவும்) உம்முடைய ஆசைக்குக் கட்டுப்பட்டு நின்று",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இளைய",
+          "alias_hits_meaning": [
+            "மாயமா",
+            "இளைய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "மாயமா",
+            "இளைய"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "எம்பிரான்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இலக்குமணன்",
+          "meaning": "இளைய பெருமாளும்",
+          "meaning_snippet": "இளைய பெருமாளும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இளைய",
+          "alias_hits_meaning": [
+            "இளைய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இளைய"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மின் ஒத்த",
+        "நுண் இடையாய்",
+        "மெய் அடியேன்",
+        "விண்ணப்பம்",
+        "பொன் ஒத்த"
+      ]
+    },
+    {
+      "pasuram_number": 325,
+      "line_count": 16,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வானரர் கோன் உடனிருந்து",
+          "meaning": "(இராமபிரானோடு) கூட இருந்து",
+          "meaning_snippet": "(இராமபிரானோடு) கூட இருந்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அவன்",
+          "meaning": "அவ்விராம பிரானுடைய",
+          "meaning_snippet": "அவ்விராம பிரானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மை தகு",
+        "மா மலர்",
+        "குழலாய்",
+        "வைதேவி",
+        "ஒத்த புகழ்"
+      ]
+    },
+    {
+      "pasuram_number": 326,
+      "line_count": 17,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வில்லிறுத்தான்",
+          "meaning": "ருத்ர தநுஸ்ஸை முறித்த இராமபிரானுடைய",
+          "meaning_snippet": "ருத்ர தநுஸ்ஸை முறித்த இராமபிரானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "சீதையும்",
+          "meaning": "ஸுதாப் பிராட்டியும்,",
+          "meaning_snippet": "ஸுதாப் பிராட்டியும்,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சீத",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சீத"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சீத"
+          ]
+        },
+        {
+          "padham": "அனுமான்",
+          "meaning": "‘வாராய் ஹனுமானே!",
+          "meaning_snippet": "‘வாராய் ஹனுமானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அனும",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அனும"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அனும"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "திக்கு",
+        "நிறை",
+        "புகழ் ஆனன்",
+        "தீ வேள்வி",
+        "சென்ற"
+      ]
+    },
+    {
+      "pasuram_number": 327,
+      "line_count": 17,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வார் ஆரும்",
+        "முலை",
+        "மடலாள்",
+        "வைதேவிதனை",
+        "கண்டு"
+      ]
+    },
+    {
+      "pasuram_number": 328,
+      "line_count": 18,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இராமன்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராமன்",
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கதிர்",
+        "ஆயிரம் இரவி",
+        "தறித்தால் ஒத்தத",
+        "நீள் முடியன்",
+        "இருக்கும் இடம்"
+      ]
+    },
+    {
+      "pasuram_number": 329,
+      "line_count": 15,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஏந்து பெருமை இராமன்",
+          "meaning": "(திருக்கைகளில்) ஏந்தும்படியான பெருமையை யுடைய இராமபிரான்",
+          "meaning_snippet": "(திருக்கைகளில்) ஏந்தும்படியான பெருமையை யுடைய இராமபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராமன்",
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        },
+        {
+          "padham": "காந்தன் முகிழ் விரல் சீதைக்கு ஆகி",
+          "meaning": "செங்காந்தளம்பு போன்ற விரல்களையுடைய பிராட்டிக்காக",
+          "meaning_snippet": "செங்காந்தளம்பு போன்ற விரல்களையுடைய பிராட்டிக்காக",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சீத",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சீத"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சீத"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "நாந்தகம்",
+        "சங்கு",
+        "தண்டு",
+        "நாண் ஒலி",
+        "சார்ங்கம்"
+      ]
+    },
+    {
+      "pasuram_number": 330,
+      "line_count": 20,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மராமரம்",
+          "meaning": "ஸப்த ஸால வ்ருக்ஷங்களை",
+          "meaning_snippet": "ஸப்த ஸால வ்ருக்ஷங்களை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ராம"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ராம"
+          ]
+        },
+        {
+          "padham": "குரங்கு இனம்",
+          "meaning": "(அவனிருக்குமிடஞ் சொல்லுகிறேன்;) வாநர ஸேனையானது",
+          "meaning_snippet": "(அவனிருக்குமிடஞ் சொல்லுகிறேன்;) வாநர ஸேனையானது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "குரங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "குரங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "குரங்க"
+          ]
+        },
+        {
+          "padham": "வீற்றிருந்தானை",
+          "meaning": "எழுந்தருளியிருந்த இராமபிரானை",
+          "meaning_snippet": "எழுந்தருளியிருந்த இராமபிரானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கொலை யானை",
+        "கொம்பு",
+        "பறித்து",
+        "கூடலர்",
+        "சேனை"
+      ]
+    },
+    {
+      "pasuram_number": 337,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 338,
+      "line_count": 15,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கரை",
+          "meaning": "ராக்ஷஸர்களை",
+          "meaning_snippet": "ராக்ஷஸர்களை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "தெய்வம் மகளிர்கள்",
+        "சிலம்பு ஆர்க்க",
+        "வந்து",
+        "ஆடும் சீர்",
+        "சிலம்பு ஆறு"
+      ]
+    },
+    {
+      "pasuram_number": 339,
+      "line_count": 14,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கன்",
+          "meaning": "ராவணனுடைய",
+          "meaning_snippet": "ராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பல்லாண்டு ஒலி",
+        "எல்லா இடத்திலும்",
+        "எங்கும்",
+        "பரந்து செல்லா நிற்கும் சீர்",
+        "தென் திருமாலிருஞ்சோலை"
+      ]
+    },
+    {
+      "pasuram_number": 355,
+      "line_count": 18,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கர்கள் இனம்",
+          "meaning": "ராஷஸ குலத்தை",
+          "meaning_snippet": "ராஷஸ குலத்தை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "இராமன்",
+          "meaning": "இராமபிரான் (எழுந்தருளி யிருக்கிற)",
+          "meaning_snippet": "இராமபிரான் (எழுந்தருளி யிருக்கிற)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராமன்",
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கனம்",
+        "குழையாள் பொருட்டா",
+        "கணை",
+        "பாரித்து",
+        "கழு ஏற்றுவித்து"
+      ]
+    },
+    {
+      "pasuram_number": 356,
+      "line_count": 19,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கையினை",
+          "meaning": "இலங்கைக் காரனான ராவணனை",
+          "meaning_snippet": "இலங்கைக் காரனான ராவணனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "ராவண",
+            "இலங்க"
+          ],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [
+            "இலங்க",
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "அரையன்",
+          "meaning": "ஸ்வாமியான இராமபிரான்",
+          "meaning_snippet": "ஸ்வாமியான இராமபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "எரி",
+        "சிதறும்",
+        "சரத்தால்",
+        "தன்னுடைய",
+        "வரி சிலை வாயில் பெய்து"
+      ]
+    },
+    {
+      "pasuram_number": 357,
+      "line_count": 23,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மண்",
+        "இடந்து",
+        "கோடு",
+        "கொண்டு",
+        "மண்"
+      ]
+    },
+    {
+      "pasuram_number": 391,
+      "line_count": 19,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தங்கையை",
+          "meaning": "(இராவணனுடைய ) தங்கையாகிய சூர்ப்பணகையினுடைய",
+          "meaning_snippet": "(இராவணனுடைய ) தங்கையாகிய சூர்ப்பணகையினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "தமையனை",
+          "meaning": "அவளுடைய தமையனான ராவணனுடைய",
+          "meaning_snippet": "அவளுடைய தமையனான ராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "தாசரதி",
+          "meaning": "இராமபிரானுமாகிய",
+          "meaning_snippet": "இராமபிரானுமாகிய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கங்கை கங்கை என்ற வாசகத்தாலே",
+        "கடு வினை",
+        "களைந்திட கிற்கும்",
+        "கரை மேல்",
+        "கை தொழ நின்ற"
+      ]
+    },
+    {
+      "pasuram_number": 392,
+      "line_count": 27,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "முடி",
+        "கொன்றை மலரும்",
+        "நாரணன்",
+        "பாதத் துழாயும்",
+        "கலந்து"
+      ]
+    },
+    {
+      "pasuram_number": 393,
+      "line_count": 22,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சதுமுகன் கையில்",
+        "சதுப்புயன் தாளில்",
+        "சங்கரன் சடையினில்",
+        "தங்கி",
+        "கதிர்"
+      ]
+    },
+    {
+      "pasuram_number": 406,
+      "line_count": 21,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இராவணனை",
+          "meaning": "இராவணனுடைய",
+          "meaning_snippet": "இராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "ராவண"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "ராவண"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "குரவு",
+        "அரும்ப",
+        "கோங்கு",
+        "அலரா",
+        "குயில்"
+      ]
+    },
+    {
+      "pasuram_number": 412,
+      "line_count": 21,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "தம்பிக்கு",
+        "மரவடியை",
+        "வான் பணயம் வைத்து",
+        "வானோர் வாழ",
+        "போய்"
+      ]
+    },
+    {
+      "pasuram_number": 413,
+      "line_count": 17,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மதிள் இலங்கை திசை நோக்கி",
+          "meaning": "மதிளையுடைய லங்கையின் முகமாக",
+          "meaning_snippet": "மதிளையுடைய லங்கையின் முகமாக",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "தன் அடியார் திறத்தகத்து",
+        "தாமரையாள் ஆகிலும்",
+        "சிதகு",
+        "உரைக்கும் என்",
+        "என் அடியார்"
+      ]
+    },
+    {
+      "pasuram_number": 418,
+      "line_count": 21,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "குறள் பிரம சாரி ஆய்",
+        "பக வலிமை",
+        "குறும்பு அதக்கி",
+        "அரசு",
+        "வாங்கி"
+      ]
+    },
+    {
+      "pasuram_number": 420,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மூ உருவின் இராமன் ஆய்",
+          "meaning": "பரசுராமனாயும், தசரதராமனாயும், பலராமனாயும்,",
+          "meaning_snippet": "பரசுராமனாயும், தசரதராமனாயும், பலராமனாயும்,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராமன்",
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "குறள் ஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 441,
+      "line_count": 2,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகு ஏழும்",
+        "அளந்தாய்"
+      ]
+    },
+    {
+      "pasuram_number": 442,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வாமனன்"
+      ]
+    },
+    {
+      "pasuram_number": 447,
+      "line_count": 2,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாணி",
+        "குறள் உரு"
+      ]
+    },
+    {
+      "pasuram_number": 462,
+      "line_count": 20,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகம்",
+        "சென்று",
+        "குடைந்து",
+        "ஆடும்",
+        "சுனை"
+      ]
+    },
+    {
+      "pasuram_number": 468,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இராமன்",
+          "meaning": "பரசு ராமனாய்த் திரு வவதரித்த",
+          "meaning_snippet": "பரசு ராமனாய்த் திரு வவதரித்த",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராமன்",
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 475,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பால் கடலுள் பைய துயின்ற பரமன் அடி பாடி"
+      ]
+    },
+    {
+      "pasuram_number": 510,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "திருவிக்கிரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 519,
+      "line_count": 6,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கர் குலங்களை முற்றவும்",
+          "meaning": "ராக்ஷஸருடைய குலங்களை முழுதும்",
+          "meaning_snippet": "ராக்ஷஸருடைய குலங்களை முழுதும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "இலங்கையை",
+          "meaning": "லங்கையை",
+          "meaning_snippet": "லங்கையை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கடலை அடைத்து",
+        "செற்று",
+        "பூசல் ஆக்கிய",
+        "சேவகா"
+      ]
+    },
+    {
+      "pasuram_number": 520,
+      "line_count": 3,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மா கடல்",
+        "வண்ண",
+        "சேது பந்தம் திருந்தினாய்"
+      ]
+    },
+    {
+      "pasuram_number": 527,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை அழித்த பிரானே!",
+          "meaning": "இலங்கை அழித்த பிரானே!",
+          "meaning_snippet": "இலங்கை அழித்த பிரானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "இலங்க"
+          ],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [
+            "இலங்க"
+          ],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "குரங்கு அரசு ஆவது அறிந்தோம்",
+          "meaning": "நீ மரமேற வல்லார்க்குள் தலைவன் என்பதை அறிந்து கொண்டோம்",
+          "meaning_snippet": "நீ மரமேற வல்லார்க்குள் தலைவன் என்பதை அறிந்து கொண்டோம்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "குரங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "குரங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "குரங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 547,
+      "line_count": 7,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தேர் முன்பு",
+          "meaning": "(இராவணனுடைய) தேரின் முன்னே",
+          "meaning_snippet": "(இராவணனுடைய) தேரின் முன்னே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மாயன் இராவணன் மேல்",
+          "meaning": "மாயாவியான ராவணன் மேலே",
+          "meaning_snippet": "மாயாவியான ராவணன் மேலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "ராவண"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "ராவண"
+          ]
+        },
+        {
+          "padham": "தாய் தலை அற்று அற்று வீழ தொடுத்த",
+          "meaning": "(அவ்விராவணனுடைய ப்ரதானமான தலை (பலகால்) அற்று அற்று விழும்படி ப்ரயோகித்த",
+          "meaning_snippet": "(அவ்விராவணனுடைய ப்ரதானமான தலை (பலகால்) அற்று அற்று விழும்படி ப்ரயோகித்த",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மாதலி",
+        "கோல் கொள்ள",
+        "சரம் மாரி",
+        "தலைவன்"
+      ]
+    },
+    {
+      "pasuram_number": 574,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகு அளந்தான் வாய் அமுதம்"
+      ]
+    },
+    {
+      "pasuram_number": 584,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொருதவனார்",
+          "meaning": "போர் செய்து வெற்றி பெற்ற இராம பிரானுடைய",
+          "meaning_snippet": "போர் செய்து வெற்றி பெற்ற இராம பிரானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "பேர்",
+        "சொல்லி"
+      ]
+    },
+    {
+      "pasuram_number": 600,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கொல்லை அரக்கியை",
+          "meaning": "வரம்பு கடந்தவளான சூர்ப்பணகையை",
+          "meaning_snippet": "வரம்பு கடந்தவளான சூர்ப்பணகையை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மூக்கு அரிந்திட்ட",
+        "குமரனார்"
+      ]
+    },
+    {
+      "pasuram_number": 610,
+      "line_count": 3,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வாமனனார்",
+        "பண்டு",
+        "நீர் ஏற்ற பிச்சை குறை ஆகி"
+      ]
+    },
+    {
+      "pasuram_number": 611,
+      "line_count": 6,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பொல்லா குறள் உரு ஆய்",
+        "பொன் கையில்",
+        "நீர் ஏற்று",
+        "எல்லா உலகும்",
+        "அளந்து கொண்ட"
+      ]
+    },
+    {
+      "pasuram_number": 613,
+      "line_count": 6,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "செல்வனார்",
+          "meaning": "ச்ரிய யதியான பெருமாள் (ஸ்ரீராமனாய்த் திருவவதரித்த போது)",
+          "meaning_snippet": "ச்ரிய யதியான பெருமாள் (ஸ்ரீராமனாய்த் திருவவதரித்த போது)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "பெண் ஆக்கை",
+          "meaning": "சீதையென்சிற வொரு பெண்ணின் சரீரத்தில் ஆசைக்குக் கட்டுப்பட்டு",
+          "meaning_snippet": "சீதையென்சிற வொரு பெண்ணின் சரீரத்தில் ஆசைக்குக் கட்டுப்பட்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சீத",
+          "alias_hits_meaning": [
+            "சீத"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சீத"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "ஊடு அறுத்து",
+          "meaning": "இடையறும்படி பண்ணி (அணை கட்டி)",
+          "meaning_snippet": "இடையறும்படி பண்ணி (அணை கட்டி)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அணை கட்ட",
+          "alias_hits_meaning": [
+            "அணை கட்ட"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அணை கட்ட"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "உண்ணாது",
+        "உறங்காது",
+        "ஒலி கடலை"
+      ]
+    },
+    {
+      "pasuram_number": 618,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாணி உரு ஆய் உலகு அளந்த மாயனை காணில்"
+      ]
+    },
+    {
+      "pasuram_number": 625,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகு அளந்தான் என்று"
+      ]
+    },
+    {
+      "pasuram_number": 628,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 646,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன் தன்னை"
+      ]
+    },
+    {
+      "pasuram_number": 915,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "piramanum",
+          "meaning": "நான் முகக் கடவுளும்",
+          "meaning_snippet": "நான் முகக் கடவுளும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "raman",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "Raman",
+            "raman"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "raman"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 928,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காகுத்தன்",
+          "meaning": "இராம பிரானாய்",
+          "meaning_snippet": "இராம பிரானாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "காகுத்தன்",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "காகுத்தன்"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "காகுத்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 958,
+      "line_count": 11,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அன்று",
+          "meaning": "ஸ்ரீராமாவதாரத்தில், சுக்ரீவன் சரணம் புகுந்தவன்று",
+          "meaning_snippet": "ஸ்ரீராமாவதாரத்தில், சுக்ரீவன் சரணம் புகுந்தவன்று",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நெஞ்சே",
+        "வாலி",
+        "மா",
+        "வலம்",
+        "ஒருவனது"
+      ]
+    },
+    {
+      "pasuram_number": 959,
+      "line_count": 9,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அணை கட்டி",
+          "meaning": "ஸேது கட்டி",
+          "meaning_snippet": "ஸேது கட்டி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அணை கட்ட",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அணை கட்ட"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அணை கட்ட"
+          ]
+        },
+        {
+          "padham": "மா இலங்கை நகர்",
+          "meaning": "பெரிய லங்காபுரியை",
+          "meaning_snippet": "பெரிய லங்காபுரியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "நெஞ்சே",
+        "மா கடல்",
+        "கலக்க",
+        "அரி குலம் பணி செய்ய",
+        "அரு வரை"
+      ]
+    },
+    {
+      "pasuram_number": 965,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன் என்று எண்ணி நின்று"
+      ]
+    },
+    {
+      "pasuram_number": 2056,
+      "line_count": 17,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஒரு கால்",
+        "ஒண் மிதியில்",
+        "புனல் உருவி நிற்ப",
+        "ஒரு காலும்",
+        "காமரு சீர் அவுணன்"
+      ]
+    },
+    {
+      "pasuram_number": 2058,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஏந்தி",
+          "meaning": "தரித்து (பரசுராமனாய்த் திருவதரித்தும்)",
+          "meaning_snippet": "தரித்து (பரசுராமனாய்த் திருவதரித்தும்)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "உலகம் ஆண்டு",
+          "meaning": "(ஸ்ரீராமபிரனாய்) உலகங்களைத் திருக் குணங்களா லீடுபடுத்தியும்",
+          "meaning_snippet": "(ஸ்ரீராமபிரனாய்) உலகங்களைத் திருக் குணங்களா லீடுபடுத்தியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2071,
+      "line_count": 6,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தேர் ஆளும் வாள் அரக்கன்",
+          "meaning": "தேர்வீரனும் வாட்படைவல்லவனுமான இராவணனுடைய",
+          "meaning_snippet": "தேர்வீரனும் வாட்படைவல்லவனுமான இராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "தென் இலங்கை மலங்க",
+          "meaning": "(அவனது) தென்னிலங்கா புரி கலங்கவும்",
+          "meaning_snippet": "(அவனது) தென்னிலங்கா புரி கலங்கவும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "செம் தீ ஓங்கி",
+          "meaning": "(அனுமானையிட்டு) சிவந்த நெருப்பாலே கொளுத்தி,",
+          "meaning_snippet": "(அனுமானையிட்டு) சிவந்த நெருப்பாலே கொளுத்தி,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அனும",
+          "alias_hits_meaning": [
+            "அனும"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அனும"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "முன்",
+        "செல்வம் மாள",
+        "பார் அளந்து"
+      ]
+    },
+    {
+      "pasuram_number": 2079,
+      "line_count": 6,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்கையிலுள்ள",
+          "meaning_snippet": "தென்னிலங்கையிலுள்ள",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "அவுணன் மாள",
+          "meaning": "இராவணனும் முடியும்படியாக",
+          "meaning_snippet": "இராவணனும் முடியும்படியாக",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மன் இலங்கு",
+          "meaning": "அரசர்கள் விளங்காநின்ற",
+          "meaning_snippet": "அரசர்கள் விளங்காநின்ற",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "அரண்",
+        "சிதறி",
+        "உலகம் மூன்றி னையும் திரிந்து"
+      ]
+    },
+    {
+      "pasuram_number": 2080,
+      "line_count": 5,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கர் கோனை மாள",
+          "meaning": "இராவணன் முடியும்படியாக",
+          "meaning_snippet": "இராவணன் முடியும்படியாக",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "குலம் களைந்து வென்றானை",
+          "meaning": "அரக்கர் குலங்களை நிர்மூலமாக்கி வெற்றி பெற்றவரும்",
+          "meaning_snippet": "அரக்கர் குலங்களை நிர்மூலமாக்கி வெற்றி பெற்றவரும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "அரக்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "அரக்க"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "குன்றாத வலி",
+        "கொடும் சிலைவாய்",
+        "சரம் துரந்து"
+      ]
+    },
+    {
+      "pasuram_number": 2083,
+      "line_count": 3,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அன்று",
+          "meaning": "ஸ்ரீராமாவதார காலத்தில்",
+          "meaning_snippet": "ஸ்ரீராமாவதார காலத்தில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "உடைத்து",
+          "meaning": "(இராவணனை முடித்துத் திரும்புங்கால் அந்தத் திருவணையை) உடைத்து.",
+          "meaning_snippet": "(இராவணனை முடித்துத் திரும்புங்கால் அந்தத் திருவணையை) உடைத்து.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "அடைத்து"
+      ]
+    },
+    {
+      "pasuram_number": 2084,
+      "line_count": 11,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஓர் அடி",
+        "பார் அளவும் வைத்து",
+        "ஓர் அடியும்",
+        "பார் உடுத்த",
+        "நீர் அளவும்"
+      ]
+    },
+    {
+      "pasuram_number": 2090,
+      "line_count": 9,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மா வடிவில்",
+        "நீ அளந்த",
+        "மண்",
+        "பொருகோடு ஓர் ஏனம் ஆய்",
+        "புக்கு"
+      ]
+    },
+    {
+      "pasuram_number": 2736,
+      "line_count": 10,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்கா புரிக்கு",
+          "meaning_snippet": "லங்கா புரிக்கு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "கோன்",
+          "meaning": "தலைவனாயிருந்த இராவணனுடைய",
+          "meaning_snippet": "தலைவனாயிருந்த இராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "துணி செய் தான்",
+          "meaning": "அறுத்தொழித்த ஸ்ரீராமபிரானுடைய",
+          "meaning_snippet": "அறுத்தொழித்த ஸ்ரீராமபிரானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நீள் கடல் சூழ்",
+        "தோள்கள்",
+        "தலை",
+        "தாள்கள்",
+        "தலையில் வணங்கி"
+      ]
+    },
+    {
+      "pasuram_number": 2746,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மராமரம் எய்த",
+          "meaning": "ஏழு மராமரங்களை (ஸூ க்ரீவனுடைய நம்புதலுக்காக ஓர் அம்பினால்) எய்தவனுமான",
+          "meaning_snippet": "ஏழு மராமரங்களை (ஸூ க்ரீவனுடைய நம்புதலுக்காக ஓர் அம்பினால்) எய்தவனுமான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2757,
+      "line_count": 2,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "Pulan Kol Maan Aay",
+        "Nilam Kondaan"
+      ]
+    },
+    {
+      "pasuram_number": 2774,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஒரு மாணி குறள் ஆகி நிமிர்ந்த"
+      ]
+    },
+    {
+      "pasuram_number": 2778,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஓர் மூ அடி கொண்டானை"
+      ]
+    },
+    {
+      "pasuram_number": 2787,
+      "line_count": 17,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்காபுரி முழுவதும்",
+          "meaning_snippet": "தென்னிலங்காபுரி முழுவதும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "எல்லே !",
+        "காமுற்ற கை அறவோடு",
+        "நீ",
+        "இராபகல் முற்ற",
+        "கண் துயிலாய்"
+      ]
+    },
+    {
+      "pasuram_number": 2794,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மண் அளந்த"
+      ]
+    },
+    {
+      "pasuram_number": 2809,
+      "line_count": 3,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "குறள் ஆய்",
+        "மாவலி",
+        "மூ அடி நிலம் என்று"
+      ]
+    },
+    {
+      "pasuram_number": 2812,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கியை",
+          "meaning": "ராக்ஷஸியான சூர்ப்பணகையினது",
+          "meaning_snippet": "ராக்ஷஸியான சூர்ப்பணகையினது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மூக்கு",
+        "ஈர்ந்தாயை"
+      ]
+    },
+    {
+      "pasuram_number": 2813,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமனே"
+      ]
+    },
+    {
+      "pasuram_number": 2815,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன்"
+      ]
+    },
+    {
+      "pasuram_number": 2817,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கன்",
+          "meaning": "ராக்ஷஸ ராஜனாகிய இராவணனுடைய",
+          "meaning_snippet": "ராக்ஷஸ ராஜனாகிய இராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "முனிந்தவனை"
+      ]
+    },
+    {
+      "pasuram_number": 2820,
+      "line_count": 12,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கும்",
+          "meaning": "(வன்மையான) அரக்கையும்",
+          "meaning_snippet": "(வன்மையான) அரக்கையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "அரக்க"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "அரக்க"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "அரக்கன்",
+          "meaning": "இராவணனுடைய",
+          "meaning_snippet": "இராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்காபுரியை",
+          "meaning_snippet": "லங்காபுரியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "இரக்கம் மனத்தோடு",
+        "இவள்",
+        "எரி அணை",
+        "மெழுகும்",
+        "ஒக்கும்"
+      ]
+    },
+    {
+      "pasuram_number": 2821,
+      "line_count": 11,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை செற்றவனே என்னும்",
+          "meaning": "(என்னோடொத்த ஒருத்திக்காக) லங்காபுரியை யழித்தவனே! என்கிறாள்",
+          "meaning_snippet": "(என்னோடொத்த ஒருத்திக்காக) லங்காபுரியை யழித்தவனே! என்கிறாள்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "இவள்",
+        "பின்னும்",
+        "வலம் கொள்புற் உயர்த்தாய் என்னும்",
+        "உள்ளம் மலங்க",
+        "வெவ்வுயிர்க்கும்"
+      ]
+    },
+    {
+      "pasuram_number": 2827,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வாழ்வை",
+          "meaning": "(இராவணனது) செல்வம்",
+          "meaning_snippet": "(இராவணனது) செல்வம்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்காபுரியை",
+          "meaning_snippet": "லங்காபுரியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கிளர்",
+        "வேவ",
+        "செற்றீர்",
+        "எழை பேதை",
+        "இரா பகல்"
+      ]
+    },
+    {
+      "pasuram_number": 2828,
+      "line_count": 11,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வாட்டம் இல் புகழ்",
+        "வாமனனை",
+        "வண்சடகோபன்",
+        "இசை கூட்டி",
+        "சொல்"
+      ]
+    },
+    {
+      "pasuram_number": 2840,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "என் பொல்லாத் திருக் குறளா"
+      ]
+    },
+    {
+      "pasuram_number": 2848,
+      "line_count": 12,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை செற்றாய்",
+          "meaning": "லங்காபுரியை அழித்தவனே!",
+          "meaning_snippet": "லங்காபுரியை அழித்தவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "மராமரம்",
+          "meaning": "மராமரங்களினுடைய",
+          "meaning_snippet": "மராமரங்களினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "எந்தாய்",
+        "தண் திருவேங்கடத்துள் நின்றாய்",
+        "பை தாள் ஏழ்",
+        "உருவ",
+        "ஒரு வாளி கோத்த வில்லா"
+      ]
+    },
+    {
+      "pasuram_number": 2856,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அம்மான் திரி விக்கிரமனை விதி சூழ்ந்துத"
+      ]
+    },
+    {
+      "pasuram_number": 2857,
+      "line_count": 12,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "என் வாமனனே",
+        "திரிவிக்கிரமன் என்று",
+        "செம் தாமரை கண் எம்மான் என்று",
+        "என் செம் கனிவாய உருவில் பொலிந்த வெள்ளை பளிங்கு நிறத்தனன் என்று",
+        "உள்ளி"
+      ]
+    },
+    {
+      "pasuram_number": 2858,
+      "line_count": 12,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "என் சிரீதரனே",
+        "வாமனன் என்று",
+        "என் மரதகம் வண்ணன் என்று",
+        "தாமரைக் கண்ணினன் என்று",
+        "காமனை பயந்தாய் என்று"
+      ]
+    },
+    {
+      "pasuram_number": 2860,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை அரக்கர் குலம் முருடு தீர்த்த",
+          "meaning": "இலங்கையிலிருந்த ராக்ஷ குலத்திற்கு முருடான ராவணனைத்",
+          "meaning_snippet": "இலங்கையிலிருந்த ராக்ஷ குலத்திற்கு முருடான ராவணனைத்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண",
+            "இலங்க"
+          ],
+          "alias_hits_padham": [
+            "இலங்க",
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "இலங்க",
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "இலங்க",
+            "அரக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2868,
+      "line_count": 12,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மானிடம் ஆம்",
+          "meaning": "(ராம க்ருஷ்ணாதி ரூபேண) மநுஷ்யனாகவும் அவதரிக்குமவன்",
+          "meaning_snippet": "(ராம க்ருஷ்ணாதி ரூபேண) மநுஷ்யனாகவும் அவதரிக்குமவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "ஓவா துயர்",
+        "பிறவி உள்பட",
+        "மற்று எவ்வெவையும்",
+        "மூவா",
+        "தனி முதல் ஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 2869,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகு அளந்த சே அடி மேல்"
+      ]
+    },
+    {
+      "pasuram_number": 2870,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நின்று",
+          "meaning": "(ராவணனை முடித்தபிறகு இலங்கை வாசலில் வீர ஸ்ரீயோடே) நின்றும்.",
+          "meaning_snippet": "(ராவணனை முடித்தபிறகு இலங்கை வாசலில் வீர ஸ்ரீயோடே) நின்றும்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண",
+            "இலங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இலங்க",
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "அளந்து"
+      ]
+    },
+    {
+      "pasuram_number": 2884,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஏர்கொள் இலங்கையை",
+          "meaning": "அடகு நிரம்பிய லங்காபுரியை",
+          "meaning_snippet": "அடகு நிரம்பிய லங்காபுரியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "நீறு செய்த",
+        "நெடும் சுடர் சோதி"
+      ]
+    },
+    {
+      "pasuram_number": 2906,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அளந்தாய்"
+      ]
+    },
+    {
+      "pasuram_number": 2909,
+      "line_count": 20,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வல்",
+        "மா",
+        "வையம்",
+        "அளந்த",
+        "எம் வாமனா"
+      ]
+    },
+    {
+      "pasuram_number": 2916,
+      "line_count": 16,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கொடு வினை",
+        "தூற்றுள் நின்று",
+        "பல காலம்",
+        "வழி திகைத்து",
+        "அலமருகின்றேன்"
+      ]
+    },
+    {
+      "pasuram_number": 2953,
+      "line_count": 14,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்கையில்",
+          "meaning_snippet": "தென்னிலங்கையில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மூவர் ஆகிய மூர்த்தியை",
+        "முதல் மூவர்க்கும்",
+        "முதல்வன் தன்னை",
+        "சாவம் உள்ளன நீக்குவாளை",
+        "தட கடல்"
+      ]
+    },
+    {
+      "pasuram_number": 2959,
+      "line_count": 13,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "துயரமே தரு",
+        "துன்பம் இன்பம் ஆய்",
+        "அவை அல்லன் ஆய்",
+        "உயர நின்றது ஓர் சோதி ஆய்",
+        "உலகு ஏழும்"
+      ]
+    },
+    {
+      "pasuram_number": 2963,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "நம் பால் கடல் சேர்ந்த பரமனை"
+      ]
+    },
+    {
+      "pasuram_number": 2964,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஆளும் பரமனை"
+      ]
+    },
+    {
+      "pasuram_number": 2968,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அளிக்கும் பரமனை"
+      ]
+    },
+    {
+      "pasuram_number": 2972,
+      "line_count": 8,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அடி ஆர்ந்த வையம்",
+        "உண்டு",
+        "ஆல் இலை",
+        "அன்னவசம் செய்யும்",
+        "படி ஆதும்இல்"
+      ]
+    },
+    {
+      "pasuram_number": 2975,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தண் இலங்கைக்கு இறையை செற்ற நஞ்சனே",
+          "meaning": "தண்ணிதான இலங்காபுரிக்குத் தலைவனாயிருந்த இராவணனைத் தொலைக்கும் விஷயத்தில் நஞ்சானவனே!",
+          "meaning_snippet": "தண்ணிதான இலங்காபுரிக்குத் தலைவனாயிருந்த இராவணனைத் தொலைக்கும் விஷயத்தில் நஞ்சானவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "ராவண",
+            "இலங்க"
+          ],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [
+            "இலங்க",
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "நெஞ்சமே நீள் நகர் ஆக இருந்த என் தஞ்சனே"
+      ]
+    },
+    {
+      "pasuram_number": 2978,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மண் கொண்ட வாமனன் ஏற"
+      ]
+    },
+    {
+      "pasuram_number": 2982,
+      "line_count": 7,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாவலி",
+        "நான்",
+        "மூ அடி",
+        "கொள்வன்",
+        "தா"
+      ]
+    },
+    {
+      "pasuram_number": 2984,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பூமி அளந்த பெருமானை"
+      ]
+    },
+    {
+      "pasuram_number": 3020,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சே அடி மேல்"
+      ]
+    },
+    {
+      "pasuram_number": 3025,
+      "line_count": 10,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கொம்பு போல் சீதை பொருட்டு",
+          "meaning": "பூங்கொடி போன்ற ஸீதாபிராட்டியின் பொருட்டு",
+          "meaning_snippet": "பூங்கொடி போன்ற ஸீதாபிராட்டியின் பொருட்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சீத",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சீத"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சீத"
+          ]
+        },
+        {
+          "padham": "இலங்கை நகர்",
+          "meaning": "இலங்காபுரியில்",
+          "meaning_snippet": "இலங்காபுரியில்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "இலங்க"
+          ],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [
+            "இலங்க"
+          ],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "உய்த்தவர்",
+          "meaning": "செலுத்தின இராமபிரானுடைய",
+          "meaning_snippet": "செலுத்தின இராமபிரானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நங்கைமீர்",
+        "அம்பு ஏரி",
+        "தாள் இணைமேல்",
+        "அணி",
+        "வம்பு அவிழ் தண் ஆம் துழாய் மலர்க்கே"
+      ]
+    },
+    {
+      "pasuram_number": 3029,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை",
+          "meaning": "லங்காபுரிக்கு",
+          "meaning_snippet": "லங்காபுரிக்கு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        },
+        {
+          "padham": "கோவை",
+          "meaning": "அரசனான ராவணன்",
+          "meaning_snippet": "அரசனான ராவணன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கோவை வாயாள் பொருட்டு",
+        "ஏற்றின்",
+        "எருத்தம்",
+        "இறுத்தாய்",
+        "மதிள்"
+      ]
+    },
+    {
+      "pasuram_number": 3035,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கோலம் வாமனா"
+      ]
+    },
+    {
+      "pasuram_number": 3040,
+      "line_count": 10,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பெய் வளையீர்",
+        "மண்ணை இருந்து துழாவி",
+        "இது வாமனன் மண் என்னும்",
+        "விண்ணை தொழுது",
+        "அவன் மேவு வைகுந்தம் என்று"
+      ]
+    },
+    {
+      "pasuram_number": 3047,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "உலகளந்தான் என்று துள்ளும்"
+      ]
+    },
+    {
+      "pasuram_number": 3060,
+      "line_count": 4,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கிடந்தும்;",
+          "meaning": "(ஸ்ரீராமாவதாரத்திலே) கடற்கரையிலே கிடந்தும்",
+          "meaning_snippet": "(ஸ்ரீராமாவதாரத்திலே) கடற்கரையிலே கிடந்தும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "நின்றும்",
+          "meaning": "இராவணவதத்தின் பிறகு தேவர்கட்குக் காட்சி கொடுத்துநின்றும்",
+          "meaning_snippet": "இராவணவதத்தின் பிறகு தேவர்கட்குக் காட்சி கொடுத்துநின்றும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கடந்தும்",
+        "கொண்ட கோலத்தொடு"
+      ]
+    },
+    {
+      "pasuram_number": 3074,
+      "line_count": 15,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கொள்ள",
+        "மாளா",
+        "இன்பம் வெள்ளம்",
+        "கோது இல",
+        "தந்திடும்"
+      ]
+    },
+    {
+      "pasuram_number": 3088,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கிளி மொழியாள் காரணம்; ஆ"
+      ]
+    },
+    {
+      "pasuram_number": 3089,
+      "line_count": 13,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அறிவினால் குறைவு இல்லா",
+        "அகல் ஞாலத்தவர் அறிய",
+        "நெறி எல்லாம்",
+        "எடுத்து உரைத்த",
+        "நிறை ஞானம்"
+      ]
+    },
+    {
+      "pasuram_number": 3109,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பிரமன் தனக்கும்"
+      ]
+    },
+    {
+      "pasuram_number": 3126,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மீன் ஆய் ஆமையம் ஆய்நர சிங்கமும் ஆய் குறள் ஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 3152,
+      "line_count": 4,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "என் காகுத்தன்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "காகுத்தன்",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "காகுத்தன்"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "காகுத்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "காயும்",
+        "சுடு சிலை",
+        "வாரான்"
+      ]
+    },
+    {
+      "pasuram_number": 3153,
+      "line_count": 5,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "இ மண் அளந்த",
+        "பெரிய கண்",
+        "செம்வாய்",
+        "எம் கார் எறு",
+        "வாரான்"
+      ]
+    },
+    {
+      "pasuram_number": 3159,
+      "line_count": 5,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அன்று ஒருகால்",
+        "வையம்",
+        "அளந்த",
+        "பிரான்",
+        "வாரான் என்று"
+      ]
+    },
+    {
+      "pasuram_number": 3172,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கடல் ஞானம் கொண்டேனும் யானே என்றும்"
+      ]
+    },
+    {
+      "pasuram_number": 3180,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கொடியான் இலங்கை செற்றேனே என்னும்",
+          "meaning": "கொடியவனான இராவணனுடைய இலங்காபுரியைத் தொலைத்த்தும் நானே யென்கிறாள்;",
+          "meaning_snippet": "கொடியவனான இராவணனுடைய இலங்காபுரியைத் தொலைத்த்தும் நானே யென்கிறாள்;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "ராவண",
+            "இலங்க"
+          ],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [
+            "இலங்க",
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3183,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சிரீவரமங்கலம் நகர்"
+      ]
+    },
+    {
+      "pasuram_number": 3184,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கிரீவரமங்கலம் நகர் உறை"
+      ]
+    },
+    {
+      "pasuram_number": 3185,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கிரீவரமங்கலம் நகர்க்கு"
+      ]
+    },
+    {
+      "pasuram_number": 3186,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கிரீவரமங்கலம் நகர்"
+      ]
+    },
+    {
+      "pasuram_number": 3187,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சிரீவரமங்கலம் நகர்"
+      ]
+    },
+    {
+      "pasuram_number": 3188,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கிரீவரமங்கலத்தவர்"
+      ]
+    },
+    {
+      "pasuram_number": 3189,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கிரீவரமங்கலம் நகர்"
+      ]
+    },
+    {
+      "pasuram_number": 3190,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "திரீவரமங்கை"
+      ]
+    },
+    {
+      "pasuram_number": 3191,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கிரீவரமங்கை உன்"
+      ]
+    },
+    {
+      "pasuram_number": 3192,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சிரீவரமங்கை"
+      ]
+    },
+    {
+      "pasuram_number": 3193,
+      "line_count": 2,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "தெய்வநாயகன் நாரணன் திரிவிக்கிரமன்",
+        "அடி இணை மிசை"
+      ]
+    },
+    {
+      "pasuram_number": 3210,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாண்குறள் கோலம் பிரான்"
+      ]
+    },
+    {
+      "pasuram_number": 3224,
+      "line_count": 11,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மூன்று அடியை இரந்த ஆறும்",
+        "அங்கு நின்றே",
+        "ஆழ் கடலும் மண்ணும் விண்ணும் முடிய",
+        "ஈர் அடியால்",
+        "முடித்துக் கொண்ட முக்கியமும் அவை"
+      ]
+    },
+    {
+      "pasuram_number": 3236,
+      "line_count": 11,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மாறு இல் போர் அரக்கன்",
+          "meaning": "நிகரற்ற யுத்தம் செய்வதில்வல்லவனான இராவணனுடைய",
+          "meaning_snippet": "நிகரற்ற யுத்தம் செய்வதில்வல்லவனான இராவணனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "செற்று",
+          "meaning": "இலங்கையையழித்து (அதனால்)",
+          "meaning_snippet": "இலங்கையையழித்து (அதனால்)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "இலங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இலங்க"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "எறு சேவகனார்க்கு",
+          "meaning": "மஹாவீரனான ஸ்ரீராமபிரானிடத்திலே",
+          "meaning_snippet": "மஹாவீரனான ஸ்ரீராமபிரானிடத்திலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "வெறி வண்டு இனங்காள்",
+        "உம்மை வேறு கொண்டு",
+        "யான் இரந்தேன்",
+        "தேறு நீர் பம்பை வடபால் திருவண்வண்டூர்",
+        "மதிள்"
+      ]
+    },
+    {
+      "pasuram_number": 3238,
+      "line_count": 12,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மன்னுடை இலங்கை",
+          "meaning": "அரசனையுடைத்தா யிருந்த லங்காபுரியினுடைய",
+          "meaning_snippet": "அரசனையுடைத்தா யிருந்த லங்காபுரியினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "அரண்",
+        "காய்ந்த",
+        "மாயவனே",
+        "நம்பி",
+        "நின் அருள் சூடுவார்"
+      ]
+    },
+    {
+      "pasuram_number": 3267,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாணி ஆய் நிலம் கொண்ட மாயன் என் அப்பன் தன் மாயங்களே"
+      ]
+    },
+    {
+      "pasuram_number": 3282,
+      "line_count": 5,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாலுக்கு",
+        "வையம் அளந்த மனாளற்கு",
+        "நீலம கருநிறம் முகம் நியாயற்கு",
+        "கோலம் செம் தாமரை கண்ணற்கு",
+        "என் கொங்கு அவர் ஏலம் குழலி இழந்து சங்கு"
+      ]
+    },
+    {
+      "pasuram_number": 3283,
+      "line_count": 5,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சங்கு வில் வாள் தண்டு சக்கரம் கையற்கு",
+        "செம் கனி வாய் செய்ய தாமரை கண்ணற்கு",
+        "கொங்கு அலர் தண் அம் துழாய் முடியானுக்கு",
+        "எள் மங்கை இழந்த்து",
+        "மாமை நிறம்"
+      ]
+    },
+    {
+      "pasuram_number": 3285,
+      "line_count": 8,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பீடு உடை நான்முகனை",
+        "படைத்தானுக்கு",
+        "மாடு உடை வையம்",
+        "அளந்த மணாளற்கு",
+        "நாடு உடை மன்னர்க்கு"
+      ]
+    },
+    {
+      "pasuram_number": 3290,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "என் காகுத்தன் நம்பிக்கு",
+          "meaning": "இராமபிரானுமான பெருமான் விஷயத்திலீடுபட்டதனால்",
+          "meaning_snippet": "இராமபிரானுமான பெருமான் விஷயத்திலீடுபட்டதனால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "காகுத்தன்",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "காகுத்தன்"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "காகுத்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "எம் மாயம் குறளற்கு"
+      ]
+    },
+    {
+      "pasuram_number": 3316,
+      "line_count": 10,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மண்ணும் விண்ணும் மகிழ",
+        "குறள் ஆய்",
+        "வலம் பாட்டி",
+        "மண்ணும் விண்ணும் கொண்ட",
+        "மாயம் அம்மானே"
+      ]
+    },
+    {
+      "pasuram_number": 3320,
+      "line_count": 14,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஓர் அடி",
+        "பாய் வைத்து",
+        "பாவை நிலம் எல்லாம்",
+        "அதன் கீழ்",
+        "தாய்"
+      ]
+    },
+    {
+      "pasuram_number": 3323,
+      "line_count": 2,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வையம் தாவி",
+        "தட தாமரை கட்கே"
+      ]
+    },
+    {
+      "pasuram_number": 3365,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தென் இலங்கை",
+          "meaning": "தென்னிலங்காபுரியை",
+          "meaning_snippet": "தென்னிலங்காபுரியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "செற்ற",
+        "பிரான்"
+      ]
+    },
+    {
+      "pasuram_number": 3381,
+      "line_count": 9,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நல் பால் அயோத்தியில் வாழும்",
+          "meaning": "(ராமகுணங்கள் நடையாடுகிற) நல்ல தேசமான அயோத்யாபுரியில் வாழ்கிற",
+          "meaning_snippet": "(ராமகுணங்கள் நடையாடுகிற) நல்ல தேசமான அயோத்யாபுரியில் வாழ்கிற",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இராமபிரானை அல்லாமல் மற்றும் கற்பரோ",
+          "meaning": "(குணக்கடலாகிய) ஸ்ரீராமனைத் தவிர மற்றொரு வ்யக்தியைக் கற்க நினைப்பர்களோ?",
+          "meaning_snippet": "(குணக்கடலாகிய) ஸ்ரீராமனைத் தவிர மற்றொரு வ்யக்தியைக் கற்க நினைப்பர்களோ?",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "இராம",
+            "ராம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "புல் பா முதல் ஆ",
+        "புல் எறும்பு ஆதி",
+        "சராசரம முற்றவும்",
+        "ஒன்று இன்றியே",
+        "நான் முகனார் பெற்ற நாட்டுளே"
+      ]
+    },
+    {
+      "pasuram_number": 3382,
+      "line_count": 9,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நாட்டை நலியும் அரக்கரை நாடி தடிந்திட்டு",
+          "meaning": "உலகத்தை ஹிம்ஸிக்கின்ற ராவணாதி ராக்ஷ்ஸர்களை ஆராய்ந்து சென்று கொன்று",
+          "meaning_snippet": "உலகத்தை ஹிம்ஸிக்கின்ற ராவணாதி ராக்ஷ்ஸர்களை ஆராய்ந்து சென்று கொன்று",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "நாரணற்கு ஆள் அன்றி ஆவரோ",
+          "meaning": "நாராயணனான அந்த ஸ்ரீராமனுக்கல்லது மற்றொருவர்க்கு ஆட்படுவர்களோ?",
+          "meaning_snippet": "நாராயணனான அந்த ஸ்ரீராமனுக்கல்லது மற்றொருவர்க்கு ஆட்படுவர்களோ?",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராம"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "நாட்டில் பிறந்தது",
+        "படாதனபட்டு",
+        "மனிசர்க்கு ஆ",
+        "நாட்டை அளித்து",
+        "உய்ய செய்து"
+      ]
+    },
+    {
+      "pasuram_number": 3386,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கோடு அம் கை வாமனன் ஆய் செய்த கூத்துக்கள் கண்டும்"
+      ]
+    },
+    {
+      "pasuram_number": 3395,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பிரமன் பெருமான் அவன்"
+      ]
+    },
+    {
+      "pasuram_number": 3399,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இலங்கை கடந்து",
+          "meaning": "லங்காபுரியை விட்டு",
+          "meaning_snippet": "லங்காபுரியை விட்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3400,
+      "line_count": 16,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரக்கன்",
+          "meaning": "இராவணனென்னும் ராக்ஷ்ஸனுடைய",
+          "meaning_snippet": "இராவணனென்னும் ராக்ஷ்ஸனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரக்க",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [
+            "அரக்க"
+          ],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": [
+            "அரக்க"
+          ]
+        },
+        {
+          "padham": "விங் நீர் இலங்கை அருளி",
+          "meaning": "கடலிடத்துள்ள லங்காராஜ்யத்தை யருள் செய்து",
+          "meaning_snippet": "கடலிடத்துள்ள லங்காராஜ்யத்தை யருள் செய்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இலங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இலங்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "நெஞ்சமே",
+        "கடிய வினையே முயலும்",
+        "ஆண்",
+        "திறல்",
+        "மீளி"
+      ]
+    },
+    {
+      "pasuram_number": 3413,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பிரமன் சிவன் இந்திரன் என்ற இவர்க்கு"
+      ]
+    },
+    {
+      "pasuram_number": 3414,
+      "line_count": 12,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாயா",
+        "வாமனனே",
+        "மதுசூதா",
+        "நீ அருளாய்",
+        "தீ ஆய் நீர் ஆய் நிலன் ஆய் விசும்பு ஆய்; கால் ஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 3437,
+      "line_count": 10,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஜயம் ஒன்று இன்றி ஆகும் கொல்",
+        "அகல் இடம் முற்றவும்",
+        "ஈர் அடியே ஆகும் பரிசு நிமிர்ந்த",
+        "திரு குறள் அப்பன்",
+        "அமர்ந்து உறையும்"
+      ]
+    },
+    {
+      "pasuram_number": 3448,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காகுத்தர்",
+          "meaning": "இராமனாய்த் தோன்றி எளியனானவனே!",
+          "meaning_snippet": "இராமனாய்த் தோன்றி எளியனானவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராம",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "காகுத்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3451,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அளந்த"
+      ]
+    },
+    {
+      "pasuram_number": 3466,
+      "line_count": 3,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கோலம் மாண் குறள் வடிவு",
+        "காட்டி",
+        "மண்ணும் விண்ணும் நிறைய மலர்ந்த"
+      ]
+    },
+    {
+      "pasuram_number": 3473,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "நீண்டு தாவிய அசவு தானோ"
+      ]
+    },
+    {
+      "pasuram_number": 3483,
+      "line_count": 12,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பெரிய மூ உலகும் நிறைய",
+        "பேர் உருவம் ஆய் நிமிர்ந்த",
+        "குறிய மாண் எம்மான்",
+        "குரை கடல் கடைந்த",
+        "கோலம் மாணிக்கம் என் அம்மான்"
+      ]
+    },
+    {
+      "pasuram_number": 3491,
+      "line_count": 8,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "மாயக் கூத்தா",
+        "வாமனா",
+        "வினையேன் கண்ணா",
+        "கண் கைகால் தூய செய்ய மலர்களா",
+        "சோதி செம் வாய் முகிழதா"
+      ]
+    },
+    {
+      "pasuram_number": 3504,
+      "line_count": 5,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒருவர் இருவர் ஓர் மூவர் என நின்று",
+          "meaning": "(இலங்கையில் மூல பலத்தை முடிக்குமிடத்து) முதலில் ஒருவனாய், பின்பு இருவராய், பின்னையும் மூவராய்த் தோன்றி நின்று (பின்னையும்)",
+          "meaning_snippet": "(இலங்கையில் மூல பலத்தை முடிக்குமிடத்து) முதலில் ஒருவனாய், பின்பு இருவராய், பின்னையும் மூவராய்த் தோன்றி நின்று (பின்னையும",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இலங்க",
+          "alias_hits_meaning": [
+            "இலங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இலங்க"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "உருவு காத்து",
+        "திரு அமர் மார்வன்",
+        "திருக்கடித்தானத்தை மருவி உறைகின்ற மாயப்பிரான்",
+        "உள்ளுந்தோறும் தித்திப்பான்"
+      ]
+    },
+    {
+      "pasuram_number": 3508,
+      "line_count": 7,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கோவிந்தன்",
+        "மண் விண் முழுதும் அளந்த ஒண்தாமரை",
+        "மண்ணவர் தாம் தொழ",
+        "வானவர் தாம் வந்து நண்ணு",
+        "திருக்கடித்தானம் நகர்"
+      ]
+    },
+    {
+      "pasuram_number": 3511,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அரி வாமனன்"
+      ]
+    },
+    {
+      "pasuram_number": 3513,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொருத்தம் உடை வாமனன் தான் புகுந்து",
+          "meaning": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "meaning_snippet": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ராவண",
+          "alias_hits_meaning": [
+            "ராவண"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ராவண"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3514,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "தேய்ந்து அறமன்னி"
+      ]
+    },
+    {
+      "pasuram_number": 3594,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "முன் பிரமனை படைத்தானை"
+      ]
+    },
+    {
+      "pasuram_number": 3606,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காகுத்தன்",
+          "meaning": "இராமபிரான்",
+          "meaning_snippet": "இராமபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "காகுத்தன்",
+          "alias_hits_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "alias_hits_padham": [
+            "காகுத்தன்"
+          ],
+          "review_stems_meaning": [
+            "இராம",
+            "ராம"
+          ],
+          "review_stems_padham": [
+            "காகுத்த"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3640,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "கே ஆகிய மா வலியை"
+      ]
+    },
+    {
+      "pasuram_number": 3646,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "இடந்து உண்டு உமிழிந்து அளந்து"
+      ]
+    },
+    {
+      "pasuram_number": 3650,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "சிவனொடு பிரமன் வரை திருமடந்தை சேர் திரு ஆகம்"
+      ]
+    },
+    {
+      "pasuram_number": 3674,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "தயதரதன் பெற்ற மரகதம் மணி தடத்தினை"
+      ]
+    },
+    {
+      "pasuram_number": 3708,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பரமன் பணித்த பணி வகையே"
+      ]
+    },
+    {
+      "pasuram_number": 3768,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பிரமன் சிவன் இந்திரன் ஆதிக்கு எல்லாம்"
+      ]
+    },
+    {
+      "pasuram_number": 3769,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அம்பரம் நல்சோதி அதனுள் பிரமன் அரண் நீ"
+      ]
+    }
+  ]
+}

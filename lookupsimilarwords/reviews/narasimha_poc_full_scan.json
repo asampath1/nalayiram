@@ -1,0 +1,1120 @@
+{
+  "theme_id": "narasimha",
+  "generated_at": "2026-05-29T13:02:01.426683+00:00",
+  "source_table": "PasuramsArthamTablePOC",
+  "aliases_appended_on_trigger": [
+    "நரசிம்ம",
+    "நரசிம்மா",
+    "நரசிங்கா",
+    "narsimaa",
+    "narsimha",
+    "narasimha",
+    "Narasinga",
+    "narasimhan",
+    "narasimhar",
+    "நரசிம்மன்",
+    "நரசிம்ஹன்",
+    "நரசிம்ஹர்",
+    "நரஸிம்ம"
+  ],
+  "training_from_similar_words": {
+    "training_row_count": 356,
+    "training_pasuram_count": 40,
+    "top_padham_lines": [
+      [
+        "இரணியன்",
+        5
+      ],
+      [
+        "அவன்",
+        4
+      ],
+      [
+        "அரி ஆய்",
+        3
+      ],
+      [
+        "கீண்டான்",
+        2
+      ],
+      [
+        "அவுணன்",
+        2
+      ],
+      [
+        "மகனை",
+        2
+      ],
+      [
+        "நரசிங்கம் அது ஆகி",
+        2
+      ],
+      [
+        "கதிர்",
+        2
+      ],
+      [
+        "ஆகம்",
+        2
+      ],
+      [
+        "நரசிங்கனை",
+        2
+      ],
+      [
+        "தோழீ",
+        2
+      ],
+      [
+        "நான் கனாக் கண்டேன்",
+        2
+      ],
+      [
+        "இடந்து",
+        2
+      ],
+      [
+        "மணி வண்ணன்",
+        2
+      ],
+      [
+        "இரணியனது",
+        2
+      ],
+      [
+        "காய்ந்து",
+        2
+      ],
+      [
+        "கோன்",
+        1
+      ],
+      [
+        "அரியின்",
+        1
+      ],
+      [
+        "உருவம் கொண்டு",
+        1
+      ],
+      [
+        "உடலம்",
+        1
+      ],
+      [
+        "குருதி",
+        1
+      ],
+      [
+        "குழம்பி எழ",
+        1
+      ],
+      [
+        "மீள",
+        1
+      ],
+      [
+        "மெய்ம்மை கொள கருதி",
+        1
+      ],
+      [
+        "கூர் உகிரால்",
+        1
+      ],
+      [
+        "குடைவாய்",
+        1
+      ],
+      [
+        "ஆள் அரியும்",
+        1
+      ],
+      [
+        "தூணை",
+        1
+      ],
+      [
+        "தட்ட",
+        1
+      ],
+      [
+        "ஆங்கே",
+        1
+      ],
+      [
+        "வான் உகிர்",
+        1
+      ],
+      [
+        "சிங்கம் உருஆய்",
+        1
+      ],
+      [
+        "வளர்ந்திட்டு",
+        1
+      ],
+      [
+        "உளம்",
+        1
+      ],
+      [
+        "தொட்டு",
+        1
+      ],
+      [
+        "ஒளி",
+        1
+      ],
+      [
+        "மார்பு அகலம்",
+        1
+      ],
+      [
+        "பிளந்திட்ட",
+        1
+      ],
+      [
+        "கைகளால் சப்பாணி",
+        1
+      ],
+      [
+        "பேய்",
+        1
+      ]
+    ],
+    "meaning_stem_hits": [
+      [
+        "நரசிங்",
+        15
+      ],
+      [
+        "ஹிரண்ய",
+        14
+      ],
+      [
+        "இரணிய",
+        10
+      ],
+      [
+        "ப்ரஹ்லாத",
+        6
+      ],
+      [
+        "நரசிம்",
+        1
+      ]
+    ],
+    "padham_stem_hits": [
+      [
+        "இரணிய",
+        15
+      ],
+      [
+        "நரசிங்",
+        7
+      ],
+      [
+        "சிங்கம்",
+        6
+      ],
+      [
+        "அரி ஆய்",
+        4
+      ],
+      [
+        "அரி உருவ",
+        3
+      ]
+    ]
+  },
+  "full_scan": {
+    "total_padham_rows": 29000,
+    "pasurams_would_tag": 46,
+    "thiruvandhathi_2182_2381_count": 10,
+    "outside_thiruvandhathi_count": 36
+  },
+  "pasurams_would_tag": [
+    {
+      "pasuram_number": 6,
+      "prabandham": "திருப்பல்லாண்டு",
+      "line_count": 14,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "அரியை",
+          "meaning": "(தன் அடியவனான ப்ரஹ்லாதனுக்கு) சத்துருவான இரணியனை",
+          "meaning_snippet": "(தன் அடியவனான ப்ரஹ்லாதனுக்கு) சத்துருவான இரணியனை",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 27,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 15,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யனுடைய",
+          "meaning_snippet": "ஹிரண்யனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 65,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 33,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "அவுணன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        },
+        {
+          "padham": "மகனை",
+          "meaning": "தன் மகனான ப்ரஹ்லாதனை",
+          "meaning_snippet": "தன் மகனான ப்ரஹ்லாதனை",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 83,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 18,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "அவன்",
+          "meaning": "அந்த ஹிரண்யாஸுரன் (தானே)",
+          "meaning_snippet": "அந்த ஹிரண்யாஸுரன் (தானே)",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        },
+        {
+          "padham": "இரணியன்",
+          "meaning": "அவ்விரணியனுடைய",
+          "meaning_snippet": "அவ்விரணியனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 188,
+      "prabandham": "பெரியாழ்வார் திருமொழி",
+      "line_count": 19,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "இரணியன் நெஞ்சை",
+          "meaning": "ஹிரண்யாஸுரனுடைய மார்பை",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய மார்பை",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 221,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 17,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "இடந்த",
+          "meaning": "(பூமியைப் பாயாகச் சுருட்டிக் கொண்டு போன ஹிரண்யாக்ஷனைக் கொன்று) (அண்ட பித்தியில் நின்றும்) ஒட்டு விடுவித் தெடுத்த",
+          "meaning_snippet": "(பூமியைப் பாயாகச் சுருட்டிக் கொண்டு போன ஹிரண்யாக்ஷனைக் கொன்று) (அண்ட பித்தியில் நின்றும்) ஒட்டு விடுவித் தெடுத்த",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 279,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 22,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "நரசிங்கம் அது ஆகி",
+          "meaning": "நரஸிம்ஹ ரூபங்கொண்டு",
+          "meaning_snippet": "நரஸிம்ஹ ரூபங்கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "அவுணன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 328,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 18,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹ ருபியாய்க் கொண்டு",
+          "meaning_snippet": "நரஸிம்ஹ ருபியாய்க் கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "அரி ஆய்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 357,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 23,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "மண்",
+          "meaning": "(ஹிரண்யாக்ஷனாலே பாயாகச் சுருட்டிக் கொண்டு போகப்பட்ட) பூமியை",
+          "meaning_snippet": "(ஹிரண்யாக்ஷனாலே பாயாகச் சுருட்டிக் கொண்டு போகப்பட்ட) பூமியை",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 365,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 16,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "நரசிங்கனை",
+          "meaning": "நரஸிம்ஹ ஸ்வரூபியுமான எம்பெருமானை",
+          "meaning_snippet": "நரஸிம்ஹ ஸ்வரூபியுமான எம்பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 368,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 24,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "நரசிங்கனை",
+          "meaning": "நரஹிம்ஹ ரூபியுமான ஸர்வேச்வரனை",
+          "meaning_snippet": "நரஹிம்ஹ ரூபியுமான ஸர்வேச்வரனை",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 409,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 10,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "எல்லை இல்லா தரணியையும் அவுணனையும் இடந்தான்",
+          "meaning": "ஹிரண்யாஸுரனையும் கிண்டருளின எம்பெருமான் (எழுந்தருளியிருக்கிற)",
+          "meaning_snippet": "ஹிரண்யாஸுரனையும் கிண்டருளின எம்பெருமான் (எழுந்தருளியிருக்கிற)",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 419,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 24,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "இரணியனை",
+          "meaning": "இரணியாஸஷரனுடைய",
+          "meaning_snippet": "இரணியாஸஷரனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 420,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 22,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹமாயும்",
+          "meaning_snippet": "நரஸிம்ஹமாயும்",
+          "reason": "padham_substring",
+          "matched_term": "அரி ஆய்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 441,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 25,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "நரசிங்கம் அது ஆனாய்",
+          "meaning": "நரசிங்க அவதராம் செய்தருளினவனே!",
+          "meaning_snippet": "நரசிங்க அவதராம் செய்தருளினவனே!",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 446,
+      "prabandham": "ஸ்ரீ பெரியாழ்வார் திருமொழி",
+      "line_count": 19,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "சிங்கப் பிரானவன்",
+          "meaning": "நரசிம்மாவதாரமெடுத்து உபசரித்தருளினவன",
+          "meaning_snippet": "நரசிம்மாவதாரமெடுத்து உபசரித்தருளினவன",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிம்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 564,
+      "prabandham": "நாச்சியார் திருமொழி",
+      "line_count": 13,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "அரி முகன்",
+          "meaning": "(ஹிரண்ய வதத்திற்காக) ஸிம்ஹ முகத்தை யுடைனாய் அவதரித்த",
+          "meaning_snippet": "(ஹிரண்ய வதத்திற்காக) ஸிம்ஹ முகத்தை யுடைனாய் அவதரித்த",
+          "reason": "meaning_keyword",
+          "matched_term": "ஹிரண்ய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 581,
+      "prabandham": "நாச்சியார் திருமொழி",
+      "line_count": 11,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "இரணியனை உடல் இடந்தான் தான்",
+          "meaning": "ஹிரண்யாஸுரனுடைய உடலைப் பிளந்தெறிந்த பெருமான்",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய உடலைப் பிளந்தெறிந்த பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 934,
+      "prabandham": "அமலனாதிபிரான்",
+      "line_count": 21,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "வந்த",
+          "meaning": "(ப்ரஹ்லாதனை நலிய) வந்த",
+          "meaning_snippet": "(ப்ரஹ்லாதனை நலிய) வந்த",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        },
+        {
+          "padham": "அவுணன்",
+          "meaning": "அஸூரனான இரணியனுடைய",
+          "meaning_snippet": "அஸூரனான இரணியனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 961,
+      "prabandham": "பெரிய திருமொழி",
+      "line_count": 20,
+      "trigger_count": 3,
+      "triggers": [
+        {
+          "padham": "ஆள் அரி உரு என",
+          "meaning": "நரசிங்க மூர்த்தி என்று பிரஸதாவமெடுத்த மாத்திரத்திலே",
+          "meaning_snippet": "நரசிங்க மூர்த்தி என்று பிரஸதாவமெடுத்த மாத்திரத்திலே",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "ஒருவனது",
+          "meaning": "வீரரில் ஒப்பற்றவனான இரணியனுடைய",
+          "meaning_snippet": "வீரரில் ஒப்பற்றவனான இரணியனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "வானவர் (அந்த விடாய்தீர)",
+          "meaning": "(இப்படி இரணியனைக் கொன்ற மஹோபகாரத்தில் ஈடுபட்ட)தேவர்கள்",
+          "meaning_snippet": "(இப்படி இரணியனைக் கொன்ற மஹோபகாரத்தில் ஈடுபட்ட)தேவர்கள்",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2199,
+      "prabandham": "இரண்டாம் திருவந்தாதி",
+      "line_count": 15,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "கோள் அரி ஆய்",
+          "meaning": "மிடுக்கையுடைய நரசிங்கமாகி",
+          "meaning_snippet": "மிடுக்கையுடைய நரசிங்கமாகி",
+          "reason": "padham_substring",
+          "matched_term": "அரி ஆய்"
+        },
+        {
+          "padham": "ஒண்திறலோன் மார்வத்து",
+          "meaning": "மஹா பலசாலியான இரணியனுடைய மார்பிலே",
+          "meaning_snippet": "மஹா பலசாலியான இரணியனுடைய மார்பிலே",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2228,
+      "prabandham": "இரண்டாம் திருவந்தாதி",
+      "line_count": 17,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "உணர்ந்து",
+          "meaning": "அநுஸந்தித்து, (முன்பொருகால் ப்ரஹ்லாதனுக்கருள் செய்வதற்காக)",
+          "meaning_snippet": "அநுஸந்தித்து, (முன்பொருகால் ப்ரஹ்லாதனுக்கருள் செய்வதற்காக)",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        },
+        {
+          "padham": "அரி உருவன்",
+          "meaning": "நரசிங்கமூர்த்தியாய்த் தோன்றின அப்பெருமானுடைய",
+          "meaning_snippet": "நரசிங்கமூர்த்தியாய்த் தோன்றின அப்பெருமானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அரி உருவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2265,
+      "prabandham": "இரண்டாம் திருவந்தாதி",
+      "line_count": 9,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "மூர்க்க தவனை",
+          "meaning": "மூர்க்கத்தனம் கொண்டிருந்தவனுமான இரணியனை",
+          "meaning_snippet": "மூர்க்கத்தனம் கொண்டிருந்தவனுமான இரணியனை",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "நரம் கலந்த சிங்கம் ஆய்கீண்ட",
+          "meaning": "நரசிங்கவுருக்கொண்டு பிளந்தொழிந்த",
+          "meaning_snippet": "நரசிங்கவுருக்கொண்டு பிளந்தொழிந்த",
+          "reason": "padham_substring",
+          "matched_term": "நரம் கலந்த சிங்கம்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2275,
+      "prabandham": "இரண்டாம் திருவந்தாதி",
+      "line_count": 10,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "பொருந்தா தான்",
+          "meaning": "(ப்ரஹ்லாதனுக்கு) சத்ருவான் இரணியனுடைய",
+          "meaning_snippet": "(ப்ரஹ்லாதனுக்கு) சத்ருவான் இரணியனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2276,
+      "prabandham": "இரண்டாம் திருவந்தாதி",
+      "line_count": 10,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "தானவனை",
+          "meaning": "இரணியனாகிற அகரனுடைய",
+          "meaning_snippet": "இரணியனாகிற அகரனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2312,
+      "prabandham": "மூன்றாம் திருவந்தாதி",
+      "line_count": 10,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "இரணியனது",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "அரி உருவம் ஆனான்",
+          "meaning": "நரசிங்கமாகத் தோன்றினவனும்",
+          "meaning_snippet": "நரசிங்கமாகத் தோன்றினவனும்",
+          "reason": "padham_substring",
+          "matched_term": "அரி உருவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2323,
+      "prabandham": "மூன்றாம் திருவந்தாதி",
+      "line_count": 13,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "மேலி அரி உருவம் ஆகி",
+          "meaning": "பொருத்தமான நரசிங்க வடிவங்கொண்டு",
+          "meaning_snippet": "பொருத்தமான நரசிங்க வடிவங்கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "அரி உருவ"
+        },
+        {
+          "padham": "இரணியனது ஆகம்",
+          "meaning": "இரணியாஸுரனுடைய முரட்டுடலை",
+          "meaning_snippet": "இரணியாஸுரனுடைய முரட்டுடலை",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2330,
+      "prabandham": "மூன்றாம் திருவந்தாதி",
+      "line_count": 15,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "சேரா இரணியனை",
+          "meaning": "உன்னைச் சேர்த்துவாழமாட்டாத ஹிரண்யா ஸுரனை",
+          "meaning_snippet": "உன்னைச் சேர்த்துவாழமாட்டாத ஹிரண்யா ஸுரனை",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2346,
+      "prabandham": "மூன்றாம் திருவந்தாதி",
+      "line_count": 13,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "அங்கற்கு",
+          "meaning": "பிள்ளையான ப்ரஹ்லாதனுக்கு",
+          "meaning_snippet": "பிள்ளையான ப்ரஹ்லாதனுக்கு",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        },
+        {
+          "padham": "இரணியனது",
+          "meaning": "ஹரண்யனுடைய",
+          "meaning_snippet": "ஹரண்யனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2376,
+      "prabandham": "மூன்றாம் திருவந்தாதி",
+      "line_count": 11,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹ மூர்த்தியாய்த் திருவ்வதரித்து,",
+          "meaning_snippet": "நரஸிம்ஹ மூர்த்தியாய்த் திருவ்வதரித்து,",
+          "reason": "padham_substring",
+          "matched_term": "அரி ஆய்"
+        },
+        {
+          "padham": "இகழ்ந்த இரணியனது ஆகம்",
+          "meaning": "நிந்தித்துக்கொண்டிருந்த ஹிரண்யா ஸுரனது சரீரத்தை",
+          "meaning_snippet": "நிந்தித்துக்கொண்டிருந்த ஹிரண்யா ஸுரனது சரீரத்தை",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2818,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 9,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "நரசிங்கா என்று",
+          "meaning": "நரசிங்கமூர்த்தியே! என்று கதறி",
+          "meaning_snippet": "நரசிங்கமூர்த்தியே! என்று கதறி",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2845,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 18,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யகசிபுவினுடைய",
+          "meaning_snippet": "ஹிரண்யகசிபுவினுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "கோள் அரியே",
+          "meaning": "மிடுக்குடைய நரசிங்க மூர்த்தியே!",
+          "meaning_snippet": "மிடுக்குடைய நரசிங்க மூர்த்தியே!",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2872,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 13,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "(பிதாவான) ஹிரண்யாசுரன்",
+          "meaning_snippet": "(பிதாவான) ஹிரண்யாசுரன்",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2912,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 10,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "வந்தாய் போலே வந்தும்",
+          "meaning": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "meaning_snippet": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2957,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 13,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "ஒரு மூர்த்தி ஆய்",
+          "meaning": "ஒப்பற்ற நரசிங்க மூர்த்தியாய்",
+          "meaning_snippet": "ஒப்பற்ற நரசிங்க மூர்த்தியாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "சீற்றத்தோடு அருள் பெற்றவன்",
+          "meaning": "சீறியிருக்கும் நிலைமையிலேயே கருணைக்கு இலக்கான ப்ரஹ்லாதன்",
+          "meaning_snippet": "சீறியிருக்கும் நிலைமையிலேயே கருணைக்கு இலக்கான ப்ரஹ்லாதன்",
+          "reason": "meaning_keyword",
+          "matched_term": "ப்ரஹ்லாத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3090,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 13,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "அரி உரு ஆய்",
+          "meaning": "நரசிங்கமூர்த்தியாய்",
+          "meaning_snippet": "நரசிங்கமூர்த்தியாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "கிளர் ஒளிய இரணியனது",
+          "meaning": "மிக்கதேக பொருந்திய இரணியனுடைய",
+          "meaning_snippet": "மிக்கதேக பொருந்திய இரணியனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3126,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 8,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "மீன் ஆய் ஆமையம் ஆய்நர சிங்கமும் ஆய் குறள் ஆய்",
+          "meaning": "மீனாகவும் ஆமையாகவும் நரசிங்கமாகவும் வானமூர்த்தியாகவும் அவதரித்தும்",
+          "meaning_snippet": "மீனாகவும் ஆமையாகவும் நரசிங்கமாகவும் வானமூர்த்தியாகவும் அவதரித்தும்",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3352,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 13,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "அவுணன் உடல் இடந்தானே",
+          "meaning": "(நரசிங்க மூர்த்தியாய்த் தோன்றி) இரணியனது உடலைப் பிளந்தவனே!",
+          "meaning_snippet": "(நரசிங்க மூர்த்தியாய்த் தோன்றி) இரணியனது உடலைப் பிளந்தவனே!",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3375,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 10,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "asurai kollum aaru",
+          "meaning": "இரணியாசுரனைக் கொன்ற விதமானது",
+          "meaning_snippet": "இரணியாசுரனைக் கொன்ற விதமானது",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3388,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 8,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "இரணியன் ஆகத்தை",
+          "meaning": "ஹிரண்யாஸீரனுடைய உடலை,",
+          "meaning_snippet": "ஹிரண்யாஸீரனுடைய உடலை,",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "மல்லல் அரி உரு ஆய் செய்த",
+          "meaning": "பெரிய நரசிங்க வடிவையுடைனாய்க் கொண்டு இருபிளவாகச் செய்த",
+          "meaning_snippet": "பெரிய நரசிங்க வடிவையுடைனாய்க் கொண்டு இருபிளவாகச் செய்த",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3402,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 10,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "அவுணன் உடல் கீண்டு உகந்த",
+          "meaning": "இரணியாசுரனுடைய உடலே இருபிளவாக்கித் திருவுள்ளமுகந்த",
+          "meaning_snippet": "இரணியாசுரனுடைய உடலே இருபிளவாக்கித் திருவுள்ளமுகந்த",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3585,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 8,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "நரசிங்கம் அது ஆகி",
+          "meaning": "மதுஷ்யமூர்த்தியும், ஸிம்ஹ மூர்த்தி யுமுடையனாகி",
+          "meaning_snippet": "மதுஷ்யமூர்த்தியும், ஸிம்ஹ மூர்த்தி யுமுடையனாகி",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "ஓர் ஆகம்",
+          "meaning": "(இரணியனது) ஓரு உவகை",
+          "meaning_snippet": "(இரணியனது) ஓரு உவகை",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3596,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 8,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "மிரும் தானவன் மார்வு அகலம்",
+          "meaning": "மிடுக்குமிக்க இரணியாசுரனுடைய அகன்ற மார்வை",
+          "meaning_snippet": "மிடுக்குமிக்க இரணியாசுரனுடைய அகன்ற மார்வை",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        },
+        {
+          "padham": "நரசிங்கம் அது ஆய உருவே",
+          "meaning": "நரசிங்க மூர்த்தியானவனே",
+          "meaning_snippet": "நரசிங்க மூர்த்தியானவனே",
+          "reason": "padham_substring",
+          "matched_term": "நரசிங்க"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3661,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 7,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "Sempon aagathu avunan udal keentavan",
+          "meaning": "சிவந்த பொன்போன்ற அடம்பையுடைய இரணியாசுரனது உடைலைக் கீண்டவனாய்",
+          "meaning_snippet": "சிவந்த பொன்போன்ற அடம்பையுடைய இரணியாசுரனது உடைலைக் கீண்டவனாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3725,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 13,
+      "trigger_count": 1,
+      "triggers": [
+        {
+          "padham": "வல் நெஞ்சத்து இரணியனை",
+          "meaning": "வலிய நெஞ்சையுடையனான இரணியாசுரனது",
+          "meaning_snippet": "வலிய நெஞ்சையுடையனான இரணியாசுரனது",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3731,
+      "prabandham": "திருவாய்மொழி",
+      "line_count": 9,
+      "trigger_count": 2,
+      "triggers": [
+        {
+          "padham": "அர் ஆகி",
+          "meaning": "நரசிங்க மூர்த்தியாகி",
+          "meaning_snippet": "நரசிங்க மூர்த்தியாகி",
+          "reason": "meaning_keyword",
+          "matched_term": "நரசிங்க"
+        },
+        {
+          "padham": "இரணியனை",
+          "meaning": "இரணியாசுரனுடைய",
+          "meaning_snippet": "இரணியாசுரனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "இரணிய"
+        }
+      ]
+    }
+  ],
+  "thiruvandhathi_pasurams": [
+    2199,
+    2228,
+    2265,
+    2275,
+    2276,
+    2312,
+    2323,
+    2330,
+    2346,
+    2376
+  ],
+  "outside_thiruvandhathi_sample": [
+    6,
+    27,
+    65,
+    83,
+    188,
+    221,
+    279,
+    328,
+    357,
+    365,
+    368,
+    409,
+    419,
+    420,
+    441,
+    446,
+    564,
+    581,
+    934,
+    961,
+    2818,
+    2845,
+    2872,
+    2912,
+    2957,
+    3090,
+    3126,
+    3352,
+    3375,
+    3388
+  ],
+  "fp_watchlist": []
+}

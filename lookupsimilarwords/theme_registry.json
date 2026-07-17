@@ -1,0 +1,694 @@
+{
+  "themes": {
+    "mahabharatham": {
+      "rule": 1,
+      "concept": "மகாபாரதம்",
+      "query_concepts": [
+        "மகாபாரதம்",
+        "mahabharatham"
+      ],
+      "aliases": [
+        "மகாபாரதம்",
+        "mahabharatham"
+      ],
+      "normalize_meaning_parenthesis": true,
+      "meaning_keyword_seeds": [
+        "மகாபாரத",
+        "பாரத யுத்த",
+        "பாரதயுத்த",
+        "(பாரத)",
+        "பாரத) யுத்த",
+        "பாண்டவ",
+        "கௌரவ",
+        "துரியோதந",
+        "துரோதன",
+        "குருச்சேதிர",
+        "குருக்ஷேத்ர",
+        "போர்க்கள",
+        "பார்த்தஸாரதி",
+        "பார்த்தசாரதி",
+        "நூற்றுவர்",
+        "நூறு குரு",
+        "பஞ்ச பாண்ட",
+        "பஞ்சவர்",
+        "பஞ்சவர்க்கு",
+        "கர்ணன்",
+        "அர்ஜுன",
+        "பீமன்",
+        "துரியோதனாதி",
+        "பாரத வம்ச",
+        "நெருங்க நடத்த",
+        "mahabharat",
+        "mahabharatham",
+        "pandav",
+        "kaurav",
+        "duryodhan",
+        "kurukshetra",
+        "parthasarath",
+        "karnan",
+        "arjuna"
+      ],
+      "padham_substring_seeds": [
+        "கௌரவ",
+        "பாரத",
+        "பஞ்சவர்",
+        "ஐவர்க்கு",
+        "துரியோதந",
+        "தேர்கடவி",
+        "தூதன் ஆய்",
+        "நூற்றுவர்",
+        "தேர் உய்த்த",
+        "பஞ்சவர்க்கு",
+        "போர் உய்த்த",
+        "வெம் சமத்து",
+        "வெம் பாரதம்",
+        "ஐவர்க்கு ஆய்",
+        "வெம் பாரதம் போர்"
+      ]
+    },
+    "sivan": {
+      "rule": 2,
+      "concept": "சிவன்",
+      "query_concepts": [
+        "சிவன்",
+        "sivan"
+      ],
+      "aliases": [
+        "சிவன்",
+        "sivan"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "min_stem_length": 4,
+      "excluded_stems": [
+        "சிவ",
+        "நந்த"
+      ],
+      "blocked_contexts": [
+        {
+          "stem": "சிவ",
+          "if_text_matches": "சிவந்த"
+        },
+        {
+          "stem": "நந்த",
+          "if_text_matches": "ஆநந்த"
+        },
+        {
+          "stem": "நந்த",
+          "if_text_matches": "ஆனந்த"
+        },
+        {
+          "stem": "நந்தி",
+          "if_text_matches": "ஆநந்த"
+        },
+        {
+          "stem": "நந்தி",
+          "if_text_matches": "ஆனந்த"
+        },
+        {
+          "stem": "ருத்ர",
+          "if_text_matches": "க்ருத்ரிம",
+          "prefix_match": true
+        },
+        {
+          "stem": "rudra",
+          "if_text_matches": "க்ருத்ரிம",
+          "prefix_match": true
+        }
+      ],
+      "excluded_stems_review": [
+        "சிவ — substring of சிவந்த (red/crimson), not Shiva",
+        "நந்த — substring of ஆநந்த/ஆனந்த (bliss), not Nandi",
+        "ருத்ர — substring of க்ருத்ரிம (disguise/craft), not Shiva Rudra (2242, 2364)"
+      ],
+      "meaning_keyword_seeds": [
+        "சிவன்",
+        "sivan",
+        "siva",
+        "rudra",
+        "ருத்ர",
+        "namach",
+        "நமச்ச",
+        "panchaksh",
+        "பஞ்சாட்ச",
+        "sankar",
+        "sankara",
+        "சங்கர",
+        "pasupati",
+        "பசுப",
+        "kailas",
+        "கயில",
+        "nandi",
+        "நந்தி",
+        "bhasma",
+        "பாச",
+        "tripur",
+        "திரிபுர",
+        "jata",
+        "ஜட",
+        "ஜடை",
+        "samhara",
+        "samharam"
+      ],
+      "padham_substring_seeds": [
+        "சிவன்",
+        "sivan",
+        "siva",
+        "rudra",
+        "ருத்ர",
+        "சங்கர",
+        "sankar",
+        "ஜட",
+        "jata",
+        "ஜடை",
+        "சடை",
+        "பசுப",
+        "pasupati",
+        "நமச்ச",
+        "namach",
+        "நந்தி"
+      ]
+    },
+    "gajendran": {
+      "rule": 3,
+      "concept": "கஜேந்திரன்",
+      "query_concepts": [
+        "கஜேந்திரன்",
+        "Gajendran",
+        "gajendran"
+      ],
+      "aliases": [
+        "Gajendran",
+        "கஜேந்திரன்"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "meaning_only_excluded_stems": [
+        "களிற",
+        "kaliri"
+      ],
+      "blocked_contexts": [
+        {
+          "stem": "யானை",
+          "if_text_matches": "மொழியானை"
+        },
+        {
+          "stem": "யானை",
+          "if_text_matches": "போர் யானை"
+        },
+        {
+          "stem": "யானை",
+          "if_text_matches": "போர் செய்வ"
+        }
+      ],
+      "excluded_stems_review": [
+        "களிற on Meaning — matches பக்கங்களிற் (sides), not elephant களிறு",
+        "யானை — மொழியானை (accusative); போர் யானை (Kamsa war elephant, out of scope)"
+      ],
+      "meaning_keyword_seeds": [
+        "கஜேந்திரன்",
+        "Gajendran",
+        "gajendran",
+        "gajendra",
+        "கஜ",
+        "gaj",
+        "யானை",
+        "yaanai",
+        "elephant",
+        "mudalai",
+        "crocodile",
+        "erumbu",
+        "எரும",
+        "முதலை",
+        "mudal",
+        "முதலைய"
+      ],
+      "padham_substring_seeds": [
+        "கஜேந்திரன்",
+        "Gajendran",
+        "gajendran",
+        "gajendra",
+        "கஜ",
+        "gaj",
+        "யானை",
+        "yaanai",
+        "களிற",
+        "kaliri",
+        "erumbu",
+        "எரும",
+        "vezhah",
+        "வேழ",
+        "mudalai",
+        "முதலை"
+      ]
+    },
+    "sangu": {
+      "rule": 4,
+      "concept": "சங்கு",
+      "query_concepts": [
+        "சங்கு",
+        "sangu"
+      ],
+      "aliases": [
+        "sangu",
+        "சங்கு"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "meaning_keyword_seeds": [
+        "சங்கு",
+        "sangu",
+        "conch",
+        "sankha",
+        "panchajanya",
+        "panchajanyam",
+        "பாஞ்ச",
+        "panca",
+        "pancha",
+        "valampuri",
+        "valam",
+        "வலம்",
+        "வலம்ப",
+        "ஜன்ய",
+        "janya"
+      ],
+      "padham_substring_seeds": [
+        "சங்கு",
+        "sangu",
+        "சங்க",
+        "conch",
+        "panchaj",
+        "பாஞ்ச",
+        "panca",
+        "valamp",
+        "வலம்",
+        "வலம்ப",
+        "சங்கம்",
+        "sankham"
+      ]
+    },
+    "chakkaram": {
+      "rule": 5,
+      "concept": "சக்கரம்",
+      "query_concepts": [
+        "சக்கரம்",
+        "chakaram",
+        "நேமி",
+        "nemi",
+        "ஆழி",
+        "Aazhi",
+        "aazhi"
+      ],
+      "aliases": [
+        "chakaram",
+        "சக்கரம்",
+        "நேமி",
+        "nemi",
+        "ஆழி",
+        "Aazhi"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "meaning_keyword_seeds": [
+        "சக்கரம்",
+        "chakaram",
+        "chakram",
+        "chakkaram",
+        "chakara",
+        "சக்க",
+        "chakk",
+        "நேமி",
+        "nemi",
+        "ஆழி",
+        "aazhi",
+        "aazh",
+        "ஆழ",
+        "tiruvazhi",
+        "திருவாழ",
+        "tiruvaazhi",
+        "sudarshan",
+        "sudarsan",
+        "chakrapani",
+        "சக்கரபாண",
+        "discus",
+        "chakra"
+      ],
+      "padham_substring_seeds": [
+        "சக்கரம்",
+        "chakaram",
+        "chakram",
+        "chakkaram",
+        "சக்க",
+        "chakk",
+        "நேமி",
+        "nemi",
+        "Aazhi",
+        "aazhi",
+        "ஆழி",
+        "aazh",
+        "திருவாழ",
+        "tiruvazh",
+        "chakrapani",
+        "சக்கரபாண",
+        "சுடர்"
+      ]
+    },
+    "ramayana": {
+      "rule": 6,
+      "concept": "இராமாயணம்",
+      "query_concepts": [
+        "இராமாயணம்",
+        "Ramayanam",
+        "ramayanam",
+        "இராமன்",
+        "Raman",
+        "raman",
+        "காகுத்தன்",
+        "Kaguthan",
+        "kaguthan"
+      ],
+      "aliases": [
+        "Ramayanam",
+        "இராமாயணம்",
+        "Raman",
+        "இராமன்",
+        "காகுத்தன்",
+        "Kaguthan"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "meaning_keyword_seeds": [
+        "இராமாயணம்",
+        "Ramayanam",
+        "ramayanam",
+        "இராமன்",
+        "Raman",
+        "raman",
+        "காகுத்தன்",
+        "Kaguthan",
+        "kaguthan",
+        "இராம",
+        "ராவண",
+        "ravana",
+        "ravan",
+        "இலங்க",
+        "ilangai",
+        "lanka",
+        "அரக்க",
+        "arakkar",
+        "rakshas",
+        "குரங்க",
+        "kurangu",
+        "மாயமா",
+        "சீத",
+        "sita",
+        "அணை கட்ட",
+        "sethu",
+        "setu",
+        "அனும",
+        "hanuman",
+        "இளைய"
+      ],
+      "padham_substring_seeds": [
+        "இராமாயணம்",
+        "Ramayanam",
+        "ramayanam",
+        "இராமன்",
+        "Raman",
+        "raman",
+        "காகுத்தன்",
+        "Kaguthan",
+        "kaguthan",
+        "இராம",
+        "இலங்க",
+        "அரக்க",
+        "சீத",
+        "குரங்க",
+        "அணை கட்ட",
+        "ராவண",
+        "அனும"
+      ],
+      "excluded_stems": [
+        "ராம"
+      ],
+      "blocked_contexts": [
+        {
+          "stem": "ராம",
+          "if_text_matches": "சேராமல்"
+        },
+        {
+          "stem": "இளைய",
+          "if_text_matches": "இளமூங்கில்"
+        },
+        {
+          "stem": "இளைய",
+          "if_text_matches": "மூங்கில் குருத்தை"
+        }
+      ],
+      "excluded_stems_review": [
+        "பிராட்ட — generic goddess; context-dependent (Sita, Nappinnai, Rukmini, Bhoomi pirati)",
+        "ராம — bare stem hits சேராமல் (do not mingle); use இராம/ராமன்/ராவண instead",
+        "இளைய — young bamboo (இளமூங்கில்), not Rama youth (2256)"
+      ]
+    },
+    "vamanan": {
+      "rule": 7,
+      "concept": "வாமனன்",
+      "query_concepts": [
+        "வாமனன்",
+        "திருவிக்ரமன்",
+        "vamanan",
+        "thiruvikraman"
+      ],
+      "aliases": [
+        "வாமனன்",
+        "திருவிக்ரமன்",
+        "vamanan",
+        "thiruvikraman"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "min_stem_length": 4,
+      "excluded_stems": [
+        "வாம"
+      ],
+      "blocked_contexts": [
+        {
+          "stem": "வாம",
+          "if_text_matches": "ஸ்வாமி"
+        },
+        {
+          "stem": "வாம",
+          "if_text_matches": "மத்துக்காகவாம்"
+        },
+        {
+          "stem": "வாம",
+          "if_text_matches": "காகவாம்"
+        },
+        {
+          "stem": "மஹாபல",
+          "if_text_matches": "இராவண",
+          "prefix_match": true
+        },
+        {
+          "stem": "மஹாபல",
+          "if_text_matches": "ராவண",
+          "prefix_match": true
+        },
+        {
+          "stem": "விக்ர",
+          "if_text_matches": "விக்ரஹ",
+          "prefix_match": true
+        },
+        {
+          "stem": "vikram",
+          "if_text_matches": "விக்ரஹ",
+          "prefix_match": true
+        }
+      ],
+      "excluded_stems_review": [
+        "வாம — inside ஸ்வாமி or மத்துக்காகவாம், not Vamana",
+        "மஹாபல — Ravana vs Mahabali comparison lines, not Vamana avataram",
+        "விக்ர — inside விக்ரஹம் (idol), not திருவிக்ரமன் (2212)"
+      ],
+      "meaning_keyword_seeds": [
+        "வாமனன்",
+        "திருவிக்ரமன்",
+        "vamanan",
+        "thiruvikraman",
+        "thiruvikrama",
+        "வாமந",
+        "vikram",
+        "விக்ர",
+        "திருவிக",
+        "mahabali",
+        "mahapali",
+        "மஹாபலி",
+        "மாவலி",
+        "mavali",
+        "bali",
+        "amana",
+        "amanan",
+        "அமண",
+        "alanthan",
+        "அளந்த",
+        "அளந்தான",
+        "அளந்து",
+        "அளந்தை",
+        "dwarf",
+        "moondadi",
+        "மூவடி"
+      ],
+      "padham_substring_seeds": [
+        "வாமனன்",
+        "திருவிக்ரமன்",
+        "vamanan",
+        "thiruvikraman",
+        "வாமந",
+        "vikram",
+        "திருவிக",
+        "மாவலி",
+        "mavali",
+        "mahabali",
+        "bali",
+        "அளந்த",
+        "அளந்தான",
+        "அளந்து",
+        "அளந்தை",
+        "amana",
+        "amanan",
+        "அமண"
+      ]
+    },
+    "narasimha": {
+      "rule": 8,
+      "concept": "நரசிம்ம",
+      "query_concepts": [
+        "நரசிம்ம",
+        "நரசிம்மா",
+        "நரசிங்கா",
+        "நரசிங்கம்",
+        "narasimha",
+        "narsimha",
+        "narsimaa",
+        "Narasinga",
+        "narasimhan",
+        "narasimhar",
+        "நரசிம்மன்",
+        "நரசிம்ஹன்",
+        "நரசிம்ஹர்",
+        "நரஸிம்ம"
+      ],
+      "aliases": [
+        "நரசிம்ம",
+        "நரசிம்மா",
+        "நரசிங்கா",
+        "narsimaa",
+        "narsimha",
+        "narasimha",
+        "Narasinga",
+        "narasimhan",
+        "narasimhar",
+        "நரசிம்மன்",
+        "நரசிம்ஹன்",
+        "நரசிம்ஹர்",
+        "நரஸிம்ம"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "min_stem_length": 4,
+      "excluded_stems": [
+        "அரி"
+      ],
+      "blocked_contexts": [
+        {
+          "stem": "அரி",
+          "if_text_matches": "அரிய"
+        },
+        {
+          "stem": "அரி",
+          "if_text_matches": "அருமை"
+        }
+      ],
+      "excluded_stems_review": [
+        "அரி — bare stem hits அரிய (rare/difficult) and unrelated words; use அரி உருவ, அரி ஆய், இரணிய, நரசிங்க instead"
+      ],
+      "meaning_keyword_seeds": [
+        "நரசிங்க",
+        "நரசிம்",
+        "narasimha",
+        "narsimha",
+        "narasinga",
+        "narasimham",
+        "இரணியன்",
+        "இரணிய",
+        "ஹிரண்ய",
+        "ஹரண்ய",
+        "hiranya",
+        "hiranyaksha",
+        "ப்ரஹ்லாத",
+        "பிரஹ்லாத",
+        "அரியுருவாகி",
+        "prahlada"
+      ],
+      "padham_substring_seeds": [
+        "இரணியன",
+        "இரணிய",
+        "இரணியன்",
+        "அரி உருவ",
+        "அரி ஆய்",
+        "அரியுருவாகி",
+        "நரம் கலந்த சிங்கம்",
+        "கோள் அரி ஆய்",
+        "நரசிங்க"
+      ]
+    },
+    "garudan": {
+      "rule": 9,
+      "concept": "கருடன்",
+      "query_concepts": [
+        "கருடன்",
+        "Garudan",
+        "பெரிய திருவடி"
+      ],
+      "aliases": [
+        "கருடன்",
+        "Garudan",
+        "பெரிய திருவடி",
+        "Periya Thiruvadi"
+      ],
+      "normalize_meaning_parenthesis": false,
+      "min_stem_length": 4,
+      "excluded_stems": [
+        "புள்",
+        "வாஹந",
+        "வாகன"
+      ],
+      "blocked_contexts": [
+        {
+          "stem": "வாஹந",
+          "if_text_matches": "ருத்ர"
+        },
+        {
+          "stem": "வாஹந",
+          "if_text_matches": "வருஷப"
+        }
+      ],
+      "excluded_stems_review": [
+        "புள் — bare bird word too broad; use கொடிமேல் புள், புள் ஊர், புள்ளை ஊர்",
+        "வாஹந — Rudra at 2244 (வருஷப வாஹநன்); Garuda lines use கருட/பெரிய திருவடி seeds"
+      ],
+      "meaning_keyword_seeds": [
+        "கருடன்",
+        "கருட",
+        "கருடபக்ஷி",
+        "garudan",
+        "garuda",
+        "பெரிய திருவடி",
+        "Periya Thiruvadi"
+      ],
+      "padham_substring_seeds": [
+        "கருடன்",
+        "கருடன் மேல்",
+        "பொலிந்த கருடன்",
+        "கொடிமேல் புள்",
+        "புள்ளை ஊர்",
+        "புள் ஊர்",
+        "கருட"
+      ]
+    }
+  }
+}

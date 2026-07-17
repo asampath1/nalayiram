@@ -1,0 +1,35 @@
+{
+  "title": "நித்யாநுஸந்தானம்",
+  "search_link": "https://nalayiram.in/pocindex.php?padhamPrefix=நித்யாநுஸந்தானம்",
+  "thaniyangal": [
+    {"padhamPrefix": "திருப்பல்லாண்டு", "start": 1, "end": 12},
+    {"padhamPrefix": "திருப்பள்ளியெழுச்சி", "start": 917, "end": 926},
+    {"padhamPrefix": "திருப்பாவை", "start": 474, "end": 503},
+    {
+      "type": "heading",
+      "padhamPrefix": "பெரியாழ்வார்+திருமொழி",
+      "label": "பெரியாழ்வார் திருமொழி"
+    },
+    {"padhamPrefix": "நீராட்டம்", "start": 152, "end": 161},
+    {"padhamPrefix": "பூச்சூடல்", "start": 182, "end": 191},
+    {"padhamPrefix": "காப்பிடல்", "start": 192, "end": 201},
+    {"padhamPrefix": "சென்னியோங்கு", "start": 463, "end": 473},
+    {"padhamPrefix": "அமலனாதிபிரான்", "start": 927, "end": 936},
+    {"padhamPrefix": "கண்ணிநுண்சிறுத்தாம்பு", "start": 937, "end": 947}
+  ],
+  "koil_thiruvaimozhi": [
+    {"padhamPrefix": "உயர்வற", "start": 2675, "end": 2685},
+    {"padhamPrefix": "வீடுமின்", "start": 2686, "end": 2696},
+    {"padhamPrefix": "கிளரொளி", "start": 2886, "end": 2896},
+    {"padhamPrefix": "ஒழிவில்", "start": 2919, "end": 2929},
+    {"padhamPrefix": "ஒன்றும்+தேவும்", "start": 3106, "end": 3116},
+    {"padhamPrefix": "ஆரா+அமுதே", "start": 3194, "end": 3204},
+    {"padhamPrefix": "உலகம்", "start": 3326, "end": 3336},
+    {"padhamPrefix": "கங்குலும்+பகலும்", "start": 3348, "end": 3358},
+    {"padhamPrefix": "ஆழி+எழ", "start": 3370, "end": 3380},
+    {"padhamPrefix": "நெடுமாற்+கடிமை", "start": 3546, "end": 3556},
+    {"padhamPrefix": "மாலை+நண்ணி", "start": 3656, "end": 3666},
+    {"padhamPrefix": "சூழ்விசும்", "start": 3755, "end": 3765},
+    {"padhamPrefix": "முனியே", "start": 3766, "end": 3776}
+  ]
+}

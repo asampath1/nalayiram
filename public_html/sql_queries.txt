@@ -1,0 +1,179 @@
+CREATE TABLE `PasuramsArthamTable`(
+    `Sno` INT(11) NOT NULL,
+    `Prabandham` VARCHAR(255) DEFAULT NULL,
+    `PasuramNumber` INT(11) DEFAULT NULL,
+    `Pasuram` TEXT DEFAULT NULL,
+    `PattuNumber` INT(11) DEFAULT NULL,
+    `Word` VARCHAR(255) DEFAULT NULL,
+    `Meaning` TEXT DEFAULT NULL,
+    `Alzwar` VARCHAR(255) DEFAULT NULL,
+    `PadhamNumber` INT(11) DEFAULT NULL,
+    `Padham` VARCHAR(11) DEFAULT NULL,
+    `SimilarWords` VARCHAR(255) DEFAULT NULL,
+    `Title` VARCHAR(255) DEFAULT NULL,
+    PRIMARY KEY(`Sno`)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb3 COLLATE = utf8mb3_general_ci;
+
+UPDATE `PasuramsArthamTableTest` SET `SimilarWords`='3-3-1,3 -  3 -  1,3 3 1,தெழி குரல் அருவி, Thezhi kural aruvi,teli kural aruvi,3-3,ஒழிவில்,Ozhivil' WHERE `Sno`=2587
+
+
+UPDATE PasuramsArthamTable
+SET SimilarWords = CONCAT(SimilarWords, ',சாற்றுமுறை')
+WHERE PasuramNumber IN (11, 12);
+
+UPDATE PasuramsArthamTable
+SET SimilarWords = CONCAT(SimilarWords, ',கண்ணிநுண் சிறுத்தாம்பு,Kanninun Shiruttaambu,கண்ணிநுண்சிறுத்தாம்பு')
+WHERE Prabandham ='கண்ணிநுண்சிறுத்தாம்பு';
+
+SELECT SimilarWords FROM `PasuramsArthamTablePOC` WHERE Prabandham like 'கண்ணிநுண்சிறுத்தாம்பு - தனியன்'
+
+UPDATE PasuramsArthamTableURL
+SET url = 'https://divyaprabandham.koyil.org/index.php/2015/06/thiruppallandu-1-pallandu/'
+WHERE PasuramNumber=1;
+
+
+UPDATE PasuramsArthamTableTemp
+SET DivyaDesam = CONCAT(DivyaDesam, ',Thiruvarangam(Sri Rangam)')
+WHERE PasuramNumber=927;
+
+UPDATE PasuramsArthamTableTest
+SET SimilarWords = CONCAT(SimilarWords, ',பெரிய திருவந்தாதி,Periya Thiruvandhathi')
+Prabandham like 'பெரிய திருவந்தாதி'
+
+
+UPDATE PasuramsArthamTable
+SET SimilarWords = CONCAT(SimilarWords,',நரசிம்ம,நரசிம்மா,நரசிங்கா,narsimaa,narsimha, Narasinga')
+WHERE SimilarWords like '%இரணியன்%';
+
+UPDATE PasuramsArthamTableTest
+SET SimilarWords = CONCAT(SimilarWords,',chakaram, சக்கரம்')
+WHERE Meaning LIKE '%திரு வாழி%' 
+   OR Meaning LIKE '%திருவாழி%';
+
+UPDATE PasuramsArthamTable
+SET SimilarWords = CONCAT(SimilarWords,',நேமி,nemi')
+WHERE SimilarWords like '%chakaram%';
+
+
+UPDATE PasuramsArthamTableTest 
+SET SimilarWords = CONCAT(SimilarWords, ',திருப்பாவை,Thiruppavai','Andal','ஆண்டாள்') WHERE `Prabandham` like 'திருப்பாவை''
+
+UPDATE PasuramsArthamTableTest
+SET SimilarWords = CONCAT(SimilarWords, ',பெரியாழ்வார் திருமொழி, Periyalzwar Thirumozhi')
+WHERE `Prabandham` like 'பெரியாழ்வார் திருமொழி'
+
+UPDATE PasuramsArthamTablePOC
+SET SimilarWords = CONCAT(SimilarWords, ',திருமாலை,Thirumalai')
+WHERE `Prabandham` like 'திருமாலை- தனியன்'
+
+UPDATE PasuramsArthamTablePOC
+SET SimilarWords = CONCAT(SimilarWords, ',திருப்பல்லாண்டு, Thirupallandu')
+WHERE `Prabandham` like 'திருப்பல்லாண்டு - தனியன்';
+
+திருமாலை- தனியன் 
+
+**trouble shooting***
+for அமலனாதிபிரான் 
+Select Prabandham,HEX(Prabandham) from PasuramsArthamTableTest
+where HEX(Prabandham) like 'E0AE85E0AEAEE0AEB2E0AEA9E0AEBEE0AEA4E0AEBFE0AEAAE0%'
+
+UPDATE PasuramsArthamTable
+SET Prabandham ='அமலனாதிபிரான்'
+where HEX(Prabandham) like 'E0AE85E0AEAEE0AEB2E0AEA9E0AEBEE0AEA4E0AEBFE0AEAAE0%'
+
+
+
+திருப்பள்ளியெழுச்சி
+
+திருவாய்மொழி	2973 concatenated till2973   pasuram
+
+UPDATE `PasuramsArthamTable` 
+SET `Pasuram`=
+'பல்லாண்டு பல்லாண்டு பல்லாயிரத்தாண்டு
+பலகோடி நூறாயிரம்
+மல்லாண்ட திண்தோள் மணிவண்ணா!
+உன் செவ்வடி செவ்விதிருக் காப்பு'
+Where `PasuramNumber`=1
+
+
+
+UPDATE PasuramsArthamTableTest
+SET NithyaanusandhamIndex = CASE 
+
+    WHEN PasuramNumber = 0 AND PattuNumber = 1 THEN 1
+    WHEN PasuramNumber = 0 AND PattuNumber = 2 THEN 2
+    WHEN PasuramNumber = 0 AND PattuNumber = 3 THEN 3
+    WHEN PasuramNumber = 0 AND PattuNumber = 4 THEN 4
+    WHEN PasuramNumber = 0 AND PattuNumber = 5 THEN 5
+    WHEN PasuramNumber = 0 AND PattuNumber = 6 THEN 6
+    WHEN PasuramNumber = 0 AND PattuNumber = 7 THEN 7
+    WHEN PasuramNumber = 0 AND PattuNumber = 8 THEN 8
+    WHEN PasuramNumber BETWEEN 1 AND 12 THEN 9
+    WHEN PasuramNumber = 0 AND PattuNumber = 19 THEN 10
+    WHEN PasuramNumber = 0 AND PattuNumber = 20 THEN 11
+    WHEN PasuramNumber BETWEEN 917 AND 926 THEN 12
+    WHEN PasuramNumber = 0 AND PattuNumber = 9 THEN 13
+    WHEN PasuramNumber = 0 AND PattuNumber = 10 THEN 14
+    WHEN PasuramNumber = 0 AND PattuNumber = 11 THEN 15
+    WHEN PasuramNumber BETWEEN 474 AND 503 THEN 16
+    WHEN PasuramNumber BETWEEN 152 AND 161 THEN 17
+    WHEN PasuramNumber BETWEEN 182 AND 191 THEN 18
+    WHEN PasuramNumber BETWEEN 192 AND 201 THEN 19 
+    WHEN PasuramNumber BETWEEN 463 AND 473 THEN 20
+    WHEN PasuramNumber = 0 AND PattuNumber = 21 THEN 21
+    WHEN PasuramNumber = 0 AND PattuNumber = 22 THEN 22
+    WHEN PasuramNumber BETWEEN 927 AND 935 THEN 23
+    WHEN PasuramNumber = 0 AND PattuNumber = 38 THEN 24
+    WHEN PasuramNumber = 0 AND PattuNumber = 39 THEN 25
+    WHEN PasuramNumber BETWEEN 937 AND 947 THEN 26
+    WHEN PasuramNumber = 0 AND PattuNumber = 40 THEN 27
+    WHEN PasuramNumber = 0 AND PattuNumber = 41 THEN 28
+    WHEN PasuramNumber = 0 AND PattuNumber = 42 THEN 29
+    WHEN PasuramNumber = 0 AND PattuNumber = 43 THEN 30
+    WHEN PasuramNumber = 0 AND PattuNumber = 44 THEN 31
+    WHEN PasuramNumber = 0 AND PattuNumber = 45 THEN 32
+    WHEN PasuramNumber BETWEEN 2675 AND 2685 THEN 33 
+    WHEN PasuramNumber BETWEEN 2686 AND 2696 THEN 34 
+    WHEN PasuramNumber BETWEEN 2886 AND 2896 THEN 35 
+    WHEN PasuramNumber BETWEEN 2919 AND 2929 THEN 36 
+    WHEN PasuramNumber BETWEEN 3106 AND 3116 THEN 37
+    WHEN PasuramNumber BETWEEN 3194 AND 3204 THEN 38  
+    WHEN PasuramNumber BETWEEN 3348 AND 3358 THEN 39  
+    WHEN PasuramNumber BETWEEN 3370 AND 3380 THEN 40 
+    WHEN PasuramNumber BETWEEN 3546 AND 3556 THEN 41  
+    WHEN PasuramNumber BETWEEN 3656 AND 3666 THEN 42  
+    WHEN PasuramNumber BETWEEN 3755 AND 3765 THEN 43 
+    WHEN PasuramNumber BETWEEN 3766 AND 3776 THEN 44 
+    ELSE NULL
+END
+WHERE PasuramNumber IN (
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+    917, 918, 919, 920, 921, 922, 923, 924, 925, 926,
+    474, 475, 476, 477, 478, 479, 480, 481, 482, 483,
+    484, 485, 486, 487, 488, 489, 490, 491, 492, 493,
+    494, 495, 496, 497, 498, 499, 500, 501,502,503,152, 153, 154,
+    155, 156, 157, 158, 159, 160, 182, 183, 184, 185,
+    186, 187, 188, 189, 190, 191, 192, 193, 194, 195,
+    196, 197, 198, 199, 200, 201, 463, 464, 465, 466,
+    467, 468, 469, 470, 471, 472, 473, 927, 928, 929,
+    930, 931, 932, 933, 934, 935, 937, 938, 939, 940,
+    941, 942, 943, 944, 945, 946, 947, 2675, 2676,
+    2677, 2678, 2679, 2680, 2681, 2682, 2683, 2684,
+    2685, 2686, 2687, 2688, 2689, 2690, 2691, 2692,
+    2693, 2694, 2695, 2696, 2886, 2887, 2888, 2889,
+    2890, 2891, 2892, 2893, 2894, 2895, 2896, 2919,
+    2920, 2921, 2922, 2923, 2924, 2925, 2926, 2927,
+    2928, 2929, 3106, 3107, 3108, 3109, 3110, 3111,
+    3112, 3113, 3114, 3115, 3116, 3194, 3195, 3196,
+    3197, 3198, 3199, 3200, 3201, 3202, 3203, 3204,
+    3326, 3327, 3328, 3329, 3330, 3331, 3332, 3333,
+    3334, 3335, 3336, 3348, 3349, 3350, 3351, 3352,
+    3353, 3354, 3355, 3356, 3357, 3358, 3370, 3371,
+    3372, 3373, 3374, 3375, 3376, 3377, 3378, 3379,
+    3380, 3546, 3547, 3548, 3549, 3550, 3551, 3552,
+    3553, 3554, 3555, 3556, 3656, 3657, 3658, 3659,
+    3660, 3661, 3662, 3663, 3664, 3665, 3666, 3755,
+    3756, 3757, 3758, 3759, 3760, 3761, 3762, 3763,
+    3764, 3765, 3766, 3767, 3768, 3769, 3770, 3771,
+    3772, 3773, 3774, 3775, 3776
+);

@@ -1,0 +1,163 @@
+{
+  "theme_id": "sivan",
+  "concept": "சிவன்",
+  "aliases": [
+    "சிவன்",
+    "sivan"
+  ],
+  "normalize_meaning_parenthesis": false,
+  "source_table": "PasuramsArthamTablePOC",
+  "built_at": "2026-05-29T12:21:07.142394+00:00",
+  "description": "Detector mined from POC rows with சிவன் theme in SimilarWords. Match via padham_substring_signals on Padham OR meaning_keywords on Meaning only (no global padham-exact list).",
+  "stats": {
+    "tagged_rows_analyzed": 211,
+    "strong_signal_lines": 30,
+    "weak_pasuram_only_lines": 181,
+    "padham_substring_signal_count": 16,
+    "meaning_keyword_count": 27,
+    "distinct_pasurams_in_source": 63
+  },
+  "meaning_keywords": [
+    "ஜட",
+    "ஜடை",
+    "பாச",
+    "jata",
+    "siva",
+    "கயில",
+    "பசுப",
+    "nandi",
+    "rudra",
+    "sivan",
+    "சங்கர",
+    "சிவன்",
+    "நந்தி",
+    "நமச்ச",
+    "ருத்ர",
+    "bhasma",
+    "kailas",
+    "namach",
+    "sankar",
+    "tripur",
+    "samhara",
+    "sankara",
+    "திரிபுர",
+    "pasupati",
+    "samharam",
+    "பஞ்சாட்ச",
+    "panchaksh"
+  ],
+  "padham_substring_signals": [
+    "ஜட",
+    "சடை",
+    "ஜடை",
+    "jata",
+    "siva",
+    "பசுப",
+    "rudra",
+    "sivan",
+    "சங்கர",
+    "சிவன்",
+    "நந்தி",
+    "நமச்ச",
+    "ருத்ர",
+    "namach",
+    "sankar",
+    "pasupati"
+  ],
+  "padham_substring_only_review": [
+    "அயன் ஆம் சிவன் ஆம் திருமாலால்",
+    "சிவன் ஆய்",
+    "சிவன் முடிமேல்",
+    "நளிர்மதி சடையன் என்கோ",
+    "நான் முகன் செஞ்சடையான் என்ற இவர்கள் யார்",
+    "பிரமன் சிவன் இந்திரன் விண்ணவர்",
+    "பிறை ஏறு சடையானும்",
+    "வெள்ளம் நீர் சடையானும் நின்னிடை வேறு அலாமை விளங்க நின்றதும்"
+  ],
+  "min_stem_length": 4,
+  "blocked_contexts": [
+    {
+      "stem": "சிவ",
+      "if_text_matches": "சிவந்த"
+    },
+    {
+      "stem": "நந்த",
+      "if_text_matches": "ஆநந்த"
+    },
+    {
+      "stem": "நந்த",
+      "if_text_matches": "ஆனந்த"
+    },
+    {
+      "stem": "நந்தி",
+      "if_text_matches": "ஆநந்த"
+    },
+    {
+      "stem": "நந்தி",
+      "if_text_matches": "ஆனந்த"
+    },
+    {
+      "stem": "ருத்ர",
+      "if_text_matches": "க்ருத்ரிம",
+      "prefix_match": true
+    },
+    {
+      "stem": "rudra",
+      "if_text_matches": "க்ருத்ரிம",
+      "prefix_match": true
+    }
+  ],
+  "excluded_stems_review": [
+    "சிவ — substring of சிவந்த (red/crimson), not Shiva",
+    "நந்த — substring of ஆநந்த/ஆனந்த (bliss), not Nandi",
+    "ருத்ர — substring of க்ருத்ரிம (disguise/craft), not Shiva Rudra (2242, 2364)"
+  ],
+  "validation": {
+    "pasurams_in_source": 63,
+    "pasurams_detector_would_trigger": 21,
+    "pasurams_missed": [
+      247,
+      392,
+      928,
+      2060,
+      2086,
+      2259,
+      2797,
+      2906,
+      2937,
+      2999,
+      3004,
+      3084,
+      3093,
+      3137,
+      3219,
+      3387,
+      3393,
+      3394,
+      3395,
+      3398,
+      3477,
+      3485,
+      3488,
+      3489,
+      3497,
+      3523,
+      3524,
+      3525,
+      3526,
+      3527,
+      3528,
+      3529,
+      3530,
+      3531,
+      3532,
+      3533,
+      3580,
+      3642,
+      3650,
+      3683,
+      3738,
+      3739
+    ]
+  }
+}

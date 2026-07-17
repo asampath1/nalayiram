@@ -1,0 +1,1731 @@
+{
+  "theme_id": "narasimha",
+  "primary_similarwords_tag": "நரசிம்ம",
+  "source_table": "PasuramsArthamTablePOC",
+  "reviewed_at": "2026-05-29T13:01:55.206819+00:00",
+  "pasuram_count": 40,
+  "detector_would_tag_count": 37,
+  "candidate_meaning_keywords": [
+    {
+      "stem": "நரசிங்",
+      "line_hits": 15
+    }
+  ],
+  "candidate_padham_substrings": [
+    {
+      "stem": "நரசிங்",
+      "line_hits": 7
+    },
+    {
+      "stem": "சிங்கம் ஆய்",
+      "line_hits": 1
+    }
+  ],
+  "top_thematic_padhams": [
+    {
+      "padham": "இரணியன்",
+      "strong_line_hits": 5
+    },
+    {
+      "padham": "அரி ஆய்",
+      "strong_line_hits": 3
+    },
+    {
+      "padham": "அவுணன்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "நரசிங்கம் அது ஆகி",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "நரசிங்கனை",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "இரணியனது",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "மகனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அவன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இரணியன் நெஞ்சை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இரணியனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நரசிங்கம் அது ஆனாய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சிங்கப் பிரானவன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரி முகன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இரணியனை உடல் இடந்தான் தான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆள் அரி உரு என",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒருவனது",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வானவர் (அந்த விடாய்தீர)",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கோள் அரி ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒண்திறலோன் மார்வத்து",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "உணர்ந்து",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரி உருவன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மூர்க்க தவனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நரம் கலந்த சிங்கம் ஆய்கீண்ட",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "பொருந்தா தான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "தானவனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரி உருவம் ஆனான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மேலி அரி உருவம் ஆகி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இரணியனது ஆகம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சேரா இரணியனை",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அங்கற்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இகழ்ந்த இரணியனது ஆகம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "நரசிங்கா என்று",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கோள் அரியே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "வந்தாய் போலே வந்தும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒரு மூர்த்தி ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சீற்றத்தோடு அருள் பெற்றவன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "அரி உரு ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கிளர் ஒளிய இரணியனது",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "மீன் ஆய் ஆமையம் ஆய்நர சிங்கமும் ஆய் குறள் ஆய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "இரணியன் ஆகத்தை",
+      "strong_line_hits": 1
+    }
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 27,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யனுடைய",
+          "meaning_snippet": "ஹிரண்யனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கீண்டான்"
+      ]
+    },
+    {
+      "pasuram_number": 65,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அவுணன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ஹிரண்ய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "மகனை",
+          "meaning": "தன் மகனான ப்ரஹ்லாதனை",
+          "meaning_snippet": "தன் மகனான ப்ரஹ்லாதனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ப்ரஹ்லாத",
+          "alias_hits_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "கோன்",
+        "அரியின்",
+        "உருவம் கொண்டு",
+        "உடலம்",
+        "குருதி"
+      ]
+    },
+    {
+      "pasuram_number": 74,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "ஆள் அரியும்"
+      ]
+    },
+    {
+      "pasuram_number": 83,
+      "line_count": 18,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அவன்",
+          "meaning": "அந்த ஹிரண்யாஸுரன் (தானே)",
+          "meaning_snippet": "அந்த ஹிரண்யாஸுரன் (தானே)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ஹிரண்ய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இரணியன்",
+          "meaning": "அவ்விரணியனுடைய",
+          "meaning_snippet": "அவ்விரணியனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "தூணை",
+        "தட்ட",
+        "ஆங்கே",
+        "வான் உகிர்",
+        "சிங்கம் உருஆய்"
+      ]
+    },
+    {
+      "pasuram_number": 188,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியன் நெஞ்சை",
+          "meaning": "ஹிரண்யாஸுரனுடைய மார்பை",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய மார்பை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 279,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆகி",
+          "meaning": "நரஸிம்ஹ ரூபங்கொண்டு",
+          "meaning_snippet": "நரஸிம்ஹ ரூபங்கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "நரசிங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "நரசிங்"
+          ]
+        },
+        {
+          "padham": "அவுணன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ஹிரண்ய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 328,
+      "line_count": 18,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        },
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹ ருபியாய்க் கொண்டு",
+          "meaning_snippet": "நரஸிம்ஹ ருபியாய்க் கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரி ஆய்",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரி ஆய்"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரி ஆய்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கதிர்",
+        "ஆயிரம் இரவி",
+        "தறித்தால் ஒத்தத",
+        "நீள் முடியன்",
+        "இராமன்"
+      ]
+    },
+    {
+      "pasuram_number": 365,
+      "line_count": 16,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நரசிங்கனை",
+          "meaning": "நரஸிம்ஹ ஸ்வரூபியுமான எம்பெருமானை",
+          "meaning_snippet": "நரஸிம்ஹ ஸ்வரூபியுமான எம்பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "நரசிங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "நரசிங்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பூதம் ஐந்தொடு",
+        "ஐந்து வேள்வி",
+        "ஐந்து புலன்கள்",
+        "(ஐந்து) பொறிகளால்",
+        "ஏதம் ஒன்றும் இலாத"
+      ]
+    },
+    {
+      "pasuram_number": 368,
+      "line_count": 23,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நரசிங்கனை",
+          "meaning": "நரஹிம்ஹ ரூபியுமான ஸர்வேச்வரனை",
+          "meaning_snippet": "நரஹிம்ஹ ரூபியுமான ஸர்வேச்வரனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "நரசிங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "நரசிங்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பொழில் வாய்",
+        "குயில் இனம்",
+        "கோவிந்தன்",
+        "குணம்",
+        "பாடு"
+      ]
+    },
+    {
+      "pasuram_number": 419,
+      "line_count": 24,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியனை",
+          "meaning": "இரணியாஸஷரனுடைய",
+          "meaning_snippet": "இரணியாஸஷரனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மூலம் பற்றி",
+        "துப்புரிய மார்பு",
+        "உகிர்நுதியாற் உறைக்க ஊன்றி",
+        "முடி",
+        "இடிய"
+      ]
+    },
+    {
+      "pasuram_number": 420,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹமாயும்",
+          "meaning_snippet": "நரஸிம்ஹமாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரி ஆய்",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரி ஆய்"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரி ஆய்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 441,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆனாய்",
+          "meaning": "நரசிங்க அவதராம் செய்தருளினவனே!",
+          "meaning_snippet": "நரசிங்க அவதராம் செய்தருளினவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "நரசிங்க"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "நரசிங்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 446,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சிங்கப் பிரானவன்",
+          "meaning": "நரசிம்மாவதாரமெடுத்து உபசரித்தருளினவன",
+          "meaning_snippet": "நரசிம்மாவதாரமெடுத்து உபசரித்தருளினவன",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிம்",
+          "alias_hits_meaning": [
+            "நரசிம்"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிம்"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 557,
+      "line_count": 7,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "தோழீ",
+        "நாளை",
+        "வதுவை மணம் என்று நாள் இட்டு",
+        "பாளை கமுகு பரிசு உடை பந்தல் கீழ்",
+        "கோளரி மாதவன் கோவிந்தன் என்பான் ஓர் காளை"
+      ]
+    },
+    {
+      "pasuram_number": 564,
+      "line_count": 13,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரி முகன்",
+          "meaning": "(ஹிரண்ய வதத்திற்காக) ஸிம்ஹ முகத்தை யுடைனாய் அவதரித்த",
+          "meaning_snippet": "(ஹிரண்ய வதத்திற்காக) ஸிம்ஹ முகத்தை யுடைனாய் அவதரித்த",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ஹிரண்ய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "தோழீ",
+        "வரி சிலை வான் முகம்",
+        "என் ஐமார் தாம்",
+        "வந்திட்டு",
+        "எரிமுகம் பாரித்து"
+      ]
+    },
+    {
+      "pasuram_number": 581,
+      "line_count": 11,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியனை உடல் இடந்தான் தான்",
+          "meaning": "ஹிரண்யாஸுரனுடைய உடலைப் பிளந்தெறிந்த பெருமான்",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய உடலைப் பிளந்தெறிந்த பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "வேங்கடத்து",
+        "தேன் கொண்ட மலர் சிதற",
+        "திரண்டு ஏறி பொழிலீர்காள்",
+        "வான் கொண்டு கிளர்ந்து எழுந்த",
+        "மா முகில்காள்!"
+      ]
+    },
+    {
+      "pasuram_number": 961,
+      "line_count": 8,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆள் அரி உரு என",
+          "meaning": "நரசிங்க மூர்த்தி என்று பிரஸதாவமெடுத்த மாத்திரத்திலே",
+          "meaning_snippet": "நரசிங்க மூர்த்தி என்று பிரஸதாவமெடுத்த மாத்திரத்திலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "ஒருவனது",
+          "meaning": "வீரரில் ஒப்பற்றவனான இரணியனுடைய",
+          "meaning_snippet": "வீரரில் ஒப்பற்றவனான இரணியனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "வானவர் (அந்த விடாய்தீர)",
+          "meaning": "(இப்படி இரணியனைக் கொன்ற மஹோபகாரத்தில் ஈடுபட்ட)தேவர்கள்",
+          "meaning_snippet": "(இப்படி இரணியனைக் கொன்ற மஹோபகாரத்தில் ஈடுபட்ட)தேவர்கள்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "மறம் கொள் வெருவர",
+        "வெருவர",
+        "அகல் மார்வம்",
+        "திறந்து",
+        "மணி முடி பணிதர"
+      ]
+    },
+    {
+      "pasuram_number": 2199,
+      "line_count": 15,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கோள் அரி ஆய்",
+          "meaning": "மிடுக்கையுடைய நரசிங்கமாகி",
+          "meaning_snippet": "மிடுக்கையுடைய நரசிங்கமாகி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரி ஆய்",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "அரி ஆய்",
+            "கோள் அரி ஆய்"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "அரி ஆய்"
+          ]
+        },
+        {
+          "padham": "ஒண்திறலோன் மார்வத்து",
+          "meaning": "மஹா பலசாலியான இரணியனுடைய மார்பிலே",
+          "meaning_snippet": "மஹா பலசாலியான இரணியனுடைய மார்பிலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "குறள்உரு ஆய்",
+        "உலகம்",
+        "கொண்டது",
+        "உகிர் வைத்தது",
+        "ஒருநாள்"
+      ]
+    },
+    {
+      "pasuram_number": 2228,
+      "line_count": 17,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உணர்ந்து",
+          "meaning": "அநுஸந்தித்து, (முன்பொருகால் ப்ரஹ்லாதனுக்கருள் செய்வதற்காக)",
+          "meaning_snippet": "அநுஸந்தித்து, (முன்பொருகால் ப்ரஹ்லாதனுக்கருள் செய்வதற்காக)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ப்ரஹ்லாத",
+          "alias_hits_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "அரி உருவன்",
+          "meaning": "நரசிங்கமூர்த்தியாய்த் தோன்றின அப்பெருமானுடைய",
+          "meaning_snippet": "நரசிங்கமூர்த்தியாய்த் தோன்றின அப்பெருமானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரி உருவ",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "அரி உருவ"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "அரி உருவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "ஞாலம்",
+        "அளந்து",
+        "இடந்து",
+        "உண்டு",
+        "உமிழ்ந்த"
+      ]
+    },
+    {
+      "pasuram_number": 2265,
+      "line_count": 9,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மூர்க்க தவனை",
+          "meaning": "மூர்க்கத்தனம் கொண்டிருந்தவனுமான இரணியனை",
+          "meaning_snippet": "மூர்க்கத்தனம் கொண்டிருந்தவனுமான இரணியனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "நரம் கலந்த சிங்கம் ஆய்கீண்ட",
+          "meaning": "நரசிங்கவுருக்கொண்டு பிளந்தொழிந்த",
+          "meaning_snippet": "நரசிங்கவுருக்கொண்டு பிளந்தொழிந்த",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரம் கலந்த சிங்கம்",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "நரம் கலந்த சிங்கம்"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "சிங்கம் ஆய்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "வரம் கருதி",
+        "தன்னை வணங்காத",
+        "வன்மை உரம் கருதி",
+        "திருவன்",
+        "அடி இணையே"
+      ]
+    },
+    {
+      "pasuram_number": 2275,
+      "line_count": 10,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொருந்தா தான்",
+          "meaning": "(ப்ரஹ்லாதனுக்கு) சத்ருவான் இரணியனுடைய",
+          "meaning_snippet": "(ப்ரஹ்லாதனுக்கு) சத்ருவான் இரணியனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய",
+            "ப்ரஹ்லாத"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இரணிய",
+            "ப்ரஹ்லாத"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "உலகு எழும் முற்றும் விழுங்கும்",
+        "முகில் வண்ணன்",
+        "மார்பு",
+        "பற்றி",
+        "இடந்து"
+      ]
+    },
+    {
+      "pasuram_number": 2276,
+      "line_count": 10,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தானவனை",
+          "meaning": "இரணியனாகிற அகரனுடைய",
+          "meaning_snippet": "இரணியனாகிற அகரனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "வல் நெஞ்சம்",
+        "கீண்ட",
+        "மணி வண்ணன்",
+        "முன்னம் செய் ஊழியான்",
+        "ஊழி பெயர்த்தான்"
+      ]
+    },
+    {
+      "pasuram_number": 2312,
+      "line_count": 10,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியனது",
+          "meaning": "ஹிரண்யாஸுரனுடைய",
+          "meaning_snippet": "ஹிரண்யாஸுரனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        },
+        {
+          "padham": "அரி உருவம் ஆனான்",
+          "meaning": "நரசிங்கமாகத் தோன்றினவனும்",
+          "meaning_snippet": "நரசிங்கமாகத் தோன்றினவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரி உருவ",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "அரி உருவ"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "அரி உருவ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "ஆகம்",
+        "அவைசெய்து",
+        "செவி தெரியா நாகத்தான்",
+        "நால் வேதத்து உள்ளான்",
+        "நறவு என்றான் பாகத்தான்"
+      ]
+    },
+    {
+      "pasuram_number": 2323,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மேலி அரி உருவம் ஆகி",
+          "meaning": "பொருத்தமான நரசிங்க வடிவங்கொண்டு",
+          "meaning_snippet": "பொருத்தமான நரசிங்க வடிவங்கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரி உருவ",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "அரி உருவ"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "அரி உருவ"
+          ]
+        },
+        {
+          "padham": "இரணியனது ஆகம்",
+          "meaning": "இரணியாஸுரனுடைய முரட்டுடலை",
+          "meaning_snippet": "இரணியாஸுரனுடைய முரட்டுடலை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கோவலன் ஆய்",
+        "ஆநிரைகள்",
+        "மேய்த்து",
+        "குழல் ஊதி",
+        "மா"
+      ]
+    },
+    {
+      "pasuram_number": 2330,
+      "line_count": 15,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சேரா இரணியனை",
+          "meaning": "உன்னைச் சேர்த்துவாழமாட்டாத ஹிரண்யா ஸுரனை",
+          "meaning_snippet": "உன்னைச் சேர்த்துவாழமாட்டாத ஹிரண்யா ஸுரனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பின்னைக்காய்",
+        "முற்றல் முரி",
+        "எற்றின்",
+        "முன் நின்று",
+        "சூழ்ந்து"
+      ]
+    },
+    {
+      "pasuram_number": 2346,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அங்கற்கு",
+          "meaning": "பிள்ளையான ப்ரஹ்லாதனுக்கு",
+          "meaning_snippet": "பிள்ளையான ப்ரஹ்லாதனுக்கு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ப்ரஹ்லாத",
+          "alias_hits_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "இரணியனது",
+          "meaning": "ஹரண்யனுடைய",
+          "meaning_snippet": "ஹரண்யனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "இடர் இன்றி",
+        "அந்தி பொழுத்தது",
+        "ஆகத்தை",
+        "மங்க",
+        "அரிஉருவம் ஆய் பொங்கி"
+      ]
+    },
+    {
+      "pasuram_number": 2376,
+      "line_count": 11,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரி ஆய்",
+          "meaning": "நரஸிம்ஹ மூர்த்தியாய்த் திருவ்வதரித்து,",
+          "meaning_snippet": "நரஸிம்ஹ மூர்த்தியாய்த் திருவ்வதரித்து,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "அரி ஆய்",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "அரி ஆய்"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "அரி ஆய்"
+          ]
+        },
+        {
+          "padham": "இகழ்ந்த இரணியனது ஆகம்",
+          "meaning": "நிந்தித்துக்கொண்டிருந்த ஹிரண்யா ஸுரனது சரீரத்தை",
+          "meaning_snippet": "நிந்தித்துக்கொண்டிருந்த ஹிரண்யா ஸுரனது சரீரத்தை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "அந்தி புகுந்து",
+        "இலங்கும் பொழுதத்து",
+        "சுகிர்ந்து",
+        "எங்கும் சிந்த",
+        "பிளந்த"
+      ]
+    },
+    {
+      "pasuram_number": 2818,
+      "line_count": 9,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நரசிங்கா என்று",
+          "meaning": "நரசிங்கமூர்த்தியே! என்று கதறி",
+          "meaning_snippet": "நரசிங்கமூர்த்தியே! என்று கதறி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "நரசிங்க"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "நரசிங்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "இ வாள் நுதல்",
+        "ஆடி ஆடி",
+        "அகம் கரைந்து",
+        "இசை பாடி பாடி",
+        "கண் நீர்மல்கி"
+      ]
+    },
+    {
+      "pasuram_number": 2845,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "ஹிரண்யகசிபுவினுடைய",
+          "meaning_snippet": "ஹிரண்யகசிபுவினுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        },
+        {
+          "padham": "கோள் அரியே",
+          "meaning": "மிடுக்குடைய நரசிங்க மூர்த்தியே!",
+          "meaning_snippet": "மிடுக்குடைய நரசிங்க மூர்த்தியே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2872,
+      "line_count": 13,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியன்",
+          "meaning": "(பிதாவான) ஹிரண்யாசுரன்",
+          "meaning_snippet": "(பிதாவான) ஹிரண்யாசுரன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கண்ணன் எங்கும் உள்ள என்ற",
+        "மகனை",
+        "காய்ந்து",
+        "இங்கு இல்லை என்று",
+        "தூண் புடைப்ப"
+      ]
+    },
+    {
+      "pasuram_number": 2912,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வந்தாய் போலே வந்தும்",
+          "meaning": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "meaning_snippet": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ப்ரஹ்லாத",
+          "alias_hits_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2957,
+      "line_count": 13,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒரு மூர்த்தி ஆய்",
+          "meaning": "ஒப்பற்ற நரசிங்க மூர்த்தியாய்",
+          "meaning_snippet": "ஒப்பற்ற நரசிங்க மூர்த்தியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "சீற்றத்தோடு அருள் பெற்றவன்",
+          "meaning": "சீறியிருக்கும் நிலைமையிலேயே கருணைக்கு இலக்கான ப்ரஹ்லாதன்",
+          "meaning_snippet": "சீறியிருக்கும் நிலைமையிலேயே கருணைக்கு இலக்கான ப்ரஹ்லாதன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "ப்ரஹ்லாத",
+          "alias_hits_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "ப்ரஹ்லாத"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "தோற்றம் கேடு அவை",
+        "இல்லவன்",
+        "உடையான்",
+        "அவன்",
+        "அடி கீழ் புக நின்ற"
+      ]
+    },
+    {
+      "pasuram_number": 3090,
+      "line_count": 12,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அரி உரு ஆய்",
+          "meaning": "நரசிங்கமூர்த்தியாய்",
+          "meaning_snippet": "நரசிங்கமூர்த்தியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": []
+        },
+        {
+          "padham": "கிளர் ஒளிய இரணியனது",
+          "meaning": "மிக்கதேக பொருந்திய இரணியனுடைய",
+          "meaning_snippet": "மிக்கதேக பொருந்திய இரணியனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கிளர்ந்து எழுந்து",
+        "அகல் மார்பம்",
+        "கிழித்து உகந்த",
+        "வளர் ஒளிய",
+        "கனல்"
+      ]
+    },
+    {
+      "pasuram_number": 3126,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மீன் ஆய் ஆமையம் ஆய்நர சிங்கமும் ஆய் குறள் ஆய்",
+          "meaning": "மீனாகவும் ஆமையாகவும் நரசிங்கமாகவும் வானமூர்த்தியாகவும் அவதரித்தும்",
+          "meaning_snippet": "மீனாகவும் ஆமையாகவும் நரசிங்கமாகவும் வானமூர்த்தியாகவும் அவதரித்தும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3388,
+      "line_count": 8,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "இரணியன் ஆகத்தை",
+          "meaning": "ஹிரண்யாஸீரனுடைய உடலை,",
+          "meaning_snippet": "ஹிரண்யாஸீரனுடைய உடலை,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "ஹிரண்ய"
+          ],
+          "alias_hits_padham": [
+            "இரணியன",
+            "இரணிய"
+          ],
+          "review_stems_meaning": [
+            "ஹிரண்ய"
+          ],
+          "review_stems_padham": [
+            "இரணிய"
+          ]
+        },
+        {
+          "padham": "மல்லல் அரி உரு ஆய் செய்த",
+          "meaning": "பெரிய நரசிங்க வடிவையுடைனாய்க் கொண்டு இருபிளவாகச் செய்த",
+          "meaning_snippet": "பெரிய நரசிங்க வடிவையுடைனாய்க் கொண்டு இருபிளவாகச் செய்த",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "எல்லை இலாத பெரு தவத்தால்",
+        "பல செய் மிறை",
+        "அமரரை அல்லல் செய்யும்",
+        "மாயம் அறிந்தும்",
+        "செல்ல உணர்ந்துவர்"
+      ]
+    },
+    {
+      "pasuram_number": 3402,
+      "line_count": 10,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அவுணன் உடல் கீண்டு உகந்த",
+          "meaning": "இரணியாசுரனுடைய உடலே இருபிளவாக்கித் திருவுள்ளமுகந்த",
+          "meaning_snippet": "இரணியாசுரனுடைய உடலே இருபிளவாக்கித் திருவுள்ளமுகந்த",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "இரணிய",
+          "alias_hits_meaning": [
+            "இரணிய"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "இரணிய"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "அ அரி உரு ஆய புக்கு",
+        "சக்கரம் செல்வன்",
+        "குருகூர் சட கோபன் சொன்ன",
+        "மிக்க ஓர் ஆயிரத்துள்",
+        "இவை பத்தும் வல்லாரவரை"
+      ]
+    },
+    {
+      "pasuram_number": 3585,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆகி",
+          "meaning": "மதுஷ்யமூர்த்தியும், ஸிம்ஹ மூர்த்தி யுமுடையனாகி",
+          "meaning_snippet": "மதுஷ்யமூர்த்தியும், ஸிம்ஹ மூர்த்தி யுமுடையனாகி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "நரசிங்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "நரசிங்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3593,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அரிய ஆய அம்மானே"
+      ]
+    },
+    {
+      "pasuram_number": 3596,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நரசிங்கம் அது ஆய உருவே",
+          "meaning": "நரசிங்க மூர்த்தியானவனே",
+          "meaning_snippet": "நரசிங்க மூர்த்தியானவனே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [
+            "நரசிங்க"
+          ],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": [
+            "நரசிங்"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3731,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அர் ஆகி",
+          "meaning": "நரசிங்க மூர்த்தியாகி",
+          "meaning_snippet": "நரசிங்க மூர்த்தியாகி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "நரசிங்க",
+          "alias_hits_meaning": [
+            "நரசிங்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "நரசிங்"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    }
+  ]
+}

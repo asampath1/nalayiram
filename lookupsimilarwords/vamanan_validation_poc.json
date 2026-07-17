@@ -1,0 +1,2376 @@
+{
+  "theme_id": "vamanan",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 132,
+  "detector_would_tag": 107,
+  "detector_missed": 25,
+  "missed_pasuram_numbers": [
+    203,
+    392,
+    393,
+    420,
+    447,
+    582,
+    2079,
+    2084,
+    2774,
+    2828,
+    2840,
+    3020,
+    3035,
+    3047,
+    3126,
+    3193,
+    3210,
+    3267,
+    3283,
+    3290,
+    3320,
+    3437,
+    3473,
+    3483,
+    3491
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 44,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாணி குறளனே",
+        "அளந்தானே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாணி குறளனே",
+          "meaning": "ப்ரஹம்சாரி வாமநாவதாரம் பண்ணின கண்ணனே!",
+          "meaning_snippet": "ப்ரஹம்சாரி வாமநாவதாரம் பண்ணின கண்ணனே!",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "அளந்தானே",
+          "meaning": "(த்ரிவிக்ரமனாய்) அளந்தவனே!",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்) அளந்தவனே!",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 45,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகம் அளந்தானே! தாலேலோ!"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகம் அளந்தானே! தாலேலோ!",
+          "meaning": "தாலேலோ",
+          "meaning_snippet": "தாலேலோ",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 61,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாவலி இடை சென்று கேள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாவலி இடை சென்று கேள்",
+          "meaning": "மஹாபலியிடம் போய்க் கேட்டுக்கொள்;",
+          "meaning_snippet": "மஹாபலியிடம் போய்க் கேட்டுக்கொள்;",
+          "reason": "padham_substring",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 74,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குறளும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குறளும்",
+          "meaning": "வாமந ரூபியாயும்",
+          "meaning_snippet": "வாமந ரூபியாயும்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 94,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திரிவிக்கிரமன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திரிவிக்கிரமன்",
+          "meaning": "(தனது) மூவடியால் (உலகங்களை) அளந்தவனாகிய இவன்",
+          "meaning_snippet": "(தனது) மூவடியால் (உலகங்களை) அளந்தவனாகிய இவன்",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 103,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மா வலி",
+        "வேள்வியில்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மா வலி",
+          "meaning": "மஹாபலி (செய்த)",
+          "meaning_snippet": "மஹாபலி (செய்த)",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        },
+        {
+          "padham": "வேள்வியில்",
+          "meaning": "யாகத்திலே (வாமநனாய்ச் சென்ற உனககு அந்த மஹாபலி நீ கேட்டதைக் கொöடுக்க முயன்ற வளவிலே)",
+          "meaning_snippet": "யாகத்திலே (வாமநனாய்ச் சென்ற உனககு அந்த மஹாபலி நீ கேட்டதைக் கொöடுக்க முயன்ற வளவிலே)",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 104,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இது"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இது",
+          "meaning": "(வாமநனாய்ச் சென்ற திருமால் மாவலியிடத்தில் நீரேற்றுத் திரிவிக்கிரமனாய் வளர்ந்து அளக்கப் புகும் போது அது கண்ட மஹாபலி புத்ரனான நமுசி ஓடிவந்து) (யாசிக்கும் போதிருந்த வடிவம் மாறி யளக்கிற) இது",
+          "meaning_snippet": "(வாமநனாய்ச் சென்ற திருமால் மாவலியிடத்தில் நீரேற்றுத் திரிவிக்கிரமனாய் வளர்ந்து அளக்கப் புகும் போது அது கண்ட மஹாபலி புத்ர",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 112,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காவின் கீழ்",
+        "புறம் புல்குவான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காவின் கீழ்",
+          "meaning": "சோலையின் கீழேயிருந்து (மாவலியிடத்தில் மூவடி மண்ணை இரந்து பெற்று)",
+          "meaning_snippet": "சோலையின் கீழேயிருந்து (மாவலியிடத்தில் மூவடி மண்ணை இரந்து பெற்று)",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "புறம் புல்குவான்",
+          "meaning": "வாமனன் என்னை புறம் புல்குவான்",
+          "meaning_snippet": "வாமனன் என்னை புறம் புல்குவான்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 113,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒருவனை",
+        "அளந்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒருவனை",
+          "meaning": "(ஔதார்யத்தில்) அத்விதீயனான மஹாபலியினிடத்திலே",
+          "meaning_snippet": "(ஔதார்யத்தில்) அத்விதீயனான மஹாபலியினிடத்திலே",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        },
+        {
+          "padham": "அளந்தான்",
+          "meaning": "(திரிவிக்கிரமனாய்) அளந்த இவன்",
+          "meaning_snippet": "(திரிவிக்கிரமனாய்) அளந்த இவன்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 146,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமந நம்பி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமந நம்பி",
+          "meaning": "வாமந மூ­ர்த்தியே!",
+          "meaning_snippet": "வாமந மூ­ர்த்தியே!",
+          "reason": "padham_substring",
+          "matched_term": "வாமந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 170,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "முன்",
+        "மன்னன் தன்",
+        "இ உலகினை முற்றும்",
+        "அளந்தவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "முன்",
+          "meaning": "வாமநாவதார காலத்தில்",
+          "meaning_snippet": "வாமநாவதார காலத்தில்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "மன்னன் தன்",
+          "meaning": "அஸுரராஜனான மஹாபலியினுடைய",
+          "meaning_snippet": "அஸுரராஜனான மஹாபலியினுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        },
+        {
+          "padham": "இ உலகினை முற்றும்",
+          "meaning": "(மஹாபலியினிடத்திற்போய் ‘கொள்வன் நான் மாவலி’ என்று மூவடி மண் இரந்து பெற்றுப் பின்பு த்ரிவிக்ரமனாய்) இந்த வுலகங்கள் முழுவதையும்",
+          "meaning_snippet": "(மஹாபலியினிடத்திற்போய் ‘கொள்வன் நான் மாவலி’ என்று மூவடி மண் இரந்து பெற்றுப் பின்பு த்ரிவிக்ரமனாய்) இந்த வுலகங்கள் முழுவத",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "அளந்தவன்",
+          "meaning": "அளந்து கொண்ட இவனுடைய",
+          "meaning_snippet": "அளந்து கொண்ட இவனுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 203,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 219,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாவலி",
+        "ஓர் அடி இட்டு",
+        "தரணி அளந்தானால்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாவலி",
+          "meaning": "மஹாபலியினுடைய",
+          "meaning_snippet": "மஹாபலியினுடைய",
+          "reason": "padham_substring",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "ஓர் அடி இட்டு",
+          "meaning": "(அளந்து தன் வசப்படுத்தத் தொடங்கின வளவிலே) (பூமிப் பரப்படங்கலும் தனக்குள்ளே யாம்படி) ஓரடியைப் பரப்ப வைத்து (அளந்து)",
+          "meaning_snippet": "(அளந்து தன் வசப்படுத்தத் தொடங்கின வளவிலே) (பூமிப் பரப்படங்கலும் தனக்குள்ளே யாம்படி) ஓரடியைப் பரப்ப வைத்து (அளந்து)",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        },
+        {
+          "padham": "தரணி அளந்தானால்",
+          "meaning": "(தேவேந்திரனாகிய ஒரு ஆச்ரிதனுக்காக இப்படி) லோகத்தை அளந்தவனாலே",
+          "meaning_snippet": "(தேவேந்திரனாகிய ஒரு ஆச்ரிதனுக்காக இப்படி) லோகத்தை அளந்தவனாலே",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 357,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மண்",
+        "குடங் கையில்",
+        "அளந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மண்",
+          "meaning": "(மஹாபலியினால் தன் வசமாக்கிக் கொள்ளப்பட்ட) பூமியை",
+          "meaning_snippet": "(மஹாபலியினால் தன் வசமாக்கிக் கொள்ளப்பட்ட) பூமியை",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        },
+        {
+          "padham": "குடங் கையில்",
+          "meaning": "(வாமந ரூபியாய் அவதரித்து) அகங்கையில்",
+          "meaning_snippet": "(வாமந ரூபியாய் அவதரித்து) அகங்கையில்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "அளந்து",
+          "meaning": "அளந்தருளியும்",
+          "meaning_snippet": "அளந்தருளியும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 392,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 393,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 418,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பக வலிமை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பக வலிமை",
+          "meaning": "மஹாபலியினடைய",
+          "meaning_snippet": "மஹாபலியினடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 420,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 441,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்தாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்தாய்",
+          "meaning": "(திரிவிக்கிரமாவதாரத்தில்) அளந்து கொண்டவனே!",
+          "meaning_snippet": "(திரிவிக்கிரமாவதாரத்தில்) அளந்து கொண்டவனே!",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 442,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமனன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமனன்",
+          "meaning": "வாமாநாவதாரம் செய்தருளியவனும்",
+          "meaning_snippet": "வாமாநாவதாரம் செய்தருளியவனும்",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 447,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 462,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகம் அளந்தான் தமர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகம் அளந்தான் தமர்",
+          "meaning": "திரிவிக்கிரமாவதாரம் செய்தருளின எம்பெருமானுக்குச் சேஷ பூதர்களாகப் பெறுவர்",
+          "meaning_snippet": "திரிவிக்கிரமாவதாரம் செய்தருளின எம்பெருமானுக்குச் சேஷ பூதர்களாகப் பெறுவர்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 510,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திருவிக்கிரமன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திருவிக்கிரமன்",
+          "meaning": "திருவிக்ரமனென்னும் திருநாமமுடையனுமான கண்ணபிரான்",
+          "meaning_snippet": "திருவிக்ரமனென்னும் திருநாமமுடையனுமான கண்ணபிரான்",
+          "reason": "padham_substring",
+          "matched_term": "திருவிக"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 535,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமனன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமனன்",
+          "meaning": "வாமநாவதாரம் செய்தருளிய எம்பெருமான்",
+          "meaning_snippet": "வாமநாவதாரம் செய்தருளிய எம்பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 542,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கோலம் கொண்ட குறள் உரு ஆய்",
+        "மாவலி தன்",
+        "கொண்டவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கோலம் கொண்ட குறள் உரு ஆய்",
+          "meaning": "(முப்புரி நூலும் க்ருஷ்ணாஜிநமும் முஞ்ஜியும் பவித்ரமும் தண்டுமான) கோலம் பூண்ட வாமந ரூபியாய்",
+          "meaning_snippet": "(முப்புரி நூலும் க்ருஷ்ணாஜிநமும் முஞ்ஜியும் பவித்ரமும் தண்டுமான) கோலம் பூண்ட வாமந ரூபியாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "மாவலி தன்",
+          "meaning": "பெரு வேள்வியில் சென்று",
+          "meaning_snippet": "பெரு வேள்வியில் சென்று",
+          "reason": "padham_substring",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "கொண்டவன்",
+          "meaning": "அளந்து கொண்ட த்ரிவிக்ரமன்",
+          "meaning_snippet": "அளந்து கொண்ட த்ரிவிக்ரமன்",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 549,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகு அளந்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகு அளந்தான்",
+          "meaning": "(த்ரிவிக்ரமனாய்) உலகங்களை அளந்த பெருமான்",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்) உலகங்களை அளந்த பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 554,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அன்று",
+        "உலகம் அளந்தானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அன்று",
+          "meaning": "மஹாபலி கொழுத்திருந்த அக் காலத்தில்",
+          "meaning_snippet": "மஹாபலி கொழுத்திருந்த அக் காலத்தில்",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        },
+        {
+          "padham": "உலகம் அளந்தானை",
+          "meaning": "மூவுலகங்களையும் அளந்து கொண்டவனான எம்பெருமான் விஷயத்திலே",
+          "meaning_snippet": "மூவுலகங்களையும் அளந்து கொண்டவனான எம்பெருமான் விஷயத்திலே",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 574,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகு அளந்தான் வாய் அமுதம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகு அளந்தான் வாய் அமுதம்",
+          "meaning": "உலகங்களை அளந்தவனான் எம்பெருமானுடைய திருவாயிலுள்ள அம்ருதம்",
+          "meaning_snippet": "உலகங்களை அளந்தவனான் எம்பெருமானுடைய திருவாயிலுள்ள அம்ருதம்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 582,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 610,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமனனார்",
+        "பண்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமனனார்",
+          "meaning": "(முன்பு) வாமநாவதாரம் செய்தருளினவராய்",
+          "meaning_snippet": "(முன்பு) வாமநாவதாரம் செய்தருளினவராய்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "பண்டு",
+          "meaning": "முன்பு (மஹாபலி யிடத்தில்)",
+          "meaning_snippet": "முன்பு (மஹாபலி யிடத்தில்)",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 611,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொல்லா குறள் உரு ஆய்",
+        "அளந்து கொண்ட"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொல்லா குறள் உரு ஆய்",
+          "meaning": "விலக்ஷண வாமந ருபியாய்",
+          "meaning_snippet": "விலக்ஷண வாமந ருபியாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "அளந்து கொண்ட",
+          "meaning": "தன் வசப் படுத்திக் கொண்ட",
+          "meaning_snippet": "தன் வசப் படுத்திக் கொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 618,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாணி உரு ஆய் உலகு அளந்த மாயனை காணில்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாணி உரு ஆய் உலகு அளந்த மாயனை காணில்",
+          "meaning": "(மாவலியினிடத்தில்) வாமகரூபியாய்ச் சென்று (த்ரிவிக்ரமனாகி) உலகங்களை யெல்லாம் அளந்து கொண்ட பெருமானை ஸேவிக்கப்பெற்றால்",
+          "meaning_snippet": "(மாவலியினிடத்தில்) வாமகரூபியாய்ச் சென்று (த்ரிவிக்ரமனாகி) உலகங்களை யெல்லாம் அளந்து கொண்ட பெருமானை ஸேவிக்கப்பெற்றால்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 625,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகு அளந்தான் என்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகு அளந்தான் என்று",
+          "meaning": "உலகளந்த பெருமானே! என்று",
+          "meaning_snippet": "உலகளந்த பெருமானே! என்று",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2056,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காமரு சீர் அவுணன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காமரு சீர் அவுணன்",
+          "meaning": "நல்லபாக்யசாலியான மஹாபலியானவன்",
+          "meaning_snippet": "நல்லபாக்யசாலியான மஹாபலியானவன்",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2071,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பார் அளந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பார் அளந்து",
+          "meaning": "(த்ரிவிக்ரமாவதாரத்தில்) அப்பூமியை அளந்தும்",
+          "meaning_snippet": "(த்ரிவிக்ரமாவதாரத்தில்) அப்பூமியை அளந்தும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2079,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2084,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2090,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நீ அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நீ அளந்த",
+          "meaning": "நீ அளந்து திருவடி கீழ் இட்டுக்கொண்ட",
+          "meaning_snippet": "நீ அளந்து திருவடி கீழ் இட்டுக்கொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2186,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அடிமூன்றில் அளந்தாய் போலும்",
+        "அடிமூன்று அவனி",
+        "இரந்து கொண்டாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அடிமூன்றில் அளந்தாய் போலும்",
+          "meaning": "மூவடியாலே அளந்து கொள்பவன் போல",
+          "meaning_snippet": "மூவடியாலே அளந்து கொள்பவன் போல",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        },
+        {
+          "padham": "அடிமூன்று அவனி",
+          "meaning": "மூவடி நிலத்தை",
+          "meaning_snippet": "மூவடி நிலத்தை",
+          "reason": "meaning_keyword",
+          "matched_term": "மூவடி"
+        },
+        {
+          "padham": "இரந்து கொண்டாய்",
+          "meaning": "(மாவலியிடத்தில்) யாசித்துப் பெற்றாய்;",
+          "meaning_snippet": "(மாவலியிடத்தில்) யாசித்துப் பெற்றாய்;",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2190,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அன்று நீ வரன்முறையால் அளந்த மா கடல் சூழ் ஞாலம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அன்று நீ வரன்முறையால் அளந்த மா கடல் சூழ் ஞாலம்",
+          "meaning": "முன்பு நீ சிறந்த உறவினாலே அளந்து கொண்ட கடல் சூழ்ந்த இவ்வுலகமானது",
+          "meaning_snippet": "முன்பு நீ சிறந்த உறவினாலே அளந்து கொண்ட கடல் சூழ்ந்த இவ்வுலகமானது",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2191,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரந்து",
+          "meaning": "(மஹாபலியினிடத்தில்) யாசித்துப் பெற்று",
+          "meaning_snippet": "(மஹாபலியினிடத்தில்) யாசித்துப் பெற்று",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2199,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குறள்உரு ஆய்",
+        "தான் கடந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குறள்உரு ஆய்",
+          "meaning": "வாமநரூபியாய் மாவலியிடஞ் சென்று யாசித்து",
+          "meaning_snippet": "வாமநரூபியாய் மாவலியிடஞ் சென்று யாசித்து",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "தான் கடந்த",
+          "meaning": "தான் அளந்து கொண்ட",
+          "meaning_snippet": "தான் அளந்து கொண்ட",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2202,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமன்",
+          "meaning": "(தன் உடைமையைப் பெறுகைக்குத் தான் யாசகனாகச் சென்ற சீலமுள்ள) வாமந மூர்த்தியான ஸர்வேச்வரனுடைய",
+          "meaning_snippet": "(தன் உடைமையைப் பெறுகைக்குத் தான் யாசகனாகச் சென்ற சீலமுள்ள) வாமந மூர்த்தியான ஸர்வேச்வரனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2204,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்து",
+          "meaning": "அளந்து",
+          "meaning_snippet": "அளந்து",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2211,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்தாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்தாய்",
+          "meaning": "(திரிவிக்கிரமனாகி) அளந்து கொண்டாய் (என்றும்)",
+          "meaning_snippet": "(திரிவிக்கிரமனாகி) அளந்து கொண்டாய் (என்றும்)",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2215,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரத்து",
+        "அளந்தாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரத்து",
+          "meaning": "(மாவலிபக்கல்) யாசித்து",
+          "meaning_snippet": "(மாவலிபக்கல்) யாசித்து",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "அளந்தாய்",
+          "meaning": "அளந்து கொண்டவுன்னுடைய",
+          "meaning_snippet": "அளந்து கொண்டவுன்னுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2217,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மண்கொண்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மண்கொண்டு",
+          "meaning": "(மாவலியிடத்தில்) பூமியைப் பெற்றவனாயும்",
+          "meaning_snippet": "(மாவலியிடத்தில்) பூமியைப் பெற்றவனாயும்",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2228,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்து",
+          "meaning": "ஒரு கால் அளந்தும்",
+          "meaning_snippet": "ஒரு கால் அளந்தும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2242,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இரந்த",
+        "அளந்தது என்பர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இரந்த",
+          "meaning": "(மாவலிபக்கல் மூவடிமண்) யாசித்த",
+          "meaning_snippet": "(மாவலிபக்கல் மூவடிமண்) யாசித்த",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "அளந்தது என்பர்",
+          "meaning": "(மேலுலகத்தை) அளந்துகொண்ட தென்று (பெரியோர் செல்லுகின்றனர்) (இப்படி நீ காரியஞ் செய்தவிது)",
+          "meaning_snippet": "(மேலுலகத்தை) அளந்துகொண்ட தென்று (பெரியோர் செல்லுகின்றனர்) (இப்படி நீ காரியஞ் செய்தவிது)",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2252,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளப்பான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளப்பான்",
+          "meaning": "அளந்து கொள்வதற்காக",
+          "meaning_snippet": "அளந்து கொள்வதற்காக",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2259,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளப்ப நிவர்ந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளப்ப நிவர்ந்து",
+          "meaning": "தாவியளப்பதாகத் தொடங்கின தரிவிக்ரமாவதார காலத்தலே",
+          "meaning_snippet": "தாவியளப்பதாகத் தொடங்கின தரிவிக்ரமாவதார காலத்தலே",
+          "reason": "meaning_keyword",
+          "matched_term": "விக்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2260,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அவன் அளந்த நீள் நீலம் தான் நேர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அவன் அளந்த நீள் நீலம் தான் நேர்",
+          "meaning": "அப்பெருமான் மிகப்பெரிய இவ்வுலகத்தை அளந்த செயல் ஒன்றே ஒத்தது.",
+          "meaning_snippet": "அப்பெருமான் மிகப்பெரிய இவ்வுலகத்தை அளந்த செயல் ஒன்றே ஒத்தது.",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2268,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஆங்கு சென்று அளந்த திரு அடியை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஆங்கு சென்று அளந்த திரு அடியை",
+          "meaning": "அங்கங்கே தானே வியாபித்து முழுதும் அளந்து கொண்ட திருவடியை",
+          "meaning_snippet": "அங்கங்கே தானே வியாபித்து முழுதும் அளந்து கொண்ட திருவடியை",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2270,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாவலியை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாவலியை",
+          "meaning": "மஹாபலியினிடத்திலே",
+          "meaning_snippet": "மஹாபலியினிடத்திலே",
+          "reason": "padham_substring",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2272,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்தானை",
+        "கார் கடல்சூழ் ஞாலத்தை எல்லாம் அளந்தானவன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்தானை",
+          "meaning": "நிச்சயிக்கப்படுபவனும்",
+          "meaning_snippet": "நிச்சயிக்கப்படுபவனும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        },
+        {
+          "padham": "கார் கடல்சூழ் ஞாலத்தை எல்லாம் அளந்தானவன்",
+          "meaning": "கரிய கடல் சூழப்பட்ட பூமியையெல்லாம் அளந்து கொண்டவனுமான எம்பெருமானுடைய",
+          "meaning_snippet": "கரிய கடல் சூழப்பட்ட பூமியையெல்லாம் அளந்து கொண்டவனுமான எம்பெருமானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2280,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குறள் உரு ஆய்",
+        "மண் கொண்டான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குறள் உரு ஆய்",
+          "meaning": "(மாவலிபக்கல்) வாமநரூபியான் வந்து தோன்றி",
+          "meaning_snippet": "(மாவலிபக்கல்) வாமநரூபியான் வந்து தோன்றி",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "மண் கொண்டான்",
+          "meaning": "பூமியை அளந்து கொண்டான்.",
+          "meaning_snippet": "பூமியை அளந்து கொண்டான்.",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2285,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நீர் ஏற்று",
+        "மூ அடியால் உலகம் தாயோன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நீர் ஏற்று",
+          "meaning": "(மாவலியிடத்தில்) யாசித்துப் பெற்று",
+          "meaning_snippet": "(மாவலியிடத்தில்) யாசித்துப் பெற்று",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "மூ அடியால் உலகம் தாயோன்",
+          "meaning": "மூவடியாலே உலகங்களை யெல்லாம் தாவியளந்தவனாயுமுள்ள எம்பெருமானுடைய",
+          "meaning_snippet": "மூவடியாலே உலகங்களை யெல்லாம் தாவியளந்தவனாயுமுள்ள எம்பெருமானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "மூவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2287,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அண்டம் கடத்தல்",
+        "நீர் ஏற்றாற்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அண்டம் கடத்தல்",
+          "meaning": "மேலுலகங்களை அளந்து கொண்டது",
+          "meaning_snippet": "மேலுலகங்களை அளந்து கொண்டது",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        },
+        {
+          "padham": "நீர் ஏற்றாற்கு",
+          "meaning": "மாவலி தானம் பண்ணின நீரைப் பெற்றுக் கொண்ட பெருமானுக்கு",
+          "meaning_snippet": "மாவலி தானம் பண்ணின நீரைப் பெற்றுக் கொண்ட பெருமானுக்கு",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2288,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த",
+        "எழில் அளந்து எண்ணற்கு அரியானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "அளந்து கொண்டவனும்",
+          "meaning_snippet": "அளந்து கொண்டவனும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        },
+        {
+          "padham": "எழில் அளந்து எண்ணற்கு அரியானை",
+          "meaning": "அழகை எல்லைகண்டு நினைப்பதற்கும் முடியாதவனும்",
+          "meaning_snippet": "அழகை எல்லைகண்டு நினைப்பதற்கும் முடியாதவனும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2290,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மண் அளந்த பரதமும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மண் அளந்த பரதமும்",
+          "meaning": "உலகளந்த திருவடிகளும்",
+          "meaning_snippet": "உலகளந்த திருவடிகளும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2294,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மா காயம் ஆய் நின்றமாற்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மா காயம் ஆய் நின்றமாற்கு",
+          "meaning": "பெரிய திருமேனியாய் (த்ரிவிக்ரமனாய்) வளர்ந்து நின்ற எம்பெருமானுடைய,",
+          "meaning_snippet": "பெரிய திருமேனியாய் (த்ரிவிக்ரமனாய்) வளர்ந்து நின்ற எம்பெருமானுடைய,",
+          "reason": "meaning_keyword",
+          "matched_term": "விக்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2299,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமனன் ஆய்",
+        "மாவலி பால்",
+        "மூ அடி மண்",
+        "அளந்து கொண்ட"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமனன் ஆய்",
+          "meaning": "வாமநரூபியாகி",
+          "meaning_snippet": "வாமநரூபியாகி",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        },
+        {
+          "padham": "மாவலி பால்",
+          "meaning": "மஹாபலியினிடத்தில் (சென்று)",
+          "meaning_snippet": "மஹாபலியினிடத்தில் (சென்று)",
+          "reason": "padham_substring",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "மூ அடி மண்",
+          "meaning": "மூவடிநிலத்தை (இரந்து பெற்று)",
+          "meaning_snippet": "மூவடிநிலத்தை (இரந்து பெற்று)",
+          "reason": "meaning_keyword",
+          "matched_term": "மூவடி"
+        },
+        {
+          "padham": "அளந்து கொண்ட",
+          "meaning": "அதை அளந்து கொண்ட",
+          "meaning_snippet": "அதை அளந்து கொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2301,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்து கோடல்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்து கோடல்",
+          "meaning": "அளந்து கொள்வதானது",
+          "meaning_snippet": "அளந்து கொள்வதானது",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2304,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "விரும்பி விண்மண் அளந்த பொன் அம்கழற்கே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "விரும்பி விண்மண் அளந்த பொன் அம்கழற்கே",
+          "meaning": "ஆசைப்பட்டு விண்ணுலகத்தையும் மண்ணுலகத்தையுமளந்த மிகவழகிய திருவடிகள் விஷயத்திலேயே",
+          "meaning_snippet": "ஆசைப்பட்டு விண்ணுலகத்தையும் மண்ணுலகத்தையுமளந்த மிகவழகிய திருவடிகள் விஷயத்திலேயே",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2315,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "அளந்ததனாலுண்டான",
+          "meaning_snippet": "அளந்ததனாலுண்டான",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2317,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "அளந்துகொண்ட",
+          "meaning_snippet": "அளந்துகொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2321,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தான் அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தான் அளந்த",
+          "meaning": "தான் அளந்து கொண்டவனுமான",
+          "meaning_snippet": "தான் அளந்து கொண்டவனுமான",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2322,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மின்னை உடை ஆக கொண்டு உலகு அளந்தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மின்னை உடை ஆக கொண்டு உலகு அளந்தான்",
+          "meaning": "மின்னலைப் பீதாம்பரமாக அணிந்துக்கொண்டு உலகங்களை யளந்தான்.",
+          "meaning_snippet": "மின்னலைப் பீதாம்பரமாக அணிந்துக்கொண்டு உலகங்களை யளந்தான்.",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2328,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நீர் ஏற்று நின்ற பெருமானே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நீர் ஏற்று நின்ற பெருமானே",
+          "meaning": "(மாவலிபக்கல்) உதகதானம் வாங்கிக்கொண்டு நின்ற பெருமானே!",
+          "meaning_snippet": "(மாவலிபக்கல்) உதகதானம் வாங்கிக்கொண்டு நின்ற பெருமானே!",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2329,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நீர் ஏற்று",
+        "அடி அளந்தாய் நீ அன்றே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நீர் ஏற்று",
+          "meaning": "(மாவலிபக்கல்) உதகதானம் வாங்கி",
+          "meaning_snippet": "(மாவலிபக்கல்) உதகதானம் வாங்கி",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "அடி அளந்தாய் நீ அன்றே",
+          "meaning": "திருவடியாலளந்தவன் நீயன்றோ?",
+          "meaning_snippet": "திருவடியாலளந்தவன் நீயன்றோ?",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2330,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சென்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சென்று",
+          "meaning": "(மஹாபலிக்கலில்) சென்று",
+          "meaning_snippet": "(மஹாபலிக்கலில்) சென்று",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2333,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சென்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சென்று",
+          "meaning": "மாவலியிடத்திற் சென்று",
+          "meaning_snippet": "மாவலியிடத்திற் சென்று",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2339,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கொண்டு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கொண்டு",
+          "meaning": "(மாவலியிடத்தில் பெற்றுக்கொண்டு)",
+          "meaning_snippet": "(மாவலியிடத்தில் பெற்றுக்கொண்டு)",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2343,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நீர் எற்றான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நீர் எற்றான்",
+          "meaning": "(மாவலிபக்கல்) உதகதானம் பெற்ற பெருமான்",
+          "meaning_snippet": "(மாவலிபக்கல்) உதகதானம் பெற்ற பெருமான்",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2364,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கன்னத்தாள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கன்னத்தாள்",
+          "meaning": "க்ருத்ரிம வேஷத்தினால் (மாவலி பக்கலிலே சென்று)",
+          "meaning_snippet": "க்ருத்ரிம வேஷத்தினால் (மாவலி பக்கலிலே சென்று)",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2371,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "அளந்துகொண்ட",
+          "meaning_snippet": "அளந்துகொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2710,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "kurai maan aay"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "kurai maan aay",
+          "meaning": "வாமந ப்ரம்மசாரியாய்",
+          "meaning_snippet": "வாமந ப்ரம்மசாரியாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2757,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Pulan Kol Maan Aay",
+        "Nilam Kondaan"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Pulan Kol Maan Aay",
+          "meaning": "(கண் முதலிய) இந்திரியங்களைக் கவர்ந்து கொள்கின்ற (மநோ ஹரமான) வாமந ப்ரம்மசாரி சேஷத்தை யுடையவனாய்",
+          "meaning_snippet": "(கண் முதலிய) இந்திரியங்களைக் கவர்ந்து கொள்கின்ற (மநோ ஹரமான) வாமந ப்ரம்மசாரி சேஷத்தை யுடையவனாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "Nilam Kondaan",
+          "meaning": "(மூவடி) நிலத்தை பிக்ஷை யேற்றுக் கொண்டான்.",
+          "meaning_snippet": "(மூவடி) நிலத்தை பிக்ஷை யேற்றுக் கொண்டான்.",
+          "reason": "meaning_keyword",
+          "matched_term": "மூவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2774,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2778,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஓர் மூ அடி கொண்டானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஓர் மூ அடி கொண்டானை",
+          "meaning": "(மற்றொருகால் அவ்வுலகங்களை) மூன்றடிகளாலே அளந்து கொண்டவனுமான பெருமானை",
+          "meaning_snippet": "(மற்றொருகால் அவ்வுலகங்களை) மூன்றடிகளாலே அளந்து கொண்டவனுமான பெருமானை",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2794,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மண் அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மண் அளந்த",
+          "meaning": "(த்ரிவிக்ரமனாய்ப்) பூமியை அளந்து கொண்டவனுமான",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்ப்) பூமியை அளந்து கொண்டவனுமான",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2809,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாவலி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாவலி",
+          "meaning": "‘மகாபலியே!",
+          "meaning_snippet": "‘மகாபலியே!",
+          "reason": "padham_substring",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2828,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2840,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2856,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அம்மான் திரி விக்கிரமனை விதி சூழ்ந்துத"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அம்மான் திரி விக்கிரமனை விதி சூழ்ந்துத",
+          "meaning": "ஸ்வாமியான த்ரிவிக்ரமனை விதி சூழ்ந்து கொண்டது",
+          "meaning_snippet": "ஸ்வாமியான த்ரிவிக்ரமனை விதி சூழ்ந்து கொண்டது",
+          "reason": "meaning_keyword",
+          "matched_term": "விக்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2857,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "திரிவிக்கிரமன் என்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "திரிவிக்கிரமன் என்று",
+          "meaning": "மூவடியாலே உலகங்களையெல்லாமளந்தவன் என்றும்",
+          "meaning_snippet": "மூவடியாலே உலகங்களையெல்லாமளந்தவன் என்றும்",
+          "reason": "meaning_keyword",
+          "matched_term": "மூவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2858,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமனன் என்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமனன் என்று",
+          "meaning": "வாமன மூர்த்தியே யென்று சொல்லியும்",
+          "meaning_snippet": "வாமன மூர்த்தியே யென்று சொல்லியும்",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2869,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகு அளந்த சே அடி மேல்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகு அளந்த சே அடி மேல்",
+          "meaning": "உலகமளந்த திருவடிகளிலே",
+          "meaning_snippet": "உலகமளந்த திருவடிகளிலே",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2870,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்து",
+          "meaning": "த்ரிவிக்ரமாவதாரஞ் செய்தும்.",
+          "meaning_snippet": "த்ரிவிக்ரமாவதாரஞ் செய்தும்.",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2906,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்தாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்தாய்",
+          "meaning": "(வாமன மூர்த்தியாய்) அளந்துகொண்ட பெருமானே!",
+          "meaning_snippet": "(வாமன மூர்த்தியாய்) அளந்துகொண்ட பெருமானே!",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2909,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "(மஹாபலியிடத்தில் பிக்ஷை பெற்று) அளந்து கொண்ட",
+          "meaning_snippet": "(மஹாபலியிடத்தில் பிக்ஷை பெற்று) அளந்து கொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2916,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உலகம் எல்லாம் தாவிய"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உலகம் எல்லாம் தாவிய",
+          "meaning": "(த்ரிவிக்ரமனாய்) உலகங்களையெல்லாம் அளந்தவனுமாகிய",
+          "meaning_snippet": "(த்ரிவிக்ரமனாய்) உலகங்களையெல்லாம் அளந்தவனுமாகிய",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2972,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அடி ஆர்ந்த வையம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அடி ஆர்ந்த வையம்",
+          "meaning": "(த்ரிவிக்ரமாவதார காலத்தில்) தன் திருவடியோடு ஸம்பந்தம் பெற்றதான வுலகை",
+          "meaning_snippet": "(த்ரிவிக்ரமாவதார காலத்தில்) தன் திருவடியோடு ஸம்பந்தம் பெற்றதான வுலகை",
+          "reason": "meaning_keyword",
+          "matched_term": "விக்ர"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2978,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மண் கொண்ட வாமனன் ஏற"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மண் கொண்ட வாமனன் ஏற",
+          "meaning": "(மாவலியிடம்) பூமியைக் கவர்ந்த வாமனன் (தன் மீது) ஏறுதலால்.",
+          "meaning_snippet": "(மாவலியிடம்) பூமியைக் கவர்ந்த வாமனன் (தன் மீது) ஏறுதலால்.",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2982,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மாவலி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மாவலி",
+          "meaning": "‘மஹாபலியே!",
+          "meaning_snippet": "‘மஹாபலியே!",
+          "reason": "padham_substring",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2984,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பூமி அளந்த பெருமானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பூமி அளந்த பெருமானை",
+          "meaning": "பூமியை அளந்தவனான எம் பெருமானைக் குறித்து",
+          "meaning_snippet": "பூமியை அளந்தவனான எம் பெருமானைக் குறித்து",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3020,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3035,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3040,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இது வாமனன் மண் என்னும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இது வாமனன் மண் என்னும்",
+          "meaning": "இது (எம்பெருமான்) வாமனனாய் அளந்து கொண்ட மண்’ என்று கூறுகின்றாள்:",
+          "meaning_snippet": "இது (எம்பெருமான்) வாமனனாய் அளந்து கொண்ட மண்’ என்று கூறுகின்றாள்:",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3047,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3060,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கடந்தும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கடந்தும்",
+          "meaning": "(மற்றொருகால்) அளந்து காற்கீழேயிட்டும்",
+          "meaning_snippet": "(மற்றொருகால்) அளந்து காற்கீழேயிட்டும்",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3074,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வையம் கொண்ட"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வையம் கொண்ட",
+          "meaning": "(மாவலிபக்கல் நீரேற்றுப் பெற்று) உலகங்களையெல்லாம் அளந்து கொண்ட",
+          "meaning_snippet": "(மாவலிபக்கல் நீரேற்றுப் பெற்று) உலகங்களையெல்லாம் அளந்து கொண்ட",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3089,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குறிய மாண்உருஆகி",
+        "கொடு கோளால்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குறிய மாண்உருஆகி",
+          "meaning": "வாமந ப்ரஹ்மசாரி வேஷத்தையுடையனாய்",
+          "meaning_snippet": "வாமந ப்ரஹ்மசாரி வேஷத்தையுடையனாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        },
+        {
+          "padham": "கொடு கோளால்",
+          "meaning": "(மாவலியை வஞ்சிக்கையாகிற) கொடியவழியினால்",
+          "meaning_snippet": "(மாவலியை வஞ்சிக்கையாகிற) கொடியவழியினால்",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3126,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3153,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இ மண் அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இ மண் அளந்த",
+          "meaning": "இப்பூமியை யளந்து கொண்டவனும்",
+          "meaning_snippet": "இப்பூமியை யளந்து கொண்டவனும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3159,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "அளந்து ஆக்கிரமித்துக் கொண்ட",
+          "meaning_snippet": "அளந்து ஆக்கிரமித்துக் கொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3172,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கடல் ஞானம் கொண்டேனும் யானே என்றும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கடல் ஞானம் கொண்டேனும் யானே என்றும்",
+          "meaning": "(மஹாபலியிடத்தில்) கடல் ஞானத்தை இரந்து பெற்றுக் கொண்டவளும் நானே யென்கிறாள்.",
+          "meaning_snippet": "(மஹாபலியிடத்தில்) கடல் ஞானத்தை இரந்து பெற்றுக் கொண்டவளும் நானே யென்கிறாள்.",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3193,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3210,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3224,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மூன்று அடியை இரந்த ஆறும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மூன்று அடியை இரந்த ஆறும்",
+          "meaning": "(மாவலியிடத்தே) மூவடி நிலத்தை யாசித்தபடியும்",
+          "meaning_snippet": "(மாவலியிடத்தே) மூவடி நிலத்தை யாசித்தபடியும்",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3267,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3282,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வையம் அளந்த மனாளற்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வையம் அளந்த மனாளற்கு",
+          "meaning": "பூமி முழவத்தையும் (த்ரிவிக்ரமனாய்) ஸ்வாதீனப்படுத்திக் கொண்ட மணவாளரும்",
+          "meaning_snippet": "பூமி முழவத்தையும் (த்ரிவிக்ரமனாய்) ஸ்வாதீனப்படுத்திக் கொண்ட மணவாளரும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3283,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3285,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த மணாளற்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த மணாளற்கு",
+          "meaning": "(திரிவிக்கிரமனாகி) அளந்துகொண்ட மணவாளனும்",
+          "meaning_snippet": "(திரிவிக்கிரமனாகி) அளந்துகொண்ட மணவாளனும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3290,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3316,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குறள் ஆய்",
+        "மண்ணும் விண்ணும் கொண்ட"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குறள் ஆய்",
+          "meaning": "வாமனமூர்த்தியாய் (மாவலியிடம் சென்று)",
+          "meaning_snippet": "வாமனமூர்த்தியாய் (மாவலியிடம் சென்று)",
+          "reason": "meaning_keyword",
+          "matched_term": "மாவலி"
+        },
+        {
+          "padham": "மண்ணும் விண்ணும் கொண்ட",
+          "meaning": "மண்ணுலகத்தையும் விண்ணுலகத்தையும் அளந்துகொண்ட",
+          "meaning_snippet": "மண்ணுலகத்தையும் விண்ணுலகத்தையும் அளந்துகொண்ட",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3320,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3323,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வையம் தாவி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வையம் தாவி",
+          "meaning": "பூமி முழுவதையும் அளந்து கொண்ட ஸ்வாதீனமாக்கிக் கொண்ட",
+          "meaning_snippet": "பூமி முழுவதையும் அளந்து கொண்ட ஸ்வாதீனமாக்கிக் கொண்ட",
+          "reason": "meaning_keyword",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3386,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கோடு அம் கை வாமனன் ஆய் செய்த கூத்துக்கள் கண்டும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கோடு அம் கை வாமனன் ஆய் செய்த கூத்துக்கள் கண்டும்",
+          "meaning": "ஏற்றகையையுடைய ஸ்ரீவாமன மூர்த்தியாய்ச் செய்தருளின மநோஹர சேஷ்டிதங்களை யநுஸந்தித்து வைத்தும்",
+          "meaning_snippet": "ஏற்றகையையுடைய ஸ்ரீவாமன மூர்த்தியாய்ச் செய்தருளின மநோஹர சேஷ்டிதங்களை யநுஸந்தித்து வைத்தும்",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3414,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வாமனனே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வாமனனே",
+          "meaning": "வாமநாவதாரஞ் செய்தவனே!",
+          "meaning_snippet": "வாமநாவதாரஞ் செய்தவனே!",
+          "reason": "meaning_keyword",
+          "matched_term": "வாமந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3437,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3451,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அளந்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அளந்த",
+          "meaning": "(ஒருகால்) மாவலிபக்கல் நீரேற்று அளந்துகொண்ட",
+          "meaning_snippet": "(ஒருகால்) மாவலிபக்கல் நீரேற்று அளந்துகொண்ட",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3466,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காட்டி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காட்டி",
+          "meaning": "(மஹாபலிக்கு) வெளிக்காட்டி (உடனே)",
+          "meaning_snippet": "(மஹாபலிக்கு) வெளிக்காட்டி (உடனே)",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3473,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3483,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3491,
+      "theme_id": "vamanan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3508,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மண் விண் முழுதும் அளந்த ஒண்தாமரை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மண் விண் முழுதும் அளந்த ஒண்தாமரை",
+          "meaning": "மண்ணுலகையும் விண்ணுலகையும் ஒன்றொழியாமல் அளந்து கொண்ட அழகிய திருவடித்தாமரைகளை",
+          "meaning_snippet": "மண்ணுலகையும் விண்ணுலகையும் ஒன்றொழியாமல் அளந்து கொண்ட அழகிய திருவடித்தாமரைகளை",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3511,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அரி வாமனன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அரி வாமனன்",
+          "meaning": "ஹரியாய் வாமனனான எம்பெருமான்",
+          "meaning_snippet": "ஹரியாய் வாமனனான எம்பெருமான்",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3513,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொருத்தம் உடை வாமனன் தான் புகுந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொருத்தம் உடை வாமனன் தான் புகுந்து",
+          "meaning": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "meaning_snippet": "ப்ராவண்யமுடையனான எம்பெருமான் தானே வந்து புகுந்து",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3640,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கே ஆகிய மா வலியை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கே ஆகிய மா வலியை",
+          "meaning": "பிரபுவாகத் தன்னை யயீமானித்திருந்த மஹாபலிடத்திளின்றும்",
+          "meaning_snippet": "பிரபுவாகத் தன்னை யயீமானித்திருந்த மஹாபலிடத்திளின்றும்",
+          "reason": "meaning_keyword",
+          "matched_term": "மஹாபலி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3646,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "இடந்து உண்டு உமிழிந்து அளந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "இடந்து உண்டு உமிழிந்து அளந்து",
+          "meaning": "(ஸமய விசேஷங்களில்) இடத்தல் உண்ணுதல் உமிழ்தல் அளத்தல் ஆகிய காரியங்களைச் செய்தும்",
+          "meaning_snippet": "(ஸமய விசேஷங்களில்) இடத்தல் உண்ணுதல் உமிழ்தல் அளத்தல் ஆகிய காரியங்களைச் செய்தும்",
+          "reason": "padham_substring",
+          "matched_term": "அளந்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3686,
+      "theme_id": "vamanan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "துவள் அற ஆய்ந்து கொண்டு வாமனன் அடிக்கு என்று ஏத்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "துவள் அற ஆய்ந்து கொண்டு வாமனன் அடிக்கு என்று ஏத்த",
+          "meaning": "பர்சுத்தமாக சேகரித்துக் கொண்டு எம்பெருமானுடைய திருவடிகளுக்கென்று ஸங்கல்பித்துத் துதிக்க,",
+          "meaning_snippet": "பர்சுத்தமாக சேகரித்துக் கொண்டு எம்பெருமானுடைய திருவடிகளுக்கென்று ஸங்கல்பித்துத் துதிக்க,",
+          "reason": "padham_substring",
+          "matched_term": "வாமனன்"
+        }
+      ]
+    }
+  ]
+}

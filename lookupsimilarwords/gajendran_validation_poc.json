@@ -1,0 +1,622 @@
+{
+  "theme_id": "gajendran",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 26,
+  "detector_would_tag": 26,
+  "detector_missed": 0,
+  "missed_pasuram_numbers": [],
+  "pasurams": [
+    {
+      "pasuram_number": 126,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "முதலை",
+        "களிறு",
+        "உதவ",
+        "உறு துயர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "முதலை",
+          "meaning": "முதலையின்",
+          "meaning_snippet": "முதலையின்",
+          "reason": "padham_substring",
+          "matched_term": "முதலை"
+        },
+        {
+          "padham": "களிறு",
+          "meaning": "ஸ்ரீகஜேந்த்ராழ்வான்",
+          "meaning_snippet": "ஸ்ரீகஜேந்த்ராழ்வான்",
+          "reason": "padham_substring",
+          "matched_term": "களிற"
+        },
+        {
+          "padham": "உதவ",
+          "meaning": "(அந்த யானைக்கு) உதவும்படி",
+          "meaning_snippet": "(அந்த யானைக்கு) உதவும்படி",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "உறு துயர்",
+          "meaning": "(அந்த யானையின்) மிக்க வருத்தத்தை",
+          "meaning_snippet": "(அந்த யானையின்) மிக்க வருத்தத்தை",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 220,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "முதலை",
+        "வேழம்",
+        "பணி கொண்டானால்",
+        "அதற்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "முதலை",
+          "meaning": "முதலையின் வாயாகிய",
+          "meaning_snippet": "முதலையின் வாயாகிய",
+          "reason": "padham_substring",
+          "matched_term": "முதலை"
+        },
+        {
+          "padham": "வேழம்",
+          "meaning": "ஸ்ரீகஜேந்திராழ்வானுடைய",
+          "meaning_snippet": "ஸ்ரீகஜேந்திராழ்வானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "வேழ"
+        },
+        {
+          "padham": "பணி கொண்டானால்",
+          "meaning": "(முதலையைத் துணிந்து , கஜேந்திராழ்வரனுடைய) கைங்கர்யத்தை ஸ்வீக்ரித்தருளின கண்ண பிரானால்",
+          "meaning_snippet": "(முதலையைத் துணிந்து , கஜேந்திராழ்வரனுடைய) கைங்கர்யத்தை ஸ்வீக்ரித்தருளின கண்ண பிரானால்",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        },
+        {
+          "padham": "அதற்கு",
+          "meaning": "அந்த யானையின் திறத்தில்",
+          "meaning_snippet": "அந்த யானையின் திறத்தில்",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 342,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒரு வாரணம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒரு வாரணம்",
+          "meaning": "(ஸ்ரீகஜேந்திராழ்வானாகிற ஒரு யானையினிடத்து",
+          "meaning_snippet": "(ஸ்ரீகஜேந்திராழ்வானாகிற ஒரு யானையினிடத்து",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 441,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கரி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கரி",
+          "meaning": "கஜேந்திர ஆழ்வானுடைய",
+          "meaning_snippet": "கஜேந்திர ஆழ்வானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2194,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தொடர் எடுத்த மால் யானை",
+        "அன்று இடர் அடுக்க",
+        "ஆழியான் பாதம்",
+        "தான்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தொடர் எடுத்த மால் யானை",
+          "meaning": "காற்சங்கிலியை முறித்துக் கையிற்கொண்டு பதறியோடுந் தன்மையதான மதயானையானது",
+          "meaning_snippet": "காற்சங்கிலியை முறித்துக் கையிற்கொண்டு பதறியோடுந் தன்மையதான மதயானையானது",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "அன்று இடர் அடுக்க",
+          "meaning": "அந்த நிலைமையிலே (முதலையின் வாயிலகப்பட்டு விடுவித்துக் கொள்ள முடியாத) பெருந்துன்பமுண்டாக",
+          "meaning_snippet": "அந்த நிலைமையிலே (முதலையின் வாயிலகப்பட்டு விடுவித்துக் கொள்ள முடியாத) பெருந்துன்பமுண்டாக",
+          "reason": "meaning_keyword",
+          "matched_term": "முதலை"
+        },
+        {
+          "padham": "ஆழியான் பாதம்",
+          "meaning": "(முதலையைத் துணிக்குங் கருவியான) திருவாழியைக் கையிலேந்தின எம்பெருமானுடைய திருவடிகளை (தியானித்து) வணங்கியதனாலன்றோ",
+          "meaning_snippet": "(முதலையைத் துணிக்குங் கருவியான) திருவாழியைக் கையிலேந்தின எம்பெருமானுடைய திருவடிகளை (தியானித்து) வணங்கியதனாலன்றோ",
+          "reason": "meaning_keyword",
+          "matched_term": "முதலை"
+        },
+        {
+          "padham": "தான்",
+          "meaning": "அந்த கஜேந்திரம்",
+          "meaning_snippet": "அந்த கஜேந்திரம்",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2203,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கரியது ஓர் யானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கரியது ஓர் யானை",
+          "meaning": "கருநிறமுள்ள கஜேந்திராழ்வான்",
+          "meaning_snippet": "கருநிறமுள்ள கஜேந்திராழ்வான்",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2249,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கோள் நாகம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கோள் நாகம்",
+          "meaning": "மிடுக்கையுடைய குவலயாபீடமென்னும் மதயானையினது",
+          "meaning_snippet": "மிடுக்கையுடைய குவலயாபீடமென்னும் மதயானையினது",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2254,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கரி",
+        "விடுத்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கரி",
+          "meaning": "கஜேந்திராழ்வானை",
+          "meaning_snippet": "கஜேந்திராழ்வானை",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        },
+        {
+          "padham": "விடுத்த",
+          "meaning": "முதலைவாயில் நினறு விடுவித்தருளின",
+          "meaning_snippet": "முதலைவாயில் நினறு விடுவித்தருளின",
+          "reason": "meaning_keyword",
+          "matched_term": "முதலை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2256,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வேழம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வேழம்",
+          "meaning": "யானையானது",
+          "meaning_snippet": "யானையானது",
+          "reason": "padham_substring",
+          "matched_term": "வேழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2271,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நெடியானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நெடியானை",
+          "meaning": "ஸர்வேச்வரனுமான",
+          "meaning_snippet": "ஸர்வேச்வரனுமான",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2288,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "எழில் அளந்து எண்ணற்கு அரியானை",
+        "எப்பொருட்கும் சேயானை",
+        "நண்ணற்கு அரியானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "எழில் அளந்து எண்ணற்கு அரியானை",
+          "meaning": "அழகை எல்லைகண்டு நினைப்பதற்கும் முடியாதவனும்",
+          "meaning_snippet": "அழகை எல்லைகண்டு நினைப்பதற்கும் முடியாதவனும்",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "எப்பொருட்கும் சேயானை",
+          "meaning": "எல்லா வஸ்துக்களுக்கும் நெடுந்தூரத்திலிருப்பவனும்",
+          "meaning_snippet": "எல்லா வஸ்துக்களுக்கும் நெடுந்தூரத்திலிருப்பவனும்",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "நண்ணற்கு அரியானை",
+          "meaning": "(யார்க்கும் தம் முயற்சியாலே) கிட்ட முடியாதவனாயிருப்பவனுமான எம்பெருமானுடைய",
+          "meaning_snippet": "(யார்க்கும் தம் முயற்சியாலே) கிட்ட முடியாதவனாயிருப்பவனுமான எம்பெருமானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2303,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காணும் படியானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காணும் படியானை",
+          "meaning": "ஸேவிக்கப்பெற்ற திருமேனியையுடையனான எம்பெருமானை",
+          "meaning_snippet": "ஸேவிக்கப்பெற்ற திருமேனியையுடையனான எம்பெருமானை",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2306,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "உண்ட வாயானை",
+        "வானவர்க்கும் சேயானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "உண்ட வாயானை",
+          "meaning": "அமுதுசெய்த வாயையுடையவனாயும்",
+          "meaning_snippet": "அமுதுசெய்த வாயையுடையவனாயும்",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "வானவர்க்கும் சேயானை",
+          "meaning": "பிரமன் முதலிய தேவர்களுக்கும் எட்டாதவனாயுமுள்ள எம்பெருமானே",
+          "meaning_snippet": "பிரமன் முதலிய தேவர்களுக்கும் எட்டாதவனாயுமுள்ள எம்பெருமானே",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2324,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "களிற்றின்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "களிற்றின்",
+          "meaning": "(குவலயாபீட மென்கிற) யானையினுடைய",
+          "meaning_snippet": "(குவலயாபீட மென்கிற) யானையினுடைய",
+          "reason": "padham_substring",
+          "matched_term": "களிற"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2326,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மதம் வேழம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மதம் வேழம்",
+          "meaning": "மத்த கஜமானது",
+          "meaning_snippet": "மத்த கஜமானது",
+          "reason": "padham_substring",
+          "matched_term": "வேழ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2331,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மா முதலை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மா முதலை",
+          "meaning": "பெரிய முதலையை",
+          "meaning_snippet": "பெரிய முதலையை",
+          "reason": "padham_substring",
+          "matched_term": "முதலை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2335,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பகடு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பகடு",
+          "meaning": "(குவலயாபீட மென்கிற) யானையை",
+          "meaning_snippet": "(குவலயாபீட மென்கிற) யானையை",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2351,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "களிறு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "களிறு",
+          "meaning": "(திருமலையிலுள்ள) யானையானது",
+          "meaning_snippet": "(திருமலையிலுள்ள) யானையானது",
+          "reason": "padham_substring",
+          "matched_term": "களிற"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2352,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "களிறு",
+        "முகில்",
+        "குத்த",
+        "ஒளிறு மருப்பு",
+        "பிளிறி விழ கொன்று"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "களிறு",
+          "meaning": "யானையானது",
+          "meaning_snippet": "யானையானது",
+          "reason": "padham_substring",
+          "matched_term": "களிற"
+        },
+        {
+          "padham": "முகில்",
+          "meaning": "(மதயானை போலெழுந்து) மேகங்களை",
+          "meaning_snippet": "(மதயானை போலெழுந்து) மேகங்களை",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "குத்த",
+          "meaning": "(எதிரியானை யென்று நினைத்துக்) குத்த",
+          "meaning_snippet": "(எதிரியானை யென்று நினைத்துக்) குத்த",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "ஒளிறு மருப்பு",
+          "meaning": "(அந்தயானை யினுடைய) விளங்குகின்ற கொம்பை",
+          "meaning_snippet": "(அந்தயானை யினுடைய) விளங்குகின்ற கொம்பை",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        },
+        {
+          "padham": "பிளிறி விழ கொன்று",
+          "meaning": "(அந்தயானை) வாய்விட்டலறிக் கொண்டு விழும்படி (அதனைக்) கொன்று",
+          "meaning_snippet": "(அந்தயானை) வாய்விட்டலறிக் கொண்டு விழும்படி (அதனைக்) கொன்று",
+          "reason": "meaning_keyword",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2380,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கோள் முதலை துஞ்ச"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கோள் முதலை துஞ்ச",
+          "meaning": "மிடுக்குடைய முதலை முடியும்படியாக",
+          "meaning_snippet": "மிடுக்குடைய முதலை முடியும்படியாக",
+          "reason": "padham_substring",
+          "matched_term": "முதலை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2865,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "யானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "யானை",
+          "meaning": "கஜேந்திராழ்வானுடைய",
+          "meaning_snippet": "கஜேந்திராழ்வானுடைய",
+          "reason": "padham_substring",
+          "matched_term": "யானை"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2875,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கைம்மா துன்பம் கடிந்த பிரானே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கைம்மா துன்பம் கடிந்த பிரானே",
+          "meaning": "கஜேந்திராழ்வானுடைய இடரைத் தீர்த்த பிரபுவே!",
+          "meaning_snippet": "கஜேந்திராழ்வானுடைய இடரைத் தீர்த்த பிரபுவே!",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2905,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "களிறு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "களிறு",
+          "meaning": "கஜேந்திராழ்வானை",
+          "meaning_snippet": "கஜேந்திராழ்வானை",
+          "reason": "padham_substring",
+          "matched_term": "களிற"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2912,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வந்தாய் போலே வந்தும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வந்தாய் போலே வந்தும்",
+          "meaning": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "meaning_snippet": "(ப்ரஹ்லாதன் கஜேந்திரன் முதலானார்க்கு) வந்து தோன்றினாய் போலே வந்தாகிலும்",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2941,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கை மாவுக்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கை மாவுக்கு",
+          "meaning": "கஜேந்திராழ்வானுக்கு",
+          "meaning_snippet": "கஜேந்திராழ்வானுக்கு",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3443,
+      "theme_id": "gajendran",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அகல் இரு பொங்கையின் வாய் நின்று",
+        "நின் சரண் அன்றி மற்று ஒன்று இலன் என்று தன்; நீள் கழல் எத்திய ஆனையின்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அகல் இரு பொங்கையின் வாய் நின்று",
+          "meaning": "மிகப் பெரிய பொய்கையிடத்திலே (முதலையின் வாயிலாகப்பட்டது) நின்று",
+          "meaning_snippet": "மிகப் பெரிய பொய்கையிடத்திலே (முதலையின் வாயிலாகப்பட்டது) நின்று",
+          "reason": "meaning_keyword",
+          "matched_term": "முதலை"
+        },
+        {
+          "padham": "நின் சரண் அன்றி மற்று ஒன்று இலன் என்று தன்; நீள் கழல் எத்திய ஆனையின்",
+          "meaning": "‘உன் திருவடிகளை யொழிய மற்றொரு புகலுடையே னல்லேன்’ என்று தன்னுடைய திருவடிகளைத் துதித்த கஜேந்திராழ்வானுடைய",
+          "meaning_snippet": "‘உன் திருவடிகளை யொழிய மற்றொரு புகலுடையே னல்லேன்’ என்று தன்னுடைய திருவடிகளைத் துதித்த கஜேந்திராழ்வானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "கஜ"
+        }
+      ]
+    }
+  ]
+}

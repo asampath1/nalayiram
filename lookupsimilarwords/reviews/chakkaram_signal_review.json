@@ -1,0 +1,5929 @@
+{
+  "theme_id": "chakkaram",
+  "primary_similarwords_tag": "chakaram",
+  "source_table": "PasuramsArthamTablePOC",
+  "reviewed_at": "2026-05-28T17:17:49.045403+00:00",
+  "pasuram_count": 195,
+  "detector_would_tag_count": 176,
+  "candidate_meaning_keywords": [
+    {
+      "stem": "சுட",
+      "line_hits": 3
+    }
+  ],
+  "candidate_padham_substrings": [
+    {
+      "stem": "ஆழ",
+      "line_hits": 97
+    },
+    {
+      "stem": "நேம",
+      "line_hits": 16
+    },
+    {
+      "stem": "சுட",
+      "line_hits": 8
+    }
+  ],
+  "top_thematic_padhams": [
+    {
+      "padham": "ஆழி",
+      "strong_line_hits": 12
+    },
+    {
+      "padham": "சக்கரம்",
+      "strong_line_hits": 6
+    },
+    {
+      "padham": "நேமி",
+      "strong_line_hits": 5
+    },
+    {
+      "padham": "ஆழியான்",
+      "strong_line_hits": 5
+    },
+    {
+      "padham": "ஆழி பிரான் தன்னை",
+      "strong_line_hits": 3
+    },
+    {
+      "padham": "நேமியும்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "ஆழி கொண்டு",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "ஆழியும்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "ஆழி சங்கு",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "சக்கரத்தன்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "நேமியான்",
+      "strong_line_hits": 2
+    },
+    {
+      "padham": "சுடராழி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழிகளும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சக்கரம் கையனே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழிப் பிரான்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழியான் தன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சங்கு சக்கரம் தண்டு வாள் வில்லும் அல்லது",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழியான் என்னும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "திரு சக்கரம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "திருச் சக்கரம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழி கொண்டு எறிந்து",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழி விடுத்து",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "கனல் ஆழி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சங்கு சக்கரம் ஏந்து கையானே!",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒண் சுடர்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழியே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சக்கரமும்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "திருச் சக்கரம் அதனால்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சக்கரபாணீ",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழி மழை கண்ணா",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழியுள் புக்கு",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழி போல் மின்னி",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சங்கொடு சக்கரம் ஏந்தும் தட கையன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஓர் சக்கரம்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சுடர் சக்கரம் கையில் ஏந்தினாய்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழியன்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஒண் ஆழியும் சங்கும் தண்டும் தங்கிய கையவனை வர",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "சங்கோடு சக்கரத்தான் வரக் கூவுதல்",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழி வெண் சங்கே",
+      "strong_line_hits": 1
+    },
+    {
+      "padham": "ஆழியின் வெம் சுடர் போல்",
+      "strong_line_hits": 1
+    }
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 0,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "யாழின் இசை வேதத்து இயல்"
+      ]
+    },
+    {
+      "pasuram_number": 2,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சுடராழி",
+          "meaning": "எதிரிகளை எரிக்கும் சக்கரத்தாழ்வானும்",
+          "meaning_snippet": "எதிரிகளை எரிக்கும் சக்கரத்தாழ்வானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சுட"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 7,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "வட்டமாக",
+          "meaning_snippet": "வட்டமாக",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        },
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 34,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமியும்",
+          "meaning": "திருவாழியும்",
+          "meaning_snippet": "திருவாழியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 57,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "திருவாழி ஆழ்வானை",
+          "meaning_snippet": "திருவாழி ஆழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "ஆழ",
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "ஆழ",
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 59,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "திருவாழி யாழ்வானையும்",
+          "meaning_snippet": "திருவாழி யாழ்வானையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 62,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி கொண்டு",
+          "meaning": "திருவாழியாலே",
+          "meaning_snippet": "திருவாழியாலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "தாழியில்"
+      ]
+    },
+    {
+      "pasuram_number": 73,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழிகளும்",
+          "meaning": "திருவாழி மோதிரங்களும்",
+          "meaning_snippet": "திருவாழி மோதிரங்களும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 77,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி மோதிரத்தை",
+          "meaning_snippet": "திருவாழி மோதிரத்தை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 82,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழி ஆழ்வானை",
+          "meaning_snippet": "திருவாழி ஆழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "ஆழ",
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "ஆழ",
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 91,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "சக்கரமும்",
+          "meaning_snippet": "சக்கரமும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 98,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "ஸ்ரீஸூதர்சநாழ்வானையும்",
+          "meaning_snippet": "ஸ்ரீஸூதர்சநாழ்வானையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 101,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "அம் கையனே"
+      ]
+    },
+    {
+      "pasuram_number": 103,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம் கையனே",
+          "meaning": "சக்ராயுதமேந்திய கையை யுடையவனே!",
+          "meaning_snippet": "சக்ராயுதமேந்திய கையை யுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 114,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "(இப்படிக் களவு கண்டு உண்கையில்) ஆழ்ந்து தேறியவன்",
+          "meaning_snippet": "(இப்படிக் களவு கண்டு உண்கையில்) ஆழ்ந்து தேறியவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "ஆழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "ஆழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 117,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழிப் பிரான்",
+          "meaning": "சக்ராயுததானாகிய ப்ரபுவான கண்ணன்",
+          "meaning_snippet": "சக்ராயுததானாகிய ப்ரபுவான கண்ணன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 166,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான் தன்",
+          "meaning": "சக்ராயுதபாணியான இவனுடைய",
+          "meaning_snippet": "சக்ராயுதபாணியான இவனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 167,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "அவ் வாழி அதனால்"
+      ]
+    },
+    {
+      "pasuram_number": 220,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "(அப்பொய்கைக் கரையிலே சென்று) சக்ராயுதத்தாலே",
+          "meaning_snippet": "(அப்பொய்கைக் கரையிலே சென்று) சக்ராயுதத்தாலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 249,
+      "line_count": 4,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "கை அகத்து",
+        "ஏந்தும்",
+        "அழகா"
+      ]
+    },
+    {
+      "pasuram_number": 266,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி ஆழ்வானை",
+          "meaning_snippet": "திருவாழி ஆழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "ஆழ",
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "ஆழ",
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 275,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வலம்புரி உடைய"
+      ]
+    },
+    {
+      "pasuram_number": 288,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு சக்கரம் தண்டு வாள் வில்லும் அல்லது",
+          "meaning": "சங்கு முதலிய எம்பெருமான் சின்னங்களை யொழிய (மற்றொன்றையும்)",
+          "meaning_snippet": "சங்கு முதலிய எம்பெருமான் சின்னங்களை யொழிய (மற்றொன்றையும்)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 289,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான் என்னும்",
+          "meaning": "ஸர்வேச்வரன் என்று ப்ரஸித்தமான",
+          "meaning_snippet": "ஸர்வேச்வரன் என்று ப்ரஸித்தமான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 303,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "திருவாழி யாழ்வானை யுடையனுமான கண்ணபிரான்",
+          "meaning_snippet": "திருவாழி யாழ்வானை யுடையனுமான கண்ணபிரான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 329,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திரு சக்கரம்",
+          "meaning": "திருவாழி யாழ்வானையும்",
+          "meaning_snippet": "திருவாழி யாழ்வானையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 334,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திருச் சக்கரம்",
+          "meaning": "திருவாழி யாழ்வாளையும்",
+          "meaning_snippet": "திருவாழி யாழ்வாளையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 335,
+      "line_count": 4,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி கொண்டு",
+          "meaning": "திருவாழியினால்",
+          "meaning_snippet": "திருவாழியினால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "நாழிகை",
+        "நாழிகை போக",
+        "பாழில் உருள"
+      ]
+    },
+    {
+      "pasuram_number": 349,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியும்",
+          "meaning": "மோதிரங்கள் போன்ற பூ நரம்புகளையும்",
+          "meaning_snippet": "மோதிரங்கள் போன்ற பூ நரம்புகளையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 351,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "எறிந்து"
+      ]
+    },
+    {
+      "pasuram_number": 364,
+      "line_count": 5,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழி யாழ்வானோடு",
+          "meaning_snippet": "திருவாழி யாழ்வானோடு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "திருக் கோட்டியூர்",
+        "சேர்",
+        "தட",
+        "கையினானை"
+      ]
+    },
+    {
+      "pasuram_number": 380,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "பாழி தோள்"
+      ]
+    },
+    {
+      "pasuram_number": 393,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி கொண்டு எறிந்து",
+          "meaning": "திரு வாழியை யெடுத்து விட்டெறிந்தும்,",
+          "meaning_snippet": "திரு வாழியை யெடுத்து விட்டெறிந்தும்,",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 395,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியும்",
+          "meaning": "திரு வாழியையும்",
+          "meaning_snippet": "திரு வாழியையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 407,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி விடுத்து",
+          "meaning": "திருவாழியாழ்வானை ஏவி",
+          "meaning_snippet": "திருவாழியாழ்வானை ஏவி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 422,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கனல் ஆழி",
+          "meaning": "ஜ்வலியா நின்றுள்ள திருவாழியாழ்வனை",
+          "meaning_snippet": "ஜ்வலியா நின்றுள்ள திருவாழியாழ்வனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 424,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "ஸ்ரீஸுதர்சனாழ்வானையும்",
+          "meaning_snippet": "ஸ்ரீஸுதர்சனாழ்வானையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "சங்கொடு",
+        "ஏந்தினானே"
+      ]
+    },
+    {
+      "pasuram_number": 425,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமியும்",
+          "meaning": "திருவாழியையும்",
+          "meaning_snippet": "திருவாழியையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "சங்கமும்",
+        "ஏந்தினானே"
+      ]
+    },
+    {
+      "pasuram_number": 434,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு சக்கரம் ஏந்து கையானே!",
+          "meaning": "சங்கு சக்கரம் ஏந்து கையானே!",
+          "meaning_snippet": "சங்கு சக்கரம் ஏந்து கையானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 441,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "ஏத்தி"
+      ]
+    },
+    {
+      "pasuram_number": 451,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒண் சுடர்",
+          "meaning": "அழகிய தேஜஸ்ஸை யுடைய",
+          "meaning_snippet": "அழகிய தேஜஸ்ஸை யுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சுடர்",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சுடர்"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சுட"
+          ]
+        },
+        {
+          "padham": "ஆழியே",
+          "meaning": "திருவாழி யாழ்வானே!",
+          "meaning_snippet": "திருவாழி யாழ்வானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 459,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரமும்",
+          "meaning": "திருவாழியாழ்வானும்",
+          "meaning_snippet": "திருவாழியாழ்வானும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 461,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திருச் சக்கரம் அதனால்",
+          "meaning": "சக்ராயுதத்தினால்",
+          "meaning_snippet": "சக்ராயுதத்தினால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 466,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரபாணீ",
+          "meaning": "திருவாழி யாழ்வானைத் திருக் கையிலுடையனுமானவனே!",
+          "meaning_snippet": "திருவாழி யாழ்வானைத் திருக் கையிலுடையனுமானவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க",
+            "சக்கரபாண"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க",
+            "சக்கரபாண"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 470,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழி யாழ்வானை யுடைய",
+          "meaning_snippet": "திருவாழி யாழ்வானை யுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 477,
+      "line_count": 3,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி மழை கண்ணா",
+          "meaning": "மண்டல வர்ஷத்துக்குத் தலைவனான பர்ஜந்யனே!",
+          "meaning_snippet": "மண்டல வர்ஷத்துக்குத் தலைவனான பர்ஜந்யனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        },
+        {
+          "padham": "ஆழியுள் புக்கு",
+          "meaning": "கடலினுட் புகுந்து",
+          "meaning_snippet": "கடலினுட் புகுந்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        },
+        {
+          "padham": "ஆழி போல் மின்னி",
+          "meaning": "திருவாழி யாழ்வானைப் போல் ஒளி மல்கி",
+          "meaning_snippet": "திருவாழி யாழ்வானைப் போல் ஒளி மல்கி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 487,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கொடு சக்கரம் ஏந்தும் தட கையன்",
+          "meaning": "சங்கையும் சக்கரத்தையும் தரியா நின்றுள்ள விசாலமான திருக் கைகளை யுடையவனும்",
+          "meaning_snippet": "சங்கையும் சக்கரத்தையும் தரியா நின்றுள்ள விசாலமான திருக் கைகளை யுடையவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 504,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஓர் சக்கரம்",
+          "meaning": "ஒப்பற்ற திரு வழி யாழ்வானை",
+          "meaning_snippet": "ஒப்பற்ற திரு வழி யாழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 508,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி சங்கு",
+          "meaning": "திருவாழியையும் திருச்சங்கையும் (அணிந்துள்ள)",
+          "meaning_snippet": "திருவாழியையும் திருச்சங்கையும் (அணிந்துள்ள)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 521,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சுடர் சக்கரம் கையில் ஏந்தினாய்",
+          "meaning": "உன்னுடைய பத்தினிகளின் மேல் ஆணை திருக் கையில் தரித்திரா நின்றுள்ள கண்ண பிரானே!",
+          "meaning_snippet": "உன்னுடைய பத்தினிகளின் மேல் ஆணை திருக் கையில் தரித்திரா நின்றுள்ள கண்ண பிரானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க",
+            "சுடர்"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க",
+            "சுட"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 524,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியன்",
+          "meaning": "சூரியன்",
+          "meaning_snippet": "சூரியன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 551,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒண் ஆழியும் சங்கும் தண்டும் தங்கிய கையவனை வர",
+          "meaning": "திருவாழி திருச்சங்கும் ஸ்ரீ கதையும் பொருந்திய திருக் கைகளுடைய பெருமாள் இங்கே வரும்படி",
+          "meaning_snippet": "திருவாழி திருச்சங்கும் ஸ்ரீ கதையும் பொருந்திய திருக் கைகளுடைய பெருமாள் இங்கே வரும்படி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 553,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கோடு சக்கரத்தான் வரக் கூவுதல்",
+          "meaning": "திருவாழி திருச்சங்குடையனான எம்பெருமான் (இங்கே) வரும்படி கூவுவதென்ன",
+          "meaning_snippet": "திருவாழி திருச்சங்குடையனான எம்பெருமான் (இங்கே) வரும்படி கூவுவதென்ன",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 567,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி வெண் சங்கே",
+          "meaning": "கம்பீரமாய் வெளுத்திரா நின்ற ஸ்ரீபாஞ்ச ஜந்யாழ்வானே",
+          "meaning_snippet": "கம்பீரமாய் வெளுத்திரா நின்ற ஸ்ரீபாஞ்ச ஜந்யாழ்வானே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 598,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியின் வெம் சுடர் போல்",
+          "meaning": "திருவாழி யாழ்வானுடைய வெவ்விய தேஜஸ்ஸு போல",
+          "meaning_snippet": "திருவாழி யாழ்வானுடைய வெவ்விய தேஜஸ்ஸு போல",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி",
+            "சுடர்"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ",
+            "சுட"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 600,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி நங்காய்!",
+          "meaning": "கம்பீரமான இயல்வை யுடையாய்!",
+          "meaning_snippet": "கம்பீரமான இயல்வை யுடையாய்!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 620,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி கொண்டானவன்",
+          "meaning": "திரு வாழியை ஏந்தி யிருப்பவனான பிரானுடைய",
+          "meaning_snippet": "திரு வாழியை ஏந்தி யிருப்பவனான பிரானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 644,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியானை",
+          "meaning": "திருவாழியாழ்வானை யுடையவனாய்",
+          "meaning_snippet": "திருவாழியாழ்வானை யுடையவனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 919,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திகிரி",
+          "meaning": "திருவாழி யாழ்வானை",
+          "meaning_snippet": "திருவாழி யாழ்வானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "திருவாழ",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 933,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அனல் ஆழியர்",
+          "meaning": "தீ வீசுகின்ற திருவாழியையும் உடையராய்",
+          "meaning_snippet": "தீ வீசுகின்ற திருவாழியையும் உடையராய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 951,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "ஸ்ரீ ஸுதர்சந பாணியான ஸர்வேச்வரனுடைய",
+          "meaning_snippet": "ஸ்ரீ ஸுதர்சந பாணியான ஸர்வேச்வரனுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பாழியான்"
+      ]
+    },
+    {
+      "pasuram_number": 2075,
+      "line_count": 3,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழியையும்",
+          "meaning_snippet": "திருவாழியையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "சங்கு",
+        "மற்றொரு கை"
+      ]
+    },
+    {
+      "pasuram_number": 2082,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "செய்ய சுடர் ஆழியான் அடிக்கே",
+          "meaning": "செஞ்சுடர்ச் சக்கரைக்கையனான எம்பெருமானது திருவடிகளில்.",
+          "meaning_snippet": "செஞ்சுடர்ச் சக்கரைக்கையனான எம்பெருமானது திருவடிகளில்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "ஆழி",
+            "சுடர்"
+          ],
+          "review_stems_meaning": [
+            "சக்க",
+            "சுட"
+          ],
+          "review_stems_padham": [
+            "ஆழ",
+            "சுட"
+          ]
+        },
+        {
+          "padham": "இடர் ஆழி நீங்குக என்று",
+          "meaning": "(ஏதுக்காகவென்னில்;) (பகவத் கைங்கரியத்திற்கு இடையூறாகவுள்ள) துன்பக்கடல் நீங்குகைக்காக.",
+          "meaning_snippet": "(ஏதுக்காகவென்னில்;) (பகவத் கைங்கரியத்திற்கு இடையூறாகவுள்ள) துன்பக்கடல் நீங்குகைக்காக.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2083,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "ஸமுத்ரமாம்;",
+          "meaning_snippet": "ஸமுத்ரமாம்;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2086,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "(மற்றொரு மூர்த்தியின் ஆயுதமோ வென்னில்) அருளார் திருச்சக்கரம்",
+          "meaning_snippet": "(மற்றொரு மூர்த்தியின் ஆயுதமோ வென்னில்) அருளார் திருச்சக்கரம்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2089,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "போர் ஆழிகையால்",
+          "meaning": "போர்செய்வதற்கு உபகரணமான திருவாழியை ஏந்தின கையாலே",
+          "meaning_snippet": "போர்செய்வதற்கு உபகரணமான திருவாழியை ஏந்தின கையாலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        },
+        {
+          "padham": "தேர் ஆழியால்",
+          "meaning": "சக்கராயுதத்தினால்",
+          "meaning_snippet": "சக்கராயுதத்தினால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2091,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அலகு அளவு கண்ட சீர் ஆழியாய்க்கு உன் வாய்",
+          "meaning": "அளவிடுதற்கு உறுப்பான எண்ணிக்கைகளை யெல்லாம் எல்லை கண்டிருக்கிற [-எண்ணிறந்த] கல்யாண குணங்களுக்குக் கடல் போன்றவனான உன்னுடைய வாயானது",
+          "meaning_snippet": "அளவிடுதற்கு உறுப்பான எண்ணிக்கைகளை யெல்லாம் எல்லை கண்டிருக்கிற [-எண்ணிறந்த] கல்யாண குணங்களுக்குக் கடல் போன்றவனான உன்னுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2713,
+      "line_count": 3,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "Aazhi vazhi vandae",
+          "meaning": "வட்டமான ரேகைகளை யுடைய வண்டே!",
+          "meaning_snippet": "வட்டமான ரேகைகளை யுடைய வண்டே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "Aazh",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        },
+        {
+          "padham": "Arul aazhi ammaanai",
+          "meaning": "அருட்கடலான எம்பெருமானை",
+          "meaning_snippet": "அருட்கடலான எம்பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "aazh",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        },
+        {
+          "padham": "Arul aazhi pul",
+          "meaning": "கருணைக் கடலான பெரிய திருவடியை",
+          "meaning_snippet": "கருணைக் கடலான பெரிய திருவடியை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "aazh",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2717,
+      "line_count": 2,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "Aazhi mada nenje",
+          "meaning": "ஆழ்ந்த மடநெஞ்சே!",
+          "meaning_snippet": "ஆழ்ந்த மடநெஞ்சே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "Aazh",
+          "alias_hits_meaning": [
+            "ஆழ"
+          ],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [
+            "ஆழ"
+          ],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        },
+        {
+          "padham": "Aazhi",
+          "meaning": "சக்ராகாரமாக",
+          "meaning_snippet": "சக்ராகாரமாக",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "Aazh",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2735,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திமிர் சுடர் ஆழி",
+          "meaning": "வளர்கின்ற ஒளியை யுடைய திருச் சக்கரத்தை யுடையனாய்",
+          "meaning_snippet": "வளர்கின்ற ஒளியை யுடைய திருச் சக்கரத்தை யுடையனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "ஆழி",
+            "சுடர்"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "ஆழ",
+            "சுட"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2741,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி படை",
+          "meaning": "திருவாழி யாழ்வானை ஆயுதமாக வுடையனாயும்",
+          "meaning_snippet": "திருவாழி யாழ்வானை ஆயுதமாக வுடையனாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2760,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "Sangu Chakkaram",
+          "meaning": "திருவாழி திருச் சங்குகளை",
+          "meaning_snippet": "திருவாழி திருச் சங்குகளை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "Chakk",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "chakkaram",
+            "chakk"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "chakk"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2770,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொருபடை ஆழிசங்கு ஏந்தும்",
+          "meaning": "(அத்திருத்தோள்களில்) போர் செய்கின்ற ஆயுதங்களாகிய திருவாழி திருச்சங்குகளைத் தரித்திருப்பவனும்.",
+          "meaning_snippet": "(அத்திருத்தோள்களில்) போர் செய்கின்ற ஆயுதங்களாகிய திருவாழி திருச்சங்குகளைத் தரித்திருப்பவனும்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2774,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி சங்கத்தொடு",
+          "meaning": "சங்கு சக்கரங்களோடு கூட",
+          "meaning_snippet": "சங்கு சக்கரங்களோடு கூட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2787,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வாழி"
+      ]
+    },
+    {
+      "pasuram_number": 2788,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "படைஆழி",
+          "meaning": "திருவாழிப் படையுடைய",
+          "meaning_snippet": "திருவாழிப் படையுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2789,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வாழிய"
+      ]
+    },
+    {
+      "pasuram_number": 2790,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பெருமானார்",
+          "meaning": "சக்கரபாணியான எம்பெருமானது",
+          "meaning_snippet": "சக்கரபாணியான எம்பெருமானது",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க",
+            "சக்கரபாண"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "சக்க",
+            "சக்கரபாண"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2791,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "வாழி"
+      ]
+    },
+    {
+      "pasuram_number": 2801,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பள்ளியார்",
+          "meaning": "ப்ரளயார்ணவ சயநராவர் (ஆழியம்பள்ளியார் = திருப்பாற்கடலிற் கிடந்த கிடையைச் சொல்லவுமாம் ப்ரளயார்ணவத்திலே ஆபத் ஸகனாய்க் கண் வளர்ந்தபடியைச் சொல்லவுமாம்)",
+          "meaning_snippet": "ப்ரளயார்ணவ சயநராவர் (ஆழியம்பள்ளியார் = திருப்பாற்கடலிற் கிடந்த கிடையைச் சொல்லவுமாம் ப்ரளயார்ணவத்திலே ஆபத் ஸகனாய்க் கண் வ",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "ஆழி",
+            "ஆழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "ஆழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2816,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி சங்கு",
+          "meaning": "திருவாழி திருச்சங்குகளை",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2826,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமியீர்",
+          "meaning": "திருவாழியையுடையவரே! (பெண்பிள்ளை)",
+          "meaning_snippet": "திருவாழியையுடையவரே! (பெண்பிள்ளை)",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2829,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு ஆழி",
+          "meaning": "சங்கு சக்கரங்களும்",
+          "meaning_snippet": "சங்கு சக்கரங்களும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2855,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம்",
+          "meaning": "திருவாழி",
+          "meaning_snippet": "திருவாழி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2862,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "என் ஆழி வண்ணனை எம்மானை",
+          "meaning": "கடல் வண்ணனான எம்பெருமானை",
+          "meaning_snippet": "கடல் வண்ணனான எம்பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2877,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கை ஆர்சக்கரம்",
+          "meaning": "திருக்கையில் பொருத்தின திருவாழியை உடைய என் கண்ணபிரானே!",
+          "meaning_snippet": "திருக்கையில் பொருத்தின திருவாழியை உடைய என் கண்ணபிரானே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2885,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரத்து",
+          "meaning": "திருவாழியையுடைய",
+          "meaning_snippet": "திருவாழியையுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2890,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "aram muyal ali pataiyavan koyil",
+          "meaning": "ஆச்ரித ரக்ஷண தருமத்திலே முயல்கின்ற திருவாழியை ஆயுதமாகவுடைய பெருமானது கோயிலாய்.",
+          "meaning_snippet": "ஆச்ரித ரக்ஷண தருமத்திலே முயல்கின்ற திருவாழியை ஆயுதமாகவுடைய பெருமானது கோயிலாய்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "திருவாழ",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2905,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மழுங்காத வைநுதிய சக்கரம் நல் வலத்தையாய்",
+          "meaning": "மங்குதலில்லாத கூர்மை பொருந்திய வாயையுடைய சக்கரப்படையை அழகிய வலத்திருக்கையிலுடையையாய்",
+          "meaning_snippet": "மங்குதலில்லாத கூர்மை பொருந்திய வாயையுடைய சக்கரப்படையை அழகிய வலத்திருக்கையிலுடையையாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2932,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு சக்கரத்தன் என்கோ",
+          "meaning": "சங்குசக்கரங்களை யுடையவனென்பேனோ?",
+          "meaning_snippet": "சங்குசக்கரங்களை யுடையவனென்பேனோ?",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2964,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பிரான் தன்னை",
+          "meaning": "திருவாழியாழ்வானை யுடைய உபகாரகனாயும்",
+          "meaning_snippet": "திருவாழியாழ்வானை யுடைய உபகாரகனாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2965,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொன் நெடு சக்கரத்து",
+          "meaning": "அழகினால் உயர்ந்த திருவாழியை யுடையனான",
+          "meaning_snippet": "அழகினால் உயர்ந்த திருவாழியை யுடையனான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2968,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பிரான் தன்னை",
+          "meaning": "திருவாழியைக் கையிலேந்தி மஹோபகாரங்கள் செய்யவனும்.",
+          "meaning_snippet": "திருவாழியைக் கையிலேந்தி மஹோபகாரங்கள் செய்யவனும்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2971,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வலம் தாங்கு சக்கரத்து",
+          "meaning": "வலத்திருக்கையில் ஏந்தப்பட்ட திருவாழியையுடைய",
+          "meaning_snippet": "வலத்திருக்கையில் ஏந்தப்பட்ட திருவாழியையுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2979,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொன் நெடு சக்கரத்து உன்னையே",
+          "meaning": "அழகிய பெரிய திருவாழியையுடைய தேவரீரையே",
+          "meaning_snippet": "அழகிய பெரிய திருவாழியையுடைய தேவரீரையே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2980,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சுடர் நேமியாய்",
+          "meaning": "ஒளிமிக்க திருவாழியையுடையவனே!",
+          "meaning_snippet": "ஒளிமிக்க திருவாழியையுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி",
+            "சுடர்"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம",
+            "சுட"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2993,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பிரான்",
+          "meaning": "சக்கரக்கையனான பெருமான்",
+          "meaning_snippet": "சக்கரக்கையனான பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2996,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கொடு சக்கரம்",
+          "meaning": "சங்கு சக்கரங்களையும்",
+          "meaning_snippet": "சங்கு சக்கரங்களையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 2999,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொன்சக்கரத்து",
+          "meaning": "அழகிய திருவாழியையுடையவனாய்க் கொண்டு",
+          "meaning_snippet": "அழகிய திருவாழியையுடையவனாய்க் கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3026,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம் என்னும்",
+          "meaning": "சக்கரமென்கிறாள்;",
+          "meaning_snippet": "சக்கரமென்கிறாள்;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3033,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காலம் சக்கரத்தான்",
+          "meaning": "காலத்தை நடத்துகிற திரு வாழியையுடையனாய்",
+          "meaning_snippet": "காலத்தை நடத்துகிற திரு வாழியையுடையனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3034,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "காலன் சக்கரத்தொடு",
+          "meaning": "(பகைவரையழிப்பதில்) யமன் போன்ற திருவாழியோடுகூட",
+          "meaning_snippet": "(பகைவரையழிப்பதில்) யமன் போன்ற திருவாழியோடுகூட",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3054,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அடல் ஆழி",
+          "meaning": "போர்வல்ல திருவாழியை யுடையனான",
+          "meaning_snippet": "போர்வல்ல திருவாழியை யுடையனான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3063,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு சக்கரம் என்று",
+          "meaning": "சங்கென்றும் சக்கரமென்றும்",
+          "meaning_snippet": "சங்கென்றும் சக்கரமென்றும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3077,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அடல் ஆழியானே",
+          "meaning": "வீரத்தன்மை வாய்ந்த திருவாழியையுடையவனே!",
+          "meaning_snippet": "வீரத்தன்மை வாய்ந்த திருவாழியையுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3085,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அடல் ஆழி தடகையன்",
+          "meaning": "தீக்ஷ்ணமான திருவாழியைப் பெரிய திருக்கையிலேயுடையவனும்",
+          "meaning_snippet": "தீக்ஷ்ணமான திருவாழியைப் பெரிய திருக்கையிலேயுடையவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3090,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "சக்கரத்தையும்",
+          "meaning_snippet": "சக்கரத்தையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3116,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பிரானை சேர்ந்தவன்",
+          "meaning": "ஆழியங்கையனான பெருமானை அடைந்தவரும்",
+          "meaning_snippet": "ஆழியங்கையனான பெருமானை அடைந்தவரும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "ஆழி",
+            "ஆழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "ஆழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3117,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கைஆர் சக்கரத்து",
+          "meaning": "திருக்கையில் பொருந்திய திருவாழியாழ் வானையுடையவனும்",
+          "meaning_snippet": "திருக்கையில் பொருந்திய திருவாழியாழ் வானையுடையவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3122,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அறம் முயல் ஆழி அம் கை",
+          "meaning": "ரக்ஷணமாகிற தருமத்திலே ஊக்கமுடைய திருவாழியினாலே அழகுபெற்ற திருக்கைகளையும் உடைய",
+          "meaning_snippet": "ரக்ஷணமாகிற தருமத்திலே ஊக்கமுடைய திருவாழியினாலே அழகுபெற்ற திருக்கைகளையும் உடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3123,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பிரான் அம்மான் அவன்",
+          "meaning": "திருவாழியாழ்வானையுடைய பிரபுவாகிய அவ்வெம்பெருமான்",
+          "meaning_snippet": "திருவாழியாழ்வானையுடைய பிரபுவாகிய அவ்வெம்பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3125,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திருசக்கரம் சங்கினோடும்",
+          "meaning": "திருவாழி திருசங்குகளோடும்கூடி",
+          "meaning_snippet": "திருவாழி திருசங்குகளோடும்கூடி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3133,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமி பிரான் தமர்",
+          "meaning": "சக்ரபாணியான எம்பெருமானது பக்தர்கள்",
+          "meaning_snippet": "சக்ரபாணியான எம்பெருமானது பக்தர்கள்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3145,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி பிரான் தன்னை",
+          "meaning": "திருவாழியாழ்வானை ஏந்தியுள்ள மஹோபகாரகனாக எம்பெருமானை",
+          "meaning_snippet": "திருவாழியாழ்வானை ஏந்தியுள்ள மஹோபகாரகனாக எம்பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3148,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி அம் கை நம்பிரானுடைய",
+          "meaning": "திருவாழியைத் தரித்த அழகிய திருக்கையையுடைய எம்பெருமானுடைய",
+          "meaning_snippet": "திருவாழியைத் தரித்த அழகிய திருக்கையையுடைய எம்பெருமானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3155,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மண் நின்ற சக்கரத்து",
+          "meaning": "எப்போதும் கை நழுவாது நின்ற திருவாழியாழ்வானையுடைய",
+          "meaning_snippet": "எப்போதும் கை நழுவாது நின்ற திருவாழியாழ்வானையுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3156,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரத்தன்",
+          "meaning": "சக்கரத்தையுமுடையனானவன்",
+          "meaning_snippet": "சக்கரத்தையுமுடையனானவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3157,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கை வந்த சக்கரத்து",
+          "meaning": "கையிலே ஸஜ்ஜனாயிருக்கிற் திருவாழி யாழ்களையுடைய",
+          "meaning_snippet": "கையிலே ஸஜ்ஜனாயிருக்கிற் திருவாழி யாழ்களையுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3161,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கினோடும் நேமினோடும்",
+          "meaning": "சங்கு சங்கரங்களோடும்",
+          "meaning_snippet": "சங்கு சங்கரங்களோடும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3163,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரமும் சங்கும்",
+          "meaning": "திருவாழி திருச்சங்குகளும்",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3167,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமி",
+          "meaning": "திருவாழியும்",
+          "meaning_snippet": "திருவாழியும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3171,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி அம் கை யணையே",
+          "meaning": "திருவாழியை அழகிய திருக்கையிலே உடையவனாயுமிருக்கிற எம்பெருமானையே",
+          "meaning_snippet": "திருவாழியை அழகிய திருக்கையிலே உடையவனாயுமிருக்கிற எம்பெருமானையே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3184,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு சக்கரத்தாய்",
+          "meaning": "சங்கு சக்கரபாணியான ஸர்வேச்வரனே",
+          "meaning_snippet": "சங்கு சக்கரபாணியான ஸர்வேச்வரனே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க",
+            "சக்கரபாண"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க",
+            "சக்கரபாண"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3185,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம் படை",
+          "meaning": "திருவாழியை ஆயுதமாகவுடையனாய்",
+          "meaning_snippet": "திருவாழியை ஆயுதமாகவுடையனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3199,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "யாழின் இசையே"
+      ]
+    },
+    {
+      "pasuram_number": 3201,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வளைவாய் நேமிபடையாய்",
+          "meaning": "வளைந்த வாயையுடைய திருவாழியை ஆயுதமாகவுடையவனே!",
+          "meaning_snippet": "வளைந்த வாயையுடைய திருவாழியை ஆயுதமாகவுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3213,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சுழலின் மலி சக்கரம்",
+          "meaning": "சுறுற்சி பொருந்திய திருவாழியையுடையனான",
+          "meaning_snippet": "சுறுற்சி பொருந்திய திருவாழியையுடையனான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3227,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கை கொள் சக்கரத்து",
+          "meaning": "திருக்கையிலே திருவாழியாழ்வானைக் கொண்டவனும்",
+          "meaning_snippet": "திருக்கையிலே திருவாழியாழ்வானைக் கொண்டவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3229,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கறங்கு சக்கரம் கை",
+          "meaning": "சுழன்று வருகிற திருவாழியைக் கையிலேயுடையவனும்",
+          "meaning_snippet": "சுழன்று வருகிற திருவாழியைக் கையிலேயுடையவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3232,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆற்றல் ஆழி அம் கை",
+          "meaning": "சக்திமிகுந்த திருவாழியை அழகிய கையிலே உடையவனுமான",
+          "meaning_snippet": "சக்திமிகுந்த திருவாழியை அழகிய கையிலே உடையவனுமான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3233,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "செரு ஒண் சக்கரம் சங்கு",
+          "meaning": "போர்க்களத்திலே ஒண்மைபெற்று விளங்குகிற சக்கரமும் (கையை விட்டு அகலாத) சங்குமான",
+          "meaning_snippet": "போர்க்களத்திலே ஒண்மைபெற்று விளங்குகிற சக்கரமும் (கையை விட்டு அகலாத) சங்குமான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3242,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "திண் சக்கரம் தொல்படையாய்",
+          "meaning": "திண்ணிய சக்கரமாகிற அநாதியான ஆயுதத்தை யுடையவனே!",
+          "meaning_snippet": "திண்ணிய சக்கரமாகிற அநாதியான ஆயுதத்தை யுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3268,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வலக்கை ஆழி இடக்கை சங்கம் இவை உடைமால் வண்ணனை",
+          "meaning": "உபணஹஸ்தங்களிலும் திருவாழி திருச்சங்கையுடையனாய் நீலவண்ணனான எம்பெருமானை",
+          "meaning_snippet": "உபணஹஸ்தங்களிலும் திருவாழி திருச்சங்கையுடையனாய் நீலவண்ணனான எம்பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3271,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தவளம் ஒண் சங்கு சக்கரம் என்றும்",
+          "meaning": "வெண்ணிறமாய் அழகியதான சங்கையும் சக்கரத்தையும் சொல்லுகின்றவளாயும்",
+          "meaning_snippet": "வெண்ணிறமாய் அழகியதான சங்கையும் சக்கரத்தையும் சொல்லுகின்றவளாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "சக்க"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "சக்க"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3283,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு வில் வாள் தண்டு சக்கரம் கையற்கு",
+          "meaning": "பஞ்சாயுதங்களையும் திருக்கையிலே உடையவரும்",
+          "meaning_snippet": "பஞ்சாயுதங்களையும் திருக்கையிலே உடையவரும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3284,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கறங்கிய சக்கரம் கையவனுக்கு",
+          "meaning": "சுழலும் திருவாழியைக் கையிலே உடையவருமான பெருமான் விளயத்தி லீடுபட்டதினால்",
+          "meaning_snippet": "சுழலும் திருவாழியைக் கையிலே உடையவருமான பெருமான் விளயத்தி லீடுபட்டதினால்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3305,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கை அமர் சக்கரம்",
+          "meaning": "திருக்கையில் அமர்ந்த திருவாழியையுடையனும்",
+          "meaning_snippet": "திருக்கையில் அமர்ந்த திருவாழியையுடையனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3310,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "என் ஆழி பிரான்",
+          "meaning": "கையுந்திருவாழியுமான அழகை எனக்குக் காட்டித்தந்தவனும்",
+          "meaning_snippet": "கையுந்திருவாழியுமான அழகை எனக்குக் காட்டித்தந்தவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3315,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கூர் ஆர் ஆழி வெண் சங்கு ஏந்தி",
+          "meaning": "கூர்மைபொருந்திய திருவாழியையும் வெள்ளிய திருச்சங்கையும் திருக்கையில் தரித்துக்கொண்டு",
+          "meaning_snippet": "கூர்மைபொருந்திய திருவாழியையும் வெள்ளிய திருச்சங்கையும் திருக்கையில் தரித்துக்கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3327,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "thiru nemi valavaa",
+          "meaning": "திருவாழியாழ்வானை வலவருகிலே ஏந்தியிருப்பவனே!",
+          "meaning_snippet": "திருவாழியாழ்வானை வலவருகிலே ஏந்தியிருப்பவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "nemi",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "nemi"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "nemi"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3338,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மின்னு நேமியினாய்",
+          "meaning": "உஜ்ஜ்வலமான திருவாழியை யுடையவனே!",
+          "meaning_snippet": "உஜ்ஜ்வலமான திருவாழியை யுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3339,
+      "line_count": 1,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "இடந்திட்ட"
+      ]
+    },
+    {
+      "pasuram_number": 3341,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அடல் ஆழி ஏந்தி",
+          "meaning": "சேசு பொருந்திய திருவாழியைக் கையிலேதாங்கி",
+          "meaning_snippet": "சேசு பொருந்திய திருவாழியைக் கையிலேதாங்கி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3348,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு சக்கரங்கள்",
+          "meaning": "திருவாழி திருச்சங்குகள் இதோ ஸேவை ஸாதிக்கின்றன",
+          "meaning_snippet": "திருவாழி திருச்சங்குகள் இதோ ஸேவை ஸாதிக்கின்றன",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3351,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வட்டம் வாய் நேமி வலம் கையா என்னும்",
+          "meaning": "வட்டமான விளிம்பையுடைய திருவாழியை வலத்திரக்கையிலுடையவனெ! என்கிறாள்;",
+          "meaning_snippet": "வட்டமான விளிம்பையுடைய திருவாழியை வலத்திரக்கையிலுடையவனெ! என்கிறாள்;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3353,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வெய்யவான் தண்டு சங்கு சக்கரம்வில் ஏந்தும்",
+          "meaning": "(ஆச்ரித விரோதி விஷயத்தில்) வெப்பமே வடிவெடுத்த பஞ்சாயுதங்களைத் தரித்துக் கொண்டிருக்கிற",
+          "meaning_snippet": "(ஆச்ரித விரோதி விஷயத்தில்) வெப்பமே வடிவெடுத்த பஞ்சாயுதங்களைத் தரித்துக் கொண்டிருக்கிற",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3359,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வெள்ளை சுரி சங்கொடு ஆழி ஏந்தி",
+          "meaning": "வெண்ணிறத்தையும் சுரியையு முடைய ஸ்ரீபாஞ்சஜந்யத்தையும் ஸூதர்சநத்தையும் ஸூதர்நசத்தையும் ஏந்திக்கொண்டு",
+          "meaning_snippet": "வெண்ணிறத்தையும் சுரியையு முடைய ஸ்ரீபாஞ்சஜந்யத்தையும் ஸூதர்சநத்தையும் ஸூதர்நசத்தையும் ஏந்திக்கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3361,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கொடு சக்கரம் கண்டு உகந்தும்",
+          "meaning": "திருவாழி திருச்சங்குளைக் கண்டு உவந்ததாயும்",
+          "meaning_snippet": "திருவாழி திருச்சங்குளைக் கண்டு உவந்ததாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3368,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமியான்",
+          "meaning": "திருவாழியை யுடையனுமான",
+          "meaning_snippet": "திருவாழியை யுடையனுமான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "மகரநெடுங்குழைக்காதன்"
+      ]
+    },
+    {
+      "pasuram_number": 3369,
+      "line_count": 3,
+      "strong_line_count": 3,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி நீர் வண்ணனை",
+          "meaning": "கடல் வண்ணனாய்",
+          "meaning_snippet": "கடல் வண்ணனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        },
+        {
+          "padham": "ஆழி அம்கையனை ஏத்த வல்லார் அவர்",
+          "meaning": "கையுந் திருவாழியுமான எம்பெருமானைத்துதிக்கவல்லவர்கள்",
+          "meaning_snippet": "கையுந் திருவாழியுமான எம்பெருமானைத்துதிக்கவல்லவர்கள்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        },
+        {
+          "padham": "ஆழியார்",
+          "meaning": "ஆழ்ந்தவராவர்.",
+          "meaning_snippet": "ஆழ்ந்தவராவர்.",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "ஆழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "ஆழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3370,
+      "line_count": 9,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "aazhi ezha",
+          "meaning": "திருவாழியாழ்வான் முன்னே உயர்ந்து தோன்றவும்",
+          "meaning_snippet": "திருவாழியாழ்வான் முன்னே உயர்ந்து தோன்றவும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "aazh",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        },
+        {
+          "padham": "thisai vaazhi ezha",
+          "meaning": "திசைகள் தோறும் மங்களாசாஸன கோஷம் கிளம்புவும்",
+          "meaning_snippet": "திசைகள் தோறும் மங்களாசாஸன கோஷம் கிளம்புவும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "aazh",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "sangum villum ezha",
+        "thandum vaalum ezha",
+        "andam mozhai ezha",
+        "mudi paadham ezha",
+        "oozhi ezha"
+      ]
+    },
+    {
+      "pasuram_number": 3371,
+      "line_count": 9,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "appan",
+        "saaru pada",
+        "amudham konda nanru",
+        "aaru",
+        "malaikku edhiruthu oadum oli"
+      ]
+    },
+    {
+      "pasuram_number": 3372,
+      "line_count": 14,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "appan",
+        "oondri idandhu eittril kondan naal",
+        "ezhu mannum",
+        "naantril",
+        "thaanthath"
+      ]
+    },
+    {
+      "pasuram_number": 3373,
+      "line_count": 8,
+      "strong_line_count": 1,
+      "detector_would_tag": false,
+      "strong_lines": [
+        {
+          "padham": "sudarthaanum ezhu",
+          "meaning": "நக்ஷ்த்திரம் முதலிய சுடர்ப்பொருள்கள் நிலை குலையவும்",
+          "meaning_snippet": "நக்ஷ்த்திரம் முதலிய சுடர்ப்பொருள்கள் நிலை குலையவும்",
+          "strength": "thematic_candidate",
+          "detector_match": false,
+          "detector_reason": null,
+          "detector_term": null,
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சுட"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "naal ezvum",
+        "nilam neer ezvum",
+        "vinnum koalum ezhu",
+        "eri kaalum ezhu",
+        "malai thaal ezvum"
+      ]
+    },
+    {
+      "pasuram_number": 3374,
+      "line_count": 8,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "appan",
+        "kaanudai bharatham kai arai pothu",
+        "oon udai mallar thadarndha oli",
+        "mannar",
+        "aan udai senai"
+      ]
+    },
+    {
+      "pasuram_number": 3375,
+      "line_count": 10,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "aazh thuyar seydhu",
+          "meaning": "அளவிறந்த துன்பத்தை விளைந்து",
+          "meaning_snippet": "அளவிறந்த துன்பத்தை விளைந்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "aazh",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "aazh"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "aazh"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "pozhndhu melindha",
+        "pun chekkaril",
+        "vaan thisai",
+        "soolum ezundhu",
+        "udhiram punal aa"
+      ]
+    },
+    {
+      "pasuram_number": 3376,
+      "line_count": 7,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "appan",
+        "ilangai neeru pada setra ner",
+        "maruniraittu iraikkum sarangaL",
+        "inam nooru pinam",
+        "malai pol purala"
+      ]
+    },
+    {
+      "pasuram_number": 3377,
+      "line_count": 11,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "appan",
+        "ner sari vaanan",
+        "thinthol konda anru",
+        "kozhi kodi kondaan",
+        "ner sarindhaan"
+      ]
+    },
+    {
+      "pasuram_number": 3378,
+      "line_count": 17,
+      "strong_line_count": 1,
+      "detector_would_tag": false,
+      "strong_lines": [
+        {
+          "padham": "sudar irandu",
+          "meaning": "சந்திரன் ஸுர்யன் ஆகிய இரண்டு சுடர்ப்பொருள்களையும்",
+          "meaning_snippet": "சந்திரன் ஸுர்யன் ஆகிய இரண்டு சுடர்ப்பொருள்களையும்",
+          "strength": "thematic_candidate",
+          "detector_match": false,
+          "detector_reason": null,
+          "detector_term": null,
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "சுட"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": [
+        "appan",
+        "anru",
+        "man neer eri kaal vin",
+        "malai mudhal",
+        "seydhadhum"
+      ]
+    },
+    {
+      "pasuram_number": 3379,
+      "line_count": 9,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "meynirai",
+        "keel puga",
+        "maa purala",
+        "sunaivaa nirai neer",
+        "pilirisoriya"
+      ]
+    },
+    {
+      "pasuram_number": 3380,
+      "line_count": 9,
+      "strong_line_count": 0,
+      "detector_would_tag": false,
+      "strong_lines": [],
+      "sample_weak_padhams": [
+        "kunram edutha piran",
+        "adiyarodum",
+        "ondri nindra",
+        "sadagopan",
+        "urai seyal"
+      ]
+    },
+    {
+      "pasuram_number": 3402,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரம் செல்வன்",
+          "meaning": "திருவாழியையுடைய திருமாலைக் குறித்து",
+          "meaning_snippet": "திருவாழியையுடைய திருமாலைக் குறித்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3403,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி அம் கண்ணபிரான்",
+          "meaning": "கடல் வண்ணனான கண்ண பிரானுடைய",
+          "meaning_snippet": "கடல் வண்ணனான கண்ண பிரானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3416,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "தேர் வலவா திரு சக்கரத் தாய்",
+          "meaning": "திருவாழிப்படையை யடையவனே!",
+          "meaning_snippet": "திருவாழிப்படையை யடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3432,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி அம் கை எம்பிரான் புகழ்",
+          "meaning": "சக்ரபாணியான அந்த எம்பெருமானுடைய திருப்புகழை",
+          "meaning_snippet": "சக்ரபாணியான அந்த எம்பெருமானுடைய திருப்புகழை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3461,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "வெல் போர் ஆழிவலவனை",
+          "meaning": "போர்க்களத்தில் வெற்றிபெறுமியல்வின்னான திருவாழி யாழ்வானை வலத்திருக்கை யிலுடையனான பெருமானை",
+          "meaning_snippet": "போர்க்களத்தில் வெற்றிபெறுமியல்வின்னான திருவாழி யாழ்வானை வலத்திருக்கை யிலுடையனான பெருமானை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3462,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி வலவனை",
+          "meaning": "திருவாழிவலவனான ஸர்வேச்வரனை",
+          "meaning_snippet": "திருவாழிவலவனான ஸர்வேச்வரனை",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3467,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கேமியும் சங்கும் இரு கை கொண்டு",
+          "meaning": "திருவாழி திருச்சங்குகளை இரண்டு திருக்கையிலுமேந்திக் கொண்டு",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளை இரண்டு திருக்கையிலுமேந்திக் கொண்டு",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "திருவாழ",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3469,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சங்கு சக்கரம் கையவன்",
+          "meaning": "திருவாழி திருச்சங்குகளைத் திருக்கையிலேந்திய பெருமான்",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளைத் திருக்கையிலேந்திய பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3470,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கரணம் பல் படை பற்று அறு ஓடும் கனம் ஆழி",
+          "meaning": "உபகரணங்களையுடைய், பல சத்ருஸேனைகள் நிச்சேஷமாக வோடும்படி ஜ்வலிக்கின்ற திருவாழியாகிற",
+          "meaning_snippet": "உபகரணங்களையுடைய், பல சத்ருஸேனைகள் நிச்சேஷமாக வோடும்படி ஜ்வலிக்கின்ற திருவாழியாகிற",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3471,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியும் சங்கும் சுமப்பார் தாம்",
+          "meaning": "திருவாழி திருச்சங்குகளைச் சுமப்பவர் தாமேயாயிருக்கிறாரே",
+          "meaning_snippet": "திருவாழி திருச்சங்குகளைச் சுமப்பவர் தாமேயாயிருக்கிறாரே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3474,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அணி ஆர் ஆழியும் சங்கமும் ஏந்துமவர்",
+          "meaning": "ஆபரணமாப் பொருந்திய திருவாழி திருச்சங்குகளைத் தாங்கி நிற்பவருமான அப்பரமபுருஷ",
+          "meaning_snippet": "ஆபரணமாப் பொருந்திய திருவாழி திருச்சங்குகளைத் தாங்கி நிற்பவருமான அப்பரமபுருஷ",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3475,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "உரு ஆர்சக்கரம் சங்கு சுமந்து இங்கு உம்மோடு ஒருபாடு உழல்வான் ஓர் அடியானும் உளன் என்று",
+          "meaning": "வடிவழகார்ந்த திருவாழி திருச்சங்குகளைச் சுமந்து கொண்டு இங்கு உம்மோடு ஒரு பக்கத்திலிருந்து கொண்டு திரியுமடியானொருவனிருக்கின்றானென்று.",
+          "meaning_snippet": "வடிவழகார்ந்த திருவாழி திருச்சங்குகளைச் சுமந்து கொண்டு இங்கு உம்மோடு ஒரு பக்கத்திலிருந்து கொண்டு திரியுமடியானொருவனிருக்கி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்கரம்",
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3476,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி",
+          "meaning": "திருவாழியையுமுடையையான",
+          "meaning_snippet": "திருவாழியையுமுடையையான",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3495,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி சூழ் மல்லை ஞாலம் முழுது உண்ட",
+          "meaning": "கடல் சூழ்ந்த பெரிய ஜகத்தையெல்லாம் பிரளயங்கொள்ளாமல் திருவயிற்றிலடக்கினவனாயும்",
+          "meaning_snippet": "கடல் சூழ்ந்த பெரிய ஜகத்தையெல்லாம் பிரளயங்கொள்ளாமல் திருவயிற்றிலடக்கினவனாயும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3499,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "மின் ஆழி படை யாய்",
+          "meaning": "ஒளி பொருந்திய திருவாழியைப் படையாக வுடையவனே!",
+          "meaning_snippet": "ஒளி பொருந்திய திருவாழியைப் படையாக வுடையவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3524,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஒண் சங்கு கதைவாள் ஆழியான் ஒருவன்",
+          "meaning": "அழகிய சங்கும் கதையும் வாளும் ஆழியுமுடையனான வொருவன்",
+          "meaning_snippet": "அழகிய சங்கும் கதையும் வாளும் ஆழியுமுடையனான வொருவன்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "ஆழி",
+            "ஆழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "ஆழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3537,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "செழு கதிர் ஆழி முதல் புகழும் பொரு படை ஏந்தி",
+          "meaning": "மிக்க வொளியையுடைய திருவாழி முதலன புகழ்மிக்க திவ்யாயுதங்களை தரித்து",
+          "meaning_snippet": "மிக்க வொளியையுடைய திருவாழி முதலன புகழ்மிக்க திவ்யாயுதங்களை தரித்து",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3551,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "Pon azhi kai",
+          "meaning": "அழகிய திருவாழி மோதிர மணிந்த திருக்கையை யுடையவனும்",
+          "meaning_snippet": "அழகிய திருவாழி மோதிர மணிந்த திருக்கையை யுடையவனும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "meaning_keyword",
+          "detector_term": "திருவாழ",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": []
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3554,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "aazhi sangu vaalvil thandu aadhi",
+          "meaning": "பஞ்சாயுதங்கள் முதலிய",
+          "meaning_snippet": "பஞ்சாயுதங்கள் முதலிய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "aazh",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3555,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "Pon aazhi kai",
+          "meaning": "அழகிய திருவாழியேந்திய கையையும் உடைய",
+          "meaning_snippet": "அழகிய திருவாழியேந்திய கையையும் உடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "aazh",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3573,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி சங்கு வாள்வில் தண்டு",
+          "meaning": "திருவாழி முதலான பஞ்சாயு தங்களையும்",
+          "meaning_snippet": "திருவாழி முதலான பஞ்சாயு தங்களையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3590,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சுடர் ஆழி",
+          "meaning": "ஒளிமிக்க திருவாழியையும்",
+          "meaning_snippet": "ஒளிமிக்க திருவாழியையும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி",
+            "சுடர்"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ",
+            "சுட"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3631,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "பொள் ஆழி கையாருக்கு",
+          "meaning": "அழகிய திருவாழியைக் கையிலேயுடையவரும்",
+          "meaning_snippet": "அழகிய திருவாழியைக் கையிலேயுடையவரும்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3694,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி அம் கணணா",
+          "meaning": "அடல் போன்று விடாய் தீர்க்க வல்ல அழகிய திருக்கண்கடிளயுடிடயவனே!",
+          "meaning_snippet": "அடல் போன்று விடாய் தீர்க்க வல்ல அழகிய திருக்கண்கடிளயுடிடயவனே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3700,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "நேமியான்",
+          "meaning": "திருமொழியை யுடையனாய்",
+          "meaning_snippet": "திருமொழியை யுடையனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "நேமி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "நேமி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "நேம"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3702,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான் ஆழ்கின்றான்",
+          "meaning": "கையுந் திருவாழியுமான பெருமாள் காத்தருளா நின்றான்;",
+          "meaning_snippet": "கையுந் திருவாழியுமான பெருமாள் காத்தருளா நின்றான்;",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3704,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "கை சக்கரத்து அண்ணல",
+          "meaning": "திருக்கையிலே திருவாழியைக் கொண்ட ஸ்வாமி",
+          "meaning_snippet": "திருக்கையிலே திருவாழியைக் கொண்ட ஸ்வாமி",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3706,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "அணி நின்ற செம்பொன் அடல் ஆழியான்",
+          "meaning": "தானே ஆபரணமாகப் போரும்படியாய்ச் சிவந்த பொன்போலே ஸ்ப்ருஹணீயனாய் மிடுக்கையுடையனான திருவாழியாழ்வானைக் கையிலேந்தினவனான பெருமான்",
+          "meaning_snippet": "தானே ஆபரணமாகப் போரும்படியாய்ச் சிவந்த பொன்போலே ஸ்ப்ருஹணீயனாய் மிடுக்கையுடையனான திருவாழியாழ்வானைக் கையிலேந்தினவனான பெருமா",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3707,
+      "line_count": 3,
+      "strong_line_count": 2,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "சக்ரபாணியாய்",
+          "meaning_snippet": "சக்ரபாணியாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        },
+        {
+          "padham": "ஆழி அமரர்க்கும் அப்பாலான்",
+          "meaning": "கம்பீரர்களான நித்யஸூரிகளுக்கும் நிலமல்லாத மேன்மையையுடையனாய்",
+          "meaning_snippet": "கம்பீரர்களான நித்யஸூரிகளுக்கும் நிலமல்லாத மேன்மையையுடையனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "பாழிஅம் தோளால் வரை எடுத்தான்"
+      ]
+    },
+    {
+      "pasuram_number": 3714,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழிநீர்",
+          "meaning": "காரணபூதமான ஏகாரிண வத்தலே",
+          "meaning_snippet": "காரணபூதமான ஏகாரிண வத்தலே",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3722,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழியான்",
+          "meaning": "திருவாழியை யுடையனான எம்பெருமான்",
+          "meaning_snippet": "திருவாழியை யுடையனான எம்பெருமான்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3729,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "சக்கரத்தன்",
+          "meaning": "திருவாழிப்படையை யுடையனாய்",
+          "meaning_snippet": "திருவாழிப்படையை யுடையனாய்",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "சக்க",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "சக்க"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "சக்க"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    },
+    {
+      "pasuram_number": 3741,
+      "line_count": 2,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "ஆழி வண்ணன் என் அம்மான",
+          "meaning": "கன்பீரஸ்வபாவனாயிருக்கின்ற எம்பெருமானுடைய",
+          "meaning_snippet": "கன்பீரஸ்வபாவனாயிருக்கின்ற எம்பெருமானுடைய",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "ஆழி",
+          "alias_hits_meaning": [],
+          "alias_hits_padham": [
+            "ஆழி"
+          ],
+          "review_stems_meaning": [],
+          "review_stems_padham": [
+            "ஆழ"
+          ]
+        }
+      ],
+      "sample_weak_padhams": [
+        "வாழி"
+      ]
+    },
+    {
+      "pasuram_number": 3760,
+      "line_count": 1,
+      "strong_line_count": 1,
+      "detector_would_tag": true,
+      "strong_lines": [
+        {
+          "padham": "Aazhiyaan thamar",
+          "meaning": "“திருவாழியை யேந்திய எம்பெருமாளுக்கு அடிமைப்பட்டவர்களே!",
+          "meaning_snippet": "“திருவாழியை யேந்திய எம்பெருமாளுக்கு அடிமைப்பட்டவர்களே!",
+          "strength": "detector_match",
+          "detector_match": true,
+          "detector_reason": "padham_substring",
+          "detector_term": "Aazh",
+          "alias_hits_meaning": [
+            "திருவாழ"
+          ],
+          "alias_hits_padham": [
+            "Aazhi",
+            "aazhi",
+            "aazh"
+          ],
+          "review_stems_meaning": [
+            "திருவாழ"
+          ],
+          "review_stems_padham": [
+            "aazhi",
+            "aazh"
+          ]
+        }
+      ],
+      "sample_weak_padhams": []
+    }
+  ]
+}

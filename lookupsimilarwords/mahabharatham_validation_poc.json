@@ -1,0 +1,849 @@
+{
+  "theme_id": "mahabharatham",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 36,
+  "detector_would_tag": 30,
+  "detector_missed": 6,
+  "missed_pasuram_numbers": [
+    101,
+    102,
+    111,
+    177,
+    335,
+    2089
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 80,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "போர் உய்த்து வந்து",
+        "புகுந்தவர்",
+        "நூற்றுவர்",
+        "அன்று",
+        "பஞ்சவர்க்கு",
+        "தேர் உய்த்த"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "போர் உய்த்து வந்து",
+          "meaning": "யுத்தத்தை நடத்துவதாக (க்கருவத்துடன்) வந்து",
+          "meaning_snippet": "யுத்தத்தை நடத்துவதாக (க்கருவத்துடன்) வந்து",
+          "reason": "padham_substring",
+          "matched_term": "போர் உய்த்த"
+        },
+        {
+          "padham": "புகுந்தவர்",
+          "meaning": "(போர்க்களத்தில்) ப்ரவேசித்தவரும்",
+          "meaning_snippet": "(போர்க்களத்தில்) ப்ரவேசித்தவரும்",
+          "reason": "meaning_keyword",
+          "matched_term": "போர்க்கள"
+        },
+        {
+          "padham": "நூற்றுவர்",
+          "meaning": "நூற்றுக் கணக்காயிருந்த துரியோதநாதிகள்",
+          "meaning_snippet": "நூற்றுக் கணக்காயிருந்த துரியோதநாதிகள்",
+          "reason": "padham_substring",
+          "matched_term": "நூற்றுவர்"
+        },
+        {
+          "padham": "அன்று",
+          "meaning": "(பாரத யுத்தம் நிடந்த) அக் காலத்திலே",
+          "meaning_snippet": "(பாரத யுத்தம் நிடந்த) அக் காலத்திலே",
+          "reason": "meaning_keyword",
+          "matched_term": "பாரத யுத்த"
+        },
+        {
+          "padham": "பஞ்சவர்க்கு",
+          "meaning": "பஞ்ச பாண்டவர்களுக்கு (வெற்றி உண்டாக)",
+          "meaning_snippet": "பஞ்ச பாண்டவர்களுக்கு (வெற்றி உண்டாக)",
+          "reason": "padham_substring",
+          "matched_term": "பஞ்சவர்"
+        },
+        {
+          "padham": "தேர் உய்த்த",
+          "meaning": "(பார்த்தஸாரதியாய் நின்று) தேரை ஓட்டின",
+          "meaning_snippet": "(பார்த்தஸாரதியாய் நின்று) தேரை ஓட்டின",
+          "reason": "padham_substring",
+          "matched_term": "தேர் உய்த்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 99,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பஞ்சவர்",
+        "தூதன் ஆய்",
+        "பாரதம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பஞ்சவர்",
+          "meaning": "பாண்டவர்களுக்காக",
+          "meaning_snippet": "பாண்டவர்களுக்காக",
+          "reason": "padham_substring",
+          "matched_term": "பஞ்சவர்"
+        },
+        {
+          "padham": "தூதன் ஆய்",
+          "meaning": "(துர்யோதநாதிகளிடம்) தூதனாய்ப் போய்",
+          "meaning_snippet": "(துர்யோதநாதிகளிடம்) தூதனாய்ப் போய்",
+          "reason": "padham_substring",
+          "matched_term": "தூதன் ஆய்"
+        },
+        {
+          "padham": "பாரதம்",
+          "meaning": "(அந்த துர்யோதநாதிகள் தன் சொற்படி இசைந்து வராமையால்) பாரத யுத்தத்தை",
+          "meaning_snippet": "(அந்த துர்யோதநாதிகள் தன் சொற்படி இசைந்து வராமையால்) பாரத யுத்தத்தை",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 101,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 102,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 110,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒத்து",
+          "meaning": "(தன் பந்துக்களான பாண்டவர்களோடு) ஒத்து",
+          "meaning_snippet": "(தன் பந்துக்களான பாண்டவர்களோடு) ஒத்து",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 111,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 118,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மன்னர்க்கு",
+        "பாரதம்",
+        "அ தூதன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மன்னர்க்கு",
+          "meaning": "பாண்டவர்கட்கு",
+          "meaning_snippet": "பாண்டவர்கட்கு",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "பாரதம்",
+          "meaning": "பாரத யுத்தத்தை",
+          "meaning_snippet": "பாரத யுத்தத்தை",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        },
+        {
+          "padham": "அ தூதன்",
+          "meaning": "அந்தப் பாண்டவ தூதனான கண்ணன்",
+          "meaning_snippet": "அந்தப் பாண்டவ தூதனான கண்ணன்",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 119,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பார்த்தன்",
+        "திண் தேர் மேல்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பார்த்தன்",
+          "meaning": "அர்ஜுனனுடைய",
+          "meaning_snippet": "அர்ஜுனனுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "அர்ஜுன"
+        },
+        {
+          "padham": "திண் தேர் மேல்",
+          "meaning": "(அந்த அர்ஜுனனுடைய) வலிய தேரின் மேல்",
+          "meaning_snippet": "(அந்த அர்ஜுனனுடைய) வலிய தேரின் மேல்",
+          "reason": "meaning_keyword",
+          "matched_term": "அர்ஜுன"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 175,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஒன்றே",
+        "ஒரு சொல்லே",
+        "துரியோதநன் பக்கல்",
+        "பாரதம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஒன்றே",
+          "meaning": "(பாண்டவர்களுடன் சேர்ந்து வாழோம் என்ற) ஒரே விஷயத்தை",
+          "meaning_snippet": "(பாண்டவர்களுடன் சேர்ந்து வாழோம் என்ற) ஒரே விஷயத்தை",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "ஒரு சொல்லே",
+          "meaning": "(மத்யஸ்தர் எவ்வளவு சொன்னாலும் ஊசி குத்து நிலமும் பாண்டவர்களுக்குக் கொடேன்’ என்ற) ஒரு சொல்லையே",
+          "meaning_snippet": "(மத்யஸ்தர் எவ்வளவு சொன்னாலும் ஊசி குத்து நிலமும் பாண்டவர்களுக்குக் கொடேன்’ என்ற) ஒரு சொல்லையே",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "துரியோதநன் பக்கல்",
+          "meaning": "துரியோதநனிடத்தில்",
+          "meaning_snippet": "துரியோதநனிடத்தில்",
+          "reason": "padham_substring",
+          "matched_term": "துரியோதந"
+        },
+        {
+          "padham": "பாரதம்",
+          "meaning": "பாரத யுத்தத்தை",
+          "meaning_snippet": "பாரத யுத்தத்தை",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 176,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "துரியோதநன் பக்கல்",
+        "ஊர் ஒன்று வேண்டி",
+        "பாரதம் கை செய்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "துரியோதநன் பக்கல்",
+          "meaning": "துரியோதநனிடத்தில் பாண்டவர்களுக்காக",
+          "meaning_snippet": "துரியோதநனிடத்தில் பாண்டவர்களுக்காக",
+          "reason": "padham_substring",
+          "matched_term": "துரியோதந"
+        },
+        {
+          "padham": "ஊர் ஒன்று வேண்டி",
+          "meaning": "(பாண்டவர்களுக்கு) ஒரு ஊராவது கொடு என்று யாசித்துக் கேட்டும்",
+          "meaning_snippet": "(பாண்டவர்களுக்கு) ஒரு ஊராவது கொடு என்று யாசித்துக் கேட்டும்",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "பாரதம் கை செய்து",
+          "meaning": "பாரத யுத்தத்தில் அணி வகுத்து",
+          "meaning_snippet": "பாரத யுத்தத்தில் அணி வகுத்து",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 177,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 248,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பற்றார்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பற்றார்",
+          "meaning": "(உனது உயிர் போன்ற பாண்டவர்களுக்குப்) பகைவரான துரியோதனாதியர்",
+          "meaning_snippet": "(உனது உயிர் போன்ற பாண்டவர்களுக்குப்) பகைவரான துரியோதனாதியர்",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 311,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பஞ்சவர்",
+        "தூதன் ஆய்",
+        "பாரதம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பஞ்சவர்",
+          "meaning": "பஞ்ச பாண்டவர்களுக்காக",
+          "meaning_snippet": "பஞ்ச பாண்டவர்களுக்காக",
+          "reason": "padham_substring",
+          "matched_term": "பஞ்சவர்"
+        },
+        {
+          "padham": "தூதன் ஆய்",
+          "meaning": "(துரியோதநாதிகளிடம்) தூதனாய்ப் போய்",
+          "meaning_snippet": "(துரியோதநாதிகளிடம்) தூதனாய்ப் போய்",
+          "reason": "padham_substring",
+          "matched_term": "தூதன் ஆய்"
+        },
+        {
+          "padham": "பாரதம்",
+          "meaning": "(அத்துரியோதனநாதிகள் தன்சொற்படி இசைந்துவாராமையால்) பாரத யுத்தத்தை",
+          "meaning_snippet": "(அத்துரியோதனநாதிகள் தன்சொற்படி இசைந்துவாராமையால்) பாரத யுத்தத்தை",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 334,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தேர்மிசை",
+        "பாரதம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தேர்மிசை",
+          "meaning": "(அர்ஜுனனுடைய) தேரின் மேலே",
+          "meaning_snippet": "(அர்ஜுனனுடைய) தேரின் மேலே",
+          "reason": "meaning_keyword",
+          "matched_term": "அர்ஜுன"
+        },
+        {
+          "padham": "பாரதம்",
+          "meaning": "பாரத யுத்தத்தை",
+          "meaning_snippet": "பாரத யுத்தத்தை",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 335,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 354,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பாண்டவர் தம்முடைய",
+        "நூற்றுவர் தம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பாண்டவர் தம்முடைய",
+          "meaning": "பஞ்சபாண்டவர்களுடைய (மனைவியாகிய)",
+          "meaning_snippet": "பஞ்சபாண்டவர்களுடைய (மனைவியாகிய)",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "நூற்றுவர் தம்",
+          "meaning": "(துரியோதநாதிகள்) தூற்றுவருடைய",
+          "meaning_snippet": "(துரியோதநாதிகள்) தூற்றுவருடைய",
+          "reason": "padham_substring",
+          "matched_term": "நூற்றுவர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 398,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மைத்துனன் மார்க்கு",
+        "அரசனை அவிய",
+        "அருளும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மைத்துனன் மார்க்கு",
+          "meaning": "மைத்துனன் மார்களான பாண்டவர்களுக்கு",
+          "meaning_snippet": "மைத்துனன் மார்களான பாண்டவர்களுக்கு",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "அரசனை அவிய",
+          "meaning": "துரியோதநாதி ராஜாக்களை அழியச் செய்து",
+          "meaning_snippet": "துரியோதநாதி ராஜாக்களை அழியச் செய்து",
+          "reason": "meaning_keyword",
+          "matched_term": "துரியோதந"
+        },
+        {
+          "padham": "அருளும்",
+          "meaning": "(அப்பாண்டவர்கட்குக்) கொடுத்தருளினவனும்",
+          "meaning_snippet": "(அப்பாண்டவர்கட்குக்) கொடுத்தருளினவனும்",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 417,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மைத்துனன் மாரி",
+        "அவர்களைளேயே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மைத்துனன் மாரி",
+          "meaning": "(தனது) மைத்துனன்மாரான பாண்டவர்களுடைய",
+          "meaning_snippet": "(தனது) மைத்துனன்மாரான பாண்டவர்களுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "அவர்களைளேயே",
+          "meaning": "அப்பாண்டவர்களையே",
+          "meaning_snippet": "அப்பாண்டவர்களையே",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 456,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பாண்டவர்க்காய்",
+        "அங்கு",
+        "இல்லை",
+        "எங்கும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பாண்டவர்க்காய்",
+          "meaning": "பாண்டவர்களுக்காக",
+          "meaning_snippet": "பாண்டவர்களுக்காக",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "அங்கு",
+          "meaning": "துரியோதனாதியரிடத்து",
+          "meaning_snippet": "துரியோதனாதியரிடத்து",
+          "reason": "meaning_keyword",
+          "matched_term": "துரியோதனாதி"
+        },
+        {
+          "padham": "இல்லை",
+          "meaning": "(பின்பு பாரத யுத்தங் கோடித்து அந்த யுத்தத்தில்) கண்டதில்லை",
+          "meaning_snippet": "(பின்பு பாரத யுத்தங் கோடித்து அந்த யுத்தத்தில்) கண்டதில்லை",
+          "reason": "meaning_keyword",
+          "matched_term": "பாரத யுத்த"
+        },
+        {
+          "padham": "எங்கும்",
+          "meaning": "துரியோதனாதியரில் ஒருவர் தப்பாமல்",
+          "meaning_snippet": "துரியோதனாதியரில் ஒருவர் தப்பாமல்",
+          "reason": "meaning_keyword",
+          "matched_term": "துரியோதனாதி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2079,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பாரதத்தை மாள"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பாரதத்தை மாள",
+          "meaning": "பாரதயுத்தம் முடியும்படியாக",
+          "meaning_snippet": "பாரதயுத்தம் முடியும்படியாக",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2089,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2196,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வெம் சமத்து",
+        "தேர்கடவி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வெம் சமத்து",
+          "meaning": "கொடிய (பாரத) யுத்தத்திலே",
+          "meaning_snippet": "கொடிய (பாரத) யுத்தத்திலே",
+          "reason": "padham_substring",
+          "matched_term": "வெம் சமத்து"
+        },
+        {
+          "padham": "தேர்கடவி",
+          "meaning": "(பார்த்தஸாரதியாகித்) தேரை நடத்திக் கொண்டு",
+          "meaning_snippet": "(பார்த்தஸாரதியாகித்) தேரை நடத்திக் கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "தேர்கடவி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2309,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஐவர்க்கு ஆய்",
+        "மிடைந்தது",
+        "வெம் பாரதம் போர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஐவர்க்கு ஆய்",
+          "meaning": "பஞ்சபாண்டவர்களுக்காக",
+          "meaning_snippet": "பஞ்சபாண்டவர்களுக்காக",
+          "reason": "padham_substring",
+          "matched_term": "ஐவர்க்கு"
+        },
+        {
+          "padham": "மிடைந்தது",
+          "meaning": "நெருங்க நடத்தினது",
+          "meaning_snippet": "நெருங்க நடத்தினது",
+          "reason": "meaning_keyword",
+          "matched_term": "நெருங்க நடத்த"
+        },
+        {
+          "padham": "வெம் பாரதம் போர்",
+          "meaning": "கடுமையான பாரதயுத்தமாம்,",
+          "meaning_snippet": "கடுமையான பாரதயுத்தமாம்,",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2910,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பாரதம் போர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பாரதம் போர்",
+          "meaning": "பாரத யுத்தத்தில்",
+          "meaning_snippet": "பாரத யுத்தத்தில்",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3062,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஐவரை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஐவரை",
+          "meaning": "பஞ்சபாண்டவர்களை",
+          "meaning_snippet": "பஞ்சபாண்டவர்களை",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3176,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஐவரை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஐவரை",
+          "meaning": "பஞ்ச பாண்டவர்களை",
+          "meaning_snippet": "பஞ்ச பாண்டவர்களை",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3186,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஓர் ஐவர்க்கு ஆம்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஓர் ஐவர்க்கு ஆம்",
+          "meaning": "பஞ்சபாண்டவர்களுக்குத் துணைவனாயிருந்து கொண்டு",
+          "meaning_snippet": "பஞ்சபாண்டவர்களுக்குத் துணைவனாயிருந்து கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "ஐவர்க்கு"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3216,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பெரிய பாரதம்",
+        "ஐவர்க்கு"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பெரிய பாரதம்",
+          "meaning": "மஹாபாரத யுத்தத்தில்",
+          "meaning_snippet": "மஹாபாரத யுத்தத்தில்",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        },
+        {
+          "padham": "ஐவர்க்கு",
+          "meaning": "பஞ்சபாண்டவர்களுக்கு",
+          "meaning_snippet": "பஞ்சபாண்டவர்களுக்கு",
+          "reason": "padham_substring",
+          "matched_term": "ஐவர்க்கு"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3306,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "குருநாடு உடைய ஜவர்கட்கு ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "குருநாடு உடைய ஜவர்கட்கு ஆய்",
+          "meaning": "குருக்ஷேத்திரத் தலைவர்களான பஞ்சபாண்டவர்களுக்காக",
+          "meaning_snippet": "குருக்ஷேத்திரத் தலைவர்களான பஞ்சபாண்டவர்களுக்காக",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3368,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அன்று",
+        "நூற்றுவரை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அன்று",
+          "meaning": "பாரதயுத்தம் நடந்தவக் காலத்தில்",
+          "meaning_snippet": "பாரதயுத்தம் நடந்தவக் காலத்தில்",
+          "reason": "meaning_keyword",
+          "matched_term": "பாரதயுத்த"
+        },
+        {
+          "padham": "நூற்றுவரை",
+          "meaning": "துரியோதநன் முதலிய நூறுபோர்களை",
+          "meaning_snippet": "துரியோதநன் முதலிய நூறுபோர்களை",
+          "reason": "meaning_keyword",
+          "matched_term": "துரியோதந"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3389,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தாயம் செறும் ஒரு நூற்றுவர் மங்க",
+        "ஓர் ஐவர்க்கு ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தாயம் செறும் ஒரு நூற்றுவர் மங்க",
+          "meaning": "தாயாதி முறையில் சண்டை செய்து கிளர்ந்ததுர்யோதநாதிகள் தொலைய",
+          "meaning_snippet": "தாயாதி முறையில் சண்டை செய்து கிளர்ந்ததுர்யோதநாதிகள் தொலைய",
+          "reason": "padham_substring",
+          "matched_term": "நூற்றுவர்"
+        },
+        {
+          "padham": "ஓர் ஐவர்க்கு ஆய்",
+          "meaning": "விலக்ஷ்ணர்களான பஞ்சபாண்டவர்களுக்காகி",
+          "meaning_snippet": "விலக்ஷ்ணர்களான பஞ்சபாண்டவர்களுக்காகி",
+          "reason": "padham_substring",
+          "matched_term": "ஐவர்க்கு"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3401,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "ஐவர்க்கு ஆய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "ஐவர்க்கு ஆய்",
+          "meaning": "பஞ்ச பாலீண்டவர்களுக்குப் பகூபாதியாயிருந்குஷது",
+          "meaning_snippet": "பஞ்ச பாலீண்டவர்களுக்குப் பகூபாதியாயிருந்குஷது",
+          "reason": "padham_substring",
+          "matched_term": "ஐவர்க்கு"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3450,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அமர் அது பண்ணி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அமர் அது பண்ணி",
+          "meaning": "அப்படிப்பட்ட பாரதயுத்தத்தை நடத்தி,",
+          "meaning_snippet": "அப்படிப்பட்ட பாரதயுத்தத்தை நடத்தி,",
+          "reason": "meaning_keyword",
+          "matched_term": "பாரதயுத்த"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3498,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தக்க ஐவர் தமக்கு ஆய்",
+        "ஈர் ஐம்பதின்மர்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தக்க ஐவர் தமக்கு ஆய்",
+          "meaning": "உன்னுறவுக்குத தகுதியான பஞ்ச பாண்டவர்களுக்காக",
+          "meaning_snippet": "உன்னுறவுக்குத தகுதியான பஞ்ச பாண்டவர்களுக்காக",
+          "reason": "meaning_keyword",
+          "matched_term": "பாண்டவ"
+        },
+        {
+          "padham": "ஈர் ஐம்பதின்மர்",
+          "meaning": "துரியோதனாதிகள் நூற்று வரும்",
+          "meaning_snippet": "துரியோதனாதிகள் நூற்று வரும்",
+          "reason": "meaning_keyword",
+          "matched_term": "துரியோதனாதி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3500,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பாரதம் பொருதமாயா"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பாரதம் பொருதமாயா",
+          "meaning": "பாரதப்போர் புரிகையில் பல ஆச்சரியங்களைக் காட்டினவனே!",
+          "meaning_snippet": "பாரதப்போர் புரிகையில் பல ஆச்சரியங்களைக் காட்டினவனே!",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3725,
+      "theme_id": "mahabharatham",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பாரதத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பாரதத்து",
+          "meaning": "(அவ்வளவோடு நில்லாமல்) பாரதப் போரிலே",
+          "meaning_snippet": "(அவ்வளவோடு நில்லாமல்) பாரதப் போரிலே",
+          "reason": "padham_substring",
+          "matched_term": "பாரத"
+        }
+      ]
+    }
+  ]
+}

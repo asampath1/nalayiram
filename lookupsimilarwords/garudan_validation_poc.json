@@ -1,0 +1,508 @@
+{
+  "theme_id": "garudan",
+  "source": "PasuramsArthamTablePOC",
+  "manually_tagged_pasurams": 29,
+  "detector_would_tag": 26,
+  "detector_missed": 3,
+  "missed_pasuram_numbers": [
+    2980,
+    2997,
+    3359
+  ],
+  "pasurams": [
+    {
+      "pasuram_number": 126,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் ஊர்ந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் ஊர்ந்து",
+          "meaning": "பெரிய திருவடியை வாஹநமாகக் கொண்டு சென்று",
+          "meaning_snippet": "பெரிய திருவடியை வாஹநமாகக் கொண்டு சென்று",
+          "reason": "padham_substring",
+          "matched_term": "புள் ஊர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 416,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் அரையன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் அரையன்",
+          "meaning": "தங்கள் சாதிக்குத் தலைவனான பெரிய திருவடியினுடைய",
+          "meaning_snippet": "தங்கள் சாதிக்குத் தலைவனான பெரிய திருவடியினுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 421,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் ஆனன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் ஆனன்",
+          "meaning": "பெரிய திருவடிக்குத் தலைவனும்,",
+          "meaning_snippet": "பெரிய திருவடிக்குத் தலைவனும்,",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 433,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கருளன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கருளன்",
+          "meaning": "பெரிய திருவடியை",
+          "meaning_snippet": "பெரிய திருவடியை",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 451,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பறவை அரையா"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பறவை அரையா",
+          "meaning": "பறவைகளுக்குத் தலைவனான பெரிய திருவடியே!",
+          "meaning_snippet": "பறவைகளுக்குத் தலைவனான பெரிய திருவடியே!",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 470,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கருடன் பாலும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கருடன் பாலும்",
+          "meaning": "பெரிய திருவடியினிடத்திலும்",
+          "meaning_snippet": "பெரிய திருவடியினிடத்திலும்",
+          "reason": "padham_substring",
+          "matched_term": "கருட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 601,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கருளன்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கருளன்",
+          "meaning": "பெரிய திருவடியை",
+          "meaning_snippet": "பெரிய திருவடியை",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 633,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கருளன் வெற்றி கொடியான் தன் மீது ஆடா உலகத்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கருளன் வெற்றி கொடியான் தன் மீது ஆடா உலகத்து",
+          "meaning": "பெரிய திருவடியை வெற்றிக் கொடியாக வுடைய எம்பெருமானுடைய ஆணையை மீறிச் செல்லக் கடவதல்லாத இவ்வுலகத்தில் (எம்பெருமானுடைய ஆணைக்கு உட்பட்டதான இவ்வுலகத்தில்)",
+          "meaning_snippet": "பெரிய திருவடியை வெற்றிக் கொடியாக வுடைய எம்பெருமானுடைய ஆணையை மீறிச் செல்லக் கடவதல்லாத இவ்வுலகத்தில் (எம்பெருமானுடைய ஆணைக்",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2063,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "அம் சிறைய புள் கொடியே ஆடும்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "அம் சிறைய புள் கொடியே ஆடும்",
+          "meaning": "அழகிய சிறகையுடைய கொடியாகிய பெரிய திருவடியை அநுகரித்து ஆடுகின்றாள்;",
+          "meaning_snippet": "அழகிய சிறகையுடைய கொடியாகிய பெரிய திருவடியை அநுகரித்து ஆடுகின்றாள்;",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2086,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள்",
+          "meaning": "(மற்றொரு மூர்த்தியின் திருநாமமோ வென்னில்) (வேதமூர்த்தியான) கருடப்பறவையாகும்;",
+          "meaning_snippet": "(மற்றொரு மூர்த்தியின் திருநாமமோ வென்னில்) (வேதமூர்த்தியான) கருடப்பறவையாகும்;",
+          "reason": "meaning_keyword",
+          "matched_term": "கருட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2338,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொலிந்த கருடன் மேல் கொண்ட"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொலிந்த கருடன் மேல் கொண்ட",
+          "meaning": "விளங்குகின்ற கருடனால் மேற்றகொள்ளப்பட்டவனான",
+          "meaning_snippet": "விளங்குகின்ற கருடனால் மேற்றகொள்ளப்பட்டவனான",
+          "reason": "padham_substring",
+          "matched_term": "கருட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2752,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "Pul yeri"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "Pul yeri",
+          "meaning": "பெரிய திருவடி மேற் கொண்டு",
+          "meaning_snippet": "பெரிய திருவடி மேற் கொண்டு",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2765,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "பொரு சிறை புள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "பொரு சிறை புள்",
+          "meaning": "செறிந்த சிறகையுடைய பெரிய திருவடியை",
+          "meaning_snippet": "செறிந்த சிறகையுடைய பெரிய திருவடியை",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2905,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் ஊர்ந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் ஊர்ந்து",
+          "meaning": "பெரிய திருவடியை வாஹனமாகக் கொண்டு",
+          "meaning_snippet": "பெரிய திருவடியை வாஹனமாகக் கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "புள் ஊர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2974,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் ஊர் கொடியானே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் ஊர் கொடியானே",
+          "meaning": "கருடப்பறவையை ஊர்தியாகவும், கொடியாகவுமுடையவனே!",
+          "meaning_snippet": "கருடப்பறவையை ஊர்தியாகவும், கொடியாகவுமுடையவனே!",
+          "reason": "padham_substring",
+          "matched_term": "புள் ஊர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2980,
+      "theme_id": "garudan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 2996,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் ஊர்ந்து"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் ஊர்ந்து",
+          "meaning": "பக்ஷிராஜனை வாஹனமாகக்கொண்டு",
+          "meaning_snippet": "பக்ஷிராஜனை வாஹனமாகக்கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "புள் ஊர்"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 2997,
+      "theme_id": "garudan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3015,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கொடிமன்னு புள் உடை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கொடிமன்னு புள் உடை",
+          "meaning": "கருடத்வஜனான",
+          "meaning_snippet": "கருடத்வஜனான",
+          "reason": "meaning_keyword",
+          "matched_term": "கருட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3180,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "கொடிய புள் உடையவன் ஏற கொலோ"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "கொடிய புள் உடையவன் ஏற கொலோ",
+          "meaning": "(இவன் இப்படிச் சொல்லுவது) ஆச்ரித விரோதிகளுக்குக் கொடியவனான பெரிய திருவடியை த்வஜமாகவுடைய எம்பெருமான் வந்து ஆவேசித்ததனாலோ?",
+          "meaning_snippet": "(இவன் இப்படிச் சொல்லுவது) ஆச்ரித விரோதிகளுக்குக் கொடியவனான பெரிய திருவடியை த்வஜமாகவுடைய எம்பெருமான் வந்து ஆவேசித்ததனாலோ?",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3308,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "வெம் கண் புள்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "வெம் கண் புள்",
+          "meaning": "வெவ்விய கண்ணையுடைய பெரிய திருவடியை",
+          "meaning_snippet": "வெவ்விய கண்ணையுடைய பெரிய திருவடியை",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3359,
+      "theme_id": "garudan",
+      "detector_would_tag": false,
+      "manually_tagged": true
+    },
+    {
+      "pasuram_number": 3399,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "மீளி அம் புள்ளை கடாய்"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "மீளி அம் புள்ளை கடாய்",
+          "meaning": "பெருமிடுக்கனாய் அழகியவனான கருடனை நடத்தி",
+          "meaning_snippet": "பெருமிடுக்கனாய் அழகியவனான கருடனை நடத்தி",
+          "reason": "meaning_keyword",
+          "matched_term": "கருட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3572,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "காய் சினம் பறவை ஊர்ந்ததானே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "காய் சினம் பறவை ஊர்ந்ததானே",
+          "meaning": "(விரோதிகள் திறந்து) வெல்லிய கினத்தை யுடைய பெரிய திருவடியை நடத்திக் கொண்டு வந்தவனே!",
+          "meaning_snippet": "(விரோதிகள் திறந்து) வெல்லிய கினத்தை யுடைய பெரிய திருவடியை நடத்திக் கொண்டு வந்தவனே!",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3599,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "நிறை புகழ் அம்சிறை புள்ளின் கொடியானை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "நிறை புகழ் அம்சிறை புள்ளின் கொடியானை",
+          "meaning": "நிறைந்த புகழோடுகூடி அழகிய சிறகையுடைய கருடனைக் கொடியாகவுடையனாய்",
+          "meaning_snippet": "நிறைந்த புகழோடுகூடி அழகிய சிறகையுடைய கருடனைக் கொடியாகவுடையனாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "கருட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3648,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "தூவி அம் புன் உடை"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "தூவி அம் புன் உடை",
+          "meaning": "சிறகுடைய பெரிய திருவடியை வாஹனமாகக் கொண்ட",
+          "meaning_snippet": "சிறகுடைய பெரிய திருவடியை வாஹனமாகக் கொண்ட",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3680,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் ஊரும்",
+        "கொடியம் அஃதே"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் ஊரும்",
+          "meaning": "பெரிய திருவடியை ஊர்தியாகக் கொள்ளுமவனாய்",
+          "meaning_snippet": "பெரிய திருவடியை ஊர்தியாகக் கொள்ளுமவனாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        },
+        {
+          "padham": "கொடியம் அஃதே",
+          "meaning": "அப்பெரிய திருவடியையே கொடியாகவுமுடையனாய்",
+          "meaning_snippet": "அப்பெரிய திருவடியையே கொடியாகவுமுடையனாய்",
+          "reason": "meaning_keyword",
+          "matched_term": "பெரிய திருவடி"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3726,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "சிரித்திடுசெழு பறவை தான் ஏறி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "சிரித்திடுசெழு பறவை தான் ஏறி",
+          "meaning": "அழகிய கருடன் மீதேறித் திரியுமவனான பெருமானுடைய",
+          "meaning_snippet": "அழகிய கருடன் மீதேறித் திரியுமவனான பெருமானுடைய",
+          "reason": "meaning_keyword",
+          "matched_term": "கருட"
+        }
+      ]
+    },
+    {
+      "pasuram_number": 3730,
+      "theme_id": "garudan",
+      "detector_would_tag": true,
+      "manually_tagged": true,
+      "trigger_padhams": [
+        "புள் ஊர்தி"
+      ],
+      "trigger_lines": [
+        {
+          "padham": "புள் ஊர்தி",
+          "meaning": "பெரிய திருவடியை வாகனமாகக் கொண்டு",
+          "meaning_snippet": "பெரிய திருவடியை வாகனமாகக் கொண்டு",
+          "reason": "padham_substring",
+          "matched_term": "புள் ஊர்"
+        }
+      ]
+    }
+  ]
+}
