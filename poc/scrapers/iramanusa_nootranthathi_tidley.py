@@ -2,7 +2,7 @@
 
 Tidley quirk (page 45–77): verse 75 is mislabeled ``–76-`` (starts with
 ``செய்த் தலைச் சங்கம்``). Real verse 76 is missing on tidley and is supplied
-from ``poc/input/iramanusa_76_manual.txt``.
+from ``poc/pasuram.txt``.
 """
 from __future__ import annotations
 
@@ -48,7 +48,7 @@ PRABANDHAM = "இராமாநுச நூற்றந்தாதி"
 PASURAM_NUMBER_BASE = 3776  # local 1 → 3777
 ALZWAR = "திருவரங்கத்து அமுதனார்"
 EXPECTED_PATTUS = 108
-MANUAL_76_PATH = ROOT / "poc" / "input" / "iramanusa_76_manual.txt"
+MANUAL_76_PATH = ROOT / "poc" / "pasuram.txt"
 MISLABELED_75_PREFIX = "செய்த் தலைச் சங்கம்"
 
 VERSE_TAIL_RE = re.compile(r"[.–—\-–]+\s*\d+\s*[-—–.]*\s*$")

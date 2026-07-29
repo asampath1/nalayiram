@@ -1082,7 +1082,7 @@ def classify_entries(entries: list[LinkEntry]) -> dict[str, list[LinkEntry]]:
             add("madal")
         elif entry.start >= 2675 and entry.end is not None and entry.end <= 3776:
             add("thiruvaimozhi")
-        elif entry.start >= 948 and entry.end is not None and entry.end <= 1247:
+        elif entry.start >= 948 and entry.end is not None and entry.end <= 1347:
             add("periya_thirumozhi")
         elif entry.start == 872 or (entry.start >= 872 and entry.end is not None and entry.end <= 916):
             add("thirumalai")
@@ -1355,6 +1355,34 @@ def build_html(source_html: str, body: str) -> str:
             gap: 20px;
         }
 
+        .prabandham-nav-list {
+            columns: 3;
+            column-gap: 1.5rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .prabandham-nav-list li {
+            break-inside: avoid;
+            margin-bottom: 0.35rem;
+        }
+
+        .prabandham-nav-list a {
+            color: #0066CC;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .prabandham-nav-list a:hover,
+        .prabandham-nav-list a:focus {
+            text-decoration: underline;
+        }
+
+        [id^="prab-"] {
+            scroll-margin-top: 0.75rem;
+        }
+
         .release-pending {
             color: #888888;
         }
@@ -1490,6 +1518,10 @@ def build_html(source_html: str, body: str) -> str:
             .nithya-columns {
                 grid-template-columns: 1fr;
             }
+
+            .prabandham-nav-list {
+                columns: 2;
+            }
         }
 
         /* Phone / narrow: stack prabandham boxes full-width (avoid 3-col squeeze) */
@@ -1510,6 +1542,10 @@ def build_html(source_html: str, body: str) -> str:
                 grid-template-columns: minmax(0, 1fr);
                 gap: 12px;
                 padding: 12px;
+            }
+
+            .prabandham-nav-list {
+                columns: 1;
             }
 
             header img {

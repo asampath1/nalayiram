@@ -190,6 +190,34 @@
             gap: 20px;
         }
 
+        .prabandham-nav-list {
+            columns: 3;
+            column-gap: 1.5rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .prabandham-nav-list li {
+            break-inside: avoid;
+            margin-bottom: 0.35rem;
+        }
+
+        .prabandham-nav-list a {
+            color: #0066CC;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .prabandham-nav-list a:hover,
+        .prabandham-nav-list a:focus {
+            text-decoration: underline;
+        }
+
+        [id^="prab-"] {
+            scroll-margin-top: 0.75rem;
+        }
+
         .release-pending {
             color: #888888;
         }
@@ -325,6 +353,10 @@
             .nithya-columns {
                 grid-template-columns: 1fr;
             }
+
+            .prabandham-nav-list {
+                columns: 2;
+            }
         }
 
         /* Phone / narrow: stack prabandham boxes full-width (avoid 3-col squeeze) */
@@ -345,6 +377,10 @@
                 grid-template-columns: minmax(0, 1fr);
                 gap: 12px;
                 padding: 12px;
+            }
+
+            .prabandham-nav-list {
+                columns: 1;
             }
 
             header img {
@@ -436,7 +472,38 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div class="group-box prabandham-nav">
+            <h2 class="group-title">திவ்யப் பிரபந்தங்கள்</h2>
+            <ul class="prabandham-nav-list">
+                <li><a href="#prab-thirupallandu">திருப்பல்லாண்டு (1-12)</a></li>
+                <li><a href="#prab-periyazhwar">பெரியாழ்வார் திருமொழி (13-473)</a></li>
+                <li><a href="#prab-thiruppavai">திருப்பாவை (474-503)</a></li>
+                <li><a href="#prab-nachiyar">ஸ்ரீ நாச்சியார் திருமொழி (504-646)</a></li>
+                <li><a href="#prab-perumal_thirumozhi">பெருமாள் திருமொழி (647-751)</a></li>
+                <li><a href="#prab-thiruchanda">ஸ்ரீ திருச்சந்த விருத்தம் (752-871)</a></li>
+                <li><a href="#prab-thirumalai">திருமாலை (872-916)</a></li>
+                <li><a href="#prab-thiruppalliyezhuchi">திருப்பள்ளியெழுச்சி (917-926)</a></li>
+                <li><a href="#prab-amalanadipiran">அமலனாதிபிரான் (927-936)</a></li>
+                <li><a href="#prab-kanninunsiruthambu">கண்ணிநுண்சிறுத்தாம்பு (937-947)</a></li>
+                <li><a href="#prab-periya_thirumozhi">பெரிய திருமொழி (948-1347)</a></li>
+                <li><a href="#prab-thirukkurunthandagam">திருக்குறுந்தாண்டகம் (2032-2051)</a></li>
+                <li><a href="#prab-nedum_thandagam">திரு நெடும் தாண்டகம் (2052-2081)</a></li>
+                <li><a href="#prab-mudal_thiruvandhathi">முதல் திருவந்தாதி (2082-2181)</a></li>
+                <li><a href="#prab-irandam_thiruvandhathi">இரண்டாம் திருவந்தாதி (2182-2281)</a></li>
+                <li><a href="#prab-moonram_thiruvandhathi">மூன்றாம் திருவந்தாதி (2282-2381)</a></li>
+                <li><a href="#prab-nanmugan_thiruvandhathi">நான்முகன் திருவந்தாதி (2382-2477)</a></li>
+                <li><a href="#prab-thiruviruttam">திருவிருத்தம் (2478-2577)</a></li>
+                <li><a href="#prab-thiruvachiriyam">திருவாசிரியம் (2578-2584)</a></li>
+                <li><a href="#prab-periya_thiruvandhathi">பெரிய திருவந்தாதி (2585-2671)</a></li>
+                <li><a href="#prab-thiruvozhukootrirukkai">திருவெழுகூற்றிருக்கை (2672)</a></li>
+                <li><a href="#prab-siriya_thirumadal">சிறிய திருமடல் (2673)</a></li>
+                <li><a href="#prab-periya_thirumadal">பெரிய திருமடல் (2674)</a></li>
+                <li><a href="#prab-thiruvaimozhi">திருவாய்மொழி (2675-3776)</a></li>
+                <li><a href="#prab-iramanusa_nootranthathi">இராமாநுச நூற்றந்தாதி (3777-3884)</a></li>
+                <li><a href="#prab-upadesa_rathnamalai">உபதேச ரத்னமாலை (3885-3957)</a></li>
+            </ul>
+        </div>
+        <div id="prab-thirupallandu" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருப்பல்லாண்டு">திருப்பல்லாண்டு(1-12)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -457,7 +524,7 @@
                 </div>
             </div>
         </div>
-        <div class="patthu-pasuram-section">
+        <div id="prab-periyazhwar" class="patthu-pasuram-section">
             <h3 class="patthu-section-title">பெரியாழ்வார் திருமொழி - முதல் பத்து (13-117)</h3>
             <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
@@ -1354,7 +1421,7 @@
             </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-thiruppavai" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருப்பாவை">திருப்பாவை(474-503)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -1397,7 +1464,7 @@
                 </div>
             </div>
         </div>
-        <div class="nachiyar-patthu-row row-break">
+        <div id="prab-nachiyar" class="nachiyar-patthu-row row-break">
             <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=தையொரு+திங்களும்">ஸ்ரீ நாச்சியார் திருமொழி - தையொரு திங்களும் (504-513)</a></h3>
@@ -1686,7 +1753,7 @@
             </div>
             </div>
         </div>
-        <div class="nachiyar-patthu-row row-break">
+        <div id="prab-perumal_thirumozhi" class="nachiyar-patthu-row row-break">
             <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=இருள்+இரிய">பெருமாள் திருமொழி - இருள் இரிய (647-657)</a></h3>
@@ -1897,7 +1964,7 @@
             </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-thiruchanda" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=ஸ்ரீ+திருச்சந்த+விருத்தம்">ஸ்ரீ திருச்சந்த விருத்தம்(752-871)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -2030,7 +2097,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-thirumalai" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருமாலை">திருமாலை(872-916)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -2088,7 +2155,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div id="prab-thiruppalliyezhuchi" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருப்பள்ளியெழுச்சி">திருப்பள்ளியெழுச்சி(917-926)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -2107,7 +2174,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div id="prab-amalanadipiran" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=அமலனாதிபிரான்">அமலனாதிபிரான்(927-936)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -2126,7 +2193,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div id="prab-kanninunsiruthambu" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=கண்ணிநுண்சிறுத்தாம்பு">கண்ணிநுண்சிறுத்தாம்பு(937-947)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -2146,7 +2213,7 @@
                 </div>
             </div>
         </div>
-        <div class="patthu-pasuram-section">
+        <div id="prab-periya_thirumozhi" class="patthu-pasuram-section">
             <h3 class="patthu-section-title">பெரிய திருமொழி - முதல் பத்து (948-1047)</h3>
             <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
@@ -2749,7 +2816,208 @@
             </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham row-break">
+        <div class="patthu-pasuram-section">
+            <h3 class="patthu-section-title">பெரிய திருமொழி - நான்காம் பத்து (1248-1347)</h3>
+            <div class="nachiyar-patthu-grid cols-3">
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=போதலர்ந்த">4-1 போதலர்ந்த (1248-1257)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1248">1248 போதலர்ந்த <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1249">1249 யாவருமா <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1250">1250 வானாடும் <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1251">1251 இந்திரனு <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1252">1252 அண்டமுமிவ் <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1253">1253 ஞாலமெல்லா <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1254">1254 ஓடாத <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1255">1255 வாராரு <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1256">1256 கும்பமிகு <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1257">1257 காரார்ந்த <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=கம்பாமா">4-2 கம்பாமா (1258-1267)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1258">1258 கம்ப <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1259">1259 பல்ல <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1260">1260 அண்ட <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1261">1261 பருங்கை <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1262">1262 சாடு <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1263">1263 அங்கை <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1264">1264 உளைய <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1265">1265 வாளை <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1266">1266 இந்து <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1267">1267 மண்ணு <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=பேரணிந்து">4-3 பேரணிந்து (1268-1277)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1268">1268 பேரணிந் <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1269">1269 பிறப்பொடு <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1270">1270 திடவிசும் <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1271">1271 வசையறு <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1272">1272 தீமனத்தரக்கர <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1273">1273 மல்லைமா <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1274">1274 வெஞ்சினக்களி <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1275">1275 அன்றிய <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1276">1276 களங்கனி <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1277">1277 தேனமர் <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="nachiyar-patthu-grid cols-3">
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=மாற்றரசர்">4-4 மாற்றரசர் (1278-1287)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1278">1278 மாற்றரசர் <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1279">1279 பொற்றொடித்தோ <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1280">1280 படலடைந்த <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1281">1281 வாராரும் <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1282">1282 கலையிலங்கு <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1283">1283 தான்போலு <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1284">1284 பொங்கிலங்கு <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1285">1285 சிலம்பினிடைச <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1286">1286 ஏழுலகும் <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1287">1287 சீரணிந்த <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=தூம்புடைப">4-5 தூம்புடைப (1288-1297)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1288">1288 தூம்புடைப்பன <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1289">1289 கவ்வைவா <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1290">1290 மாத்தொழில் <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1291">1291 தாங்கருஞ் <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1292">1292 கருமக <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1293">1293 கெண்டையும் <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1294">1294 குன்றமும் <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1295">1295 சங்கையும் <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1296">1296 பாவமும் <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1297">1297 திங்கள்தோய் <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=தாவளந்து">4-6 தாவளந்து (1298-1307)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1298">1298 தாவளந் <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1299">1299 மண்ணிடந் <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1300">1300 உருத்தெழு <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1301">1301 முனைமகத்தரக் <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1302">1302 படவர <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1303">1303 மல்லரை <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1304">1304 மூத்தவற்கரசு <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1305">1305 ஏவிளங் <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1306">1306 சந்தமாய் <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1307">1307 மாவளம் <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="nachiyar-patthu-grid cols-3">
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=கண்ணார்+கடல்">4-7 கண்ணார் கடல் (1308-1317)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1308">1308 கண்ணார் <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1309">1309 கொந்தார் <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1310">1310 குன்றால் <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1311">1311 கானார் <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1312">1312 வேடார் <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1313">1313 கல்லால் <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1314">1314 கோலால் <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1315">1315 வாரா <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1316">1316 பூவார் <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1317">1317 நல்லன் <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=கவளயானை">4-8 கவளயானை (1318-1327)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1318">1318 வெருவாதாள் <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1319">1319 கலையாளா <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1320">1320 மானாய <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1321">1321 தாய்வாயில் <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1322">1322 பூண்முலைமேல் <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1323">1323 தாதாடு <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1324">1324 வாராளு <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1325">1325 உறவாது <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1326">1326 சேலுகளும் <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1327">1327 பந்தோடு <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-pending" href="https://nalayiram.in/pocindex.php?padhamPrefix=நும்மைத்+தொழுதோம்">4-9 நும்மைத் தொழுதோம் (1328-1337)</a> <span class="pending-tag">(விரைவில்)</span></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1328">1328 நும்மைத்தொழு <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1329">1329 சிந்தை <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-pending" href="https://nalayiram.in/pocindex.php?padhamPrefix=1330">1330 … <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-pending" href="https://nalayiram.in/pocindex.php?padhamPrefix=1331">1331 … <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-pending" href="https://nalayiram.in/pocindex.php?padhamPrefix=1332">1332 … <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1333">1333 சொல்லா <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1334">1334 மாட்டீ <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1335">1335 முன்னிவண்ணம் <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1336">1336 எந்தை <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1337">1337 ஏரார் <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="nachiyar-patthu-grid cols-3">
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=ஆய்ச்சியர்">4-10 ஆய்ச்சியர் (1338-1347)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1338">1338 ஆய்ச்சியரழைப <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1339">1339 ஆநிரை <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1340">1340 கடுவிடமுடைய <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1341">1341 கறவைமுன் <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1342">1342 பாரினை <span class="k-seq">5</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1343">1343 காற்றிடைப்பூ <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1344">1344 ஓள்ளிய <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1345">1345 முடியுடை <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1346">1346 குடிகுடி <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=1347">1347 பண்டுமுன் <span class="k-seq">10</span></a></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div id="prab-thirukkurunthandagam" class="static-list kannadi-prabandham row-break">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருக்குறுந்தாண்டகம்">திருக்குறுந்தாண்டகம்(2032-2051)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -2782,7 +3050,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-nedum_thandagam" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திரு+நெடும்+தாண்டகம்">திரு நெடும் தாண்டகம்(2052-2081)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -2825,7 +3093,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-mudal_thiruvandhathi" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=முதல்+திருவந்தாதி">முதல் திருவந்தாதி(2082-2181)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -2938,7 +3206,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-irandam_thiruvandhathi" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=இரண்டாம்+திருவந்தாதி">இரண்டாம் திருவந்தாதி(2182-2281)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -3051,7 +3319,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-moonram_thiruvandhathi" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=மூன்றாம்+திருவந்தாதி">மூன்றாம் திருவந்தாதி(2282-2381)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -3164,7 +3432,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-nanmugan_thiruvandhathi" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=நான்முகன்+திருவந்தாதி">நான்முகன் திருவந்தாதி(2382-2477)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -3273,7 +3541,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-thiruviruttam" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருவிருத்தம்">திருவிருத்தம்(2478-2577)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -3386,7 +3654,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div id="prab-thiruvachiriyam" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருவாசிரியம்">திருவாசிரியம்(2578-2584)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -3402,7 +3670,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-periya_thiruvandhathi" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=பெரிய+திருவந்தாதி">பெரிய திருவந்தாதி(2585-2671)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -3502,7 +3770,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div id="prab-thiruvozhukootrirukkai" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=திருவெழுகூற்றிருக்கை">திருவெழுகூற்றிருக்கை(2672)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -3513,7 +3781,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div id="prab-siriya_thirumadal" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=சிறிய+திருமடல்">சிறிய திருமடல்(2673)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -3524,7 +3792,7 @@
                 </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham">
+        <div id="prab-periya_thirumadal" class="static-list kannadi-prabandham">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=பெரிய+திருமடல்">பெரிய திருமடல்(2674)</a></h3>
             <div class="kannadi-index cols-2">
                 <div class="kannadi-col">
@@ -3535,7 +3803,7 @@
                 </div>
             </div>
         </div>
-        <div class="patthu-pasuram-section">
+        <div id="prab-thiruvaimozhi" class="patthu-pasuram-section">
             <h3 class="patthu-section-title">திருவாய்மொழி - முதல் பத்து (2675-2784)</h3>
             <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
@@ -3938,8 +4206,28 @@
             </div>
         </div>
         <div class="patthu-pasuram-section">
-            <h3 class="patthu-section-title">திருவாய்மொழி - மூன்றாம் பத்து (2908-3006)</h3>
+            <h3 class="patthu-section-title">திருவாய்மொழி - மூன்றாம் பத்து (2897-3006)</h3>
             <div class="nachiyar-patthu-grid cols-3">
+            <div class="static-list kannadi-prabandham nachiyar-patthu-box">
+                <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=முடிச்+சோதியாய்">3-1 முடிச் சோதியாய் (2897-2907)</a></h3>
+            <div class="kannadi-index cols-2">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2897">2897 முடிச்சோதி <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2898">2898 கட்டுரைக்கில <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2899">2899 பரஞ்சோதி <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2900">2900 மாட்டாதே <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2901">2901 வருந்தாதே <span class="k-seq">5</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2902">2902 ஓதுவார் <span class="k-seq">6</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2903">2903 வாழ்த்துவார் <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2904">2904 மாசூணாச்சுடர <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2905">2905 மழுங்காத <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2906">2906 மறையாய <span class="k-seq">10</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=2907">2907 வியப்பாய <span class="k-seq">11</span></a></div>
+                </div>
+            </div>
+            </div>
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=முந்நீர்+ஞாலம்">3-2 முந்நீர் ஞாலம் (2908-2918)</a></h3>
             <div class="kannadi-index cols-2">
@@ -3980,6 +4268,8 @@
                 </div>
             </div>
             </div>
+            </div>
+            <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=புகழுநல்லொரு">3-4 புகழுநல்லொரு (2930-2940)</a></h3>
             <div class="kannadi-index cols-2">
@@ -4000,8 +4290,6 @@
                 </div>
             </div>
             </div>
-            </div>
-            <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=மொய்ம்மாம்+பூம்">3-5 மொய்ம்மாம் பூம் (2941-2951)</a></h3>
             <div class="kannadi-index cols-2">
@@ -4042,6 +4330,8 @@
                 </div>
             </div>
             </div>
+            </div>
+            <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=பயிலும்+சுடரொளி">3-7 பயிலும் சுடரொளி (2963-2973)</a></h3>
             <div class="kannadi-index cols-2">
@@ -4062,8 +4352,6 @@
                 </div>
             </div>
             </div>
-            </div>
-            <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=முடியானே">3-8 முடியானே (2974-2984)</a></h3>
             <div class="kannadi-index cols-2">
@@ -4104,6 +4392,8 @@
                 </div>
             </div>
             </div>
+            </div>
+            <div class="nachiyar-patthu-grid cols-3">
             <div class="static-list kannadi-prabandham nachiyar-patthu-box">
                 <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=சன்மம்+பலபல">3-10 சன்மம் பலபல (2996-3006)</a></h3>
             <div class="kannadi-index cols-2">
@@ -5603,7 +5893,7 @@
             </div>
             </div>
         </div>
-        <div class="static-list kannadi-prabandham kannadi-full-width">
+        <div id="prab-iramanusa_nootranthathi" class="static-list kannadi-prabandham kannadi-full-width">
             <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=இராமாநுச+நூற்றந்தாதி">இராமாநுச நூற்றந்தாதி(3777-3884)</a></h3>
             <div class="kannadi-index cols-4">
                 <div class="kannadi-col">
@@ -5721,6 +6011,92 @@
                     <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3882">3882 இருப்பிடம் <span class="k-seq">106</span></a></div>
                     <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3883">3883 இன்புற்ற <span class="k-seq">107</span></a></div>
                     <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3884">3884 அங்கயல் <span class="k-seq">108</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="prab-upadesa_rathnamalai" class="static-list kannadi-prabandham kannadi-full-width">
+            <h3><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=உபதேச+ரத்னமாலை">உபதேச ரத்னமாலை(3885-3957)</a></h3>
+            <div class="kannadi-index cols-4">
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3885">3885 எந்தை <span class="k-seq">1</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3886">3886 கற்றார்கள் <span class="k-seq">2</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3887">3887 ஆழ்வார்கள் <span class="k-seq">3</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3888">3888 பொய்கையார் <span class="k-seq">4</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3889">3889 அந்தமிழால் <span class="k-seq">5</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3890">3890 ஐப்பசியில் <span class="k-seq">6</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3891">3891 மற்றுள்ள <span class="k-seq">7</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3892">3892 பேதை <span class="k-seq">8</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3893">3893 மாறன் <span class="k-seq">9</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3894">3894 கார்த்திகையி <span class="k-seq">10</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3895">3895 மன்னிய <span class="k-seq">11</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3896">3896 தையில் <span class="k-seq">12</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3897">3897 மாசிப்புனர்ப <span class="k-seq">13</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3898">3898 ஏரார் <span class="k-seq">14</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3899">3899 உண்டோ <span class="k-seq">15</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3900">3900 இன்றைப்பெரும <span class="k-seq">16</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3901">3901 மா <span class="k-seq">17</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3902">3902 மங்களா <span class="k-seq">18</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3903">3903 கோதிலவாம் <span class="k-seq">19</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3904">3904 உண்டோ <span class="k-seq">20</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3905">3905 ஆழ்வார் <span class="k-seq">21</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3906">3906 இன்றோ <span class="k-seq">22</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3907">3907 பெரியாழ்வார் <span class="k-seq">23</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3908">3908 அஞ்சு <span class="k-seq">24</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3909">3909 ஏரார் <span class="k-seq">25</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3910">3910 வாய்த்த <span class="k-seq">26</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3911">3911 இன்று <span class="k-seq">27</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3912">3912 ஆழ்வார்கள் <span class="k-seq">28</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3913">3913 எந்தை <span class="k-seq">29</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3914">3914 எண்ணரும் <span class="k-seq">30</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3915">3915 தொண்டர் <span class="k-seq">31</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3916">3916 மன்னு <span class="k-seq">32</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3917">3917 சீராரும் <span class="k-seq">33</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3918">3918 ஆழ்வார்கள் <span class="k-seq">34</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3919">3919 ஆழ்வார்களையு <span class="k-seq">35</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3920">3920 தெருளுற்ற <span class="k-seq">36</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3921">3921 ஓராண் <span class="k-seq">37</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3922">3922 எம்பெருமானார <span class="k-seq">38</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3923">3923 பிள்ளான் <span class="k-seq">39</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3924">3924 முந்துறவே <span class="k-seq">40</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3925">3925 தெள்ளாரும் <span class="k-seq">41</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3926">3926 தஞ்சீரை <span class="k-seq">42</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3927">3927 நம்பிள்ளை <span class="k-seq">43</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3928">3928 தெள்ளியா <span class="k-seq">44</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3929">3929 அன்போடு <span class="k-seq">45</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3930">3930 பெரியவாச்சான <span class="k-seq">46</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3931">3931 நஞ்சீயர் <span class="k-seq">47</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3932">3932 சீரார் <span class="k-seq">48</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3933">3933 ஆங்கு <span class="k-seq">49</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3934">3934 நம் <span class="k-seq">50</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3935">3935 துன்னு <span class="k-seq">51</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3936">3936 பின்னை <span class="k-seq">52</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3937">3937 அன்ன <span class="k-seq">53</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3938">3938 முன்னம் <span class="k-seq">54</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3939">3939 ஆர் <span class="k-seq">55</span></a></div>
+                </div>
+                <div class="kannadi-col">
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3940">3940 உய்ய <span class="k-seq">56</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3941">3941 தேசிகர் <span class="k-seq">57</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3942">3942 சச்சம்பிரதாய <span class="k-seq">58</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3943">3943 சீர் <span class="k-seq">59</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3944">3944 தன் <span class="k-seq">60</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3945">3945 ஞானம் <span class="k-seq">61</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3946">3946 உய்ய <span class="k-seq">62</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3947">3947 ஆசார்யன் <span class="k-seq">63</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3948">3948 தன்னாரியனுக் <span class="k-seq">64</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3949">3949 ஆசாரியன் <span class="k-seq">65</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3950">3950 பின்பழகராம் <span class="k-seq">66</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3951">3951 ஆச்சார்யர்கள <span class="k-seq">67</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3952">3952 நாத்திகரும் <span class="k-seq">68</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3953">3953 நல்ல <span class="k-seq">69</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3954">3954 தீய <span class="k-seq">70</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3955">3955 முன்னோர் <span class="k-seq">71</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3956">3956 பூர்வாச்சார் <span class="k-seq">72</span></a></div>
+                    <div class="kannadi-line"><a class="release-loaded" href="https://nalayiram.in/pocindex.php?padhamPrefix=3957">3957 இந்த <span class="k-seq">73</span></a></div>
                 </div>
             </div>
         </div>

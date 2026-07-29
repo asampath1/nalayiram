@@ -23,5 +23,6 @@
   {"sort_order": 22, "alwar_order": 12, "alwar": null, "alwar_subtotal": null, "prabandham": "திருவெழுகூற்றிருக்கை", "padham_prefix": "திருவெழுகூற்றிருக்கை", "total_count": 1},
   {"sort_order": 23, "alwar_order": 12, "alwar": null, "alwar_subtotal": null, "prabandham": "பெரிய திருமடல்", "padham_prefix": "பெரிய திருமடல்", "total_count": 1},
   {"sort_order": 24, "alwar_order": 12, "alwar": null, "alwar_subtotal": null, "prabandham": "பெரிய திருமொழி", "padham_prefix": "பெரிய திருமொழி", "total_count": 300},
-  {"sort_order": 25, "alwar_order": 13, "alwar": "திருவரங்கத்து அமுதனார்", "alwar_subtotal": 108, "prabandham": "இராமாநுச நூற்றந்தாதி", "padham_prefix": "இராமாநுச நூற்றந்தாதி", "total_count": 108}
+  {"sort_order": 25, "alwar_order": 13, "alwar": "திருவரங்கத்து அமுதனார்", "alwar_subtotal": 108, "prabandham": "இராமாநுச நூற்றந்தாதி", "padham_prefix": "இராமாநுச நூற்றந்தாதி", "total_count": 108},
+  {"sort_order": 26, "alwar_order": 14, "alwar": "ஸ்ரீ மணவாள மாமுனிகள்", "alwar_subtotal": 74, "prabandham": "உபதேச ரத்னமாலை", "padham_prefix": "உபதேச ரத்னமாலை", "total_count": 74}
 ]

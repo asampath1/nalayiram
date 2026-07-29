@@ -5,21 +5,41 @@ Use in Agent mode. The skill auto-loads on ingest/scrape/load requests, or type 
 
 ## Prompt templates
 
-### Start a new ingest
+### Start a new ingest (tidley)
 
 > Ingest <prabandham name> from tidley.
 > URLs: <url1>, <url2>, …
 > Range <START>–<END>, PattuNumber 1–<N>, Alzwar <name>, Title empty, no Divyadesam.
 > Thaniyan already in DB — do not touch.
 
+### Start a new ingest (manual text, no padham)
+
+> Ingest <prabandham name> from poc/pasuram.txt.
+> Range <START>–<END>, PattuNumber 1–<N>, Alzwar <name>.
+> No padhavurai — Title + Pasuram + Simple Explanation in Meaning column.
+> Thaniyan in file → load as PasuramNumber=0, PattuNumber=<N>.
+> POC only; no themes; no Divyadesam.
+
+### Replace Pasuram text from pasuram.txt (readability)
+
+> Replace Pasuram verse text for பெரிய திருமொழி patthu <N> from poc/pasuram.txt. Keep padhavurai and titles unchanged.
+
+### Start a new ingest (Dravidaveda பெரிய திருமொழி patthu)
+
+> Ingest பெரிய திருமொழி <ordinal> பத்து from Dravidaveda.
+> Range <START>–<END>, pathigams <P>-1 to <P>-10, Alzwar திருமங்கையாழ்வார்.
+> Titles from poc/pasuram.txt; apply all themes; pathigam headings in SimilarWords.
+> Flag missing Dravidaveda pages; then replace Pasuram text from pasuram.txt.
+> POC only.
+
 ### Report a source quirk
 
 > Verse <n> is mislabeled on tidley (starts with "<first words>"). Verse <m> is missing;
-> I have put its text and padham/meaning lines in poc/input/<prabandham>_<verse>_manual.txt.
+> I have put its text and padham/meaning lines in poc/pasuram.txt.
 
 ### Apply after dry-run looks good
 
-> Dry-run counts look right. Apply to POC with themes and verify.
+> Dry-run counts look right. Apply to POC and verify.
 
 ### Counts + release notes (POC)
 
@@ -28,6 +48,10 @@ Use in Agent mode. The skill auto-loads on ingest/scrape/load requests, or type 
 ### UAT/Prod release notes before manual DB load
 
 > Update UAT and Prod release notes as well. I will do the manual DB update.
+
+### Promote POC UI to UAT
+
+> Upgrade POC UI changes to Test (UAT) — copy pocindex.php to test1.php with UAT table/URLs.
 
 ### Verify
 
@@ -38,15 +62,40 @@ Use in Agent mode. The skill auto-loads on ingest/scrape/load requests, or type 
 
 | You say | Agent behavior (from the skill) |
 |---------|-------------------------------|
-| "Ingest [prabandham] from tidley, range X–Y" | Asks you to confirm range/Alzwar/Title/source if missing, copies the `iramanusa_nootranthathi_tidley.py` template, dry-runs with `--no-themes`, shows you counts before any `--apply` |
-| "Verse 75 is mislabeled on tidley, 76 is missing" | Handles it as a known tidley quirk — remaps/injects from a manual text file, reports the anomaly instead of guessing |
-| "Apply it to POC" | Runs `--apply` (delete range + reinsert), then verifies distinct pasuram count, Alzwar, thaniyan rows untouched, duplicate-check SQL |
-| "Update the counts and release notes" | Edits `divyaprabandham_counts_seed.json` + reseeds, adds `V1_SPECS` entry, rebuilds `newreleasenotespoc.html` |
-| "Update UAT and prod release notes too, I'll do the DB manually" | Builds `--env test` / `--env prod` with `--config poc/config.ini` so openings render from POC data; links resolve after the manual DB load |
+| "Ingest [prabandham] from tidley, range X–Y" | Confirms specs, uses `iramanusa_nootranthathi_tidley.py` template, dry-run, apply POC |
+| "Ingest from poc/pasuram.txt" | Uses `upadesa_rathnamalai_manual.py` template; one row per pattu; `--no-themes` unless asked |
+| "Verse 75 mislabeled on tidley, 76 is missing" | Remaps/injects from `poc/pasuram.txt`; reports anomaly |
+| "Apply it to POC" | `--apply`, verify counts, thaniyans untouched, duplicate SQL |
+| "Update the counts and release notes" | `divyaprabandham_counts_seed.json` + reseed + `V1_SPECS` + rebuild POC release notes |
+| "Update UAT and prod release notes too, I'll do the DB manually" | `--env test`/`prod` with `--config poc/config.ini` for Kannadi from POC data |
+| "Upgrade POC UI to UAT" | `cp pocindex.php test1.php` + sed swaps for table, URLs, `env=test` |
+| "Replace Pasuram from pasuram.txt" | `replace_periya_thirumozhi_patthu<N>_pasuram_from_txt.py --apply` |
+| "Ingest பெரிய திருமொழி patthu from Dravidaveda" | `ingest_periya_thirumozhi_patthu<N>.py` + titles + optional pasuram replace |
 
-## Worked example (இராமாநுச நூற்றந்தாதி, July 2026)
+## Worked examples
 
-- Range 3777–3884, PattuNumber 1–108, Alzwar திருவரங்கத்து அமுதனார், Title empty, no Divyadesam.
-- Source: 5 tidley URLs (1–7, 8–21, 22–44, 45–77, 78–108).
-- Quirks: verse 75 mislabeled `–76-` on tidley; real 76 missing, supplied via `poc/input/iramanusa_76_manual.txt`; verse 7 unnumbered; verse 59 orphan பதவுரை table.
-- Result: 108 pasurams, 1264 padham rows in POC; counts row 25 (அமுதனார், 108); Kannadi section in all three release-notes files.
+### இராமாநுச நூற்றந்தாதி (tidley)
+
+- Range 3777–3884, PattuNumber 1–108, Alzwar திருவரங்கத்து அமுதனார், Title empty.
+- Source: 5 tidley URLs; quirks: verse 75 mislabeled, 76 from `poc/pasuram.txt`.
+- Result: 108 pasurams, 1264 padham rows; counts row 25; Kannadi in all three release-notes files.
+
+### உபதேச ரத்னமாலை (manual text)
+
+- Range 3885–3957; pattu 1–72 sequential; **73 and 74 both → 3957**.
+- Alzwar ஸ்ரீ மணவாள மாமுனிகள் (pattu 74 → ஸ்ரீ எறும்பி அப்பா); thaniyan pattu 50.
+- Source: `poc/pasuram.txt` (Title / Pasuram / Simple Explanation); no padham, no themes.
+- Scripts: `upadesa_rathnamalai_manual.py`, `ingest_upadesa_rathnamalai.py`.
+- Result: 75 DB rows (74 verses + thaniyan); counts sort 26 (74); POC release notes only.
+
+### POC UI → UAT
+
+- Copied `pocindex.php` → `test1.php` with `PasuramsArthamTableTest`, `test1.php` links, `env=test`, `newreleasenotestest.html`.
+- Mobile layout, thaniyan display, PadhaArtham Show/Hide, `prabandhamPrefix` search, **Clear** / **Top** links — parity with POC.
+
+### பெரிய திருமொழி நான்காம் பத்து (Dravidaveda + pasuram.txt)
+
+- Range 1248–1347, pathigams 4-1…4-10, Alzwar திருமங்கையாழ்வார், themes on.
+- Dravidaveda padhavurai; **97/100** loaded (1330–1332 404 on Dravidaveda).
+- Titles: `apply_periya_thirumozhi_patthu4_titles.py`; Pasuram spacing: `replace_periya_thirumozhi_patthu4_pasuram_from_txt.py`.
+- Release notes: `periya_thirumozhi` V1_SPECS to 1347; jump-nav **திவ்யப் பிரபந்தங்கள்** box (POC/UAT/Prod).

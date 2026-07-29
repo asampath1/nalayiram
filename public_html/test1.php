@@ -45,23 +45,72 @@
             background-color: tomato;
             color: white;
             text-align: center;
-            padding: 1em;
+            padding: 1em 1em 1.15em;
         }
 
-        h5 {
-            margin: 0;
-            padding: 0;
-        }
-        
         header img {
-            width: 200px; /* Adjust the width as needed */
+            width: 160px;
             height: auto;
+            margin-bottom: 0.4em;
         }
-        
+
+        header .site-title {
+            margin: 0.2em 0 0.45em;
+            padding: 0;
+            font-size: 1.35rem;
+            font-weight: 700;
+            line-height: 1.35;
+            color: white;
+        }
+
+        header .site-source {
+            margin: 0 auto 0.55em;
+            max-width: 52rem;
+            font-size: 0.95rem;
+            font-weight: 400;
+            line-height: 1.45;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        header .search-tips {
+            margin: 0 auto;
+            max-width: 40rem;
+            font-size: 0.85rem;
+            font-weight: 400;
+            line-height: 1.4;
+            color: rgba(255, 255, 255, 0.92);
+        }
+
+        header .search-tips a {
+            color: white;
+            font-weight: 600;
+        }
+
+        .site-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.35rem 0.75rem;
+            margin: 0.75rem 0 0.25rem;
+            padding: 0;
+            list-style: none;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .site-nav a {
+            white-space: nowrap;
+        }
+
+        .site-nav .nav-sep {
+            color: #888;
+            user-select: none;
+        }
+
         .container {
             width: 100%;
             box-sizing: border-box;
-            padding: 20px; /* Adjust padding for container */
+            padding: 12px 20px 20px;
         }
 
         table {
@@ -133,41 +182,272 @@
         #result-table {
                   /*  display: none; ---Hide the table initially */
                 }
-        /* CSS for mobile devices */
-        @media only screen and (max-width: 600px) {
-            .pasuram-column {
-                white-space: pre-wrap; /* Maintain line breaks */
-            }
+
+        #search-top {
+            scroll-margin-top: 0.5rem;
         }
- 
+
+        .utility-link {
+            color: tomato;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 0.35rem 0.5rem;
+            white-space: nowrap;
+        }
+
+        .utility-link:hover,
+        .utility-link:focus {
+            text-decoration: underline;
+        }
+
+        .results-toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 0.5rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .results-toolbar .results-heading {
+            margin: 0;
+            flex: 1 1 auto;
+        }
+
+        .results-heading {
+            font-size: 1.25rem;
+            margin: 1rem 0 0.5rem;
+            word-break: break-word;
+        }
+
+        .results-top-footer {
+            display: flex;
+            justify-content: flex-end;
+            margin: 0.75rem 0 0.25rem;
+        }
+
+        .results-wrap {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .pasuram-column {
+            white-space: pre-line;
+            word-break: break-word;
+            line-height: 1.45;
+        }
+
+        .padhaartham-details {
+            margin: 0;
+        }
+
+        .padhaartham-details > summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: #b33;
+            list-style: none;
+        }
+
+        .padhaartham-details > summary::-webkit-details-marker {
+            display: none;
+        }
+
         .ui-autocomplete {
             max-height: 200px;
-            overflow-y: auto;   /* prevent horizontal scrollbar */
-            overflow-x: hidden; /* add padding to account for vertical scrollbar */
-            z-index: 1000; /* ensure autocomplete is above other elements */
+            overflow-y: auto;
+            overflow-x: hidden;
+            z-index: 1000;
             background-color: lightblue;
-            width: 300px; /* Set the width to match the text box */
-            box-sizing: border-box; /* Ensure padding and border are included in the width */
+            max-width: min(300px, 92vw);
+            box-sizing: border-box;
         }
-        }
+
         .ui-menu-item {
             font-size: 14px;
             line-height: 1.6;
         }
-  
+
         .form-container {
             display: flex;
-            justify-content: space-around; /* Distribute space evenly */
-            align-items: center; /* Center the forms vertically */
+            justify-content: stretch;
+            align-items: stretch;
+            width: 100%;
         }
+
         .form-inline {
-            display: flex; /* Align text input and button next to each other */
+            display: flex;
+            flex-wrap: wrap;
             align-items: center;
-            margin-right: 10px; /* Optional: Adjust spacing between forms */
+            gap: 0.65rem 1rem;
+            width: 100%;
         }
+
         .form-inline input[type="text"] {
-            margin-right: 5px; /* Optional: Adjust spacing between text input and button */
-            width: 300px; /* Increase the text box length */
+            flex: 1 1 220px;
+            min-width: 0;
+            max-width: 100%;
+            width: auto;
+            margin: 0;
+        }
+
+        .form-inline .form-joiner {
+            flex: 0 0 auto;
+            margin: 0;
+            padding: 0 0.25rem;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .thaniyan-acharyar {
+            font-weight: 700;
+            margin: 0 0 0.75rem;
+            white-space: pre-line;
+            line-height: 1.4;
+        }
+
+        .form-inline input[type="submit"] {
+            flex: 0 0 auto;
+            margin: 0;
+        }
+
+        /* Phones / narrow viewports: stack search + card results */
+        @media only screen and (max-width: 700px) {
+            header img {
+                width: 120px;
+            }
+
+            header .site-title {
+                font-size: 1.1rem;
+            }
+
+            header .site-source {
+                font-size: 0.85rem;
+            }
+
+            .site-nav {
+                gap: 0.25rem 0.5rem;
+                font-size: 0.88rem;
+            }
+
+            .site-nav .nav-sep {
+                display: none;
+            }
+
+            .container {
+                padding: 10px 12px 16px;
+            }
+
+            .form-inline {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .form-inline input[type="text"] {
+                flex: 1 1 auto;
+                width: 100%;
+            }
+
+            .form-inline .form-joiner {
+                display: none;
+            }
+
+            .form-inline input[type="submit"] {
+                width: 100%;
+            }
+
+            .results-wrap {
+                overflow-x: visible;
+            }
+
+            #result-table {
+                border: 0;
+                width: 100%;
+            }
+
+            #result-table thead {
+                display: none;
+            }
+
+            #result-table,
+            #result-table tbody,
+            #result-table tr,
+            #result-table td {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                border: 0;
+            }
+
+            #result-table tr.result-row {
+                margin: 0 0 0.85rem;
+                padding: 0.75rem 0.85rem;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                background: #fff !important;
+            }
+
+            #result-table td {
+                padding: 0.35rem 0;
+            }
+
+            #result-table td::before {
+                content: attr(data-label);
+                display: block;
+                font-size: 0.72rem;
+                font-weight: 700;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #888;
+                margin-bottom: 0.15rem;
+            }
+
+            #result-table td.col-number {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: baseline;
+                gap: 0.35rem;
+                padding-bottom: 0.5rem;
+                border-bottom: 1px solid #eee;
+                margin-bottom: 0.35rem;
+            }
+
+            #result-table td.col-number::before {
+                display: inline;
+                margin: 0;
+            }
+
+            #result-table td.col-padhaartham::before {
+                display: none;
+            }
+
+            .pasuram-column {
+                font-size: 1.05rem;
+                line-height: 1.5;
+            }
+
+            .padhaartham-details {
+                margin-top: 0.25rem;
+                padding-top: 0.35rem;
+                border-top: 1px solid #eee;
+            }
+
+            .padhaartham-body {
+                margin-top: 0.45rem;
+                max-height: 14rem;
+                overflow-y: auto;
+                font-size: 0.95rem;
+                line-height: 1.45;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+
+        /* Desktop / wide: meanings always visible (no tap needed) */
+        @media only screen and (min-width: 701px) {
+            .padhaartham-details > summary {
+                display: none;
+            }
         }
     </style>
     <!-- jQuery library -->
@@ -294,41 +574,29 @@
 </head>
 <body>
      <header>
-        <img src="ThirumannKapu.jpeg" alt="Header Image">
-        <h3>ஆழ்வார்கள் அருளிச்செய்த நாலாயிர திவ்யப் பிரபந்தம் - பதவுரை தேடல்</h3>
-        <h4 style="color: white;">ஸ்ரீ காஞ்சி பிரதிவாதி பயங்கரம் அண்ணங்கராசாரியார் ஸ்வாமிகள் எழுதிய திவ்யார்த்த தீபிகை , மற்றும் சில தொகுப்பில் ஸ்ரீ பெரியவாச்சான் பிள்ளை, ஸ்ரீ நம்பிள்ளை அவர்களின் அவதாரிகை உள்ளடங்கியது.</h4>
-        <h5 style="color: white;">Search Tips: Enter Pasuram,padham/word in tamil or english, pasuram number.</h5>
-        <h5 style="color: white;">eg. திருமாலை,மணிவண்ணா,thiruppavai,pallandu,பறை,vamanan,சென்னியோங்கு, 2-8-2, 940 etc. </h5>
-        <h5 style="color: white;">See நாலாயிர திவ்யப்ரபந்தப் பாசுரங்களின் அடைவு for more details</h5>
+        <img src="ThirumannKapu.jpeg" alt="திருமண் காப்பு">
+        <h1 class="site-title">ஆழ்வார்கள் அருளிச்செய்த நாலாயிர திவ்யப் பிரபந்தம் - பதவுரை தேடல்</h1>
+        <p class="site-source">திவ்யார்த்த தீபிகை (ஸ்ரீ காஞ்சி பிரதிவாதி பயங்கரம் அண்ணங்கராசாரியார்) · சில தொகுப்புகளில் பெரியவாச்சான் பிள்ளை, நம்பிள்ளை அவதாரிகை</p>
+        <p class="search-tips">உதாரணம்: திருப்பாவை, vamanan, 940, 2-8-2 · <a href="newreleasenotestest.html">அடைவு</a></p>
     </header>
             <div class="container">
-                    <h4>
+                    <div id="search-top" tabindex="-1">
+                    <nav class="site-nav" aria-label="முதன்மை வழிசெலுத்தல்">
                         <a href="https://nalayiram.in/test1.php?padhamPrefix=Thaniyan" class="customSubmit">தனியன்கள்</a>
-                        <a>   </a>
-                        <a> |  </a>
-                        <a>   </a>
+                        <span class="nav-sep">|</span>
                         <a href="https://nalayiram.in/test1.php?padhamPrefix=நித்யாநுஸந்தானம்" class="customSubmit">நித்யாநுஸந்தானம்</a>
-                        <a>   </a>
-                        <a> |  </a>
-                        <a>   </a>
+                        <span class="nav-sep">|</span>
                         <a href="https://nalayiram.in/test1.php?padhamPrefix=சாற்றுமுறை" class="customSubmit">சாற்றுமுறை</a>
-                        <a>   </a>
-                        <a> |  </a>
-                        <a>   </a>
+                        <span class="nav-sep">|</span>
                         <a href="divyaprabandham_counts.php?env=test" class="customSubmit">திவ்யப்ரபந்தம்-எண்ணிக்கை</a>
-                        <a>   </a>
-                        <a> |  </a>
-                        <a>   </a>
+                        <span class="nav-sep">|</span>
                         <a href="newreleasenotestest.html" class="customSubmit">நாலாயிர திவ்யப்ரபந்தப் பாசுரங்களின் அடைவு</a>
-                        <a>   </a>
-                        <a> |  </a>
-                        <a>   </a>
+                        <span class="nav-sep">|</span>
                         <a href="divyadesam_alwar_matrix.php?env=test" class="customSubmit">திவ்யதேசம் -ஆழ்வார் -பாசுர எண்ணிக்கை அட்டவணை</a>
-
-                    </h4>
+                    </nav>
   
 <?php
-// Prefill form fields from GET/POST (matrix / counts links use GET).
+// Prefill form fields from GET/POST (matrix links use GET).
 function normalize_search_term(string $term): string
 {
     return preg_replace('/\+/', ' ', trim($term));
@@ -353,13 +621,15 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 ?>
                     <div class="form-container">
                         <form class="form-inline" id="searchForm" action="" method="post">
-                            <input type="text" id="padhamSearch" name="padhamPrefix" value="<?php echo $formPadham; ?>" placeholder="Enter padham/word in Tamil or English, pasuram number..ex மணிவண்ணா, Pallandu , 2-8-2, 940 etc">
-                             <label style="margin: 0 10px;"> and/or </label>
-                            <input type="text" id="alzwarSearch" name="alwarPrefix" value="<?php echo $formAlwar; ?>" placeholder="Enter alzwar in Tamil or English">
-                             <label style="margin: 0 10px;"> and/or </label>
-                            <input type="text" id="divyadesamSearch" name="divyadesamPrefix" value="<?php echo $formDivyadesam; ?>" placeholder="Enter divyadesam in Tamil or English">
+                            <input type="text" id="padhamSearch" name="padhamPrefix" value="<?php echo $formPadham; ?>" placeholder="Padham / word / number — மணிவண்ணா, 2-8-2, 940">
+                             <span class="form-joiner">and/or</span>
+                            <input type="text" id="alzwarSearch" name="alwarPrefix" value="<?php echo $formAlwar; ?>" placeholder="Alwar — Tamil or English">
+                             <span class="form-joiner">and/or</span>
+                            <input type="text" id="divyadesamSearch" name="divyadesamPrefix" value="<?php echo $formDivyadesam; ?>" placeholder="Divyadesam — Tamil or English">
                             <input type="submit" value="Search">
+                            <a href="test1.php" class="utility-link" id="clearSearch" aria-label="Clear all search fields">Clear</a>
                         </form>
+                    </div>
                     </div>
 
 <?php
@@ -378,7 +648,7 @@ $result_search = null;
  * Build Alzwar LIKE condition.
  * Autocomplete uses "English-Tamil"; matrix links pass plain Alzwar from DB.
  */
-function test_alwar_condition($alwarPrefix) {
+function poc_alwar_condition($alwarPrefix) {
     if ($alwarPrefix === '') {
         return null;
     }
@@ -394,7 +664,7 @@ function test_alwar_condition($alwarPrefix) {
     return "Alzwar LIKE '%$alwarPrefix%'";
 }
 
-function test_run_joined_search($conn, $conditions) {
+function poc_run_joined_search($conn, $conditions) {
     if (count($conditions) === 0) {
         return [null, null];
     }
@@ -412,7 +682,7 @@ function test_run_joined_search($conn, $conditions) {
  * Build WHERE conditions for padham / prabandham / alwar / divyadesam search.
  * prabandhamPrefix (counts page links) filters Prabandham column, not Pasuram text.
  */
-function test_build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPrefix, $divyadesamPrefix) {
+function build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPrefix, $divyadesamPrefix) {
     $conditions = [];
     $isPrabandham = ($prabandhamPrefix !== '');
 
@@ -422,11 +692,11 @@ function test_build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPr
         if (is_numeric($padhamPrefix)) {
             $conditions[] = "PasuramsArthamTableTest.PasuramNumber = '$padhamPrefix'";
         } else {
-            $conditions[] = "(SimilarWords LIKE '%$padhamPrefix%' OR Pasuram LIKE '%$padhamPrefix%')";
+            $conditions[] = "(SimilarWords LIKE '%$padhamPrefix%' OR Pasuram LIKE '%$padhamPrefix%' OR Prabandham LIKE '%$padhamPrefix%')";
         }
     }
 
-    $alwarCond = test_alwar_condition($alwarPrefix);
+    $alwarCond = poc_alwar_condition($alwarPrefix);
     if ($alwarCond !== null) {
         if ($isPrabandham) {
             // Thaniyans (PasuramNumber 0) are authored by Achariyars, so their Alzwar
@@ -461,8 +731,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && (
                 ORDER BY NithyaanusandhamIndex, PasuramNumber";
         $result_search = $conn->query($sql_search);
     } else {
-        $conditions = test_build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPrefix, $divyadesamPrefix);
-        list($sql_search, $result_search) = test_run_joined_search($conn, $conditions);
+        $conditions = build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPrefix, $divyadesamPrefix);
+        list($sql_search, $result_search) = poc_run_joined_search($conn, $conditions);
     }
 }
 
@@ -471,10 +741,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $alwarPrefix = isset($_POST["alwarPrefix"]) ? mysqli_real_escape_string($conn, normalize_search_term($_POST["alwarPrefix"])) : '';
     $divyadesamPrefix = isset($_POST["divyadesamPrefix"]) ? mysqli_real_escape_string($conn, normalize_search_term($_POST["divyadesamPrefix"])) : '';
 
-    $conditions = test_build_search_conditions($padhamPrefix, '', $alwarPrefix, $divyadesamPrefix);
+    $conditions = build_search_conditions($padhamPrefix, '', $alwarPrefix, $divyadesamPrefix);
 
     if (count($conditions) > 0) {
-        list($sql_search, $result_search) = test_run_joined_search($conn, $conditions);
+        list($sql_search, $result_search) = poc_run_joined_search($conn, $conditions);
     } else {
         echo "Please enter search criteria.";
     }
@@ -503,14 +773,6 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
     // Join the search terms with a separator
     $searchTermsString = implode(", ", $searchTerms);
     
-    echo "<table id='result-table'; style='width:100%'>
-            <tr>
-                <th style='width:5%'>Pasuram Number</th>
-                <th style='width:30%'>Prabandham</th>
-                <th style='width:30%'>Pasuram</th>
-                <th style='width:35%'>PadhaArtham</th>
-            </tr>";
-
     $grouped_results = array();
 
     while ($row_search = $result_search->fetch_assoc()) {
@@ -522,6 +784,7 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
         $pattuNumber = $row_search["PattuNumber"];
         $Title = $row_search["Title"];
         $url = $row_search["url"];
+        $alzwar = isset($row_search["Alzwar"]) ? $row_search["Alzwar"] : '';
         $SimilarWords = '';
         
         if (!empty($searchTerms)) {
@@ -540,10 +803,13 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
         // Color code Word in Red and Meaning in Blue
         $word = "<span style='color: red;'>$word</span>";
         $meaning = "<span style='color: blue;'>$meaning</span>";
-        
-        // Combine Word and Meaning
-        $word_meaning_pair = "$word - $meaning";
 
+        // Avoid a leading " - " when Word is empty (e.g. உபதேச ரத்னமாலை).
+        if (trim(strip_tags($word)) === '') {
+            $word_meaning_pair = $meaning;
+        } else {
+            $word_meaning_pair = "$word - $meaning";
+        }
 
         // Check if this Pasuram has been seen before
         $key = "$prabandham-$pasuramnumber-$pasuram-$pattuNumber";
@@ -555,6 +821,7 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
                 'PattuNumber' => $pattuNumber,
                 'Title' => $Title,
                 'url' => $url,
+                'Alzwar' => $alzwar,
                 'WordMeaningPairs' => array(),
             );
         }
@@ -567,7 +834,21 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
     $resultCount = count($grouped_results);
 
     // Display the search results header with the count
-    echo "<h2>Search Results for: {$searchTermsString} ({$resultCount} results)</h2>";
+    echo "<div class='results-toolbar'>";
+    echo "<h2 class='results-heading'>Search Results for: {$searchTermsString} ({$resultCount} results)</h2>";
+    echo "<a href='#search-top' class='utility-link back-to-top' aria-label='Back to search'>Top</a>";
+    echo "</div>";
+    echo "<div class='results-wrap'>";
+    echo "<table id='result-table'>
+            <thead>
+            <tr>
+                <th style='width:5%'>Pasuram Number</th>
+                <th style='width:30%'>Prabandham</th>
+                <th style='width:30%'>Pasuram</th>
+                <th style='width:35%'>PadhaArtham</th>
+            </tr>
+            </thead>
+            <tbody>";
 
     // Display the grouped results
     $rowNumber = 0; // Initialize row number
@@ -579,29 +860,61 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
         $backgroundColor = ($rowNumber % 2 == 0) ? '#f2f2f2' : '#ffffff';
     
         echo "<tr class='result-row' data-rowid='$rowNumber' style='background-color: $backgroundColor;'>";
-        
-       // echo "<td>{$grouped_result['PasuramNumber']}</td>";
-       // Add hyperlink for PasuramNumber
-        $pasuramNumberLink = "<a href='test1.php?padhamPrefix={$grouped_result['PasuramNumber']}'>{$grouped_result['PasuramNumber']}</a>";
-        echo "<td>{$pasuramNumberLink}</td>";
-        
-        // Add hyperlink for Prabandham
-        $prabandhamLink = "<a href='test1.php?padhamPrefix=" . urlencode($grouped_result['Prabandham']) . "'>{$grouped_result['Prabandham']}</a>";
-        echo "<td><span style='color: blue;'>{$prabandhamLink}</span><span style='color: rgb(51, 0, 255);'> || </span><span style='color: green;'>{$grouped_result['Title']} </span> <span style ='color: red;'>{$grouped_result['PattuNumber']}</span></td>";
 
+        $isThaniyan = ((string)$grouped_result['PasuramNumber'] === '0');
+        if ($isThaniyan) {
+            $pattuDisplay = htmlspecialchars((string)$grouped_result['PattuNumber'], ENT_QUOTES, 'UTF-8');
+            // Mobile: avoid "தனியன் தனியன் 2" — use short # label; keep தனியன் in the value.
+            $numberLabel = '#';
+            $numberDisplay = "<a href='test1.php?padhamPrefix=Thaniyan'>தனியன் {$pattuDisplay}</a>";
+            $metaLabel = 'தனியன்';
+            $pasuramLabel = 'Pasuram';
+        } else {
+            $numberLabel = 'Pasuram #';
+            $numberDisplay = "<a href='test1.php?padhamPrefix={$grouped_result['PasuramNumber']}'>{$grouped_result['PasuramNumber']}</a>";
+            $metaLabel = 'Prabandham';
+            $pasuramLabel = 'Pasuram';
+        }
+        echo "<td class='col-number' data-label='{$numberLabel}'>{$numberDisplay}</td>";
 
-    //    echo "<td><span style='color: blue;'>{$grouped_result['Prabandham']}</span><span style='color: rgb(51, 0, 255);'> || </span><span style='color: green;'>{$grouped_result['Title']} </span> <span style ='color: red;'>{$grouped_result['PattuNumber']}</span></p></td>";
-      
-        $pasuram = nl2br($grouped_result['Pasuram']);
-        echo "<td><div class='pasuram-column'>$pasuram</div></td>";
+        $prabandhamTrimmed = trim($grouped_result['Prabandham']);
+        $prabandhamLink = "<a href='test1.php?prabandhamPrefix=" . urlencode($prabandhamTrimmed) . "'>" . htmlspecialchars($prabandhamTrimmed, ENT_QUOTES, 'UTF-8') . "</a>";
+        // Keep Prabandham link text; for thaniyans the card/column label is தனியன்.
+        // PattuNumber is shown in column 1 for thaniyans, so skip the trailing red copy.
+        $metaExtra = $isThaniyan
+            ? "<span style='color: green;'>{$grouped_result['Title']} </span>"
+            : "<span style='color: green;'>{$grouped_result['Title']} </span> <span style ='color: red;'>{$grouped_result['PattuNumber']}</span>";
+        echo "<td class='col-meta' data-label='{$metaLabel}'><span style='color: blue;'>{$prabandhamLink}</span><span style='color: rgb(51, 0, 255);'> || </span>{$metaExtra}</td>";
 
-        // Combine Word-Meaning pairs into a single column
+        // Keep verse line breaks via CSS (pre-line). Avoid nl2br + pre-wrap,
+        // which doubles every newline into a blank gap on mobile.
+        $pasuram = preg_replace("/\r\n|\r/", "\n", $grouped_result['Pasuram']);
+        $pasuram = preg_replace("/\n{2,}/", "\n", $pasuram);
+        echo "<td class='col-pasuram' data-label='{$pasuramLabel}'>";
+        if ($isThaniyan) {
+            $acharyar = trim((string)($grouped_result['Alzwar'] ?? ''));
+            if ($acharyar !== '') {
+                $acharyar = preg_replace("/\r\n|\r/", "\n", $acharyar);
+                $acharyar = preg_replace("/\n{2,}/", "\n", $acharyar);
+                echo "<div class='thaniyan-acharyar'>" . htmlspecialchars($acharyar, ENT_QUOTES, 'UTF-8') . "</div>";
+            }
+        }
+        echo "<div class='pasuram-column'>$pasuram</div></td>";
+
         $wordMeaningPairsColumn = implode("<br>", $grouped_result['WordMeaningPairs']);
-        // Replace newline characters with HTML line break tags
         $wordMeaningPairsColumn = nl2br($wordMeaningPairsColumn);
-        echo "<td style='background-color: $backgroundColor;'>$wordMeaningPairsColumn</td>";
+        echo "<td class='col-padhaartham' data-label='PadhaArtham' style='background-color: $backgroundColor;'>";
+        echo "<details class='padhaartham-details' open>";
+        echo "<summary>பதவுரை Show / Hide</summary>";
+        echo "<div class='padhaartham-body'>$wordMeaningPairsColumn</div>";
+        echo "</details>";
+        echo "</td>";
         echo "</tr>";
     }
+
+    echo "</tbody></table>";
+    echo "<div class='results-top-footer'><a href='#search-top' class='utility-link back-to-top' aria-label='Back to search'>Top</a></div>";
+    echo "</div>";
 }
 ?>
 
@@ -689,6 +1002,16 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
                 var newUrl = url.origin + url.pathname + (searchParams.toString() ? '?' + searchParams.toString() : '');
                 window.history.replaceState(null, '', newUrl);
             }
+
+            // Mobile: collapse padhaartham by default; desktop: keep open
+            function syncPadhaarthamOpen() {
+                var isMobile = window.matchMedia('(max-width: 700px)').matches;
+                document.querySelectorAll('.padhaartham-details').forEach(function(el) {
+                    el.open = !isMobile;
+                });
+            }
+            syncPadhaarthamOpen();
+            window.matchMedia('(max-width: 700px)').addEventListener('change', syncPadhaarthamOpen);
         });
 
    </script>

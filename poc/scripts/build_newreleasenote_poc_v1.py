@@ -12,7 +12,9 @@ first pathigam of that patthu.
 from __future__ import annotations
 
 import argparse
+import html
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -76,7 +78,7 @@ V1_SPECS: list[tuple] = [
     ("thiruppalliyezhuchi", "திருப்பள்ளியெழுச்சி", "kannadi_index", None, 917, 926, "திருப்பள்ளியெழுச்சி", {"layout": "even2"}),
     ("amalanadipiran", "அமலனாதிபிரான்", "kannadi_index", None, 927, 936, "அமலனாதிபிரான்", {"layout": "even2"}),
     ("kanninunsiruthambu", "கண்ணிநுண்சிறுத்தாம்பு", "kannadi_index", None, 937, 947, "கண்ணிநுண்சிறுத்தாம்பு", {"layout": "even2"}),
-    ("periya_thirumozhi", "பெரிய திருமொழி", "patthu_pasuram", None, 948, 1247, None, {}),
+    ("periya_thirumozhi", "பெரிய திருமொழி", "patthu_pasuram", None, 948, 1347, None, {}),
     ("thirukkurunthandagam", "திருக்குறுந்தாண்டகம்", "kannadi_index", None, 2032, 2051, "திருக்குறுந்தாண்டகம்", {"row_break": True, "layout": "even4"}),
     ("nedum_thandagam", "திரு நெடும் தாண்டகம்", "kannadi_index", None, 2052, 2081, "திரு+நெடும்+தாண்டகம்", {"layout": "even4"}),
     ("mudal_thiruvandhathi", "முதல் திருவந்தாதி", "kannadi_index", None, 2082, 2181, "முதல்+திருவந்தாதி", {"full_width": True}),
@@ -98,6 +100,16 @@ V1_SPECS: list[tuple] = [
         3777,
         3884,
         "இராமாநுச நூற்றந்தாதி",
+        {"full_width": True},
+    ),
+    (
+        "upadesa_rathnamalai",
+        "உபதேச ரத்னமாலை",
+        "kannadi_index",
+        None,
+        3885,
+        3957,
+        "உபதேச ரத்னமாலை",
         {"full_width": True},
     ),
 ]
@@ -134,6 +146,35 @@ def resolve_entry(
     )
 
 
+def add_section_anchor(section_html: str, anchor_id: str) -> str:
+    """Attach an in-page anchor to the first top-level element."""
+    return re.sub(
+        r'^(\s*<(?:div|section))',
+        rf'\1 id="{html.escape(anchor_id, quote=True)}"',
+        section_html,
+        count=1,
+    )
+
+
+def render_prabandham_jump_nav(
+    nav_items: list[tuple[str, str, int, int]],
+) -> str:
+    links: list[str] = []
+    for key, title, start, end in nav_items:
+        range_label = f"({start}-{end})" if start != end else f"({start})"
+        links.append(
+            "                <li>"
+            f'<a href="#prab-{html.escape(key, quote=True)}">'
+            f"{html.escape(title)} {range_label}</a></li>"
+        )
+    return f"""        <div class="group-box prabandham-nav">
+            <h2 class="group-title">திவ்யப் பிரபந்தங்கள்</h2>
+            <ul class="prabandham-nav-list">
+{chr(10).join(links)}
+            </ul>
+        </div>"""
+
+
 def build_body_v1(
     groups: dict[str, list[LinkEntry]],
     by_prefix: dict[str, list[LinkEntry]],
@@ -144,13 +185,15 @@ def build_body_v1(
     perumal_patthu_indexes: dict[int, list],
     config_path: Path,
 ) -> str:
-    parts = [nithya_html]
+    nav_items: list[tuple[str, str, int, int]] = []
+    parts: list[str] = [nithya_html]
 
     for key, title, mode, _layout, start, end, padham_prefix, opts in V1_SPECS:
         row_break = bool(opts.get("row_break"))
         entry = resolve_entry(by_prefix, groups, key, padham_prefix, start, end, title)
         items = groups.get(key) or ([entry] if entry else [])
 
+        section_html: str | None = None
         if mode == "kannadi_index":
             rows = kannadi_indexes.get(key, [])
             if not rows:
@@ -159,17 +202,15 @@ def build_body_v1(
             range_label = f"({start}-{end})" if start != end else f"({start})"
             col_layout = opts.get("layout") or column_layout_for_rows(rows, group_key=key)
             full_width = bool(opts.get("full_width")) or len(rows) >= 30
-            parts.append(
-                render_kannadi_index(
-                    title,
-                    href,
-                    range_label,
-                    rows,
-                    pasurams,
-                    layout=col_layout,
-                    full_width=full_width,
-                    row_break=row_break,
-                )
+            section_html = render_kannadi_index(
+                title,
+                href,
+                range_label,
+                rows,
+                pasurams,
+                layout=col_layout,
+                full_width=full_width,
+                row_break=row_break,
             )
         elif mode == "nachiyar_patthu":
             if not items:
@@ -180,28 +221,31 @@ def build_body_v1(
             row_groups = (
                 PERUMAL_PATTU_ROW_GROUPS if key == "perumal_thirumozhi" else None
             )
-            parts.append(
-                render_nachiyar_patthu_boxes(
-                    title,
-                    items,
-                    pasurams,
-                    patthu_indexes,
-                    row_break=row_break,
-                    patthu_row_groups=row_groups,
-                )
+            section_html = render_nachiyar_patthu_boxes(
+                title,
+                items,
+                pasurams,
+                patthu_indexes,
+                row_break=row_break,
+                patthu_row_groups=row_groups,
             )
         elif mode == "patthu_pasuram":
             if not items:
                 continue
-            parts.append(
-                render_patthu_pasuram_boxes(
-                    title,
-                    items,
-                    pasurams,
-                    config_path,
-                    row_break=row_break,
-                )
+            section_html = render_patthu_pasuram_boxes(
+                title,
+                items,
+                pasurams,
+                config_path,
+                row_break=row_break,
             )
+
+        if section_html:
+            nav_items.append((key, title, start, end))
+            parts.append(add_section_anchor(section_html, f"prab-{key}"))
+
+    if nav_items:
+        parts.insert(1, render_prabandham_jump_nav(nav_items))
 
     return "\n".join(parts)
 

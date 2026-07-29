@@ -762,10 +762,13 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
         // Color code Word in Red and Meaning in Blue
         $word = "<span style='color: red;'>$word</span>";
         $meaning = "<span style='color: blue;'>$meaning</span>";
-        
-        // Combine Word and Meaning
-        $word_meaning_pair = "$word - $meaning";
 
+        // Avoid a leading " - " when Word is empty (e.g. உபதேச ரத்னமாலை).
+        if (trim(strip_tags($word)) === '') {
+            $word_meaning_pair = $meaning;
+        } else {
+            $word_meaning_pair = "$word - $meaning";
+        }
 
         // Check if this Pasuram has been seen before
         $key = "$prabandham-$pasuramnumber-$pasuram-$pattuNumber";
