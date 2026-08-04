@@ -262,6 +262,7 @@ def build_heading_aliases(titles: Dict[int, Dict[str, str]]) -> Dict[int, List[s
         if eng_compact and eng_compact[0].islower():
             eng_compact = eng_compact[0].upper() + eng_compact[1:]
         aliases = [
+            f"{code} {tamil}",
             f"{code}–{tamil}",
             f"{code}-{eng_compact}",
             tamil,

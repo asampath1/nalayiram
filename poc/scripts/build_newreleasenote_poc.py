@@ -200,12 +200,25 @@ def prefix_keys(prefix: str) -> list[str]:
     return list(dict.fromkeys([prefix, decoded, decoded.replace(" ", "+"), decoded.replace("+", " ")]))
 
 
+def pick_link_by_range(
+    entries: list[LinkEntry],
+    start: int,
+    end: int,
+) -> LinkEntry | None:
+    """Match pathigam link by pasuram span (after prefixed padhamPrefix rewrites)."""
+    for entry in entries:
+        if entry.start == start and entry.end == end:
+            return entry
+    return None
+
+
 def pick_link(
     by_prefix: dict[str, list[LinkEntry]],
     prefix: str,
     start: int | None = None,
     end: int | None = None,
     label: str | None = None,
+    entries: list[LinkEntry] | None = None,
 ) -> LinkEntry | None:
     candidates: list[LinkEntry] = []
     for key in prefix_keys(prefix):
@@ -214,6 +227,10 @@ def pick_link(
         for entry in candidates:
             if entry.start == start and (end is None or entry.end == end):
                 return entry
+        if entries is not None and end is not None:
+            ranged = pick_link_by_range(entries, start, end)
+            if ranged is not None:
+                return ranged
     if candidates:
         return candidates[0]
     if label and start is not None and end is not None:
@@ -950,8 +967,14 @@ def render_patthu_group(title: str, entries: list[LinkEntry], pasurams: set[int]
         </div>"""
 
 
-def render_nithya_v2(nithya: dict, by_prefix: dict[str, list[LinkEntry]], pasurams: set[int]) -> str:
+def render_nithya_v2(
+    nithya: dict,
+    by_prefix: dict[str, list[LinkEntry]],
+    pasurams: set[int],
+    entries: list[LinkEntry] | None = None,
+) -> str:
     """Render நித்யாநுஸந்தானம் with structure matching the release-notes image."""
+    all_entries = entries or []
     thaniya_blocks: list[str] = []
     sub_ul: list[str] = []
 
@@ -971,7 +994,13 @@ def render_nithya_v2(nithya: dict, by_prefix: dict[str, list[LinkEntry]], pasura
             thaniya_blocks.append(f"            <h4>{link_html(heading_entry, pasurams)}</h4>")
             continue
 
-        entry = pick_link(by_prefix, spec["padhamPrefix"], spec["start"], spec["end"])
+        entry = pick_link(
+            by_prefix,
+            spec["padhamPrefix"],
+            spec["start"],
+            spec["end"],
+            entries=all_entries,
+        )
         if entry is None:
             href = f"https://nalayiram.in/pocindex.php?padhamPrefix={spec['padhamPrefix']}"
             label = f"{spec['padhamPrefix']}({spec['start']}-{spec['end']})"
@@ -994,7 +1023,13 @@ def render_nithya_v2(nithya: dict, by_prefix: dict[str, list[LinkEntry]], pasura
 
     koil_items: list[str] = []
     for spec in nithya["koil_thiruvaimozhi"]:
-        entry = pick_link(by_prefix, spec["padhamPrefix"], spec["start"], spec["end"])
+        entry = pick_link(
+            by_prefix,
+            spec["padhamPrefix"],
+            spec["start"],
+            spec["end"],
+            entries=all_entries,
+        )
         if entry and spec.get("label"):
             entry = LinkEntry(
                 href=entry.href,
@@ -1004,12 +1039,16 @@ def render_nithya_v2(nithya: dict, by_prefix: dict[str, list[LinkEntry]], pasura
                 end=entry.end,
             )
         if entry is None:
-            href = f"https://nalayiram.in/pocindex.php?padhamPrefix={spec['padhamPrefix']}"
-            label = spec.get("label", f"({spec['start']}-{spec['end']})")
-            entry = LinkEntry(
-                href=href, label=label, padham_prefix=spec["padhamPrefix"],
-                start=spec["start"], end=spec["end"],
-            )
+            ranged = pick_link_by_range(all_entries, spec["start"], spec["end"])
+            if ranged is not None:
+                entry = ranged
+            else:
+                href = f"https://nalayiram.in/pocindex.php?padhamPrefix={spec['padhamPrefix']}"
+                label = spec.get("label", f"({spec['start']}-{spec['end']})")
+                entry = LinkEntry(
+                    href=href, label=label, padham_prefix=spec["padhamPrefix"],
+                    start=spec["start"], end=spec["end"],
+                )
         koil_items.append(f"                <li>{link_html(entry, pasurams)}</li>")
 
     search_href = html.escape(nithya["search_link"], quote=True)
@@ -1082,7 +1121,7 @@ def classify_entries(entries: list[LinkEntry]) -> dict[str, list[LinkEntry]]:
             add("madal")
         elif entry.start >= 2675 and entry.end is not None and entry.end <= 3776:
             add("thiruvaimozhi")
-        elif entry.start >= 948 and entry.end is not None and entry.end <= 1347:
+        elif entry.start >= 948 and entry.end is not None and entry.end <= 1447:
             add("periya_thirumozhi")
         elif entry.start == 872 or (entry.start >= 872 and entry.end is not None and entry.end <= 916):
             add("thirumalai")

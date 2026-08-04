@@ -8,6 +8,11 @@ from dataclasses import dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+import sys
+
+sys.path.insert(0, str(ROOT))
+
+from poc.acharya_thaniyan_numbers import UPADESA_THANIYAN_PATTU
 
 PRABANDHAM = "உபதேச ரத்னமாலை"
 PRABANDHAM_THANIYAN = "உபதேச ரத்னமாலை - தனியன்"

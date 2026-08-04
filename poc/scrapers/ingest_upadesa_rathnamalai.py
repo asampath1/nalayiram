@@ -14,7 +14,9 @@ from poc.db_loader import load_json_to_db
 from poc.generate_similar_words import finalize_records
 from poc.json_exporter import export_to_json
 from poc.load_workbook import delete_pasuram_range
+from poc.acharya_thaniyan_numbers import UPADESA_THANIYAN_PATTU
 from poc.scrapers.upadesa_rathnamalai_manual import (
+    PRABANDHAM_THANIYAN,
     EXPECTED_PATTUS,
     PASURAM_SHARED_73_74,
     PASURAM_START,
@@ -53,20 +55,22 @@ def delete_thaniyan_pattu(db, pattu: int, prabandham_stem: str, dry_run: bool) -
     )
     cur = conn.cursor()
     where = (
-        "PasuramNumber = 0 AND PattuNumber = %s AND Prabandham LIKE %s"
+        "PattuNumber = %s AND Prabandham = %s AND PasuramNumber IN (0, 4058)"
     )
-    like = f"%{prabandham_stem}%"
     if dry_run:
         cur.execute(
             f"SELECT COUNT(*) FROM `{db.table}` WHERE {where}",
-            (pattu, like),
+            (pattu, PRABANDHAM_THANIYAN),
         )
         count = cur.fetchone()[0]
         print(f"DRY RUN: would delete {count} thaniyan rows (PattuNumber={pattu})")
         cur.close()
         conn.close()
         return count
-    cur.execute(f"DELETE FROM `{db.table}` WHERE {where}", (pattu, like))
+    cur.execute(
+        f"DELETE FROM `{db.table}` WHERE {where}",
+        (pattu, PRABANDHAM_THANIYAN),
+    )
     deleted = cur.rowcount
     conn.commit()
     cur.close()

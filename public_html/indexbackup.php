@@ -296,11 +296,10 @@
      <header>
         <img src="ThirumannKapu.jpeg" alt="Header Image">
         <h3>ஆழ்வார்கள் அருளிச்செய்த நாலாயிர திவ்யப் பிரபந்தம் - பதவுரை தேடல்</h3>
-        <h4 style="color: white;">ஸ்ரீ காஞ்சி பிரதிவாதி பயங்கரம் அண்ணங்கராசாரியார் ஸ்வாமிகள் எழுதிய திவ்யார்த்த தீபிகை</h4>
-        <h5 style="color: white;"><a href="newreleasenotes.html" target="_blank">வெளியீட்டு குறிப்புகள் (Release Notes)</a></h5>
+        <h4 style="color: white;">ஸ்ரீ காஞ்சி பிரதிவாதி பயங்கரம் அண்ணங்கராசாரியார் ஸ்வாமிகள் எழுதிய திவ்யார்த்த தீபிகை , மற்றும் சில தொகுப்பில் ஸ்ரீ பெரியவாச்சான் பிள்ளை, ஸ்ரீ நம்பிள்ளை அவர்களின் அவதாரிகை உள்ளடங்கியது.</h4>
         <h5 style="color: white;">Search Tips: Enter Pasuram,padham/word in tamil or english, pasuram number.</h5>
         <h5 style="color: white;">eg. திருமாலை,மணிவண்ணா,thiruppavai,pallandu,பறை,vamanan,சென்னியோங்கு, 2-8-2, 940 etc. </h5>
-        <h5 style="color: white;">See Release notes for more details</h5>
+        <h5 style="color: white;">See நாலாயிர திவ்யப்ரபந்தப் பாசுரங்களின் அடைவு for more details</h5>
     </header>
             <div class="container">
                     <h4>
@@ -313,16 +312,52 @@
                         <a> |  </a>
                         <a>   </a>
                         <a href="https://nalayiram.in/index.php?padhamPrefix=சாற்றுமுறை" class="customSubmit">சாற்றுமுறை</a>
+                        <a>   </a>
+                        <a> |  </a>
+                        <a>   </a>
+                        <a href="divyaprabandham_counts.php?env=prod" class="customSubmit">திவ்யப்ரபந்தம்-எண்ணிக்கை</a>
+                        <a>   </a>
+                        <a> |  </a>
+                        <a>   </a>
+                        <a href="newreleasenotes.html" class="customSubmit">நாலாயிர திவ்யப்ரபந்தப் பாசுரங்களின் அடைவு</a>
+                        <a>   </a>
+                        <a> |  </a>
+                        <a>   </a>
+                        <a href="divyadesam_alwar_matrix.php?env=prod" class="customSubmit">திவ்யதேசம் -ஆழ்வார் -பாசுர எண்ணிக்கை அட்டவணை</a>
 
                     </h4>
   
+<?php
+// Prefill form fields from GET/POST (matrix / counts links use GET).
+function normalize_search_term(string $term): string
+{
+    return preg_replace('/\+/', ' ', trim($term));
+}
+
+$formPadham = '';
+$formAlwar = '';
+$formDivyadesam = '';
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    if (isset($_GET['prabandhamPrefix'])) {
+        $formPadham = htmlspecialchars(normalize_search_term($_GET['prabandhamPrefix']), ENT_QUOTES, 'UTF-8');
+    } else {
+        $formPadham = isset($_GET['padhamPrefix']) ? htmlspecialchars(normalize_search_term($_GET['padhamPrefix']), ENT_QUOTES, 'UTF-8') : '';
+    }
+    $formAlwar = isset($_GET['alwarPrefix']) ? htmlspecialchars(normalize_search_term($_GET['alwarPrefix']), ENT_QUOTES, 'UTF-8') : '';
+    $formDivyadesam = isset($_GET['divyadesamPrefix']) ? htmlspecialchars(normalize_search_term($_GET['divyadesamPrefix']), ENT_QUOTES, 'UTF-8') : '';
+} elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $formPadham = isset($_POST['padhamPrefix']) ? htmlspecialchars(normalize_search_term($_POST['padhamPrefix']), ENT_QUOTES, 'UTF-8') : '';
+    $formAlwar = isset($_POST['alwarPrefix']) ? htmlspecialchars(normalize_search_term($_POST['alwarPrefix']), ENT_QUOTES, 'UTF-8') : '';
+    $formDivyadesam = isset($_POST['divyadesamPrefix']) ? htmlspecialchars(normalize_search_term($_POST['divyadesamPrefix']), ENT_QUOTES, 'UTF-8') : '';
+}
+?>
                     <div class="form-container">
                         <form class="form-inline" id="searchForm" action="" method="post">
-                            <input type="text" id="padhamSearch" name="padhamPrefix" placeholder="Enter padham/word in Tamil or English, pasuram number..ex மணிவண்ணா, Pallandu , 2-8-2, 940 etc">
+                            <input type="text" id="padhamSearch" name="padhamPrefix" value="<?php echo $formPadham; ?>" placeholder="Enter padham/word in Tamil or English, pasuram number..ex மணிவண்ணா, Pallandu , 2-8-2, 940 etc">
                              <label style="margin: 0 10px;"> and/or </label>
-                            <input type="text" id="alzwarSearch" name="alwarPrefix" placeholder="Enter alzwar in Tamil or English">
+                            <input type="text" id="alzwarSearch" name="alwarPrefix" value="<?php echo $formAlwar; ?>" placeholder="Enter alzwar in Tamil or English">
                              <label style="margin: 0 10px;"> and/or </label>
-                            <input type="text" id="divyadesamSearch" name="divyadesamPrefix" placeholder="Enter divyadesam in Tamil or English">
+                            <input type="text" id="divyadesamSearch" name="divyadesamPrefix" value="<?php echo $formDivyadesam; ?>" placeholder="Enter divyadesam in Tamil or English">
                             <input type="submit" value="Search">
                         </form>
                     </div>
@@ -332,107 +367,128 @@ include('database.php');
 
 $searchType = '';
 $selectedPrefix = '';
+$padhamPrefix = '';
+$prabandhamPrefix = '';
+$alwarPrefix = '';
+$divyadesamPrefix = '';
+$sql_search = '';
+$result_search = null;
 
-// Check if a search term is provided via GET method
-
-if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['padhamPrefix'])) {
-    // Sanitize the input
-    $padhamPrefix = mysqli_real_escape_string($conn, $_GET['padhamPrefix']);
-    
-    if ($padhamPrefix === "நித்யாநுஸந்தானம்") {
-        // Execute your specific SQL query
-        $sql_search = "SELECT * 
-                FROM PasuramsArthamTable 
-                WHERE NithyaanusandhamIndex IS NOT NULL 
-                ORDER BY NithyaanusandhamIndex, PasuramNumber";
-
-        // Execute the query
-        $result_search = $conn->query($sql_search);
-    }   else {
-        // Existing conditions for other padhamPrefix values
-        $conditions = [];
-
-        if (!empty($padhamPrefix)) {
-            if (is_numeric($padhamPrefix)) {
-                $conditions[] = "PasuramsArthamTable.PasuramNumber = '$padhamPrefix'";
-            } else {
-                $conditions[] = "(SimilarWords LIKE '%$padhamPrefix%' OR Pasuram LIKE '%$padhamPrefix%')";
-            }
-        }
-
-        // Build the SQL query based on conditions
-        if (count($conditions) > 0) {
-
-               $sql_search = "SELECT DISTINCT PasuramsArthamTable.*
-               FROM PasuramsArthamTable
-               LEFT JOIN DivyaDesamTable 
-               ON PasuramsArthamTable.PasuramNumber = DivyaDesamTable.PasuramNumber 
-               WHERE " . implode(" AND ", $conditions) . " 
-               ORDER BY PasuramsArthamTable.PasuramNumber, PasuramsArthamTable.PattuNumber, PasuramsArthamTable.PadhamNumber, PasuramsArthamTable.Word";
-
-            // Execute the query
-            $result_search = $conn->query($sql_search);
-        } 
+/**
+ * Build Alzwar LIKE condition.
+ * Autocomplete uses "English-Tamil"; matrix links pass plain Alzwar from DB.
+ */
+function prod_alwar_condition($alwarPrefix) {
+    if ($alwarPrefix === '') {
+        return null;
     }
+    $parts = explode("-", $alwarPrefix, 2);
+    if (isset($parts[1]) && trim($parts[1]) !== '') {
+        $alwarPrefix = trim($parts[1]);
+    } else {
+        $alwarPrefix = trim($alwarPrefix);
+    }
+    if ($alwarPrefix === '') {
+        return null;
+    }
+    return "Alzwar LIKE '%$alwarPrefix%'";
 }
 
+function prod_run_joined_search($conn, $conditions) {
+    if (count($conditions) === 0) {
+        return [null, null];
+    }
+    $sql_search = "SELECT DISTINCT PasuramsArthamTable.*
+                   FROM PasuramsArthamTable
+                   LEFT JOIN DivyaDesamTable 
+                   ON PasuramsArthamTable.PasuramNumber = DivyaDesamTable.PasuramNumber 
+                   WHERE " . implode(" AND ", $conditions) . " 
+                   ORDER BY PasuramsArthamTable.PasuramNumber, PasuramsArthamTable.PattuNumber, PasuramsArthamTable.PadhamNumber, PasuramsArthamTable.Word";
+    $result_search = $conn->query($sql_search);
+    return [$sql_search, $result_search];
+}
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $padhamPrefix = isset($_POST["padhamPrefix"]) ? mysqli_real_escape_string($conn, $_POST["padhamPrefix"]) : '';
-    $alwarPrefix = isset($_POST["alwarPrefix"]) ? mysqli_real_escape_string($conn, $_POST["alwarPrefix"]) : '';
-    $divyadesamPrefix = isset($_POST["divyadesamPrefix"]) ? mysqli_real_escape_string($conn, $_POST["divyadesamPrefix"]) : '';
-
+/**
+ * Build WHERE conditions for padham / prabandham / alwar / divyadesam search.
+ * prabandhamPrefix (counts page links) filters Prabandham column, not Pasuram text.
+ */
+function prod_build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPrefix, $divyadesamPrefix) {
     $conditions = [];
+    $isPrabandham = ($prabandhamPrefix !== '');
 
-    // Add conditions for each field if not empty
-    if (!empty($padhamPrefix)) {
+    if ($isPrabandham) {
+        $conditions[] = "Prabandham LIKE '$prabandhamPrefix%'";
+    } elseif ($padhamPrefix !== '') {
         if (is_numeric($padhamPrefix)) {
             $conditions[] = "PasuramsArthamTable.PasuramNumber = '$padhamPrefix'";
         } else {
             $conditions[] = "(SimilarWords LIKE '%$padhamPrefix%' OR Pasuram LIKE '%$padhamPrefix%')";
         }
     }
-    if (!empty($alwarPrefix)) {
-            // Split the input by '-' and extract the second part (Tamil part)
-            $parts = explode("-", $alwarPrefix);
-            if (isset($parts[1])) {
-                $alwarPrefix = trim($parts[1]); // Use the Tamil part
-                $conditions[] = "Alzwar LIKE '%$alwarPrefix%'";
-            }
-        }
 
-    if (!empty($divyadesamPrefix)) {
+    $alwarCond = prod_alwar_condition($alwarPrefix);
+    if ($alwarCond !== null) {
+        if ($isPrabandham) {
+            // Thaniyans (PasuramNumber 0) are authored by Achariyars, so their Alzwar
+            // is the Achariyar's name, not the Alwar's. Include them alongside the
+            // Alwar's pasurams so the prabandham's thaniyan renders first.
+            $conditions[] = "($alwarCond OR PasuramsArthamTable.PasuramNumber = 0)";
+        } else {
+            $conditions[] = $alwarCond;
+        }
+    }
+
+    if ($divyadesamPrefix !== '') {
         $conditions[] = "DivyaDesamTable.DivyaDesam LIKE '%$divyadesamPrefix%'";
     }
 
-    // Build the SQL query by joining conditions
-    if (count($conditions) > 0) {
-        
-               $sql_search = "SELECT DISTINCT PasuramsArthamTable.*
-                   FROM PasuramsArthamTable
-                   LEFT JOIN DivyaDesamTable 
-                   ON PasuramsArthamTable.PasuramNumber = DivyaDesamTable.PasuramNumber 
-                   WHERE " . implode(" AND ", $conditions) . " 
-                   ORDER BY PasuramsArthamTable.PasuramNumber, PasuramsArthamTable.PattuNumber, PasuramsArthamTable.PadhamNumber, PasuramsArthamTable.Word";
-        
-        // Debugging: Print the SQL query to troubleshoot
-       // echo $sql_search;
-        
-        // Execute the query
+    return $conditions;
+}
+
+// GET: prabandhamPrefix and/or padhamPrefix and/or alwarPrefix and/or divyadesamPrefix
+if ($_SERVER["REQUEST_METHOD"] == "GET" && (
+    isset($_GET['prabandhamPrefix']) || isset($_GET['padhamPrefix']) || isset($_GET['alwarPrefix']) || isset($_GET['divyadesamPrefix'])
+)) {
+    $prabandhamPrefix = isset($_GET['prabandhamPrefix']) ? mysqli_real_escape_string($conn, normalize_search_term($_GET['prabandhamPrefix'])) : '';
+    $padhamPrefix = isset($_GET['padhamPrefix']) ? mysqli_real_escape_string($conn, normalize_search_term($_GET['padhamPrefix'])) : '';
+    $alwarPrefix = isset($_GET['alwarPrefix']) ? mysqli_real_escape_string($conn, normalize_search_term($_GET['alwarPrefix'])) : '';
+    $divyadesamPrefix = isset($_GET['divyadesamPrefix']) ? mysqli_real_escape_string($conn, normalize_search_term($_GET['divyadesamPrefix'])) : '';
+
+    if ($padhamPrefix === "நித்யாநுஸந்தானம்") {
+        $sql_search = "SELECT * 
+                FROM PasuramsArthamTable 
+                WHERE NithyaanusandhamIndex IS NOT NULL 
+                ORDER BY NithyaanusandhamIndex, PasuramNumber";
         $result_search = $conn->query($sql_search);
     } else {
-        // No conditions entered, handle accordingly
+        $conditions = prod_build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPrefix, $divyadesamPrefix);
+        list($sql_search, $result_search) = prod_run_joined_search($conn, $conditions);
+    }
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $padhamPrefix = isset($_POST["padhamPrefix"]) ? mysqli_real_escape_string($conn, normalize_search_term($_POST["padhamPrefix"])) : '';
+    $alwarPrefix = isset($_POST["alwarPrefix"]) ? mysqli_real_escape_string($conn, normalize_search_term($_POST["alwarPrefix"])) : '';
+    $divyadesamPrefix = isset($_POST["divyadesamPrefix"]) ? mysqli_real_escape_string($conn, normalize_search_term($_POST["divyadesamPrefix"])) : '';
+
+    $conditions = prod_build_search_conditions($padhamPrefix, '', $alwarPrefix, $divyadesamPrefix);
+
+    if (count($conditions) > 0) {
+        list($sql_search, $result_search) = prod_run_joined_search($conn, $conditions);
+    } else {
         echo "Please enter search criteria.";
     }
 }
 
-if (!empty($sql_search) && $result_search->num_rows > 0) {
+if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
     
     // Collect the prefixes entered by the user
     $searchTerms = [];
     
     // Check for each prefix and add it to the array if it's not empty
-    if (!empty($padhamPrefix)) {
+    if (!empty($prabandhamPrefix)) {
+    $searchTerms[] = $prabandhamPrefix;
+    } elseif (!empty($padhamPrefix)) {
     $searchTerms[] = $padhamPrefix; // Just the plain text, no HTML
     }
     if (!empty($alwarPrefix)) {

@@ -176,7 +176,13 @@ def build_heading_aliases(titles: Dict[int, Dict[str, str]]) -> Dict[int, List[s
         eng_compact = re.sub(r"\s+", "", eng)
         if eng_compact and eng_compact[0].islower():
             eng_compact = eng_compact[0].upper() + eng_compact[1:]
-        aliases = [f"{code}–{tamil}", f"{code}-{eng_compact}", tamil, eng]
+        aliases = [
+            f"{code} {tamil}",
+            f"{code}–{tamil}",
+            f"{code}-{eng_compact}",
+            tamil,
+            eng,
+        ]
         print(f"{code}: {aliases[0]} | {aliases[1]}")
         for n in meta["numbers"]:
             aliases_by_pasuram[n] = aliases

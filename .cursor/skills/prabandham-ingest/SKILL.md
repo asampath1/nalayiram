@@ -33,6 +33,7 @@ Progress:
 - [ ] 3. Apply to POC DB + verify
 - [ ] 4. Counts seed + reseed
 - [ ] 5. V1_SPECS + rebuild release notes
+- [ ] 5b. Pathigam search aliases (if pathigam-box prabandham)
 - [ ] 6. (Optional) Promote POC UI → UAT
 ```
 
@@ -121,13 +122,53 @@ poc/.venv/bin/python poc/scripts/seed_divyaprabandham_counts.py --config poc/con
 
 ### Step 5 — Release notes
 
-Add to `V1_SPECS` in `poc/scripts/build_newreleasenote_poc_v1.py` (`kannadi_index`, `full_width` for 30+ pasurams):
+Add to `V1_SPECS` in `poc/scripts/build_newreleasenote_poc_v1.py` (`kannadi_index`, `full_width` for 30+ pasurams).
+
+Pathigam links live in `poc/data/release_notes_link_source.html` (parsed by `build_newreleasenote_poc.py`).
 
 ```bash
 poc/.venv/bin/python poc/scripts/build_newreleasenote_poc_v1.py --env poc
 ```
 
 Build `--env test` / `--env prod` only when asked. For pages before manual DB load, use `--config poc/config.ini` so Kannadi openings come from POC data.
+
+### Step 5b — Pathigam search aliases (pathigam-box prabandhams)
+
+Release-note pathigam links must search an **unambiguous** prefixed term, not a bare short name that appears in many pasurams.
+
+**Applies to:** பெரியாழ்வார் திருமொழி, நாச்சியார் திருமொழி, பெருமாள் திருமொழி, பெரிய திருமொழி, திருவாய்மொழி.
+
+**Alias formats:**
+- Patthu–pathigam: `{P}-{N} {short}` — e.g. `2-1 வானவர்`, `1-3 முற்ற மூத்து`
+- நாச்சியார் / பெருமாள்: `{N}-{short}` — e.g. `1-தையொரு திங்களும்`, `4-ஊனேறு`
+
+**What the script does:**
+1. Builds catalog from `release_notes_link_source.html` (+ `RANGE_OVERRIDES` in `pathigam_search_aliases.py`)
+2. Merges alias into `SimilarWords` for every pasuram in the pathigam range
+3. Rewrites `padhamPrefix` in link source to the prefixed form
+4. Optionally rebuilds POC release notes
+
+```bash
+poc/.venv/bin/python poc/scripts/apply_pathigam_search_aliases.py --dry-run
+poc/.venv/bin/python poc/scripts/apply_pathigam_search_aliases.py --apply --rebuild-release-notes
+```
+
+**User-validated overrides** (`RANGE_OVERRIDES`): பெரியாழ்வார் 2-4/2-7/2-8 use pathigam names; 1-9 `வட்டு நடுவே`; PT 1-1 `வாடினேன் வாடி`; PT 1-3 `முற்ற மூத்து`.
+
+After adding new pathigam rows to link source, re-run `--apply --rebuild-release-notes`. Spot-check: `pocindex.php?padhamPrefix=5-3+வென்றி` → exactly that pathigam's pasuram count.
+
+### Step 5c — SuggestedWords (padham autocomplete)
+
+`autocomplete.php` reads table `SuggestedWords` (not live `SimilarWords`). Rebuild after ingest or pathigam alias updates so users see new terms, pasuram numbers (e.g. `2048`), and pathigam codes (e.g. `1-2`, `2-4 நீராட்டம்`).
+
+```bash
+poc/.venv/bin/python poc/scripts/refresh_suggested_words.py --dry-run
+poc/.venv/bin/python poc/scripts/refresh_suggested_words.py --apply
+```
+
+Merges POC + prod pasuram tables by default. **Satellite projects** (separate tables/pages): run with `--table YourSatelliteTable` only, or add a dedicated `SuggestedWords*` table + matching `autocomplete` endpoint — same token logic, different source.
+
+Legacy PHP: `public_html/update_suggested_words.php` (same logic, slower on server).
 
 ### Step 6 — Promote POC UI → UAT
 

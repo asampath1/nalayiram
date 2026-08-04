@@ -183,10 +183,48 @@
                   /*  display: none; ---Hide the table initially */
                 }
 
+        #search-top {
+            scroll-margin-top: 0.5rem;
+        }
+
+        .utility-link {
+            color: tomato;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 0.35rem 0.5rem;
+            white-space: nowrap;
+        }
+
+        .utility-link:hover,
+        .utility-link:focus {
+            text-decoration: underline;
+        }
+
+        .results-toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 0.5rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .results-toolbar .results-heading {
+            margin: 0;
+            flex: 1 1 auto;
+        }
+
         .results-heading {
             font-size: 1.25rem;
             margin: 1rem 0 0.5rem;
             word-break: break-word;
+        }
+
+        .results-top-footer {
+            display: flex;
+            justify-content: flex-end;
+            margin: 0.75rem 0 0.25rem;
         }
 
         .results-wrap {
@@ -542,6 +580,7 @@
         <p class="search-tips">உதாரணம்: திருப்பாவை, vamanan, 940, 2-8-2 · <a href="newreleasenotespoc.html">அடைவு</a></p>
     </header>
             <div class="container">
+                    <div id="search-top" tabindex="-1">
                     <nav class="site-nav" aria-label="முதன்மை வழிசெலுத்தல்">
                         <a href="https://nalayiram.in/pocindex.php?padhamPrefix=Thaniyan" class="customSubmit">தனியன்கள்</a>
                         <span class="nav-sep">|</span>
@@ -588,7 +627,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                              <span class="form-joiner">and/or</span>
                             <input type="text" id="divyadesamSearch" name="divyadesamPrefix" value="<?php echo $formDivyadesam; ?>" placeholder="Divyadesam — Tamil or English">
                             <input type="submit" value="Search">
+                            <a href="pocindex.php" class="utility-link" id="clearSearch" aria-label="Clear all search fields">Clear</a>
                         </form>
+                    </div>
                     </div>
 
 <?php
@@ -793,7 +834,10 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
     $resultCount = count($grouped_results);
 
     // Display the search results header with the count
+    echo "<div class='results-toolbar'>";
     echo "<h2 class='results-heading'>Search Results for: {$searchTermsString} ({$resultCount} results)</h2>";
+    echo "<a href='#search-top' class='utility-link back-to-top' aria-label='Back to search'>Top</a>";
+    echo "</div>";
     echo "<div class='results-wrap'>";
     echo "<table id='result-table'>
             <thead>
@@ -868,7 +912,9 @@ if (!empty($sql_search) && $result_search && $result_search->num_rows > 0) {
         echo "</tr>";
     }
 
-    echo "</tbody></table></div>";
+    echo "</tbody></table>";
+    echo "<div class='results-top-footer'><a href='#search-top' class='utility-link back-to-top' aria-label='Back to search'>Top</a></div>";
+    echo "</div>";
 }
 ?>
 

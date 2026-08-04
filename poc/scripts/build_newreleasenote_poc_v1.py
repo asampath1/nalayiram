@@ -78,7 +78,7 @@ V1_SPECS: list[tuple] = [
     ("thiruppalliyezhuchi", "திருப்பள்ளியெழுச்சி", "kannadi_index", None, 917, 926, "திருப்பள்ளியெழுச்சி", {"layout": "even2"}),
     ("amalanadipiran", "அமலனாதிபிரான்", "kannadi_index", None, 927, 936, "அமலனாதிபிரான்", {"layout": "even2"}),
     ("kanninunsiruthambu", "கண்ணிநுண்சிறுத்தாம்பு", "kannadi_index", None, 937, 947, "கண்ணிநுண்சிறுத்தாம்பு", {"layout": "even2"}),
-    ("periya_thirumozhi", "பெரிய திருமொழி", "patthu_pasuram", None, 948, 1347, None, {}),
+    ("periya_thirumozhi", "பெரிய திருமொழி", "patthu_pasuram", None, 948, 1447, None, {}),
     ("thirukkurunthandagam", "திருக்குறுந்தாண்டகம்", "kannadi_index", None, 2032, 2051, "திருக்குறுந்தாண்டகம்", {"row_break": True, "layout": "even4"}),
     ("nedum_thandagam", "திரு நெடும் தாண்டகம்", "kannadi_index", None, 2052, 2081, "திரு+நெடும்+தாண்டகம்", {"layout": "even4"}),
     ("mudal_thiruvandhathi", "முதல் திருவந்தாதி", "kannadi_index", None, 2082, 2181, "முதல்+திருவந்தாதி", {"full_width": True}),
@@ -110,6 +110,16 @@ V1_SPECS: list[tuple] = [
         3885,
         3957,
         "உபதேச ரத்னமாலை",
+        {"full_width": True},
+    ),
+    (
+        "thiruvaimozhi_noorranthathi",
+        "திருவாய்மொழி நூற்றந்தாதி",
+        "kannadi_index",
+        None,
+        3958,
+        4057,
+        "திருவாய்மொழி நூற்றந்தாதி",
         {"full_width": True},
     ),
 ]
@@ -296,7 +306,7 @@ def main() -> None:
         config_path, groups.get("perumal_thirumozhi", [])
     )
 
-    nithya_html = render_nithya_v2(nithya, by_prefix, pasurams)
+    nithya_html = render_nithya_v2(nithya, by_prefix, pasurams, entries)
     body = build_body_v1(
         groups,
         by_prefix,
