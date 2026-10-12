@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "built_at": "2026-09-02T15:30:11Z",
+    "source": "https://public.tableau.com/app/profile/ramanuja.dasargal/viz/sd_2/WELCOME",
+    "csv_path": "poc/data/bhavam_tableau.csv",
+    "csv_pasurams": 0,
+    "verse_list_ready": false,
+    "method": "Tableau Pasuram-Nu matched to PasuramNumber. Not inferred from Padham.",
+    "skip_roles": [
+      "Male"
+    ]
+  },
+  "blocked": {
+    "allow_export_data": false,
+    "allow_view_underlying": false,
+    "reason_ta": "Tableau அட்டவணையில் Data / Crosstab பதிவிறக்கம் அணைக்கப்பட்டுள்ளது. பாசுர எண் பட்டியலை CSV-ல் இடவும்."
+  },
+  "roles": [
+    {
+      "role": "Mother",
+      "label_ta": "தாய் பாவம்",
+      "search_alias": "தாய் பாவம்",
+      "compass_total": 441,
+      "csv_pasurams": 0,
+      "db_tagged_pasurams": 0,
+      "prabandhams": [
+        {
+          "prabandham": "பெரியாழ்வார் திருமொழி",
+          "tableau_compass": 272,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "திருவாய்மொழி",
+          "tableau_compass": 88,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "பெரிய திருமொழி",
+          "tableau_compass": 60,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "பெருமாள் திருமொழி",
+          "tableau_compass": 21,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        }
+      ]
+    },
+    {
+      "role": "Nayaki",
+      "label_ta": "நாயகி பாவம்",
+      "search_alias": "நாயகி பாவம்",
+      "compass_total": 409,
+      "csv_pasurams": 0,
+      "db_tagged_pasurams": 0,
+      "prabandhams": [
+        {
+          "prabandham": "பெரிய திருமொழி",
+          "tableau_compass": 224,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "திருவாய்மொழி",
+          "tableau_compass": 165,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "பெரியாழ்வார் திருமொழி",
+          "tableau_compass": 11,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "பெருமாள் திருமொழி",
+          "tableau_compass": 2,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "திருவிருத்தம்",
+          "tableau_compass": 7,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        }
+      ]
+    },
+    {
+      "role": "Thozhi",
+      "label_ta": "தோழி பாவம்",
+      "search_alias": "தோழி பாவம்",
+      "compass_total": 510,
+      "csv_pasurams": 0,
+      "db_tagged_pasurams": 0,
+      "prabandhams": [
+        {
+          "prabandham": "நாச்சியார் திருமொழி",
+          "tableau_compass": 143,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "பெரிய திருமடல்",
+          "tableau_compass": 148,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "சிறிய திருமடல்",
+          "tableau_compass": 78,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "திருவிருத்தம்",
+          "tableau_compass": 83,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "திருப்பாவை",
+          "tableau_compass": 30,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        },
+        {
+          "prabandham": "திருவாய்மொழி",
+          "tableau_compass": 28,
+          "csv_pasurams": 0,
+          "db_tagged": 0
+        }
+      ]
+    }
+  ]
+}

@@ -120,6 +120,13 @@ function counts_stripe_class(int $alwarOrder): string
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php if ($env !== 'prod'): ?>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://nalayiram.in/divyaprabandham_counts.php?env=prod">
+<?php else: ?>
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nalayiram.in/divyaprabandham_counts.php?env=prod">
+<?php endif; ?>
     <meta name="description" content="Divya Prabandham completion counts for Nalayira Divya Prabandham.">
     <title>திவ்யப்ரபந்தம் — எண்ணிக்கை</title>
     <link rel="icon" type="image/x-icon" href="Sri.jpg">

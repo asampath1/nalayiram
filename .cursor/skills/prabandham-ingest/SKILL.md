@@ -71,22 +71,45 @@ poc/.venv/bin/python poc/scrapers/ingest_upadesa_rathnamalai.py --config poc/con
 
 ### Path H — Dravidaveda பெரிய திருமொழி patthu (padham + titles)
 
-**Template:** `poc/scrapers/ingest_periya_thirumozhi_patthu3.py` → copy for each patthu (`patthu4`, range 1248–1347, `PATHU_NUMBER=4`).
+**Template:** `poc/scrapers/ingest_periya_thirumozhi_patthu10.py` (numeric-only, explicit `PATHIGAMS` ranges) or `patthu7` (category crawl). Copy per patthu with new range + `PATHU_NUMBER`. Do **not** derive pathigam bounds with modulo-10 from the first pasuram.
+
+**Pick the source path first:** `curl -sI https://www.dravidaveda.org/<first_pasuram>/`. If the page
+serves padhavurai (patthus 8–11 did), copy patthu 10 and skip the crawler entirely; if not
+(patthus 6–7), copy patthu 7's category crawl.
+
+**Pre-flight on `poc/pasuram.txt` before writing scripts** — cheap and catches most surprises:
+count the `N-p-v` verse markers (not always 100 — patthu 10 is 104, 11 is 80), confirm every
+marker has a non-empty commentary block, check for duplicate blocks, and check short names
+against `build_pathigam_catalog()` for collisions.
 
 ```bash
-poc/.venv/bin/python poc/scrapers/ingest_periya_thirumozhi_patthu4.py --config poc/config.ini --dry-run --no-themes
-poc/.venv/bin/python poc/scrapers/ingest_periya_thirumozhi_patthu4.py --config poc/config.ini --apply
-poc/.venv/bin/python poc/scripts/apply_periya_thirumozhi_patthu4_titles.py --apply
-poc/.venv/bin/python poc/scripts/replace_periya_thirumozhi_patthu4_pasuram_from_txt.py --apply
+poc/.venv/bin/python poc/scrapers/ingest_periya_thirumozhi_patthu10.py --config poc/config.ini --dry-run
+poc/.venv/bin/python poc/scrapers/ingest_periya_thirumozhi_patthu10.py --config poc/config.ini --apply --skip-scrape
+poc/.venv/bin/python poc/scripts/apply_periya_thirumozhi_patthu10_titles.py --apply
+poc/.venv/bin/python poc/scripts/replace_periya_thirumozhi_patthu10_pasuram_from_txt.py --apply
 ```
 
-- **Dravidaveda only** for Padham/Meaning; flag 404 pasurams, do not backfill from other sites.
-- **Titles** from `poc/pasuram.txt` via `apply_periya_thirumozhi_patthu<N>_titles.py` — `(4-N–short) (divyadesam) - (ஸ்ரீ பெரியவாச்சான் பிள்ளை)` + per-verse commentary; pathigam heading in `SimilarWords` for all 10 pasurams.
-- **Pasuram readability** — after ingest, replace verse text only from `poc/pasuram.txt` (`replace_periya_thirumozhi_patthu<N>_pasuram_from_txt.py`); keeps padhavurai/Title/SimilarWords.
-- Extend `V1_SPECS` end for `periya_thirumozhi` + add pathigam links in `poc/data/release_notes_link_source.html`; extend `classify_entries` end ≤ 1347 in `build_newreleasenote_poc.py`.
-- **Release notes:** `build_newreleasenote_poc_v1.py` auto-builds **திவ்யப் பிரபந்தங்கள்** jump-nav box after நித்யாநுஸந்தானம் (`#prab-<key>` anchors).
+`--skip-scrape` on apply reuses the dry-run's scraped JSON — a 100-page crawl takes ~8 minutes, so never scrape twice.
 
-**Worked example — நான்காம் பத்து:** 1248–1347, 4-1…4-10, Alzwar திருமங்கையாழ்வார்; 97/100 from Dravidaveda (1330–1332 missing); titles + pasuram from `poc/pasuram.txt`; 4-8-1…6 share one title block.
+- **Dravidaveda only** for Padham/Meaning; flag 404/empty pages, do not backfill from other sites (crawler warns and continues; ingest injects pasuram-only stubs).
+- **Titles** from `poc/pasuram.txt` via `apply_periya_thirumozhi_patthu<N>_titles.py` — `(10-N–short) (divyadesam) - (ஸ்ரீ பெரியவாச்சான் பிள்ளை)` + per-verse commentary; pathigam heading in `SimilarWords` for every verse in the pathigam. Numbered DD suffixes (e.g. திரு நறையூர் 8) are pathigam ordinals at the same Divyadesam. Keep Title-section short names as written even when the verse spelling differs (10-4 `சந்தமலர் க்குழல்`, 11-1 `குன்றமொன்`).
+- **Don't assume one Divyadesam per patthu.** Patthus 6–8 were single-DD with ordinals 1…10; patthu 9 spans eight DDs. Patthus 10–11 are **sparse** in `DivyaDesamTable` — do not invent DD rows; omit the Title DD bracket when `pasuram.txt` has none; keep non-DD second-brackets as written.
+- **Context bracket is per pathigam, not per patthu** — include the extra bracket only where `pasuram.txt` supplies one.
+- **Pasuram readability** — after ingest, replace verse text only from `poc/pasuram.txt` (`replace_periya_thirumozhi_patthu<N>_pasuram_from_txt.py`); keeps padhavurai/Title/SimilarWords. If the source file duplicates a patthu (patthu 11), use the first copy and cut at the next block's `verse_block_start` plus `Title :`. Anchor verse-suffix regex at EOL so mid-line quotes (e.g. `திருவாய்மொழி -10-8-2-`) are ignored.
+- Extend `V1_SPECS` end for `periya_thirumozhi` + add pathigam links in `poc/data/release_notes_link_source.html`; extend `classify_entries` end ≤ **2031** in `build_newreleasenote_poc.py`.
+- **Counts seed:** bump the `பெரிய திருமொழி` `total_count` **and** the திருமங்கையாழ்வார் `alwar_subtotal` (subtotal = sum of that Āzhvār's rows; the page recomputes it for display, so a stale value is cosmetic only).
+- **Release notes:** `build_newreleasenote_poc_v1.py` auto-builds **திவ்யப் பிரபந்தங்கள்** jump-nav box after நித்யாநுஸந்தானம் (`#prab-<key>` anchors). Rebuild UAT/Prod only after user verifies POC.
+- **Duplicate short names across patthus are fine** (8-5 and 7-5 are both `தந்தை காலில்`): the alias catalog is keyed by pasuram range, so prefixed aliases stay unique. Only the bare Tamil alias becomes ambiguous — confirm with the user.
+
+**Worked example — பத்தாம் + பதினொன்றாம் பத்து:** 1848–1951 (10-1…10-10, **104** verses; 10-7 = 14) and 1952–2031 (11-1…11-8, **80** verses); Alzwar திருமங்கையாழ்வார்; **184/184** from Dravidaveda via direct `/{n}/`; 1374 + 1121 padham rows; no stubs; sparse DD (13/104 and 14/80 already mapped); Title short names as written; counts 900 → **1084**, alwar_subtotal 953 → **1137**, footer **4058**. Prabandham complete in POC (948–2031).
+
+**Earlier example — ஒன்பதாம் பத்து:** 1748–1847, 9-1…9-10, Alzwar திருமங்கையாழ்வார்; **100/100** from Dravidaveda via direct `/{n}/` (no crawler); 1567 padham rows; eight Divyadesams (கண்ணங்குடி, நாகை, புல்லாணி 1–2, குறுங்குடி 1–2, வல்லவாழ், மாலிருஞ்சோலை 1–2, கோட்டியூர்); context bracket only for 9-2…9-5 and 9-9; counts 797 → **897**, alwar_subtotal 850 → **950**.
+
+**Earlier example — எட்டாம் பத்து:** 1648–1747, 8-1…8-10; **100/100** from Dravidaveda via direct `/{n}/`; 1508 padham rows; all pathigams திரு கண்ணபுரம் 1…10; context bracket in Title only for 8-1…8-4.
+
+**Earlier example — ஏழாம் பத்து:** 1548–1647, 7-1…7-10; **100/100** from Dravidaveda (7-1…7-9 category crawl; 7-10 numeric `/{n}/`); titles + pasuram from `poc/pasuram.txt`.
+
+**Earlier example — ஆறாம் பத்து:** 1448–1547, 6-1…6-10; 99/100 from Dravidaveda at ingest; **1485** (6-4-8) padhavurai backfilled in POC later (17 padham rows).
 
 ### Step 2 — Dry-run (padham prabandhams)
 

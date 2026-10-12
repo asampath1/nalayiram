@@ -3,36 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pasura Artham Search - A comprehensive search tool for Nalayira Divya Prabandham with features to sort by Divya Desam, Alzwar, and Padham.">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Divya Prabandham Pasura Artham Search">
-    <meta property="og:description" content="A comprehensive research tool for Nalayira Divya Prabandham. Sort by Divya Desam, Alzwar, and Padham.">
-    <meta property="og:image" content="https://nalayiram.in/Sri.jpg">
-    <meta property="og:url" content="https://nalayiram.in">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pasura Artham Search">
-    <meta name="twitter:description" content="A comprehensive research tool for Nalayira Divya Prabandham. Sort by Divya Desam, Alzwar, and Padham.">
-    <meta name="twitter:image" content="https://nalayiram.in/Sri.jpg">
-    <meta name="keywords" content="நாலாயிர,4000,நாலாயிர திவ்ய பிரபந்தம், நாலாயிர திவ்யப்பிரபந்தம், Nalayira divya prabandham, திருப்பல்லாண்டு, திருப்பள்ளியெழுச்சி, திருப்பாவை, பெரியாழ்வார் திருமொழி, அமலனாதிபிரான், நாச்சியார் திருமொழி, வாரணம் ஆயிரம், கோயில் திருவாய்மொழி">
-
-    <link rel="canonical" href="https://nalayiram.in">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://nalayiram.in/">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <title>Nalayira Divya Prabhandham PadhaArtham Search</title>
+    <title>Backup — Nalayira Divya Prabandham Search</title>
     <link rel="icon" type="image/x-icon" href="Sri.jpg">
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "url": "https://nalayiram.in/",
-          "name": "Pasura Artham Search",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://nalayiram.in/index.php?search={search_term}",
-            "query-input": "required name=search_term"
-          }
-        }
-    </script>
 
     <style>
         body {

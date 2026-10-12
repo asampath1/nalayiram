@@ -19,6 +19,12 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCE_HTML = ROOT / "poc" / "data" / "release_notes_link_source.html"
 NITHYA_JSON = ROOT / "poc" / "data" / "nithya_anusandhanam_order.json"
 RELEASE_NOTES_PAGE_TITLE = "Nalayira Divya Prabhandham list"
+STAGING_RELEASE_TITLE_PREFIX = {"poc": "POC", "test": "UAT"}
+RELEASE_NOTES_SEO_BLOCK_RE = re.compile(
+    r'<meta name="description"[^>]*>.*?'
+    r'(<script src="https://code.jquery.com/jquery)',
+    re.DOTALL,
+)
 
 # Environment presets for Kannadi release notes (search script + DB config + outputs)
 ENV_PRESETS: dict[str, dict[str, str]] = {
@@ -53,6 +59,20 @@ def rewrite_search_script(html_text: str, search_script: str) -> str:
             f"https://nalayiram.in/{search_script}",
         )
         html_text = html_text.replace(f'href="{script}', f'href="{search_script}')
+    env_by_script = {
+        "pocindex.php": "poc",
+        "test1.php": "test",
+        "index.php": "prod",
+    }
+    target_env = env_by_script.get(search_script)
+    if target_env:
+        for env in ("poc", "test", "prod"):
+            if env == target_env:
+                continue
+            html_text = html_text.replace(
+                f"divyadesam_alwar_matrix.php?env={env}",
+                f"divyadesam_alwar_matrix.php?env={target_env}",
+            )
     return html_text
 
 LINK_RE = re.compile(
@@ -1121,7 +1141,7 @@ def classify_entries(entries: list[LinkEntry]) -> dict[str, list[LinkEntry]]:
             add("madal")
         elif entry.start >= 2675 and entry.end is not None and entry.end <= 3776:
             add("thiruvaimozhi")
-        elif entry.start >= 948 and entry.end is not None and entry.end <= 1447:
+        elif entry.start >= 948 and entry.end is not None and entry.end <= 2031:
             add("periya_thirumozhi")
         elif entry.start == 872 or (entry.start >= 872 and entry.end is not None and entry.end <= 916):
             add("thirumalai")
@@ -1270,18 +1290,35 @@ def build_body(
     return "\n".join(parts)
 
 
-def build_html(source_html: str, body: str) -> str:
+def apply_release_notes_seo(head: str, *, indexable: bool, page_title: str) -> str:
+    head = re.sub(
+        r"<title>[^<]*</title>",
+        f"<title>{html.escape(page_title)}</title>",
+        head,
+        count=1,
+    )
+    if indexable:
+        return head
+
+    staging_head = (
+        '    <meta name="robots" content="noindex, nofollow">\n'
+        '    <link rel="canonical" href="https://nalayiram.in/newreleasenotes.html">\n'
+        "    <script src=\"https://code.jquery.com/jquery"
+    )
+    return RELEASE_NOTES_SEO_BLOCK_RE.sub(staging_head, head, count=1)
+
+
+def build_html(source_html: str, body: str, *, indexable: bool = True, page_title: str | None = None) -> str:
     head_match = re.search(r"(.*?<div class=\"container\">)", source_html, re.DOTALL)
     tail_match = re.search(r"</div>\s*</body>", source_html, re.DOTALL)
     if not head_match or not tail_match:
         raise RuntimeError("Could not parse source HTML structure")
 
     head = head_match.group(1)
-    head = re.sub(
-        r"<title>[^<]*</title>",
-        f"<title>{RELEASE_NOTES_PAGE_TITLE}</title>",
+    head = apply_release_notes_seo(
         head,
-        count=1,
+        indexable=indexable,
+        page_title=page_title or RELEASE_NOTES_PAGE_TITLE,
     )
 
     extra_css = """

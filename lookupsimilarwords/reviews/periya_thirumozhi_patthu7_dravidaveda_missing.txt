@@ -1,0 +1,3 @@
+# பெரிய திருமொழி ஏழாம் பத்து (1548-1647): all padhavurai found 2026-08-13
+# 7-1..7-9 category crawl; 7-10 (1638-1647) numeric /{n}/ scrape
+# (no missing pasurams)

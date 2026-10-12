@@ -37,6 +37,13 @@ $releaseNotes = $envConfig['release_notes'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php if ($env !== 'prod'): ?>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://nalayiram.in/divyadesam_alwar_matrix.php?env=prod">
+<?php else: ?>
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nalayiram.in/divyadesam_alwar_matrix.php?env=prod">
+<?php endif; ?>
     <meta name="description" content="DivyaDesam -- Alwar pasuram count matrix for Nalayira Divya Prabandham.">
     <title>திவ்யதேசம் -- ஆழ்வார் — பாசுர எண்ணிக்கை அட்டவணை</title>
     <link rel="icon" type="image/x-icon" href="Sri.jpg">
@@ -151,6 +158,17 @@ $releaseNotes = $envConfig['release_notes'];
             min-width: 220px;
             max-width: 280px;
             white-space: normal;
+        }
+
+        table.matrix tbody tr.region-row th {
+            background: #8b2e1a;
+            color: #fff;
+            text-align: center;
+            font-weight: 700;
+            white-space: nowrap;
+            position: sticky;
+            left: 0;
+            z-index: 2;
         }
 
         table.matrix tfoot th {
@@ -428,9 +446,14 @@ while ($row = $result->fetch_assoc()) {
 }
 
 $divyadesams = array_keys($divyadesams);
-usort($divyadesams, function ($a, $b) {
-    return strcmp(divyadesam_tamil_label($a), divyadesam_tamil_label($b));
-});
+require_once __DIR__ . '/includes/divyadesam_regions_poc.php';
+$regionGroups = divyadesam_poc_ordered_groups($divyadesams);
+$divyadesams = [];
+foreach ($regionGroups as $group) {
+    foreach ($group['names'] as $dd) {
+        $divyadesams[] = $dd;
+    }
+}
 
 if (count($divyadesams) === 0) {
     echo "        <p class=\"error\">No DivyaDesam × Alwar data found for {$env}.</p>\n";
@@ -457,22 +480,33 @@ $grandTotal = 0;
                     </tr>
                 </thead>
                 <tbody>
-<?php foreach ($divyadesams as $dd): ?>
-<?php $ddLabel = divyadesam_tamil_label($dd); ?>
-                    <tr>
-                        <th scope="row"><?php echo htmlspecialchars($ddLabel); ?></th>
 <?php
-    $rowTotal = 0;
-    foreach ($ALWAR_COLUMNS as $spec) {
-        $count = alwar_cell_count($matrix, $dd, $spec);
-        $rowTotal += $count;
-        echo '                        <td>' . matrix_search_button($count, $spec['search'], $ddLabel, $searchScript) . "</td>\n";
+$colspan = count($ALWAR_COLUMNS) + 2;
+foreach ($regionGroups as $group) {
+    if ($group['names'] === []) {
+        continue;
     }
-    $grandTotal += $rowTotal;
-    echo '                        <td class="total-col">' . matrix_search_button($rowTotal, '', $ddLabel, $searchScript) . "</td>\n";
+    if ($group['label'] !== '') {
+        $heading = $group['label'] . ' (' . (int) $group['count'] . ')';
+        echo '                    <tr class="region-row"><th scope="colgroup" colspan="'
+            . $colspan . '">' . htmlspecialchars($heading) . "</th></tr>\n";
+    }
+    foreach ($group['names'] as $dd) {
+        $ddLabel = divyadesam_tamil_label($dd);
+        echo "                    <tr>\n";
+        echo '                        <th scope="row">' . htmlspecialchars($ddLabel) . "</th>\n";
+        $rowTotal = 0;
+        foreach ($ALWAR_COLUMNS as $spec) {
+            $count = alwar_cell_count($matrix, $dd, $spec);
+            $rowTotal += $count;
+            echo '                        <td>' . matrix_search_button($count, $spec['search'], $ddLabel, $searchScript) . "</td>\n";
+        }
+        $grandTotal += $rowTotal;
+        echo '                        <td class="total-col">' . matrix_search_button($rowTotal, '', $ddLabel, $searchScript) . "</td>\n";
+        echo "                    </tr>\n";
+    }
+}
 ?>
-                    </tr>
-<?php endforeach; ?>
                 </tbody>
                 <tfoot>
                     <tr>

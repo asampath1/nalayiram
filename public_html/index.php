@@ -1,34 +1,55 @@
+<?php
+require_once __DIR__ . '/seo_prabandhams.php';
+$seo = nalayiram_resolve_prod_seo();
+// Map English prabandham aliases (e.g. Thiruppavai) to Tamil for DB search.
+if ($seo['is_prabandham'] && $seo['search_term'] !== '') {
+    if (isset($_GET['padhamPrefix'])) {
+        $_GET['padhamPrefix'] = $seo['search_term'];
+    }
+    if (isset($_GET['prabandhamPrefix'])) {
+        $_GET['prabandhamPrefix'] = $seo['search_term'];
+    }
+    if (isset($_GET['search'])) {
+        $_GET['search'] = $seo['search_term'];
+        $_GET['padhamPrefix'] = $seo['search_term'];
+    }
+}
+$seoTitle = htmlspecialchars($seo['title'], ENT_QUOTES, 'UTF-8');
+$seoDesc = htmlspecialchars($seo['description'], ENT_QUOTES, 'UTF-8');
+$seoCanon = htmlspecialchars($seo['canonical'], ENT_QUOTES, 'UTF-8');
+$seoKeywords = htmlspecialchars($seo['keywords'], ENT_QUOTES, 'UTF-8');
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ta">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pasura Artham Search - A comprehensive search tool for Nalayira Divya Prabandham with features to sort by Divya Desam, Alzwar, and Padham.">
+    <meta name="description" content="<?php echo $seoDesc; ?>">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Divya Prabandham Pasura Artham Search">
-    <meta property="og:description" content="A comprehensive research tool for Nalayira Divya Prabandham. Sort by Divya Desam, Alzwar, and Padham.">
+    <meta property="og:title" content="<?php echo $seoTitle; ?>">
+    <meta property="og:description" content="<?php echo $seoDesc; ?>">
     <meta property="og:image" content="https://nalayiram.in/Sri.jpg">
-    <meta property="og:url" content="https://nalayiram.in">
+    <meta property="og:url" content="<?php echo $seoCanon; ?>">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pasura Artham Search">
-    <meta name="twitter:description" content="A comprehensive research tool for Nalayira Divya Prabandham. Sort by Divya Desam, Alzwar, and Padham.">
+    <meta name="twitter:title" content="<?php echo $seoTitle; ?>">
+    <meta name="twitter:description" content="<?php echo $seoDesc; ?>">
     <meta name="twitter:image" content="https://nalayiram.in/Sri.jpg">
-    <meta name="keywords" content="நாலாயிர,4000,நாலாயிர திவ்ய பிரபந்தம், நாலாயிர திவ்யப்பிரபந்தம், Nalayira divya prabandham, திருப்பல்லாண்டு, திருப்பள்ளியெழுச்சி, திருப்பாவை, பெரியாழ்வார் திருமொழி, அமலனாதிபிரான், நாச்சியார் திருமொழி, வாரணம் ஆயிரம், கோயில் திருவாய்மொழி">
+    <meta name="keywords" content="<?php echo $seoKeywords; ?>">
 
-    <link rel="canonical" href="https://nalayiram.in">
+    <link rel="canonical" href="<?php echo $seoCanon; ?>">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <title>Nalayira Divya Prabhandham PadhaArtham Search</title>
+    <title><?php echo $seoTitle; ?></title>
     <link rel="icon" type="image/x-icon" href="Sri.jpg">
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "WebSite",
           "url": "https://nalayiram.in/",
-          "name": "Pasura Artham Search",
+          "name": "Nalayira Divya Prabandham PadhaArtham Search",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://nalayiram.in/index.php?search={search_term}",
+            "target": "https://nalayiram.in/index.php?padhamPrefix={search_term}",
             "query-input": "required name=search_term"
           }
         }
@@ -538,7 +559,7 @@
                             url: "divyadesamautocomplete.php",
                             type: "GET",
                             dataType: "json",
-                            data: { query: request.term },
+                            data: { query: request.term, env: "prod" },
                             success: function(data) {
                                 // Check if there are suggestions
                                 if (data.length > 0) {
@@ -576,8 +597,9 @@
      <header>
         <img src="ThirumannKapu.jpeg" alt="திருமண் காப்பு">
         <h1 class="site-title">ஆழ்வார்கள் அருளிச்செய்த நாலாயிர திவ்யப் பிரபந்தம் - பதவுரை தேடல்</h1>
-        <p class="site-source">திவ்யார்த்த தீபிகை (ஸ்ரீ காஞ்சி பிரதிவாதி பயங்கரம் அண்ணங்கராசாரியார்) · சில தொகுப்புகளில் பெரியவாச்சான் பிள்ளை, நம்பிள்ளை அவதாரிகை</p>
-        <p class="search-tips">உதாரணம்: திருப்பாவை, vamanan, 940, 2-8-2 · <a href="newreleasenotes.html">அடைவு</a></p>
+        <p class="site-source">திவ்யார்த்த தீபிகை (ஸ்ரீ காஞ்சி பிரதிவாதி பயங்கரம் அண்ணங்கராசாரியார்) · சில தொகுப்புகளில் பெரியவாச்சான் பிள்ளை, நம்பிள்ளை, ஸ்ரீ மணவாள மாமுனிகள் அவதாரிகை</p>
+        <p class="search-tips">உதாரணம்: திருப்பாவை, vamanan, 940, 2-8-2, 1-1 வாடினேன் வாடி</p>
+        <p class="search-tips"><a href="mailto:feedback@nalayiram.in">கருத்து: feedback@nalayiram.in</a></p>
     </header>
             <div class="container">
                     <div id="search-top" tabindex="-1">
@@ -593,6 +615,8 @@
                         <a href="newreleasenotes.html" class="customSubmit">நாலாயிர திவ்யப்ரபந்தப் பாசுரங்களின் அடைவு</a>
                         <span class="nav-sep">|</span>
                         <a href="divyadesam_alwar_matrix.php?env=prod" class="customSubmit">திவ்யதேசம் -ஆழ்வார் -பாசுர எண்ணிக்கை அட்டவணை</a>
+                        <span class="nav-sep">|</span>
+                        <a href="help.html?env=prod" class="customSubmit">தேடல் உதவி</a>
                     </nav>
   
 <?php
@@ -645,6 +669,30 @@ $sql_search = '';
 $result_search = null;
 
 /**
+ * Autocomplete English labels → DB Alzwar (Tamil). Used when the second box
+ * has only "Nammalwar" instead of "Nammalwar-நம்மாழ்வார்".
+ */
+function poc_alwar_english_to_tamil($term) {
+    static $map = [
+        'nammalwar' => 'நம்மாழ்வார்',
+        'madhurakavi alwar' => 'மதுரகவியாழ்வார்',
+        'periyalwar' => 'பெரியாழ்வார்',
+        'andal' => 'ஆண்டாள்',
+        'thondaradpipodi alwar' => 'தொண்டரடிப்பொடிஆழ்வார்',
+        'thiruppan alwar' => 'திருப்பாண் ஆழ்வார்',
+        'thirumangai alwar' => 'திருமங்கையாழ்வார்',
+        'poigai alwar' => 'பொய்கையாழ்வார்',
+        'boothathalwar' => 'பூதத்தாழ்வார்',
+        'peyalwar' => 'பேயாழ்வார்',
+        'thirumazhisai alwar' => 'திருமழிசையாழ்வார்',
+        'kulasekara alwar' => 'குலசேகர ஆழ்வார்',
+        'nadamuni' => 'நாதமுனி',
+    ];
+    $key = strtolower(trim($term));
+    return $map[$key] ?? $term;
+}
+
+/**
  * Build Alzwar LIKE condition.
  * Autocomplete uses "English-Tamil"; matrix links pass plain Alzwar from DB.
  */
@@ -657,11 +705,73 @@ function poc_alwar_condition($alwarPrefix) {
         $alwarPrefix = trim($parts[1]);
     } else {
         $alwarPrefix = trim($alwarPrefix);
+        $alwarPrefix = poc_alwar_english_to_tamil($alwarPrefix);
     }
     if ($alwarPrefix === '') {
         return null;
     }
     return "Alzwar LIKE '%$alwarPrefix%'";
+}
+
+function poc_text_search_condition($term) {
+    return "(SimilarWords LIKE '%$term%' OR Pasuram LIKE '%$term%' OR Prabandham LIKE '%$term%' OR Word LIKE '%$term%' OR Meaning LIKE '%$term%')";
+}
+
+/** 3.1.1 / 3-1-1 / 3 1 1 — verse codes, not a decimal pasuram number. */
+function poc_is_pathigam_code($term) {
+    return (bool) preg_match('/^\d+(?:[.\-\s]+\d+)+$/', $term);
+}
+
+function poc_pathigam_code_variants($term) {
+    $parts = preg_split('/[.\-\s]+/', trim($term), -1, PREG_SPLIT_NO_EMPTY);
+    if (count($parts) < 2) {
+        return [$term];
+    }
+    foreach ($parts as $part) {
+        if (!ctype_digit($part)) {
+            return [$term];
+        }
+    }
+    return array_values(array_unique([
+        implode('.', $parts),
+        implode('-', $parts),
+        implode(' ', $parts),
+        $term,
+    ]));
+}
+
+/** Literal pathigam code for MySQL REGEXP (`\.` is not portable; `[.]` is). */
+function poc_mysql_regexp_escape($term) {
+    $out = '';
+    $len = strlen($term);
+    for ($i = 0; $i < $len; $i++) {
+        $ch = $term[$i];
+        if ($ch === '.') {
+            $out .= '[.]';
+        } elseif ($ch === '-') {
+            $out .= '[-]';
+        } elseif (ctype_digit($ch) || $ch === ' ') {
+            $out .= $ch;
+        }
+    }
+    return $out;
+}
+
+/**
+ * Digit-bounded match so 3-1-1 does not also hit 3-1-10 / 13-1-1,
+ * and 3.1.1 does not treat '.' as "any character".
+ */
+function poc_pathigam_search_condition($term) {
+    $ors = [];
+    foreach (poc_pathigam_code_variants($term) as $variant) {
+        $escaped = poc_mysql_regexp_escape($variant);
+        if ($escaped === '') {
+            continue;
+        }
+        $pattern = '(^|[^0-9])' . $escaped . '([^0-9]|$)';
+        $ors[] = "(SimilarWords REGEXP '$pattern' OR Pasuram REGEXP '$pattern' OR Prabandham REGEXP '$pattern' OR Word REGEXP '$pattern' OR Meaning REGEXP '$pattern')";
+    }
+    return '(' . implode(' OR ', $ors) . ')';
 }
 
 function poc_run_joined_search($conn, $conditions) {
@@ -689,10 +799,12 @@ function prod_build_search_conditions($padhamPrefix, $prabandhamPrefix, $alwarPr
     if ($isPrabandham) {
         $conditions[] = "Prabandham LIKE '$prabandhamPrefix%'";
     } elseif ($padhamPrefix !== '') {
-        if (is_numeric($padhamPrefix)) {
+        if (ctype_digit($padhamPrefix)) {
             $conditions[] = "PasuramsArthamTable.PasuramNumber = '$padhamPrefix'";
+        } elseif (poc_is_pathigam_code($padhamPrefix)) {
+            $conditions[] = poc_pathigam_search_condition($padhamPrefix);
         } else {
-            $conditions[] = "(SimilarWords LIKE '%$padhamPrefix%' OR Pasuram LIKE '%$padhamPrefix%' OR Prabandham LIKE '%$padhamPrefix%')";
+            $conditions[] = poc_text_search_condition($padhamPrefix);
         }
     }
 

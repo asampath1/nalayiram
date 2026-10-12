@@ -310,6 +310,23 @@ def test_multi_theme_union():
     print("OK multi-theme: MB + Ramayana aliases unioned on all rows")
 
 
+def test_ramayana_sanskrit_stems():
+    """Periya Thirumozhi 1418-style glosses use ஸீதை / லக்ஷ்மணன் / ஸ்ரீராமாவதார (not சீத alone)."""
+    ram = load_theme_detector(detector_path_for_theme("ramayana", DEFAULT_DETECTORS_DIR))
+    prepared = prepare_detector(ram)
+    cases = [
+        ("மாழை மான் மட நோக்கி", "என் மனைவியாகிய இந்த ஸீதை"),
+        ("எம்பி", "என் தம்பியான லக்ஷ்மணன்"),
+        ("என்ற", "(நீ ஸ்ரீராமாவதாரத்திற்) சொல்லியருளிய"),
+    ]
+    for padham, meaning in cases:
+        matched, reason, term = line_triggers_theme(padham, meaning, prepared)
+        assert matched, f"expected Ramayana hit for {meaning[:40]!r}, got none"
+        assert reason == "meaning_keyword", reason
+        assert term, term
+    print("OK ramayana: ஸீத / லக்ஷ்மண / ஸ்ரீராம meaning stems")
+
+
 def test_blocked_substring_guards():
     sivan = load_theme_detector(detector_path_for_theme("sivan", DEFAULT_DETECTORS_DIR))
     prepared = prepare_detector(sivan)
@@ -394,6 +411,7 @@ if __name__ == "__main__":
     test_pasuram_80_style_group()
     test_generic_pasuram_not_tagged()
     test_multi_theme_union()
+    test_ramayana_sanskrit_stems()
     test_blocked_substring_guards()
     test_siriya_thirumadal_vamana_pattu6()
     test_per_pattu_theme_grouping()

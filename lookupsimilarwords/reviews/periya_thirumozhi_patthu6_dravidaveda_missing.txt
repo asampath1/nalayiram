@@ -1,0 +1,6 @@
+# பெரிய திருமொழி ஆறாம் பத்து (1448-1547): Dravidaveda padhavurai missing
+# 2026-08-10 category crawl
+
+PasuramNumber 1485 (6-4-8): https://www.dravidaveda.org/1-96/ — no padham rows scraped
+# 2026-09-02: 17 padham rows loaded into PasuramsArthamTablePOC from padhavurai table
+# (Title / Pasuram / pathigam SimilarWords kept; Word transliterated).

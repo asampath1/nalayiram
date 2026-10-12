@@ -1,0 +1,37 @@
+{
+  "source": "https://public.tableau.com/app/profile/ramanuja.dasargal/viz/sd_2/WELCOME",
+  "workbook": "sd_2",
+  "sheet": "07-Bhavam Dashboard",
+  "author": "Ramanuja Dasargal",
+  "note": "Chart totals only. Verse-level tags are the Acharya source of truth and must come from the Tableau table (Pasuram-Nu + Azhwar-Gender-Role). Do not infer bhavam from Padham.",
+  "roles": ["Mother", "Nayaki", "Thozhi"],
+  "skip_roles": ["Male"],
+  "aliases": {
+    "Mother": ["தாய் பாவம்"],
+    "Nayaki": ["நாயகி பாவம்"],
+    "Thozhi": ["தோழி பாவம்"]
+  },
+  "compass": {
+    "Mother": [
+      {"prabandham_en": "Periyazhwar Thirumozhi", "prabandham_ta": "பெரியாழ்வார் திருமொழி", "tableau_pasurams": 272},
+      {"prabandham_en": "Thiruvaimozhi", "prabandham_ta": "திருவாய்மொழி", "tableau_pasurams": 88},
+      {"prabandham_en": "Periya Thirumozhi", "prabandham_ta": "பெரிய திருமொழி", "tableau_pasurams": 60},
+      {"prabandham_en": "Perumal Thirumozhi", "prabandham_ta": "பெருமாள் திருமொழி", "tableau_pasurams": 21}
+    ],
+    "Nayaki": [
+      {"prabandham_en": "Periya Thirumozhi", "prabandham_ta": "பெரிய திருமொழி", "tableau_pasurams": 224},
+      {"prabandham_en": "Thiruvaimozhi", "prabandham_ta": "திருவாய்மொழி", "tableau_pasurams": 165},
+      {"prabandham_en": "Periyazhwar Thirumozhi", "prabandham_ta": "பெரியாழ்வார் திருமொழி", "tableau_pasurams": 11},
+      {"prabandham_en": "Perumal Thirumozhi", "prabandham_ta": "பெருமாள் திருமொழி", "tableau_pasurams": 2},
+      {"prabandham_en": "Thiruvirutham", "prabandham_ta": "திருவிருத்தம்", "tableau_pasurams": 7}
+    ],
+    "Thozhi": [
+      {"prabandham_en": "Nachiar Thirumozhi", "prabandham_ta": "நாச்சியார் திருமொழி", "tableau_pasurams": 143},
+      {"prabandham_en": "Periya Thirumadal", "prabandham_ta": "பெரிய திருமடல்", "tableau_pasurams": 148},
+      {"prabandham_en": "Siriya Thirumadal", "prabandham_ta": "சிறிய திருமடல்", "tableau_pasurams": 78},
+      {"prabandham_en": "Thiruvirutham", "prabandham_ta": "திருவிருத்தம்", "tableau_pasurams": 83},
+      {"prabandham_en": "Thiruppavai", "prabandham_ta": "திருப்பாவை", "tableau_pasurams": 30},
+      {"prabandham_en": "Thiruvaimozhi", "prabandham_ta": "திருவாய்மொழி", "tableau_pasurams": 28}
+    ]
+  }
+}

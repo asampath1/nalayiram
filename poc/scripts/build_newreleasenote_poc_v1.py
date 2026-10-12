@@ -24,7 +24,9 @@ sys.path.insert(0, str(ROOT))
 from poc.scripts.build_newreleasenote_poc import (  # noqa: E402
     ENV_PRESETS,
     NITHYA_JSON,
+    RELEASE_NOTES_PAGE_TITLE,
     SOURCE_HTML,
+    STAGING_RELEASE_TITLE_PREFIX,
     LinkEntry,
     apply_range_corrections,
     build_html,
@@ -78,7 +80,7 @@ V1_SPECS: list[tuple] = [
     ("thiruppalliyezhuchi", "திருப்பள்ளியெழுச்சி", "kannadi_index", None, 917, 926, "திருப்பள்ளியெழுச்சி", {"layout": "even2"}),
     ("amalanadipiran", "அமலனாதிபிரான்", "kannadi_index", None, 927, 936, "அமலனாதிபிரான்", {"layout": "even2"}),
     ("kanninunsiruthambu", "கண்ணிநுண்சிறுத்தாம்பு", "kannadi_index", None, 937, 947, "கண்ணிநுண்சிறுத்தாம்பு", {"layout": "even2"}),
-    ("periya_thirumozhi", "பெரிய திருமொழி", "patthu_pasuram", None, 948, 1447, None, {}),
+    ("periya_thirumozhi", "பெரிய திருமொழி", "patthu_pasuram", None, 948, 2031, None, {}),
     ("thirukkurunthandagam", "திருக்குறுந்தாண்டகம்", "kannadi_index", None, 2032, 2051, "திருக்குறுந்தாண்டகம்", {"row_break": True, "layout": "even4"}),
     ("nedum_thandagam", "திரு நெடும் தாண்டகம்", "kannadi_index", None, 2052, 2081, "திரு+நெடும்+தாண்டகம்", {"layout": "even4"}),
     ("mudal_thiruvandhathi", "முதல் திருவந்தாதி", "kannadi_index", None, 2082, 2181, "முதல்+திருவந்தாதி", {"full_width": True}),
@@ -293,6 +295,13 @@ def main() -> None:
     output_path = Path(args.output or preset["output"])
     search_script = args.search_script or preset["search_script"]
 
+    indexable = args.env == "prod"
+    if indexable:
+        page_title = RELEASE_NOTES_PAGE_TITLE
+    else:
+        prefix = STAGING_RELEASE_TITLE_PREFIX.get(args.env, args.env.upper())
+        page_title = f"{prefix} — {RELEASE_NOTES_PAGE_TITLE}"
+
     source_html = source_path.read_text(encoding="utf-8")
     nithya = json.loads(NITHYA_JSON.read_text(encoding="utf-8"))
     entries = parse_links(source_html)
@@ -317,7 +326,10 @@ def main() -> None:
         perumal_patthu_indexes,
         config_path,
     )
-    output = rewrite_search_script(build_html(source_html, body), search_script)
+    output = rewrite_search_script(
+        build_html(source_html, body, indexable=indexable, page_title=page_title),
+        search_script,
+    )
     output_path.write_text(output, encoding="utf-8")
     print(f"Wrote {output_path} ({args.env}, {search_script})")
 

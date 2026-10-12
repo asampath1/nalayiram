@@ -1,12 +1,107 @@
-# Session resume — Path F, Kannadi release notes, பெரிய திருமொழி, Pasuram-Split
+# Session resume — Path F, Kannadi release notes, பெரிய திருமொழி, Pasuram-Split, padham reports, bhavam
 
-**Last updated:** 2026-09-01 (Pasuram-Split paused; UAT holds Acharya splits 1–12 and 13–222; next module is a new session)  
+**Last updated:** 2026-09-07 (paused — workspace saved for a break)  
+**Chat transcript (padham reports / 1485 / bhavam, 2026-09-02 … 2026-09-07):** [84a98a0f-6b59-4fd5-8f2a-f04998340084](file:///Users/anand/.cursor/projects/Users-anand-tensorflow-test-4K-IN-Site/agent-transcripts/84a98a0f-6b59-4fd5-8f2a-f04998340084/84a98a0f-6b59-4fd5-8f2a-f04998340084.jsonl)  
 **Chat transcript (Path F):** [fd2690f1-8a21-4e0d-a304-04a085b687cc](file:///Users/anand/.cursor/projects/Users-anand-tensorflow-test-4K-IN-Site/agent-transcripts/fd2690f1-8a21-4e0d-a304-04a085b687cc/fd2690f1-8a21-4e0d-a304-04a085b687cc.jsonl)  
 **Chat transcript (Periya Thirumozhi / Kannadi / counts / Pasuram-Split):** [5236674c-4fcc-48d1-9ab1-159202da6b98](file:///Users/anand/.cursor/projects/Users-anand-tensorflow-test-4K-IN-Site/agent-transcripts/5236674c-4fcc-48d1-9ab1-159202da6b98/5236674c-4fcc-48d1-9ab1-159202da6b98.jsonl)
 
-Skill for splits: [`.cursor/skills/pasuram-split/SKILL.md`](../.cursor/skills/pasuram-split/SKILL.md)
+Skill for splits: [`.cursor/skills/pasuram-split/SKILL.md`](../.cursor/skills/pasuram-split/SKILL.md)  
+Skill for ingest: [`.cursor/skills/prabandham-ingest/SKILL.md`](../.cursor/skills/prabandham-ingest/SKILL.md)
 
 Use this file after restarting Cursor to continue where we left off.
+
+---
+
+## Paused 2026-09-07 — how to resume
+
+Open this repo (`4K-IN-Site`) and say: *“Continue from SESSION_RESUME.md — bhavam reports”*  
+(this chat: `84a98a0f-6b59-4fd5-8f2a-f04998340084`).
+
+**Git:** working-tree changes are **not committed**. Commit only if the user asks.
+
+### Next (blocked on Tableau verse list)
+
+Acharya bhavam is **one role per pasuram**. Do **not** infer from Padham or Title.
+
+1. Fill [`poc/data/bhavam_tableau.csv`](../poc/data/bhavam_tableau.csv) from Tableau table **05-Bhavams vs Pasurams**: `pasuram_number,bhavam,prabandham_en,notation,pasuram_text`  
+   - `pasuram_number` = Tableau **Pasuram-Nu** = our **PasuramNumber** (13 = பெரியாழ்வார் 1-1-1)  
+   - `bhavam` = `Mother` | `Nayaki` | `Thozhi` — skip **Male**  
+2. Dry-run then apply (POC only):
+
+```
+poc/.venv/bin/python poc/scripts/apply_bhavam_from_tableau.py --dry-run
+poc/.venv/bin/python poc/scripts/apply_bhavam_from_tableau.py --apply
+poc/.venv/bin/python poc/scripts/build_bhavam_reports.py --apply
+```
+
+3. Page: `public_html/bhavam_reports.php?env=poc`
+
+Tableau source: [Divya Desam — Ramanuja Dasargal](https://public.tableau.com/app/profile/ramanuja.dasargal/viz/sd_2/WELCOME) tab **07-Bhavam Dashboard**. Guest download of Data/Crosstab/View Data is **disabled**; user can paste table batches into the CSV.
+
+POC SimilarWords aliases (not `theme_registry.json`): `தாய் பாவம்` · `நாயகி பாவம்` · `தோழி பாவம்`.
+
+### Padham reports (POC) — done, re-upload if not live
+
+- Page: `public_html/padham_reports.php?env=poc`
+- JSON: `public_html/data/padham_reports_poc.json`
+- Builder: `poc/.venv/bin/python poc/scripts/build_padham_reports.py --apply`
+- Nav: `pocindex.php` → பதவுரை ஆராய்ச்சிகள் · பாவம் ஆராய்ச்சி
+- Section order: **1 கருப்பொருள்** · 2 முழு நூல் · 3 பிரபந்தம் · 4 ஆழ்வார் · 5 ஒப்பீடு
+- Jump dropdowns: பிரபந்தம் and ஆழ்வார் clear each other
+- Header: `ஆழ்வார் பாசுரங்கள் மட்டும் : 3776 · வரிகள்: 51352 · தனிப் பதங்கள்: 37222`
+- Do not auto-expand typed search to cluster stems
+
+**1485** (பெரிய திருமொழி 6-4-8): 17 padham rows in POC, Test, and Prod.
+
+### Upload if not already live
+
+- `public_html/padham_reports.php`
+- `public_html/data/padham_reports_poc.json`
+- `public_html/pocindex.php`
+- `public_html/bhavam_reports.php`
+- `public_html/data/bhavam_reports_poc.json`
+
+Reports are **POC-only**. Do not change `index.php` / `test1.php` unless asked.
+
+### Ground rules (do not mix envs)
+
+| Env | Config | Table | UI |
+|-----|--------|-------|-----|
+| POC | `poc/config.ini` | `PasuramsArthamTablePOC` | `pocindex.php` |
+| UAT | `poc/config.test.ini` | `PasuramsArthamTableTest` | `test1.php` |
+| Prod | `poc/config.prod.ini` | `PasuramsArthamTable` | `index.php` |
+
+---
+
+## Continue tomorrow (2026-09-02 pause) — superseded by 2026-09-07 section above
+
+### Bhavam (தாய் / நாயகி / தோழி) — verse tags from Tableau, not Padham
+
+Acharya classification is **one role per pasuram**. Do **not** infer from Padham/Title. Match Tableau **Pasuram-Nu** to our **PasuramNumber** (13 = பெரியாழ்வார் 1-1-1). Skip **Male**.
+
+Tableau Public ([sd_2 / 07-Bhavam Dashboard](https://public.tableau.com/app/profile/ramanuja.dasargal/viz/sd_2/WELCOME)) has **Data / Crosstab / View Data disabled**. Fill `poc/data/bhavam_tableau.csv` then apply as in the 2026-09-07 section.
+
+Page: `public_html/bhavam_reports.php?env=poc` · POC SimilarWords only (`தாய் பாவம்` / `நாயகி பாவம்` / `தோழி பாவம்`). Not on `theme_registry.json`.
+
+### Done 2026-09-02 (padham reports + 1485)
+
+**பதவுரை ஆராய்ச்சிகள் (POC only)**  
+- Page: `public_html/padham_reports.php?env=poc`  
+- JSON: `public_html/data/padham_reports_poc.json`  
+- Builder: `poc/.venv/bin/python poc/scripts/build_padham_reports.py --apply` (read-only SELECT; `--apply` writes JSON only)  
+- Nav on `pocindex.php`: **பதவுரை ஆராய்ச்சிகள்**  
+- Corpus: 12 Āzhvārs only; excluded இராமாநுச நூற்றந்தாதி, உபதேச ரத்னமாலை, திருவாய்மொழி நூற்றந்தாதி  
+- Header: `ஆழ்வார் பாசுரங்கள் மட்டும் : 3776 · வரிகள்: 51352 · தனிப் பதங்கள்: 37222` (after 1485 padhams)  
+- UI: sticky jump nav (பிரபந்தம் / ஆழ்வார் dropdowns), side-by-side ranking tables, no empty spacer column, மேலே button  
+- Copy: தீம்→கருப்பொருள், அறிக்கை→ஆராய்ச்சி, no SimilarWords/alias in user-facing notes  
+
+**1485 (பெரிய திருமொழி 6-4-8)** padhavurai from user’s table — **17 padham rows** in POC, Test, and Prod. Title / verse / `6-4 கண்ணும் சுழன்று` aliases kept. Themes: none. `SuggestedWords` refreshed.
+
+Check: `pocindex.php?padhamPrefix=1485` · `test1.php?padhamPrefix=1485` · `index.php?padhamPrefix=1485`
+
+Reports are **POC-only**. Do not change `index.php` / `test1.php` unless asked.
+
+Deferred: typed-search cluster expansion (கண்ணன் typed vs Padham-only stems). Do not auto-expand until the user chooses.
 
 ---
 
@@ -294,7 +389,7 @@ ORDER BY Alzwar, Prabandham;
 | Yes | 1148–1247 | மூன்றாம் பத்து 3-1 … 3-10 (Dravidaveda + `pasuram.txt` Titles) |
 | Yes | 1248–1347 | நான்காம் பத்து 4-1 … 4-10 (97/100 Dravidaveda; 1330–1332 backfilled manually 2026-08-17) |
 | Yes | 1348–1447 | ஐந்தாம் பத்து 5-1 … 5-10 (all Dravidaveda; 5-9-1…5 empty Title) |
-| Yes | 1448–1547 | ஆறாம் பத்து 6-1 … 6-10 (99/100 Dravidaveda; **1485** stub only) |
+| Yes | 1448–1547 | ஆறாம் பத்து 6-1 … 6-10 (1485 padhavurai backfilled in POC 2026-09-02) |
 | Yes | 1548–1647 | ஏழாம் பத்து 7-1 … 7-10 (100/100 Dravidaveda; 7-10 numeric scrape) |
 | Yes | 1648–1747 | எட்டாம் பத்து 8-1 … 8-10 (100/100 Dravidaveda, all direct numeric) |
 | Yes | **1748–1847** | **ஒன்பதாம் பத்து 9-1 … 9-10** (100/100 Dravidaveda, all direct numeric) |
@@ -360,7 +455,7 @@ vs 7–13 for neighbours); uncovered verse words are listed in
 - Crawl: `poc/scrapers/dravidaveda_periya_thirumozhi_patthu6_crawl.py` (category → pathigam → விளக்க உரை)
 - Ingest: `poc/scrapers/ingest_periya_thirumozhi_patthu6.py` — 100 pasurams, 1294 padham rows, all themes
 - Titles: `poc/scripts/apply_periya_thirumozhi_patthu6_titles.py`; Pasuram: `replace_periya_thirumozhi_patthu6_pasuram_from_txt.py`
-- **Flag:** pasuram **1485** (6-4-8) — no padhavurai on Dravidaveda (`1-96/`); verse-only stub from `pasuram.txt`
+- **1485** (6-4-8): Dravidaveda `1-96/` had no padhavurai; backfilled **POC / Test / Prod** 2026-09-02 (17 padham rows).
 - Release notes: `periya_thirumozhi` V1_SPECS to **1547**; 10 pathigam links in `release_notes_link_source.html`
 - Pathigam alias example: `6-1 வண்டுணும்` (exceptional short name vs verse `வண்டுண்`)
 
@@ -375,9 +470,12 @@ vs 7–13 for neighbours); uncovered verse words are listed in
 
 ## Pending / resume checklist
 
+- [ ] Upload padham reports if not live: `padham_reports.php`, `data/padham_reports_poc.json`, `pocindex.php`, `bhavam_reports.php`
+- [ ] Fill `poc/data/bhavam_tableau.csv` from Tableau Pasuram-Nu + bhavam, then dry-run apply
+- [ ] Next padham research slice (see “Continue tomorrow”): விளி vs பெயர், Dwadasa nāma, or Padham vs Divyadesam
 - [ ] Deploy `newreleasenotespoc.html` (பத்து 10–11 / 1848–2031) if not uploaded
 - [ ] After POC verify: rebuild UAT/Prod release notes (`--env test` / `--env prod` with `--config poc/config.ini`)
-- [ ] Backfill padhavurai for **1485** (6-4-8) if Dravidaveda fixes `1-96/`
+- [x] Backfill padhavurai for **1485** (6-4-8) in POC, Test, and Prod (17 padham rows, 2026-09-02).
 - [ ] Pasuram 2043: strip leading `—` in Pasuram column (POC/Test/Prod) if not done
 - [ ] Manual UAT/Prod load for patthus 6–11 when ready
 - [ ] Git commit if desired
@@ -394,5 +492,5 @@ vs 7–13 for neighbours); uncovered verse words are listed in
 - After upload: resubmit sitemap in Google Search Console.
 
 1. Open this file: `docs/SESSION_RESUME.md`
-2. Say: *“Continue from SESSION_RESUME.md — [your next task]”*
-3. Or reference chat transcript: `5236674c-4fcc-48d1-9ab1-159202da6b98`
+2. Say: *“Continue from SESSION_RESUME.md — bhavam reports”*
+3. Or reference chat transcript: `84a98a0f-6b59-4fd5-8f2a-f04998340084`

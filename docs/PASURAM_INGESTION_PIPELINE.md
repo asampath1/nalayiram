@@ -4,6 +4,7 @@ Single reference for adding new pasuram ranges: **scrape → transliteration →
 
 Related docs (subsets of this guide):
 
+- [docs/SESSION_RESUME.md](SESSION_RESUME.md) — current POC progress and resume checklist
 - [poc/README.md](../poc/README.md) — POC quick start
 - [lookupsimilarwords/README.md](../lookupsimilarwords/README.md) — theme detectors and vetting
 - [poc/UAT_THIRUVANDHATHI.md](../poc/UAT_THIRUVANDHATHI.md) — UAT loads, title/theme apply, and `test1.php` checklist
@@ -33,6 +34,7 @@ Thaniyans: yes/no — Excel PattuNumber=0 → DB PasuramNumber=0
 | Periyazhvar vilakku on tidley | **D** Vilakku urai | [§5](#5-path-d--periyazhvar-vilakku-urai-from-tidley) |
 | Thiruvandhathi title on tidley | **E** Tidley Title | [§6](#6-path-e--thiruvandhathi-titles-from-tidley) |
 | Long prabandham with padham tables on tidley (e.g. திருவெழுகூற்றிருக்கை) | **F** Tidley table padham | [§7](#7-path-f--tidley-table-padham-thiruvozhukootrirukkai) |
+| பெரிய திருமொழி patthu (Dravidaveda padhavurai + `pasuram.txt` titles/verse) | **H** PT patthu | [§7.1](#71-path-h--dravidaveda-பரய-தரமழ-patthu) |
 
 ### 2. Prepare
 
@@ -440,6 +442,59 @@ Anchor on **பதவுரை**: one paragraph above = **Pasuram**, table below
 poc/.venv/bin/python poc/scrapers/ingest_periya_thirumadal.py --config poc/config.ini --dry-run
 poc/.venv/bin/python poc/scrapers/ingest_periya_thirumadal.py --config poc/config.ini --apply
 ```
+
+### Path H — Dravidaveda பெரிய திருமொழி patthu
+
+Category crawl (not numeric `/{pasuram}/` URLs): patthu category → pathigam → **விளக்க உரை** → padhavurai page.
+
+| Patthu | Range | POC status (2026-08) | Scripts |
+|--------|-------|----------------------|---------|
+| 1–3 | 948–1247 | Done | `ingest_periya_thirumozhi_patthu{1,2,3}.py` |
+| 4 | 1248–1347 | Done (97/100 DD; 1330–1332 manual) | `patthu4` + `dravidaveda_*_patthu4_crawl` or numeric scrape; gap closed by `ingest_periya_thirumozhi_1330_1332.py` |
+| 5 | 1348–1447 | Done | `ingest_periya_thirumozhi_patthu5.py`, `dravidaveda_periya_thirumozhi_patthu5_crawl.py` |
+| 6 | 1448–1547 | Done (99/100 DD) | `ingest_periya_thirumozhi_patthu6.py`, `dravidaveda_periya_thirumozhi_patthu6_crawl.py` |
+| 7 | 1548–1647 | Done (100/100 DD) | `ingest_periya_thirumozhi_patthu7.py` (crawl 7-1…7-9; numeric 7-10) |
+| 8 | 1648–1747 | Done (100/100 DD) | `ingest_periya_thirumozhi_patthu8.py` (numeric `/{n}/` only, no crawler) |
+| 9 | 1748–1847 | Done (100/100 DD) | `ingest_periya_thirumozhi_patthu9.py` (numeric `/{n}/` only, no crawler) |
+| 10 | 1848–1951 | Done (104/104 DD; 10-7 is 14 verses) | `ingest_periya_thirumozhi_patthu10.py` (numeric `/{n}/`; explicit `PATHIGAMS` ranges — do not modulo-10) |
+| 11 | 1952–2031 | Done (80/80 DD; 11-1…11-8 only) | `ingest_periya_thirumozhi_patthu11.py` (numeric `/{n}/`; `pasuram.txt` duplicates this patthu — use first copy) |
+
+பெரிய திருமொழி ends at **2031** (1084 pasurams). Next is திருக்குறுந்தாண்டகம்.
+
+Probe `https://www.dravidaveda.org/{first_pasuram}/` before building a crawler — patthus 8–11
+served padhavurai directly, so the category-crawl step was unnecessary.
+
+Unlike patthus 6–8, patthu 9 spans several Divyadesams, so `PATHIGAM_META` in the titles
+script needs a per-pathigam Divyadesam rather than one name with ordinals throughout.
+Patthus 10–11 are **sparse** in `DivyaDesamTable` (13/104 and 14/80 already mapped) — do not
+invent DD rows; omit the Title DD bracket when `pasuram.txt` has none, and keep non-DD
+second-brackets as written.
+
+**Patthu 10 trap:** 10-7 is 14 verses (1908–1921). Do not derive pathigam ranges with
+modulo-10 from 1848 — that shifts 10-8…10-10 and all of patthu 11. Use explicit `PATHIGAMS`.
+
+**Patthu 11 trap:** `poc/pasuram.txt` repeats the whole patthu. Parsers must use the first copy
+and cut at the second `11-1-1` *verse-block start* (and at `Title :`).
+
+Per patthu after ingest:
+
+```bash
+poc/.venv/bin/python poc/scrapers/ingest_periya_thirumozhi_patthu10.py --config poc/config.ini --apply
+poc/.venv/bin/python poc/scripts/apply_periya_thirumozhi_patthu10_titles.py --apply
+poc/.venv/bin/python poc/scripts/replace_periya_thirumozhi_patthu10_pasuram_from_txt.py --apply
+poc/.venv/bin/python poc/scripts/seed_divyaprabandham_counts.py --config poc/config.ini --apply
+poc/.venv/bin/python poc/scripts/build_newreleasenote_poc_v1.py --env poc
+poc/.venv/bin/python poc/scripts/apply_pathigam_search_aliases.py --apply --rebuild-release-notes
+poc/.venv/bin/python poc/scripts/refresh_suggested_words.py --apply
+```
+
+- **Padham/Meaning:** Dravidaveda only; missing pages → flag + pasuram-only stub from `poc/pasuram.txt`.
+- **Title:** `(N-M–short) (divyadesam) - (ஸ்ரீ பெரியவாச்சான் பிள்ளை)` + commentary from `poc/pasuram.txt`.
+- **Pasuram column:** replace from `poc/pasuram.txt` after ingest (readability).
+- **Release notes:** extend `V1_SPECS` in `build_newreleasenote_poc_v1.py`; pathigam links in `poc/data/release_notes_link_source.html`; `classify_entries` end in `build_newreleasenote_poc.py`.
+- **Skill / prompts:** `.cursor/skills/prabandham-ingest/SKILL.md`, `nalayiram-prompts.md`, `docs/SESSION_RESUME.md`.
+
+Missing-padhavurai logs: `lookupsimilarwords/reviews/periya_thirumozhi_patthu*_dravidaveda_missing.txt`.
 
 ---
 

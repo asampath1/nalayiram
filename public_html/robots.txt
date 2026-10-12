@@ -1,3 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /pocindex.php
+Disallow: /test1.php
+Disallow: /newreleasenotespoc.html
+Disallow: /newreleasenotestest.html
+Disallow: /indexbackup.php
 Sitemap: https://nalayiram.in/sitemap.xml
