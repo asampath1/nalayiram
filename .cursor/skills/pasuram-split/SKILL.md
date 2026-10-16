@@ -216,7 +216,7 @@ Irandam Paththu (2-1 … 2-10, pasurams **118–222**) is loaded on UAT from Ach
 
 ## Nalayiram context this agent must keep
 
-Site: Nalayira Divya Prabandham PadhaArtham search. Shared Hostinger DB `u868488353_tamildb`.
+Site: Nalayira Divya Prabandham PadhaArtham search. Shared Hostinger MySQL DB.
 
 | Env | Config | Pasuram table | Search UI | Kannadi |
 |-----|--------|---------------|-----------|---------|
